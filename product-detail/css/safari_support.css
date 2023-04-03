@@ -1,0 +1,24 @@
+
+@media not all and (min-resolution:.001dpcm) { @media {
+   
+    .overlapping_safari {
+        transform: translate3d(0,0,10px);
+    }
+    .flag-outter-top h4 {
+        white-space: nowrap;
+    }
+    .saved-addresses .list-group-item.active, .saved-addresses .list-group-item:hover, .saved-cards .list-group-item.active, .saved-cards .list-group-item:hover
+    {
+        font-weight: 500 !important;
+    }
+    .zain-order-slider.slick-slider {
+        transform: translateZ(-1px);
+    }
+    .kw #wrapper .header .main-header.sticky {
+        transform: translateZ(2px);
+
+      }
+      .select2-dropdown.select2-dropdown--below {
+        display: -webkit-box;
+      }
+}}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+    <title>Checkout Summary</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+    <link rel="stylesheet" href="./css/checkout-master.css">
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/wiyana_asad.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/wiyana_master.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/wiyana_mobile.css" /> -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <section class="checkout-summary-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="check-out-outter">
+                                    <h2 class="check-out-summary-title">Confirmation</h2>
+                                    <h3>User  Details</h3>
+                                    <div class="summary-form">
+                                        <form class='form-validation user_pg'>
+                                            <div class="row">
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Full Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Name Here">
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Contact Number <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Number">
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Email <span>*</span></label>
+                                                    <input type="email" class="form-control" placeholder="Test@email.com">
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Civil ID / Passport number <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="1234567890">
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Civil ID / Passport expiry date <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="11/22/1991">
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label>Nationality <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Peruvian">
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="check-out-outter">
+                                    <h2 class="check-out-summary-title">Confirmation</h2>
+                                    <div class="payment-box">
+
+                                        <div class="custom-radio">
+                                            <input type="radio" class="form-control" name="payOption" value="k-net" id="k-net">
+                                            <label for="k-net"> 
+                                                <div class="custom-img-text">
+                                                    <div class="custom-radio-img">
+                                                        <img src="./images/knet-logo.svg" alt="">
+                                                        <h2>K-net</h2>
+                                                    </div>   
+                                                    <div class="custom-radio-text">
+                                                        <p class="m-0">You will be redirected to KNET gateway to complete your payment</p>
+                                                    </div> 
+                                                </div>
+                                            </label>
+                                          </div>
+
+                                          <div class="custom-radio">
+                                            <input type="radio" class="form-control" name="payOption" value="new-card" id="new-card">
+                                            <label for="new-card"> 
+                                                <div class="custom-img-text">
+                                                    <div class="custom-radio-img">
+                                                        <img src="./images/new-card.svg" alt="">
+                                                        <h2>New Card</h2>
+                                                    </div>   
+                                                    <div class="custom-radio-text">
+                                                        <p class="m-0">You will be redirected to KNET gateway to complete your payment</p>
+                                                    </div> 
+                                                </div>
+                                            </label>
+
+                                                <div class="summary-form new-card-form">
+                                                    <form class='form-validation user_pg'>
+                                                        <div class="row">
+                                                          <div class="col-lg-6 col-12">
+                                                            <div class="form-group">
+                                                                <label>Card Number <span>*</span></label>
+                                                                <input type="text" class="form-control" placeholder="Number Here">
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-lg-3 col-6">
+                                                            <div class="form-group">
+                                                                <label>Expiry date <span>*</span></label>
+                                                                <input type="text" class="form-control" placeholder="MM/YY">
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-lg-3 col-6">
+                                                            <div class="form-group">
+                                                                <label>Security Code<span>*</span></label>
+                                                                <input type="text" class="form-control" placeholder="CVV">
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-lg-12">
+                                                            <div class="custom-checkbox form-group">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" class="form-control" name="save-card" id="save-card">
+                                                                    <label for="save-card">Save the card for future use</label>
+                                                                </div>   
+                                                              </div>
+                                                          </div>
+                                                          
+                                                        </div>
+                                                      </form>
+                                                </div>
+
+                                          </div>
+
+                                          <div class="custom-radio mb-0">
+                                            <input type="radio" class="form-control" name="payOption" value="paypaal" id="paypaal">
+                                            <label for="paypaal"> 
+                                                <div class="custom-img-text">
+                                                    <div class="custom-radio-img">
+                                                        <img src="./images/paypaal.svg" alt="">
+                                                        <h2>Paypal</h2>
+                                                    </div>   
+                                                </div>
+                                            </label>
+                                          </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-md-0 mt-4">
+                            <div class="col-lg-12">
+                                <div class="check-out-outter">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col-lg-8">
+                                            <div class="order_place_left">
+                                                <h2>Due Today: KD 16.5</h2>
+                                                <p>By placing your order, you agree to Zain privacy notice and conditions of use.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="order_place_right">
+                                                <button disabled class="btn placeorder-btn">Place your order</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="order-sidebar">
+                            <div class="sidebar-summary">
+                                <h2>Order Sumary</h2>
+                                <div class="sidebar-summary-content">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="sidebar-summary-content-left">
+                                                <div class="sidebar-summary-content-left-img">
+                                                    <img src="./images/mario.svg" alt="">
+                                                </div>
+                                                <div class="sidebar-summary-content-left-text">
+                                                    <h2>Nintendo-Gift Card</h2>
+                                                    <p>USA - $50</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="sidebar-summary-content-right">
+                                                <p>KD 16.5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="sidebar-summary-content-left">
+                                                <div class="sidebar-summary-content-left-img">
+                                                    <img src="./images/mario.svg" alt="">
+                                                </div>
+                                                <div class="sidebar-summary-content-left-text">
+                                                    <h2>PlayStation-Gift Card</h2>
+                                                    <p>USA - $20</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="sidebar-summary-content-right">
+                                                <p>KD 5.5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-summary-total">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="summary-subtotal">
+                                            <h2>Sub total (2):</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="summary-subtotal text-right">
+                                            <h2>KD 22.5</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="summary-subtotal">
+                                            <h2>Shipping:</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="summary-subtotal text-right">
+                                            <h2>KD 1</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="border-bottom"></div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="summary-subtotal">
+                                            <h2 class="clr-green">Due Today</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="summary-subtotal text-right">
+                                            <h2 class="clr-green">KD 23.5</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="order-summary-buttons">
+                                            <button class="btn edit-btn">EDIT CART</button>
+                                            <button disabled class="btn placeorder-btn">Place your order</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment-summary">
+            <div class="container">
+                
+            </div>
+        </section>
+
+    </div>
+    <div class="scripts">
+
+        <!-- jQuery -->
+        <script src="./js/jQuery.js"></script>
+        <!-- Bootstrap -->
+        <script src="./js/bootstrap.min.js"></script>
+        <!-- Slick Slider -->
+        <script src="./js/slick.min.js"></script>
+        <!-- Custom - Select Slider -->
+        <script src="./js/select2.min.js"></script>
+        <!-- Search type suggetion -->
+        <script src="./js/typeahead.bundle.min.js"></script>
+        <!-- Scrollbar js -->
+        <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <!-- jQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!-- Custom js -->
+        <script src="./js/custom.js"></script>       
+
+
+    </div>
+</body>
+
+</html>

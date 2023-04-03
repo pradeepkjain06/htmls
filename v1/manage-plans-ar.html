@@ -1,0 +1,2044 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+
+<head>
+    <title>Tinext - Manage Plans</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/tox-progress.css" />
+    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+
+<body class="mylines-page dashboard-body">
+<input type="hidden" name="langs" id="langs" value="" />
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="sub-header">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <ul class="left-menu">
+                      <li> <a href="#" class="active">العملاء</a> </li>
+                      <li> <a href="#">اعمال</a> </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="right-menu text-left">
+                      <li> <a href="#" class="text-uppercase">الدفع السريع</a> </li>
+                      <li>
+                        <div class="form-group d-inline-block">
+                          <select class="form-control custom-select dropdown-transparent" id="">
+                            <option value="Kuwait">الكويت</option>
+                            <option value="USA">الولايات المتحدة الأمريكية</option>
+                          </select>
+                        </div>
+                      </li>
+                      <li> <a href="#">العربية</a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-header">
+              <div class="container-fluid-custom">
+                <div class="row main-header-row flex-align-center">
+                  <div class="col-md-4 col-3">
+                    <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                  </div>
+                  <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                    <!-- Division which shown in Tablet and Mobile -->
+                    <div class="mobile-controls text-left">
+
+                              <ul class="mobile-nav">
+                                  <li class="cart-dropdown profile-btn logedin">
+                           <button class="btn btn-pc-4 profile-btn">
+                            <img src="images/profile_picture.png" alt="" class="profile-image" data-target-menu="#profiledropdownmenu1">
+                           </button>
+                           <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+                              <div class="card-body pt-3">
+                                 <div class='profile-dropmen-login pb-4 text-center'>
+                                    <h3 class="text-center">خالد بن سليمان</h3>
+                                    <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a>                         
+                                 </div>
+                                 <div class='profile-dropmen-links text-right'>
+                                    <ul>
+                                       <li><a href='#'>الدفع السريع</a></li>
+                                       <li><a href='#'>أضف خط</a></li>
+                                       <li><a href='#'>إدارة الخطة</a></li>
+                                       <li><a href='#'>طلباتي</a></li>
+                                       <li><a href='#'>الاستخدام الخاص بي</a></li>
+                                       <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج </a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+
+                                  <li>
+                                      <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                  </li>
+
+                                  <li class="cart-dropdown">
+                                      <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                              class="icon-empty-shopping-card"></i></a>
+                                  </li>
+                                  <li class="mobile-menu-toggle position-static">
+                                      <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                                      <div class="main-mobile-menu" id="mobile-menu">
+
+                                          <div class="sub-menu">
+                                              <div class="form-group">
+                                                  <select
+                                                      class="form-control custom-select dropdown-transparent light"
+                                                      id="">
+                                                      <option value="Customer">عميل</option>
+                                                      <option value="Business">عمل</option>
+                                                  </select>
+                                              </div>
+                                          </div>
+
+                                          <div class="container-fluid-custom">
+                                            <ul class="mobile-megamenu">
+                                              <li>
+                                                  <a href="#" class="active">
+                                                      <i class="icon-cart-with-plus"></i>&ensp;محل
+                                                  </a>
+                                                  <span class="float-right"><i
+                                                          class="icon-right-arrow"></i></span>
+
+                                                  <div class="mobile-megamenu-level-2">
+                                                      <div class="lvl-2-header">
+                                                          <div class="container-fluid-custom">
+                                                              <a href="" class="back-link">
+                                                                  <i
+                                                                      class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                  <span>خلف</span>
+                                                              </a>
+
+                                                              <p class="heading">
+                                                                  <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                  <span class="">محل</span>
+                                                              </p>
+                                                          </div>
+                                                      </div>
+                                                      <div class="lvl-2-content">
+                                                          <div class="container-fluid-custom">
+
+                                                              <ul class="accordian-menu">
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_plans.svg"
+                                                                              alt="plans">
+                                                                          <span>الخطط</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">الدفع شهريا</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">ادفع كما تذهب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">التجوال و
+                                                                                  دولي</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_products.svg"
+                                                                              alt="plans">
+                                                                          <span>منتجات</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">هاتف ذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البرودباند المنزلي</a></li>
+                                                                          <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                                  بطاقة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">لوح</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الألعاب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">مستلزمات</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البطاقات الإلكترونية</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الإضافات</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_zainlife.svg"
+                                                                              alt="plans">
+                                                                          <span>زين لايف</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">المنزل الذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الصحة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">أسلوب الحياة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">تسلية</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_offers.svg"
+                                                                              alt="plans">
+                                                                          <span>عروض</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الزبون الحالي
+                                                                                  عروض</a></li>
+                                                                          <li class="megamenu-link"><a href="">الجميع
+                                                                                  عروض &
+                                                                                  الترقيات</a>
+                                                                          </li>
+                                                                      </ul>
+                                                                  </li>
+                                                              </ul>
+
+                                                          </div>
+                                                      </div>
+                                                  </div>
+
+                                              </li>
+                                              <li>
+                                                  <a href="#">
+                                                      <i class="icon-headphones-with-mic"></i>
+                                                      &ensp;زين
+                                                  </a>
+                                                  <span class="float-right"><i
+                                                          class="icon-right-arrow"></i></span>
+
+                                                          <div class="mobile-megamenu-level-2">
+                                                              <div class="lvl-2-header">
+                                                                  <div class="container-fluid-custom">
+                                                                      <a href="" class="back-link">
+                                                                          <i
+                                                                              class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                          <span>خلف</span>
+                                                                      </a>
+  
+                                                                      <p class="heading">
+                                                                          <i class="icon-headphones-with-mic"></i>&ensp;
+                                                                          <span class="">زين</span>
+                                                                      </p>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="lvl-2-content">
+                                                                  <div class="container-fluid-custom">
+  
+                                                                      <ul class="accordian-menu">
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_plans.svg"
+                                                                                      alt="plans">
+                                                                                  <span>ايفون</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">الدفع شهريا</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">ادفع كما تذهب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">التجوال و
+                                                                                          دولي</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_products.svg"
+                                                                                      alt="plans">
+                                                                                  <span>سيمز</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">هاتف ذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البرودباند المنزلي</a></li>
+                                                                                  <li class="megamenu-link"><a href="">SIM
+                                                                                          Card</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">لوح</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الألعاب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">مستلزمات</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البطاقات الإلكترونية</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الإضافات</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_zainlife.svg"
+                                                                                      alt="plans">
+                                                                                  <span>عروض زين</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">المنزل الذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الصحة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">أسلوب الحياة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">تسلية</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_offers.svg"
+                                                                                      alt="plans">
+                                                                                  <span>زين لود</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">موجود عميل
+                                                                                          عروض</a></li>
+                                                                                  <li class="megamenu-link"><a href="">الجميع
+                                                                                          عروض &
+                                                                                          الترقيات</a>
+                                                                                  </li>
+                                                                              </ul>
+                                                                          </li>
+                                                                      </ul>
+  
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                              </li>
+                                              <li>
+                                                  <a href="#">
+                                                      <i class="icon-Group-1561"></i>
+                                                     الدعم
+                                                  </a>
+                                                  <span class="float-right"><i
+                                                          class="icon-right-arrow"></i></span>
+                                                  
+                                                          <div class="mobile-megamenu-level-2">
+                                                              <div class="lvl-2-header">
+                                                                  <div class="container-fluid-custom">
+                                                                      <a href="" class="back-link">
+                                                                          <i
+                                                                              class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                          <span>خلف</span>
+                                                                      </a>
+  
+                                                                      <p class="heading">
+                                                                          <i class="icon-Group-1561"></i>&ensp;
+                                                                          <span class="">الدعم</span>
+                                                                      </p>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="lvl-2-content">
+                                                                  <div class="container-fluid-custom">
+  
+                                                                      <ul class="accordian-menu">
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_plans.svg"
+                                                                                      alt="plans">
+                                                                                  <span>دعم زين</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">الدفع شهريا</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">ادفع كما تذهب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">التجوال و
+                                                                                          دولي</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_products.svg"
+                                                                                      alt="plans">
+                                                                                  <span>اتصل</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">هاتف ذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البرودباند المنزلي</a></li>
+                                                                                  <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                                          بطاقة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">لوح</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الألعاب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">مستلزمات</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البطاقات الإلكترونية</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الإضافات</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_zainlife.svg"
+                                                                                      alt="plans">
+                                                                                  <span>خط المساعدة</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">المنزل الذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الصحة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">أسلوب الحياة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">تسلية</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_offers.svg"
+                                                                                      alt="plans">
+                                                                                  <span>عروض</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">موجود عميل
+                                                                                          عروض</a></li>
+                                                                                  <li class="megamenu-link"><a href="">الجميع
+                                                                                          عروض &
+                                                                                          الترقيات</a>
+                                                                                  </li>
+                                                                              </ul>
+                                                                          </li>
+                                                                      </ul>
+  
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                              </li>
+                                          </ul>
+                                          </div>
+
+
+                                          <div class="container">
+                                              <p class="quick-pay-link text-left">
+                                                  <a href="">الدفع السريع<i class="icon-right-arrow"></i></a>
+                                              </p>
+                                          </div>
+
+                                          <div class="mobile-search">
+                                              <!-- Search -->
+                                              <div class="search-autocomplete d-block">
+                                                  <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                      spellcheck="false" placeholder="بحث">
+                                                  <button class="btn main-search-btn btn-pc-3 ">
+                                                      <i class="icon-magnifying-glass "></i>
+                                                  </button>
+                                              </div>
+                                              <!-- Search End -->
+                                          </div>
+
+                                          <div class="language-selector text-center">
+                                              <ul>
+                                                  <li><a href="#" class="current-language">EN</a></li>
+                                                  <li><a href="#">العربية</a></li>
+                                              </ul>
+                                          </div>
+
+                                          <div class="form-group country-selector selection-border">
+                                              <select class="form-control custom-select dropdown-transparent light"
+                                                  id="">
+                                                  <option value="Kuwait">Kuwait</option>
+                                                  <option value="USA">USA</option>
+                                              </select>
+                                          </div>
+
+
+                                      </div>
+
+                                  </li>
+                              </ul>
+
+                          </div>
+                    <ul class="main-navigation d-inline-block">
+                      <li class="megamenu-container"> 
+                        <a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;متجر</a>
+                        <div id="shopmegamenu" class="megamenu container-fluid-custom">
+                          <div class="row">
+                            <div class="col-md-9">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <ul>
+                                    <li class="megamenu-title"> <img src="./images/pagenav_plans.svg"
+                                                                            alt="megamenu-plans">
+                                      <h3 class="">الخطط</h3>
+                                    </li>
+                                    <li class="megamenu-link"><a href="#">ادفع شهريا</a></li>
+                                    <li class="megamenu-link"><a href="#">ادفع كما تذهب</a></li>
+                                    <li class="megamenu-link"><a href="#">التجوال و
+                                      الدولية</a> </li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-3">
+                                  <ul>
+                                    <li class="megamenu-title"> <img src="./images/pagenav_products.svg"
+                                                                            alt="megamenu-products">
+                                      <h3 class="">منتجات</h3>
+                                    </li>
+                                    <li class="megamenu-link"><a href="">هاتف ذكي</a></li>
+                                    <li class="megamenu-link"><a href="">النطاق العريض المنزلي</a></li>
+                                    <li class="megamenu-link"><a href="">شريحة جوال</a></li>
+                                    <li class="megamenu-link"><a href="">لوح</a></li>
+                                    <li class="megamenu-link"><a href="">الألعاب</a></li>
+                                    <li class="megamenu-link"><a href="">مستلزمات</a></li>
+                                    <li class="megamenu-link"><a href="">البطاقات الإلكترونية</a></li>
+                                    <li class="megamenu-link"><a href="">الإضافات</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-3">
+                                  <ul>
+                                    <li class="megamenu-title"> <img src="./images/pagenav_zainlife.svg"
+                                                                            alt="megamenu-zainlife">
+                                      <h3 class="">زين لايف</h3>
+                                    </li>
+                                    <li class="megamenu-link"><a href="">المنزل الذكي</a></li>
+                                    <li class="megamenu-link"><a href="">الصحة</a></li>
+                                    <li class="megamenu-link"><a href="">نمط الحياة</a></li>
+                                    <li class="megamenu-link"><a href="">وسائل الترفيه</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-3">
+                                  <ul>
+                                    <li class="megamenu-title"> <img src="./images/pagenav_offers.svg"
+                                                                            alt="megamenu-offers">
+                                      <h3 class="">عروض</h3>
+                                    </li>
+                                    <li class="megamenu-link"><a href="">الزبون الحالي
+                                      عروض</a></li>
+                                    <li class="megamenu-link"><a href="">كل العروض &
+                                      الترقيات</a> </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="i-watch_img-container"> <img src="./images/menu.png" alt="">
+                                <div class="content">
+                                  <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                  <button class="btn btn-pc-3">اشتري الآن</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li> <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;الدعم</a> </li>
+                      <li> <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a> </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="right-nav">
+                      <li> <a href="#"><i class="icon-magnifying-glass"></i></a> </li>
+                      <li class="cart-dropdown"> <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                    class="icon-empty-shopping-card"></i></a>
+                        <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                          <div class="text-center dropdown-header">
+                            <h4 class="mb-0">ملخص العربة</h4>
+                          </div>
+                          <div class="card-body">
+                            <div class="product-sect">
+                              <h5 class="sect-title">منتجات</h5>
+                              <div class="product-item">
+                                <div class="row">
+                                  <div class="col-2">
+                                    <div class="product-img"> <img src="./images/Iphone.png" alt=""> </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="d-flex">
+                                      <p class="left-lbl item-title">ايفون XS</p>
+                                      <label for="" class="right-lbl">دينار  0</label>
+                                    </div>
+                                    <div class="product-details">
+                                      <p>64 غيغابايت</p>
+                                      <p>ذهب</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <p class="cl-sc-2 left-lbl">مدة الالتزام 24 شهر </p>
+                                      <label for="" class="right-lbl">دينار  29</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="plan-sect">
+                              <h5 class="sect-title">Plan</h5>
+                              <div class="product-item">
+                                <div class="row">
+                                  <div class="col-2">
+                                    <div class="product-img"> <img src="./images/Iphone.png" alt=""> </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="d-flex">
+                                      <p class="left-lbl item-title">حزمة إنترنت eeZee</p>
+                                      <label for="" class="right-lbl">دينار  0</label>
+                                    </div>
+                                    <div class="product-details">
+                                      <p>5 جيجابايت 4G LTE</p>
+                                      <p>رسائل محلية غير محدودة</p>
+                                    </div>
+                                    <div class="d-flex">
+                                      <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                      <label for="" class="right-lbl">دينار  0</label>
+                                    </div>
+                                    <div class="d-flex">
+                                      <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                      <label for="" class="right-lbl">دينار  10</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="entertainment-sect">
+                              <h5 class="sect-title">وسائل الترفيه</h5>
+                              <div class="product-item">
+                                <div class="row">
+                                  <div class="col-2">
+                                    <div class="product-img"> <img src="./images/smarthomecamera.png" alt=""> </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="d-flex mb-2">
+                                      <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                      <label for="" class="right-lbl">دينار  0</label>
+                                    </div>
+                                    <div class="d-flex">
+                                      <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                      <label for="" class="right-lbl">دينار  29</label>
+                                    </div>
+                                    <div class="d-flex">
+                                      <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                      <label for="" class="right-lbl">دينار  0</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer">
+                            <h5 class="sect-title">مجموع</h5>
+                            <div class="product-item main-total">
+                              <div class="row">
+                                <div class="col">
+                                  <div class="d-flex">
+                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                    <label for="" class="right-lbl">دينار  0</label>
+                                  </div>
+                                  <div class="d-flex">
+                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                    <label for="" class="right-lbl">دينار  29</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card-action">
+                              <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                              عربة واضحة</button>
+                              <button class="btn btn-pc-3"> مراجعة ودفع</button>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li> <a href="#"><i class="icon-heart-feel-grey"></i></a> </li>
+                      <li class="cart-dropdown profile-btn logedin"> <a href="#" class="btn btn-pc-4 btn-small text-t-none" data-target-menu="#profiledropdownmenu"> <img src="images/profile_picture.png" alt="" class="profile-image">
+                        <div class="user-info">
+                          <p class="name">أهلا بك <strong>خالد</strong></p>
+                          <p class="contact">90079990</p>
+                        </div>
+                        <i class="icon-right-arrow icon-rotate-90"></i> </a>
+                        <div class="cart-summary-dropdown " id="profiledropdownmenu">
+                          <div class="card-body">
+                            <div class='profile-dropmen-login pb-4'>
+                              <h3 class="text-center">خالد بن سليمان</h3>
+                              <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a> </div>
+                            <div class='profile-dropmen-links'>
+                              <ul>
+                                <li><a href='#'>الدفع السريع</a></li>
+                                <li><a href='#'>إضافة خط</a></li>
+                                <li><a href='#'>إدارة الخطة</a></li>
+                                <li><a href='#'>طلباتي</a></li>
+                                <li><a href='#'>استخدامي</a></li>
+                                <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+        <div class="mylines-stripe boxshadow-none">
+            <div class="container">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <img src="images/my-zain-dashboard.svg" alt="">
+                            الصفحة الرئيسية
+                            <span>الصفحة</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/secret-deals.svg" alt="">
+                            عروض
+                            <span>عروض</span>
+                            <span class="offer-number">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/my-plan.svg" alt="">
+                            خططي
+                            <span>خططي</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="images/usage.svg" alt="">
+                            إستعمال
+                            <span>إستعمال</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bills.svg" alt="">
+                            الفواتير
+                            <span>الفواتير</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/my-zain-profile.svg" alt="">
+                            الملف الشخصي
+                            <span>الملف</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="my-zain-stripe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-12">
+                        <div class="stripe-left">
+                            <span>صباح الخير!</span>
+                        </div>
+                        <!-- removed class from below div -->
+                        <div class="d-flex position-relative dropdown-bar-outer">
+                            <p class="dropdown-bar" class="mt-2 ml-2">هاتفي المحمول الرئيسي (96079990) <a
+                                    class="close-down-arrow postpaid-dropdown-arrow" style="width: auto;"
+                                    href="javascript:void(0)"><img src="images/d-arrow-up.svg" alt=""></a> </p>
+                            <ul class="postpaid-dropdown">
+                                <li class="postpaid-active">
+                                    <div class="postpaid-left"><span>هاتفي المحمول الرئيسي <small>ابتدائي</small></span></div>
+                                    <div class="postpaid-right"><span>96079990</span></div>
+                                </li>
+                                <li>
+                                    <div class="postpaid-left"><span>هاتفي المحمول الرئيسي</span></div>
+                                    <div class="postpaid-right"><span>96079990</span></div>
+                                </li>
+                                <li>
+                                    <div class="postpaid-left"><span>هاتفي المحمول الرئيسي</span></div>
+                                    <div class="postpaid-right"><span>96079990</span></div>
+                                </li>
+                                <li>
+                                    <div class="postpaid-left" id="add-nickname"><span><a href="javascript:void(0)">+
+                                                أضف
+                                                كنية</a></span></div>
+                                    <!-- <div class="postpaid-left d-none"><span><a href="#">Add Number</a></span></div> -->
+                                    <div class="postpaid-right"><span>96079990</span></div>
+                                    <div class="postpaid-input" style="display: none;">
+                                        <div class="input-group mb-2 mt-3-2">
+                                            <input type="text" class="form-control" id="nickname-txt"
+                                                placeholder="Enter Nickname">
+                                            <div class="input-group-append">
+                                                <button class="postpaid-button" type="submit"><img
+                                                        src="images/postpaid-tick.svg" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-0">
+                                    <div class="postpaid-left"><span>خط KM للدفع الآجل 3</span></div>
+                                    <div class="postpaid-right"><span>96079990</span></div>
+                                </li>
+                                <li class="border-0"><a class="add-new-line" href="#">أضف سطر جديد</a></li>
+                                <li class="border-0"><p class="drop-down-login-text">الرجاء تسجيل الدخول إلى MYZAIN للحصول على شخصية د انتهاء الصلاحية</p><a class="drop-down-login" href="#">تسجيل الدخول</a></li>
+                                <li><a class="close-down-arrow" href="javascript:void(0)"><img
+                                            src="images/d-arrow-up.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3 col-12">
+                        <div class="stripe-right mt-3 text-left">
+                            <ul>
+                                <!--Plan Slider Starts -- <li><a class="new-line" href="#">Add New Line</a></li>--->
+                                <li class="mobile-dashboard">
+                                    <div class="dashboard-mail">
+                                        <a href="#">
+                                            <img src="images/mail-dash.svg" alt="">
+                                            <span>05</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container-fluid-custom">
+           <div class="container pt-3 pt-md-5 pb-3">
+              <div class="row">
+                 <div class="col-lg-12">
+                    <div class="manage-title">
+                       <h2 class="main-heading">خطتي</h2>
+                    </div>
+                 </div>
+              </div>
+              <div class="manage-plans">
+                <div class="row mb-1 mt-1 mb-md-4 mt-md-3">
+                    <div class="col-md-6 border-left">
+                        <div class="manage-slider-outter">
+                            <div class="row">
+                               <div class="col-md-12">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-6">
+                                       <div class="manage-top-left text-right ml-0 mr-md-3">
+                                          <h2>خطتي الحالية</h2>
+                                       </div>
+                                    </div>
+                                    <div class="col-6">
+                                       <div class="manage-top-right text-left mr-0 ml-md-3">
+                                          <span>صالح حتى 31/04/2021</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                  <div class="manage-slider-inner pt-3 pb-3">
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/wifi.svg" alt="">
+                                               </div>
+                                               <h2>15 جيجا بايت</h2>
+                                               <span>الإنترنت</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt="">
+                                               </div>
+                                               <h2>1000</h2>
+                                               <span>الدقائق</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/phone.svg" alt="">
+                                               </div>
+                                               <h2>غير محدود</h2>
+                                               <span>زين لزين</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/mail.svg" alt="">
+                                               </div>
+                                               <h2>غير محدود</h2>
+                                               <span>رسالة قصيرة</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/wifi.svg" alt="">
+                                               </div>
+                                               <h2>15 جيجا بايت</h2>
+                                               <span>الإنترنت</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt="">
+                                               </div>
+                                               <h2>1000</h2>
+                                               <span>الدقائق</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/phone.svg" alt="">
+                                               </div>
+                                               <h2>غير محدود</h2>
+                                               <span>زين لزين</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                               <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/mail.svg" alt="">
+                                               </div>
+                                               <h2>غير محدود</h2>
+                                               <span>رسالة قصيرة</span>
+                                           </a>
+                                        </div>
+                                     </div>
+                                     <div class="col-lg-3">
+                                        <div class="manage-slider-box">
+                                           <a href="#">
+                                                <div class="manage-slider-img">
+                                                  <img class="extra-img" src="./images/manage-plan/circle.svg" alt="">
+                                               </div>
+                                              <h2>أضف إضافات</h2>
+                                           </a>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 border-top mt-3">
+                      <div class="manage-slider-outter">
+                        <div class="row">
+                           <div class="col-xl-12">
+                            <div class="row mt-3 mt-sm-0 d-flex align-items-center">
+                                <div class="col-6">
+                                   <div class="manage-top-left text-right ml-0 mr-md-3">
+                                      <h2>التزاماتي</h2>
+                                   </div>
+                                </div>
+                                <div class="col-6">
+                                   <div class="manage-top-right text-left mr-0 ml-md-3">
+                                      <span class="color-theme">3 أشهر متبقية! <a class="myplan-right" href="#">جدد الآن</a></span>
+                                   </div>
+                                </div>
+                             </div>
+                              <div class="manage-slider-snd-inner pt-3 pb-3">
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/new-phone.svg" alt="">
+                                           </div>
+                                           <h2>آيفون 11 ماكس برو</h2>
+                                           <span>ينتهي في 10/07/2022</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/router.svg" alt="">
+                                           </div>
+                                           <h2>راوتر 5G</h2>
+                                           <span>ينتهي في 20/08/2020 </span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/calender.svg" alt="">
+                                           </div>
+                                           <h2>غير محدود</h2>
+                                           <span>زين لزين</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/calender.svg" alt="">
+                                           </div>
+                                           <h2>غير محدود</h2>
+                                           <span>رسالة قصيرة</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                      <a href="#">
+                                          <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/wifi.svg" alt="">
+                                           </div>
+                                           <h2>15 جيجا بايت</h2>
+                                           <span>الإنترنت</span>
+                                      </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt="">
+                                           </div>
+                                           <h2>1000</h2>
+                                           <span>الدقائق</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/phone.svg" alt="">
+                                           </div>
+                                           <h2>غير محدود</h2>
+                                           <span>زين لزين</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                           <div class="manage-slider-img">
+                                              <img class="extra-img" src="./images/manage-plan/mail.svg" alt="">
+                                           </div>
+                                           <h2>غير محدود</h2>
+                                           <span>رسالة قصيرة</span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-3">
+                                    <div class="manage-slider-box">
+                                       <a href="#">
+                                            <div class="manage-slider-img">
+                                                <a href="#"><img class="extra-img" src="./images/manage-plan/circle.svg" alt=""></a>
+                                            </div>
+                                            <h2>أضف أداة</h2>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>  
+                    </div>
+                </div>
+                 <div class="row border-top pl-0 pl-md-3 pr-md-3 pr-0 pl-md-0 pr-md-0 pt-3 mt-3 mt-md-0">
+                    <div class="col-6">
+                       <div class="manage-bottom-left">
+                          <p>اشتراك شهري</p>
+                          <h2>45 د.ك</h2>
+                          <img class="monthly_charges" src="./images/manage-plan/tootip-img.svg" alt="">
+                          <div class="tool-tip" style="display: none">
+                             <ul>
+                                <li>
+                                   <p><strong>مجموع</strong></p>
+                                   <span class="total"><strong>45 د.ك</strong></span>
+                                </li>
+                                <li>
+                                   <p>رسوم الاشتراك</p>
+                                   <span class="cat1-val">35 د.ك</span>
+                                </li>
+                                <li>
+                                   <p>تقسيط iPhone 11 Max Pro</p>
+                                   <span class="cat2-val">5 د.ك</span>
+                                </li>
+                                <li>
+                                   <p>تقسيط راوتر 5G</p>
+                                   <span class="cat2-val">5 د.ك</span>
+                                </li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-6">
+                       <div class="manage-bottom-right">
+                          <div class="monthly-button mt-4">
+                             <ul class="monthly-autopay">
+                                <li><span class="radius-bg"></span></li>
+                                <li>
+                                   <p>الدفع التلقائي</p>
+                                </li>
+                                <li>
+                                   <div class="custom-switch pl-0 autopay_switch">
+                                      <input class="custom-switch-input" id="example_01" type="checkbox">
+                                      <label class="custom-switch-btn" for="example_01"></label>
+                                   </div>
+                                </li>
+                                <li><img class="setting-icon" src="images/manage-plan/manage-setting.svg" alt="" style="display: none;"></li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="row justify-content-md-center border-top pl-0 pl-md-3 pr-md-3 pr-0 pl-md-0 pr-md-0 pt-3 mt-3 mt-md-3">
+                    <div class="col-12">
+                       <div class="manage-bottom-left manage-bottom-center text-center">
+                          <p>تسعير الخطة</p>
+                          <h2>د.ك</h2>
+                          <img class="monthly_charges" src="./images/manage-plan/tootip-img.svg" alt="">
+                          <div class="tool-tip" style="display: none">
+                             <ul>
+                                <li>
+                                   <p><strong>مجموع</strong></p>
+                                   <span class="total"><strong>د.ك</strong></span>
+                                </li>
+                                <li>
+                                   <p>رسوم الاشتراك</p>
+                                   <span class="cat1-val">35 دينار كويتي</span>
+                                </li>
+                                <li>
+                                   <p>تقسيط iPhone 11 Max Pro</p>
+                                   <span class="cat2-val">5 دينار كويتي</span>
+                                </li>
+                                <li>
+                                   <p>تقسيط راوتر 5G</p>
+                                   <span class="cat2-val">5 دينار كويتي</span>
+                                </li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+
+
+              <div class="auto-renew mt-4">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-lg-5">
+                          <div class="manage-bottom">
+                              <div class="monthly-button mt-0">
+                                 <ul class="monthly-autopay">
+                                    <li>
+                                       <h2 class="m-0">التجديد التلقائي للخطة الحالية</h2>
+                                    </li>
+                                    <li>
+                                       <div class="custom-switch pr-2 auto_renew_switch">
+                                          <input class="custom-switch-input" id="example_02" type="checkbox">
+                                          <label class="custom-switch-btn" for="example_02"></label>
+                                       </div>
+                                    </li>
+                                    <li><img class="setting-icon" src="images/manage-plan/manage-setting.svg" alt="" style="display: none;"></li>
+                                 </ul>
+                              </div>
+                           </div>
+                      </div>
+                      <div class="col-lg-2">
+                          <div class="renew-or">
+                            <div class="mid-divider"></div>
+                            <span>Or</span>
+                          </div>
+                      </div>
+                      <div class="col-lg-5">
+                        <div class="text-center bill-generated">
+                            <p>تم تعيين خطتك المستقبلية وسيتم تفعيلها اعتبارًا من 03/03/2021</p>
+                            <a href="manage-plans-future-customise-ar.html" class="uppercase btn btn-pc-3 btn-lrg">حدد الخطة المستقبلية</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+
+           </div>
+        </section>
+                <section class="container-fluid-custom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="bill-heading m-0 pb-1 pt-3"> <h3>خطط لك</h3> </div>
+                                <div class="myinbox-nav">
+                                    <ul class="nav nav-tabs">
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="manage-plans-offers-ar.html">
+                                            <span>عروض</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link active"  href="manage-plans-ar.html">
+                                            <span>خطة الترقية</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link"  href="manage-plans-extras-ar.html">
+                                            <span>إضافات</span> 
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link"  href="manage-plans-customise-ar.html">
+                                            <span>تخصيص الخطة</span> 
+                                        </a>
+                                      </li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="row manage-slider">
+                                <div class="col-xl-12">
+                                    <div class="product_wrapper">
+                                        <div class="manage-plan mt-lg-3 pb-3 mb-5">
+
+                                            <div class='col-md-6 col-lg-4 mb-4 '>
+                                                <div class="plan-detail-wrapper mt-1 plan-list manage-slanted auto-min-height mobile-optimised spacial-popular">
+                                                <div class="kd-detail border-0 pb-0">
+                                                    <div class="slanted">جمع</div>
+                                                    <div class="manage-header">
+                                                        <span class="ic icon-Group-1568"></span>
+                                                        <h2>احصل على 20 جيجا اضافية</h2>
+                                                        <p>@ 5 د.ك فقط</p>
+                                                        <span>تسعير الخطة 55 د.ك شهرياً</span>
+                                                    </div>
+                                                </div>
+                                                <div class="manage-plan-stripe mt-3 mb-1"></div>
+                                                <div class="paln-specification accordian-specification">
+                                                    <ul class="auto-height">
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/wifi.svg" alt=""> 
+                                                            <span class="mr-2">4G LTE-A</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                        <span class="count float-right mr-2">50 جيجا</span>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt=""> 
+                                                            <span class="mr-2">مكالمات غير محدودة من زين إلى زين</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>Unlimited Calls</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone.svg" alt=""> 
+                                                            <span class="mr-2">دقائق محلية</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div>  
+                                                            <span class="count float-right mr-2">200</span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/mail.svg" alt=""> 
+                                                            <span class="mr-2">رسائل محلية غير محدودة *</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+                                                    </ul>
+             
+                                                    <div class="action">
+                                                      <button class="btn btn-pc-4 btn-sm" tabindex="0"> قم بترقية خطتك </button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                            <div class='col-md-6 col-lg-4 mb-4 '>
+                                                <div class="plan-detail-wrapper mt-1 plan-list manage-slanted auto-min-height mobile-optimised spacial-recommended">
+                                                    <div class="kd-detail border-0 pb-0">
+                                                        <div class="slanted">جمع</div>
+                                                        <div class="manage-header">
+                                                            <span class="ic icon-Group-1568"></span>
+                                                            <h2>احصل على 20 جيجا اضافية</h2>
+                                                            <p>@ 5 د.ك فقط</p>
+                                                            <span>تسعير الخطة 55 د.ك شهرياً</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="manage-plan-stripe mt-3 mb-1"></div>
+                                                  <div class="paln-specification accordian-specification">
+                                                    <ul class="auto-height">
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/wifi.svg" alt=""> 
+                                                            <span class="mr-2">4G LTE-A</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div>  
+                                                            <span class="count float-right mr-2">50 GB</span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt=""> 
+                                                            <span class="mr-2">مكالمات غير محدودة من زين إلى زين</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+
+                                                    </ul>
+             
+                                                    <div class="action">
+                                                      <button class="btn btn-pc-4 btn-sm" tabindex="0"> قم بترقية خطتك</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                            <div class='col-md-6 col-lg-4 mb-4 '>
+                                                <div class="plan-detail-wrapper mt-1 plan-list border-0 manage-slanted auto-min-height mobile-optimised">
+                                                    <div class="kd-detail border-0 pb-0">
+                                                        <div class="slanted">جمع</div>
+                                                        <div class="manage-header">
+                                                            <span class="ic icon-Group-1568"></span>
+                                                            <h2>احصل على 20 جيجا اضافية</h2>
+                                                            <p>@ 5 د.ك فقط</p>
+                                                            <span>تسعير الخطة 55 د.ك شهرياً</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="manage-plan-stripe mt-3 mb-1"></div>
+                                                  <div class="paln-specification accordian-specification">
+                                                    <ul class="auto-height">
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/wifi.svg" alt=""> 
+                                                            <span class="mr-2">4G LTE-A</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div>  
+                                                            <span class="count float-right mr-2">50 جيجا</span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone-call.svg" alt=""> 
+                                                            <span class="mr-2">مكالمات غير محدودة من زين إلى زين</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+
+                                                    </ul>
+             
+                                                    <div class="action">
+                                                      <button class="btn btn-pc-4 btn-sm" tabindex="0"> قم بترقية خطتك </button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                            <div class='col-md-6 col-lg-4 mb-4 '>
+                                                <div class="plan-detail-wrapper mt-1 plan-list manage-slanted auto-min-height mobile-optimised spacial-popular">
+                                                    <div class="kd-detail border-0 pb-0">
+                                                        <div class="slanted">كنالبائع الحادي</div>
+                                                        <div class="price"> <span class="kd-label">د.ك</span> <span class="kd-count addon-count">29</span> </div>
+                                                        <div class="kd-duration text-left mt-0 ml-4 mr-0"> /شهريا </div>
+                                                    </div>
+                                                    <div class="manage-plan-stripe mt-3 mb-1"></div>
+                                                  <div class="paln-specification accordian-specification">
+                                                        
+                                                    <ul class="auto-height">
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/wifi.svg" alt=""> 
+                                                            <span class="mr-2">الإنترنت</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-right mr-2">200 جيجا بايت</span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone.svg" alt="">
+                                                            <span class="mr-2">مكالمات غير محدودة من زين إلى زين</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/mail.svg" alt=""> 
+                                                            <span class="mr-2">رسائل محلية غير محدودة *</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/validity.svg" alt=""> 
+                                                            <span class="mr-2">صلاحية</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-right mr-2">30 يوما</span> 
+                                                        </div>
+                                                      </li>
+
+                                                    </ul>
+
+                                                    <div class="action">
+                                                      <button class="btn btn-pc-4 btn-sm" tabindex="0"> اختار الخطة </button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                            <div class='col-md-6 col-lg-4 mb-4 '>
+                                                <div class="plan-detail-wrapper mt-1 plan-list manage-slanted auto-min-height mobile-optimised spacial-recommended">
+                                                    <div class="kd-detail border-0 pb-0">
+                                                        <div class="slanted">الأكثر مبيعا</div>
+                                                        <div class="price"> <span class="kd-label">د.ك</span> <span class="kd-count addon-count">29</span> </div>
+                                                        <div class="kd-duration text-left mt-0 ml-3 mar-0"> /شهريا </div>
+                                                    </div>
+                                                    <div class="manage-plan-stripe mt-3 mb-1"></div>
+                                                  <div class="paln-specification accordian-specification">
+                                                        
+                                                    <ul class="auto-height">
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/wifi.svg" alt=""> 
+                                                            <span class="mr-2">الإنترنت</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-right mr-2">200 جيجا بايت</span> 
+                                                        </div>
+                                                      </li>
+
+                                                      <li>
+                                                        <div> 
+                                                            <img class="extra-img" src="./images/manage-plan/phone.svg" alt="">
+                                                            <span class="mr-2">مكالمات غير محدودة من زين إلى زين</span>
+                                                            <div class="text-tooltip">
+                                                              <i class="icon-exclamatory">
+                                                                  <div class="line-pricing">
+                                                                      <div class="row">
+                                                                            <div class="col-12 col-md-12">
+                                                                              <div class="paln-specification">
+                                                                                <h3>مكالمات غير محدودة</h3>
+                                                                              </div>
+                                                                            </div>        
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="pricing-content">
+                                                                                    <p>Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>              
+                                                                  </div>
+                                                              </i> 
+                                                        </div> 
+                                                            <span class="count float-left mr-0"></span> 
+                                                        </div>
+                                                      </li>
+                                                    </ul>
+
+                                                    <div class="action">
+                                                      <button class="btn btn-pc-4 btn-sm" tabindex="0"> اختار الخطة</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+        <!-- Footer Start -->
+        <footer class="main-footer display-none-mobile">
+            <div class="container footer-content">
+              <div class="row">
+                <div class="col-lg-3 colunm-wrapper">
+                  <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">منتجات</a></h3>
+                  <ul class="footer-links">
+                    <li><a href="">هاتف ذكي</a></li>
+                    <li><a href="">الصفحة الرئيسية موجة عريضة</a></li>
+                    <li><a href="">سيم بطاقة</a></li>
+                    <li><a href="">لوح</a></li>
+                    <li><a href="">الألعاب</a></li>
+                    <li><a href="">مستلزمات</a></li>
+                    <li><a href="">البطاقات الإلكترونية</a></li>
+                    <li><a href="">الإضافات</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 colunm-wrapper">
+                  <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الخطط</a></h3>
+                  <ul class="footer-links">
+                    <li><a href="">دفع شهريا</a></li>
+                    <li><a href="">ادفع كما تذهب</a></li>
+                    <li><a href="">التجوال والدولي</a></li>
+                  </ul>
+                  <div class="d-none d-md-block">
+                    <h3 class="footer-title"><a href="">زين لايف</a></h3>
+                    <h3 class="footer-title"><a href="">عروض</a></h3>
+                    <h3 class="footer-title"><a href="">5G</a></h3>
+                  </div>
+                </div>
+                <div class="col-lg-3 colunm-wrapper">
+                  <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الدعم</a></h3>
+                  <ul class="footer-links">
+                    <li><a href="">دردشة</a></li>
+                    <li><a href="">حدد موقع الفرع</a></li>
+                    <li><a href="">تتبع الطلب</a></li>
+                    <li><a href="">اتصل بنا</a></li>
+                    <li><a href="">الأسئلة الشائعة</a></li>
+                    <li><a href="">وظائف</a></li>
+                  </ul>
+                  <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                        href="">اكتشف زين</a></h3>
+                </div>
+                <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                  <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">اكتشف زين</a></h3>
+                </div>
+                <div class="col-lg-3 colunm-wrapper">
+                  <h3 class="footer-title connect">اتصل بنا</h3>
+                  <ul class="socialmedia footer-links inline">
+                    <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                    <li><a href=""><i class="icon-twitter"></i></a></li>
+                    <li><a href=""><i class="icon-facebook"></i></a></li>
+                  </ul>
+                  <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>زين بلادي</h3>
+                  <ul class="user footer-links">
+                    <li><a href="" class="cl-pc-3">تسجيل الدخول</a></li>
+                    <li><a href="" class="cl-pc-3">تسجيل</a></li>
+                  </ul>
+                  <div class="footer-seprator"></div>
+                  <div class="order-track">
+                    <h3 class="footer-title">تابع طلبي</h3>
+                    <div class="form-group">
+                      <form>
+                        <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                                id="">
+                        <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid-custom">
+              <div class="footer-seprator"></div>
+            </div>
+            <div class="container copyright_sect">
+              <div class="row align-items-end">
+                <div class="col-md-2 col-12">
+                  <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                </div>
+                <div class="col-md-10 col-12">
+                  <ul class="footer-links inline mb-0">
+                    <li class="d-none d-md-inline-block">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                    <li><a href="">سياسات</a></li>
+                    <li><a href="">البنود و الظروف</a></li>
+                    <li class="d-block d-md-none mt-4">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        <!-- Footer Ends -->
+
+        <!-- Mobile Footer Start -->
+        <footer class="mobile-footer">
+            <div class="container">
+                <div class="row border-bootom">
+                    <div class="col-7">
+                        <ul class="footer-links inline mb-0 mr-3">
+                            <li><a href="">سياسات</a></li>
+                            <li class="mr-3"><a href="">البنود و الظروف</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-5">
+                        <ul class="footer-social-media ml-3">
+                            <li><a href=""><img src="./images/mb-instagram.svg" alt=""></i></a></li>
+                            <li><a href=""><img src="./images/mb-twitter.svg" alt=""></i></a></li>
+                            <li><a href=""><img src="./images/mb-facebook.svg" alt=""></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <p class="mobile-copyright">© حقوق الطبع والنشر © 2020 جميع الحقوق محفوظة زين</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Mobile Footer Ends -->
+<!-- body overlay -->
+<div class="bodyoverlay"></div>
+        <!-- Auto Pay popup starts -->
+        <div class="bodyoverlay overlay-page"></div>
+        <div class='order-tracking-popup -small' id="popup-small">
+            <div class='close-tracking'>X</div>
+            <div class='order-tracking-popup-header'>
+                <h3> Auto Pay </h3>
+                <p class='color-gray'>Lorem ipsum is simply <strong class="color-theme">96079991</strong> text of the printing and typesetting industry. <strong class="color-theme">KD 24.50</strong></p>
+            </div>
+            <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+                <a class="btn btn-pc-3 close-popup-small" href='autopay-recharge.html'>Enable </a>
+                <a class="btn btn-pc-1 close-popup-small auto_pay_cancel" href='javascript:void(0)'>Cancel</a>
+            </div>
+        </div>
+        <!-- Auto Pay popup ends -->
+
+         <!-- Auto-renew current plan popup starts -->
+         <div class='order-tracking-popup auto-renew-popup -small'>
+             <div class='close-tracking'>X</div>
+             <div class='order-tracking-popup-header'>
+                 <h3> Auto-Renew</h3>
+                 <p class='color-gray'>Lorem ipsum is simply <strong class="color-theme">96079991</strong> text of the printing and typesetting industry. <strong class="color-theme">KD 24.50</strong></p>
+             </div>
+             <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+                 <a class="btn btn-pc-3 close-popup-small auto_renew_enable" href="javascript:void(0);">Enable </a>
+                 <a class="btn btn-pc-1 close-popup-small auto_pay_cancel" href='javascript:void(0)'>Cancel</a>
+             </div>
+         </div>
+         <!-- Auto-renew current plan popup ends -->
+
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- jQuery UI -->
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script>
+            <script src="./js/tox-progress.js"></script>
+
+            <script>
+                $(function () {
+                    $("#datepicker").datepicker({
+                        changeMonth: true,
+                        changeYear: true,
+                        yearRange: "c-32:c-10"
+                    });
+                });
+                setTimeout(function(){
+                    ToxProgress.create();
+                    ToxProgress.animate();
+                }, 200);
+            </script>
+            <script>
+                // This example adds a search box to a map, using the Google Place Autocomplete
+                // feature. People can enter geographical searches. The search box will return a
+                // pick list containing a mix of places and predicted search terms.
+
+                // This example requires the Places library. Include the libraries=places
+                // parameter when you first load the API. For example:
+                // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+                var map;
+                var service;
+                var infowindow;
+
+                function initAutocomplete(paras2 = 0) {
+
+                    if (document.getElementById('pac-input').value == '' && paras2 == 1) {
+                        document.getElementById('pac-input').style.border = "1px solid #FF0000";
+                        return false;
+                    } else {
+                        document.getElementById('pac-input').style.border = "none";
+                    }
+
+
+                    var sydney = new google.maps.LatLng(-33.867, 151.195);
+
+                    infowindow = new google.maps.InfoWindow();
+
+                    map = new google.maps.Map(
+                        document.getElementById('map-canvas'), { center: sydney, zoom: 13, mapTypeId: 'roadmap' });
+
+                    var input = document.getElementById('pac-input');
+                    var searchBox = new google.maps.places.SearchBox(input);
+
+                    var request = {
+                        query: document.getElementById('pac-input').value,
+                        fields: ['name', 'geometry'],
+                    };
+
+                    service = new google.maps.places.PlacesService(map);
+
+                    service.findPlaceFromQuery(request, function (results, status) {
+                        if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+                            if (document.getElementById('pac-input').value != '') {
+                                for (var i = 0; i < results.length; i++) {
+                                    createMarker(results[i]);
+                                }
+                            }
+
+                            map.setCenter(results[0].geometry.location);
+                        }
+                    });
+                }
+
+                function createMarker(place) {
+
+                    var icon = {
+                        url: "http://dp8staging.com/dev/zain-html/v1/images/map/map-pin.png", //place.icon,
+                        size: new google.maps.Size(71, 71),
+                        origin: new google.maps.Point(0, 0),
+                        anchor: new google.maps.Point(17, 34),
+                        scaledSize: new google.maps.Size(25, 25)
+                    };
+
+
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        icon: icon,
+                        title: document.getElementById('pac-input').value,
+                        position: place.geometry.location
+                    });
+
+                    google.maps.event.addListener(marker, 'click', function () {
+                        infowindow.setContent(place.name);
+                        infowindow.open(map, this);
+                    });
+                }
+
+            </script>
+            <script type="text/javascript">
+
+                $(window).ready(function (e) {
+                    $.each($('div.progress-bar'), function () {
+                        $(this).css('height', $(this).attr('aria-valuenow') + '%');
+                    });
+                });
+
+            </script>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

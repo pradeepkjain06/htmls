@@ -1,0 +1,231 @@
+/* Faq's Detail Page CSS Starts */
+ul.numbers li.active a span::after {
+    margin-right: 7px;
+    float: left;
+
+}
+.home_grp_heading {
+    min-width: 220px;
+}
+
+.kw #wrapper .product-item .mobile-alignment {
+    margin-left: 40px !important;
+    margin-right: 0px !important;
+} 
+.popup-action.pay-actions {
+    direction: rtl;
+}
+.popup-action.pay-actions .btn.btn-pc-3 {
+    margin-right: 18px;
+} 
+.share-button {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.order-tracking-popup .close-tracking{
+    line-height: 34px;
+}
+.faq-2nd-section .snd-section-img img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.faq-ul {
+    padding: 0;
+}
+.faq-table tbody tr td {
+    padding: 5px 25px 5px 100px;
+}
+
+.faq-2nd-section .snd-section-content {
+    padding: 140px 80px;
+}
+
+
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn .cart-summary-dropdown {
+    right: unset !important;
+    left: 0px;
+}
+/* Faq's Detail Page CSS Ends */
+
+.icon-edit-pen {
+    position: absolute;
+    left: 25px;
+    right: unset;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.view_all_xr img, .plan_text_wrap img {
+    transform: rotateY(195deg);
+}
+.cookies-section-zain {
+    z-index: 100;
+    width: 360px;
+    right: unset;
+    left: 0;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    margin: 0 0px 50px 70px;
+    border-radius: 20px;
+    z-index: 999;
+}
+.popup-advert {
+    background-image: url("../images/bg-adpop-ar.png");
+    
+}
+.seperator_sec_faqs_videos {
+    margin-left: unset;
+    margin-right: -20%;
+}
+.zain_inner_links li::before {
+    right: -15px;
+    left: unset;
+}
+#advert-carousel {
+    direction: ltr !important;
+}
+.owl-dots {
+    text-align: center !important;
+}
+.sub-header.header_with_top_bar.top_barclosed {
+    /* top: 39px; */
+}
+
+.faqs_links_outter_support li a h3 {
+    font-weight: 300 !important;
+  }
+  .faq_section_inner h1, .discover_videos_support h1, .mobile_section_xem h1, .useful_links_lrm h1, .query_content_llm h1 {
+      font-size: 28px;
+  }
+  .faqs_links_outter_support li a h3, .query_content_llm h3 {
+      font-size: 20px;
+  }
+
+  .zain_link_single .zain_link_inner .zain_link_heading h4 {
+      font-size: 20px;
+  }
+  .query_content_llm h3 {
+      font-family: "QTZain-Reguar", sans-serif !important;
+  }
+  .faqs_links_outter_support li a h3 {
+    font-family: "QTZain-Bold", sans-serif !important;
+  }
+  .faq_single_box .faq_single_inner a {
+    font-family: "QTZain-Bold", sans-serif !important;
+  }
+
+  
+@media (min-width: 1200px) { 
+        .faq_section_inner .faqs_links_outter_support, .faq_section_inner h1 {
+          text-align: start !important;
+        }
+   .faq_single_box a {
+    min-height: 65px;
+    font-size: 18px;
+   }
+   .faq_single_box p {
+       font-size: 16px;
+   }
+    /* .sub-header.top_with_sim_verified {
+        top: 117px;
+    } */
+}
+@media (min-width: 767px) and (max-width: 1200px){
+    .faq_section_inner .faqs_links_outter_support, .faq_section_inner h1  {
+        text-align: start !important;
+      }
+    .home_grp_heading {
+        width: 100%;
+    }
+    .IPAD_ADJUST_HRM {
+        width: 100%;
+        text-align: right !important;
+    }
+    .crossxx-icon {
+        top: 0px;
+        left: 0px;
+        right: unset;
+    }
+    .view_all_xr {
+        justify-content: flex-end;
+    }
+    .table-responsive .faq-table {
+        width: 800px;
+    }
+    .faq-2nd-section .snd-section-content {
+        padding: 60px 30px;
+    }
+    .faq-2nd-section .snd-section-img img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+    .faq_section_inner .faqs_links_outter_support, .faq_section_inner h1  {
+        text-align: center !important;
+      }
+    .home_grp_heading {
+        text-align: center !important;
+    }
+    [dir='rtl'].kw #wrapper .product-item .mobile-alignment {
+        margin-left: 40px !important;
+        margin-right: 0px !important;
+    }
+    .kw #wrapper .header .main-header ul.mobile-nav li.cart-dropdown .cart-summary-dropdown {
+        width: 270px !important;
+        left: auto !important;
+        top: 40px;
+        right: unset !important;
+    }
+    .cookies-section-zain {
+        z-index: 999 !important;
+    }
+    .quick-pay-link i {
+        margin-right: 20px;
+        margin-left: 0 !important;
+    }
+    .quick-pay-link i::before {
+        transform: rotate(180deg);
+    }
+
+    .mobile-megamenu .icon-right-arrow::before {
+        transform: rotate(180deg);
+    }
+    .table-responsive .faq-table {
+        width: 600px;
+    }
+    .faq-2nd-section .snd-section-img img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+    }
+    .faq-2nd-section .snd-section-content {
+        padding: 60px 30px;
+    }
+    .faq-table tbody tr td {
+        padding: 5px 25px 5px 20px;
+    }
+    .popup-advert {
+        background-position: left;
+    }
+    .card_zainlife_single {
+        position: relative;
+        padding-left: unset;
+        padding-right: 60px;
+    }
+    .card_zainlife_inner img {
+        margin-right: unset;
+        margin-left: 10px;
+        max-width: 50px;
+        position: absolute;
+        left: unset;
+        right: 5px;
+        top: 34px;
+    }
+}

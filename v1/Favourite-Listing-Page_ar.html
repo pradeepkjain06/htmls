@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+
+<head>
+    <title>Tinext - Favorites Listing Page</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body class="">
+
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="sub-header">
+
+                <div class="container">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+
+                            <ul class="left-menu ">
+                                <li>
+                                    <a href="#" class="active">زبون</a>
+                                </li>
+                                <li>
+                                    <a href="#">اعمال</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <ul class="right-menu text-left">
+                                <li>
+                                    <a href="#" class="text-uppercase">الدفع السريع</a>
+                                </li>
+                                <li>
+                                    <div class="form-group d-inline-block">
+                                        <select class="form-control custom-select dropdown-transparent" id="">
+                                            <option value="Kuwait">الكويت</option>
+                                            <option value="USA">USA</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">العربية</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-left">
+        
+                                      <ul class="mobile-nav">
+                                          <li class="cart-dropdown profile-btn logedin">
+                                   <button class="btn btn-pc-4 profile-btn">
+                                    <img src="images/profile_picture.png" alt="" class="profile-image" data-target-menu="#profiledropdownmenu1">
+                                   </button>
+                                   <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+                                      <div class="card-body pt-3">
+                                         <div class='profile-dropmen-login pb-4 text-center'>
+                                            <h3 class="text-center">خالد بن سليمان</h3>
+                                            <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a>                         
+                                         </div>
+                                         <div class='profile-dropmen-links text-right'>
+                                            <ul>
+                                               <li><a href='#'>الدفع السريع</a></li>
+                                               <li><a href='#'>أضف خط</a></li>
+                                               <li><a href='#'>إدارة الخطة</a></li>
+                                               <li><a href='#'>طلباتي</a></li>
+                                               <li><a href='#'>الاستخدام الخاص بي</a></li>
+                                               <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج </a></li>
+                                            </ul>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </li>
+        
+                                          <li>
+                                              <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                          </li>
+        
+                                          <li class="cart-dropdown">
+                                              <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                      class="icon-empty-shopping-card"></i></a>
+                                          </li>
+                                          <li class="mobile-menu-toggle position-static">
+                                              <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+        
+                                              <div class="main-mobile-menu" id="mobile-menu">
+        
+                                                  <div class="sub-menu">
+                                                      <div class="form-group">
+                                                          <select
+                                                              class="form-control custom-select dropdown-transparent light"
+                                                              id="">
+                                                              <option value="Customer">عميل</option>
+                                                              <option value="Business">عمل</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+        
+                                                  <div class="container-fluid-custom">
+                                                    <ul class="mobile-megamenu">
+                                                      <li>
+                                                          <a href="#" class="active">
+                                                              <i class="icon-cart-with-plus"></i>&ensp;محل
+                                                          </a>
+                                                          <span class="float-right"><i
+                                                                  class="icon-right-arrow"></i></span>
+        
+                                                          <div class="mobile-megamenu-level-2">
+                                                              <div class="lvl-2-header">
+                                                                  <div class="container-fluid-custom">
+                                                                      <a href="" class="back-link">
+                                                                          <i
+                                                                              class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                          <span>خلف</span>
+                                                                      </a>
+        
+                                                                      <p class="heading">
+                                                                          <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                          <span class="">محل</span>
+                                                                      </p>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="lvl-2-content">
+                                                                  <div class="container-fluid-custom">
+        
+                                                                      <ul class="accordian-menu">
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_plans.svg"
+                                                                                      alt="plans">
+                                                                                  <span>الخطط</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">الدفع شهريا</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">ادفع كما تذهب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="#">التجوال و
+                                                                                          دولي</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_products.svg"
+                                                                                      alt="plans">
+                                                                                  <span>منتجات</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">هاتف ذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البرودباند المنزلي</a></li>
+                                                                                  <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                                          بطاقة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">لوح</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الألعاب</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">مستلزمات</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">البطاقات الإلكترونية</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الإضافات</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_zainlife.svg"
+                                                                                      alt="plans">
+                                                                                  <span>زين لايف</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">المنزل الذكي</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الصحة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">أسلوب الحياة</a></li>
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">تسلية</a></li>
+                                                                              </ul>
+                                                                          </li>
+                                                                          <li>
+                                                                              <a href="#">
+                                                                                  <img src="./images/pagenav_offers.svg"
+                                                                                      alt="plans">
+                                                                                  <span>عروض</span>
+                                                                                  <i
+                                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                                              </a>
+                                                                              <ul class="expandable-links">
+                                                                                  <li class="megamenu-link"><a
+                                                                                          href="">الزبون الحالي
+                                                                                          عروض</a></li>
+                                                                                  <li class="megamenu-link"><a href="">الجميع
+                                                                                          عروض &
+                                                                                          الترقيات</a>
+                                                                                  </li>
+                                                                              </ul>
+                                                                          </li>
+                                                                      </ul>
+        
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+        
+                                                      </li>
+                                                      <li>
+                                                          <a href="#">
+                                                              <i class="icon-headphones-with-mic"></i>
+                                                              &ensp;زين
+                                                          </a>
+                                                          <span class="float-right"><i
+                                                                  class="icon-right-arrow"></i></span>
+        
+                                                                  <div class="mobile-megamenu-level-2">
+                                                                      <div class="lvl-2-header">
+                                                                          <div class="container-fluid-custom">
+                                                                              <a href="" class="back-link">
+                                                                                  <i
+                                                                                      class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                                  <span>خلف</span>
+                                                                              </a>
+          
+                                                                              <p class="heading">
+                                                                                  <i class="icon-headphones-with-mic"></i>&ensp;
+                                                                                  <span class="">زين</span>
+                                                                              </p>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div class="lvl-2-content">
+                                                                          <div class="container-fluid-custom">
+          
+                                                                              <ul class="accordian-menu">
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_plans.svg"
+                                                                                              alt="plans">
+                                                                                          <span>ايفون</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">الدفع شهريا</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">ادفع كما تذهب</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">التجوال و
+                                                                                                  دولي</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_products.svg"
+                                                                                              alt="plans">
+                                                                                          <span>سيمز</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">هاتف ذكي</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">البرودباند المنزلي</a></li>
+                                                                                          <li class="megamenu-link"><a href="">SIM
+                                                                                                  Card</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">لوح</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الألعاب</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">مستلزمات</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">البطاقات الإلكترونية</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الإضافات</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_zainlife.svg"
+                                                                                              alt="plans">
+                                                                                          <span>عروض زين</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">المنزل الذكي</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الصحة</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">أسلوب الحياة</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">تسلية</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_offers.svg"
+                                                                                              alt="plans">
+                                                                                          <span>زين لود</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">موجود عميل
+                                                                                                  عروض</a></li>
+                                                                                          <li class="megamenu-link"><a href="">الجميع
+                                                                                                  عروض &
+                                                                                                  الترقيات</a>
+                                                                                          </li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                              </ul>
+          
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                      </li>
+                                                      <li>
+                                                          <a href="#">
+                                                              <i class="icon-Group-1561"></i>
+                                                             الدعم
+                                                          </a>
+                                                          <span class="float-right"><i
+                                                                  class="icon-right-arrow"></i></span>
+                                                          
+                                                                  <div class="mobile-megamenu-level-2">
+                                                                      <div class="lvl-2-header">
+                                                                          <div class="container-fluid-custom">
+                                                                              <a href="" class="back-link">
+                                                                                  <i
+                                                                                      class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                                  <span>خلف</span>
+                                                                              </a>
+          
+                                                                              <p class="heading">
+                                                                                  <i class="icon-Group-1561"></i>&ensp;
+                                                                                  <span class="">الدعم</span>
+                                                                              </p>
+                                                                          </div>
+                                                                      </div>
+                                                                      <div class="lvl-2-content">
+                                                                          <div class="container-fluid-custom">
+          
+                                                                              <ul class="accordian-menu">
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_plans.svg"
+                                                                                              alt="plans">
+                                                                                          <span>دعم زين</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">الدفع شهريا</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">ادفع كما تذهب</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="#">التجوال و
+                                                                                                  دولي</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_products.svg"
+                                                                                              alt="plans">
+                                                                                          <span>اتصل</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">هاتف ذكي</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">البرودباند المنزلي</a></li>
+                                                                                          <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                                                  بطاقة</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">لوح</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الألعاب</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">مستلزمات</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">البطاقات الإلكترونية</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الإضافات</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_zainlife.svg"
+                                                                                              alt="plans">
+                                                                                          <span>خط المساعدة</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">المنزل الذكي</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">الصحة</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">أسلوب الحياة</a></li>
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">تسلية</a></li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                                  <li>
+                                                                                      <a href="#">
+                                                                                          <img src="./images/pagenav_offers.svg"
+                                                                                              alt="plans">
+                                                                                          <span>عروض</span>
+                                                                                          <i
+                                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                      </a>
+                                                                                      <ul class="expandable-links">
+                                                                                          <li class="megamenu-link"><a
+                                                                                                  href="">موجود عميل
+                                                                                                  عروض</a></li>
+                                                                                          <li class="megamenu-link"><a href="">الجميع
+                                                                                                  عروض &
+                                                                                                  الترقيات</a>
+                                                                                          </li>
+                                                                                      </ul>
+                                                                                  </li>
+                                                                              </ul>
+          
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                      </li>
+                                                  </ul>
+                                                  </div>
+        
+        
+                                                  <div class="container">
+                                                      <p class="quick-pay-link text-left">
+                                                          <a href="">الدفع السريع<i class="icon-right-arrow"></i></a>
+                                                      </p>
+                                                  </div>
+        
+                                                  <div class="mobile-search">
+                                                      <!-- Search -->
+                                                      <div class="search-autocomplete d-block">
+                                                          <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                              spellcheck="false" placeholder="بحث">
+                                                          <button class="btn main-search-btn btn-pc-3 ">
+                                                              <i class="icon-magnifying-glass "></i>
+                                                          </button>
+                                                      </div>
+                                                      <!-- Search End -->
+                                                  </div>
+        
+                                                  <div class="language-selector text-center">
+                                                      <ul>
+                                                          <li><a href="#" class="current-language">EN</a></li>
+                                                          <li><a href="#">العربية</a></li>
+                                                      </ul>
+                                                  </div>
+        
+                                                  <div class="form-group country-selector selection-border">
+                                                      <select class="form-control custom-select dropdown-transparent light"
+                                                          id="">
+                                                          <option value="Kuwait">Kuwait</option>
+                                                          <option value="USA">USA</option>
+                                                      </select>
+                                                  </div>
+        
+        
+                                              </div>
+        
+                                          </li>
+                                      </ul>
+        
+                                  </div>
+                            <ul class="main-navigation d-inline-block">
+                              <li class="megamenu-container"> 
+                                <a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;متجر</a>
+                                <div id="shopmegamenu" class="megamenu container-fluid-custom">
+                                  <div class="row">
+                                    <div class="col-md-9">
+                                      <div class="row">
+                                        <div class="col-md-3">
+                                          <ul>
+                                            <li class="megamenu-title"> <img src="./images/pagenav_plans.svg"
+                                                                                    alt="megamenu-plans">
+                                              <h3 class="">الخطط</h3>
+                                            </li>
+                                            <li class="megamenu-link"><a href="#">ادفع شهريا</a></li>
+                                            <li class="megamenu-link"><a href="#">ادفع كما تذهب</a></li>
+                                            <li class="megamenu-link"><a href="#">التجوال و
+                                              الدولية</a> </li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                          <ul>
+                                            <li class="megamenu-title"> <img src="./images/pagenav_products.svg"
+                                                                                    alt="megamenu-products">
+                                              <h3 class="">منتجات</h3>
+                                            </li>
+                                            <li class="megamenu-link"><a href="">هاتف ذكي</a></li>
+                                            <li class="megamenu-link"><a href="">النطاق العريض المنزلي</a></li>
+                                            <li class="megamenu-link"><a href="">شريحة جوال</a></li>
+                                            <li class="megamenu-link"><a href="">لوح</a></li>
+                                            <li class="megamenu-link"><a href="">الألعاب</a></li>
+                                            <li class="megamenu-link"><a href="">مستلزمات</a></li>
+                                            <li class="megamenu-link"><a href="">البطاقات الإلكترونية</a></li>
+                                            <li class="megamenu-link"><a href="">الإضافات</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                          <ul>
+                                            <li class="megamenu-title"> <img src="./images/pagenav_zainlife.svg"
+                                                                                    alt="megamenu-zainlife">
+                                              <h3 class="">زين لايف</h3>
+                                            </li>
+                                            <li class="megamenu-link"><a href="">المنزل الذكي</a></li>
+                                            <li class="megamenu-link"><a href="">الصحة</a></li>
+                                            <li class="megamenu-link"><a href="">نمط الحياة</a></li>
+                                            <li class="megamenu-link"><a href="">وسائل الترفيه</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                          <ul>
+                                            <li class="megamenu-title"> <img src="./images/pagenav_offers.svg"
+                                                                                    alt="megamenu-offers">
+                                              <h3 class="">عروض</h3>
+                                            </li>
+                                            <li class="megamenu-link"><a href="">الزبون الحالي
+                                              عروض</a></li>
+                                            <li class="megamenu-link"><a href="">كل العروض &
+                                              الترقيات</a> </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                      <div class="i-watch_img-container"> <img src="./images/menu.png" alt="">
+                                        <div class="content">
+                                          <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                          <button class="btn btn-pc-3">اشتري الآن</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li> <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;الدعم</a> </li>
+                              <li> <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a> </li>
+                            </ul>
+                          </div>
+                        <div class="col-md-4 position-static">
+
+                            <ul class="right-nav">
+                                <li class="">
+                                    <a href="javascript:void(0)" data-target-menu="#search"><i
+                                            class="icon-magnifying-glass"></i></a>
+                                </li>
+                                <li class="cart-dropdown">
+                                    <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                            class="icon-empty-shopping-card"></i></a>
+
+                                    <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                                        <div class="text-center dropdown-header">
+                                            <h4 class="mb-0">ملخص العربة</h4>
+                                        </div>
+                                        <div class="card-body custom-scroll">
+
+                                            <div class="product-sect">
+
+                                                <h5 class="sect-title">منتجات</h5>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">iPhone XS</p>
+                                                                <label for="" class="right-lbl">د.ك. 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>64 GB</p>
+                                                                <p>ذهب</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مدة الالتزام 24 شهر
+                                                                </p>
+                                                                <label for="" class="right-lbl">د.ك. 29</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">iPhone XS</p>
+                                                                <label for="" class="right-lbl">د.ك. 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>64 GB</p>
+                                                                <p>ذهب</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مدة الالتزام 24 شهر
+                                                                </p>
+                                                                <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="plan-sect">
+                                                <h5 class="sect-title">خطة</h5>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">حزمة إنترنت eeZee</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>5 جيجابايت 4G LTE</p>
+                                                                <p>رسائل محلية غير محدودة</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 10</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="entertainment-sect">
+                                                <h5 class="sect-title">وسائل الترفيه</h5>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/smarthomecamera.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex mb-2">
+                                                                <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="card-footer">
+
+                                            <h5 class="sect-title">Total</h5>
+
+                                            <div class="product-item main-total">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                            <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                            <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-action">
+
+                                                <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                                                    عربة واضحة</button>
+                                                <button class="btn btn-pc-3"> مراجعة ودفع</button>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                                </li>
+                                <li class="profile-btn logedin">
+
+                                    <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                                        <img src="images/profile_picture.png" alt="" class="profile-image">
+                                        <div class="user-info">
+                                            <p class="name">أهلا بك <strong>خالد</strong></p>
+                                            <p class="contact">90079990</p>
+                                        </div>
+                                        <i class="icon-right-arrow icon-rotate-90"></i>
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <!-- Search -->
+                            <div class="search-autocomplete" id="search">
+                                <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false"
+                                    placeholder="بحث">
+                                <button class="btn main-search-btn btn-pc-3 "><i
+                                        class="icon-magnifying-glass "></i></button>
+                            </div>
+                            <!-- Search End -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+        </header>
+        <!-- End Header -->
+        
+
+        <section class="container-fluid-custom">
+
+            <div class="top-heading-area">
+                <div class="container">
+                    <div class="section-heading text-center mt-5">
+                        <img src="images/heart_fill.svg" class="img-fluid mx-auto mb-3"/>
+                        <h1 class="main-heading">
+                            اكسسوارات
+                        </h1>
+                        <h4 class="ff-rg sub-text">
+                            أبجد هوز دولور الجلوس امات، إيليت الحوار الاقتصادي الاستراتيجي والحيوية، بحيث تعبا وحزنا، وبعض الأشياء الهامة التي يجب القيام.
+                        </h4>
+                    </div>
+
+                    <div class="text-left sect_sepretor">
+                        <label for="" class="results-count d-inline-block"><i class="icon-Group-1565"></i>&ensp;12 المفضلة</label>
+                    </div>
+                    
+                    <!--<div class="filters-results-row d-lg-none">
+
+                        Filter Result Button Row
+                    </div>-->
+                    <!--                    <div class="filters-button-row d-lg-none">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <button class="btn btn-pc-5 btn-small btn-reset"><span class="close-button-x"> X</span></button> <span class="text">Filters</span>
+                                </div>
+                               <div class="col-sm-4">
+                                    <button class="btn btn-pc-5 btn-small btn-reset"><i class="icon-delete fs-16"></i><span> Reset</span></button>
+                                    <button class="btn btn-pc-3 btn-small btn-save">Save</button>
+                                </div>
+                            </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+            <div class="layout-2-10 row">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <!-- Right side content -->
+
+                            <div class="row btn_for_dl">
+
+
+                                <!-- Popular -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail popular">
+                                        <div class="product-image">
+                                            <img src="./images/apple.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="1" compare-item-image="./images/Iphone.png"> 
+                                                    <span class="icon"><i class="icon-Group-1566"></i></span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <label>جمع</label>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-10 add-cartactual"><i class="icon-add-1"></i> أضف إلى السلة</button>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- New -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail new">
+                                        <div class="product-image">
+                                            <img src="./images/mobile-black.png" alt="">
+
+                                            <div class="hover-label">
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="2" compare-item-image="./images/mobile-black.png"> 
+                                                    <span class="icon">
+                                                        <i class="icon-Group-1566"></i>
+                                                    </span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                                <span class="fav">
+                                                   
+                                                    <div class="accordion features_accordian new_accor" id="accordionExample">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOne">
+                                                                <h4 class="mb-0 fs-24 text-t-none">
+                                                                    <button class="btn btn-link" type="button"
+                                                                        data-toggle="collapse"
+                                                                        data-target="#deviceSpecifications"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="deviceSpecifications">
+                                                                        <i class="icon-add-1"></i>
+                                                                    </button>
+                                                                    <span class="mg_c">خيارات</span>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <label>جديد</label>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div id="deviceSpecifications" class="collapse new_options"
+                                                                aria-labelledby="headingOne"
+                                                                data-parent="#accordionExample">
+                                                                <ul class="size_clr new_clr_in">
+                                                                                <li>
+                                                                                    <span class="lbl_sz">الاتصال</span>
+                                                                                    <div class="sizes_in">
+                                                                                        <a href="#" class="active">خلوي</a>
+                                                                                        <a href="#">GPS</a>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <span class="lbl_sz">اللون</span>
+                                                                                    <div class="colur_in">
+                                                                                        <a href="#" class="active"><span class="black_cl"></span></a>
+                                                                                        <a href="#"><span class="blue_cl"></span></a>
+                                                                                        <a href="#"><span class="orange_cl"></span></a>
+                                                                                        <a href="#"><span class="yellow_cl"></span></a>
+                                                                                        <a href="#"><span class="white_cl"></span></a>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <span class="lbl_sz">لون الشريط</span>
+                                                                                    <div class="row w-100">
+                                                                                        <div class="col-md-8">
+                                                                                            <div class="form-group control-wrap new_form_slct">
+                                                                                                <select name="GB" id=""
+                                                                                                    class="form-control custom-select">
+                                                                                                    <option value="sport">رياضة عقدة</option>
+                                                                                                    <option value="yellow">الأصفر</option>
+                                                                                                    <option value="green">أخضر</option>
+                                                                                                    <option value="blue">أزرق</option>
+                                                                                                    <option value="orange">البرتقالي</option>
+                                                                                                </select>
+                                                                                                <span class="downarrow"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <ul class="product_slider_new_new sport-slider">
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>فخر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                            </ul>
+                                                                            <ul class="product_slider_new_new yellow-slider">
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>فخر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                            </ul>
+                                                                            <ul class="product_slider_new_new green-slider">
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>فخر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                            </ul>
+                                                                            <ul class="product_slider_new_new blue-slider">
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>فخر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                            </ul>
+                                                                            <ul class="product_slider_new_new orange-slider">
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb3.png" class="img-fluid mx-auto"/><span>فخر</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb1.png" class="img-fluid mx-auto"/><span>أزرق</span></div></li>
+                                                                                <li class="col-md-3"><div class="img_b"><img src="images/yb2.png" class="img-fluid mx-auto"/><span>الأصفر</span></div></li>
+                                                                            </ul>
+                                                                            <span class="divider_in"></span>
+                                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- normal -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail">
+                                        <div class="product-image">
+                                            <img src="./images/mobile-red.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="3" compare-item-image="./images/mobile-red.png"> 
+                                                    <span class="icon">
+                                                        <i class="icon-Group-1566"></i>
+                                                    </span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- On Sale -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail on_sale">
+                                        <div class="product-image">
+                                            <img src="./images/mobile-yelow.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="4" compare-item-image="./images/mobile-yelow.png"> 
+                                                    <span class="icon"><i class="icon-Group-1566"></i></span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <label>للبيع</label>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <div class="sale-price">
+                                                    <h5 class="strike">قد 29</h5>
+                                                    <h4>قد 25 <small>شهريا</small></h4>
+                                                    <div class="sale-label">
+                                                        <i class="icon-percentage-black"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- normal -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail">
+                                        <div class="product-image">
+                                            <img src="./images/mobile-black.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="5" compare-item-image="./images/mobile-black.png"> 
+                                                    <span class="icon"><i class="icon-Group-1566"></i></span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- normal -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail">
+                                        <div class="product-image">
+                                            <img src="./images/apple.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="6" compare-item-image="./images/Iphone.png"> 
+                                                    <span class="icon">
+                                                        <i class="icon-Group-1566"></i>
+                                                    </span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- normal -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail">
+                                        <div class="product-image">
+                                            <img src="./images/mobile-black.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="7" compare-item-image="./images/mobile-black.png"> 
+                                                    <span class="icon">
+                                                        <i class="icon-Group-1566"></i>
+                                                    </span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد 29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- normal -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="product-thumbnail">
+                                        <div class="product-image">
+                                            <img src="./images/Iphone.png" alt="">
+
+                                            <div class="hover-label">
+                                                
+                                                <span class="comp">
+                                                    <span class="icon"><i class="icon-delete"></i></span>
+                                                    <span class="expandable-text"> حذف </span>
+                                                </span>
+                                                <span class="comp comp-actual" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"> 
+                                                    <span class="icon">
+                                                        <i class="icon-Group-1566"></i>
+                                                    </span> 
+                                                    <span class="expandable-text">أضف للمقارنة</span> 
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-detail">
+                                            <h3 class="product-name">iPhone XS</h3>
+                                            <div class="ratting">
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star active icon-mark-as-favorite-star"></span>
+                                                <span class="star icon-mark-as-favorite-star"></span>
+                                                &ensp;<span>(391)</span>
+                                            </div>
+                                            <div class="price-tag">
+                                                <p>بدءا من</p>
+                                                <h4>قد29 <small>شهريا</small></h4>
+                                            </div>
+                                            <button class="btn btn-pc-1 add-to-compare d-block d-sm-none" compare-item-name="iPhone XS" compare-item-number="8" compare-item-image="./images/Iphone.png"><span class="icon"><i class="icon-Group-1566"></i></span> قارن</button>
+                                            <button class="btn btn-pc-1">اشتري الآن</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="viewmore-link">
+                                <div class="row justify-content-center">
+                                    <a href="#" class="btn btn-link">
+                                        <label for="">عرض المزيد</label>
+                                        <i class="icon-arrow-pointing-to-right-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer Start -->
+        <footer class="main-footer">
+
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-lg-3 colunm-wrapper">
+                        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">منتجات</a></h3>
+
+                        <ul class="footer-links">
+                            <li><a href="">هاتف ذكي</a></li>
+                            <li><a href="">الصفحة الرئيسية موجة عريضة</a></li>
+                            <li><a href="">سيم بطاقة</a></li>
+                            <li><a href="">لوح</a></li>
+                            <li><a href="">الألعاب</a></li>
+                            <li><a href="">مستلزمات</a></li>
+                            <li><a href="">البطاقات الإلكترونية</a></li>
+                            <li><a href="">الإضافات</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الخطط</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">دفع شهريا</a></li>
+                            <li><a href="">ادفع كما تذهب</a></li>
+                            <li><a href="">التجوال والدولي</a></li>
+                        </ul>
+                        <div class="d-none d-md-block">
+                            <h3 class="footer-title"><a href="">زين لايف</a></h3>
+                            <h3 class="footer-title"><a href="">عروض</a></h3>
+                            <h3 class="footer-title"><a href="">5G</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الدعم</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">دردشة</a></li>
+                            <li><a href="">حدد موقع الفرع</a></li>
+                            <li><a href="">تتبع الطلب</a></li>
+                            <li><a href="">اتصل بنا</a></li>
+                            <li><a href="">الأسئلة الشائعة</a></li>
+                            <li><a href="">وظائف</a></li>
+                        </ul>
+
+                        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">اكتشف زين</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">اكتشف زين</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title connect">اتصل بنا</h3>
+
+                        <ul class="socialmedia footer-links inline">
+                            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                        </ul>
+
+                        <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>زين بلادي</h3>
+
+                        <ul class="user footer-links">
+                            <li><a href="" class="cl-pc-3">تسجيل الدخول</a></li>
+                            <li><a href="" class="cl-pc-3">تسجيل</a></li>
+                        </ul>
+
+                        <div class="footer-seprator"></div>
+
+                        <div class="order-track">
+
+                            <h3 class="footer-title">تابع طلبي</h3>
+
+                            <div class="form-group">
+                                <form>
+                                    <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                        id="">
+                                    <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid-custom">
+                <div class="footer-seprator"></div>
+            </div>
+
+            <div class="container copyright_sect">
+                <div class="row align-items-end">
+                    <div class="col-md-2 col-12">
+                        <div class="site-logo">
+                            <img src="./images/zain_logo.svg" alt="site_logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12">
+                        <ul class="footer-links inline mb-0">
+                            <li class="d-none d-md-inline-block">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                            <li><a href="">سياسات</a></li>
+                            <li><a href="">البنود و الظروف</a></li>
+                            <li class="d-block d-md-none mt-4">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- Footer Ends -->
+        <!-- body overlay -->
+<div class="bodyoverlay"></div>
+        <div class="cardstripe-fixed text-center" style="display:none">
+            <div class="container">
+              <div class="card-box">
+                <ul id="fetch_compare_list_items">
+                </ul>
+                <p class="d-nones" id="compare_message_box"><i class="icon-Group-1566"></i> أضف منتجات للمقارنة</p>
+                <div class="card-action text-center" style="display:none">
+                  <button class="btn btn-pc-3 btn-lrg">قارن</button>
+                  <button class="btn btn-pc-1 btn-lrg" id="cancel_compare_btn">إلغاء</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- body overlay -->
+        <div class="bodyoverlay overlay-page"></div>
+        <div class='order-tracking-popup -small compare-limit'>
+            <div class='close-tracking'>X</div>
+            <div class='order-tracking-popup-header'>
+              <h3> <span><img src="http://dp8staging.com/dev/zain-html/v1/images/error-icon.svg" alt=""></span> أقصى حد للمقارنة </h3>
+              <p class='color-gray'>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارج الصفحة التي يقرأها.</p>
+            </div>
+            <div class="popup-action pb-3 text-center pt-2"> <a class="btn btn-pc-3" href='javascript:void(0);'>حسنا</a> </div>
+        </div>
+
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <script src="./js/css_browser_selector.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Scrollbar js -->
+            <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script>
+            <script>  
+	 jQuery(document).ready(function($){    
+
+		/*$("ul#fetch_compare_list_items li span").click(function(){
+			var del_data_item = $(this).attr('delete-data-item'); 
+			
+			//$('ul#fetch_compare_list_items li[delete-data-item="'+del_data_item+'"]').remove();
+			
+			$('ul#fetch_compare_list_items li[delete-data-item="2"]').remove();
+			console.log("----->> " + del_data_item);
+		});*/
+		
+		$(".product-thumbnail span.comp").click(function(){
+			var comp_item_name = $(this).attr('compare-item-name'); 
+			var comp_item_number = $(this).attr('compare-item-number');
+			var comp_item_image = $(this).attr('compare-item-image'); 
+			
+			var show_msg = '0';
+			if(!$(this).hasClass('active')){
+				
+				var compare_list_items = $('#fetch_compare_list_items li').length;
+				
+				if(compare_list_items=='5'){
+					show_msg = '1';
+					//alert('You can compare maximum upto products only!');
+					
+					$(".bodyoverlay").addClass('show');
+					$(".order-tracking-popup").addClass('show');
+					
+				}else{
+					$(this).addClass('active');
+					
+					$(".bodyoverlay").removeClass('show');
+					$(".order-tracking-popup").removeClass('show');
+				
+					var ret_txt = '<li compare-data-item="'+comp_item_number+'"> <div class="product-box"> <span delete-data-item="'+comp_item_number+'"></span> <img src="'+comp_item_image+'" alt="" width="60"> </div> <p>' + comp_item_name + '</p> </li>';
+				
+					$("ul#fetch_compare_list_items").append( ret_txt );
+				} 
+				
+			}else{
+				$(this).removeClass('active');
+				
+				$(".bodyoverlay").removeClass('show');
+				$(".order-tracking-popup").removeClass('show');
+				
+				var sel_item = 'ul#fetch_compare_list_items li[compare-data-item="'+comp_item_number+'"]';
+				
+				$(sel_item).remove();   
+				
+			}
+			
+			if(show_msg == '0'){
+			
+				var compare_list_items = $('#fetch_compare_list_items li').length;
+					
+				if(compare_list_items=='0'){
+				 	$('.cardstripe-fixed').css('display',"none");
+					$('.cardstripe-fixed .card-box .card-action').css('display','none');
+					$('.cardstripe-fixed .card-box #compare_message_box').html('<i class="icon-Group-1566"></i> Add products to compare!'); 
+					$('.cardstripe-fixed .card-box #compare_message_box').css('display',"block"); 
+					
+				}else if(compare_list_items=='1'){
+					$('.cardstripe-fixed').css('display',"block"); 
+					$('.cardstripe-fixed .card-box .card-action').css('display','none');  
+					$('.cardstripe-fixed .card-box #compare_message_box').html('<i class="icon-Group-1566"></i> Add more products to compare!'); 
+					$('.cardstripe-fixed .card-box #compare_message_box').css('display',"block");
+				 
+				}else{
+					$('.cardstripe-fixed').css('display',"block"); 
+					$('.cardstripe-fixed .card-box .card-action').css('display','block');  
+					$('.cardstripe-fixed .card-box #compare_message_box').css('display','none'); 
+				} 
+			} 
+		  	 
+			//alert("comp_item_name " + comp_item_name + " comp_item_number = " + comp_item_number + " comp_item_image = " + comp_item_image);
+			  
+		});
+		
+		 
+		
+		$('#fetch_compare_list_items').on('click', 'span', function() {
+			//var conf = confirm("Do you want to remove the selected item?");
+			//if(conf == true){
+			
+				//$(".product-thumbnail .comp").removeClass('active');
+				//compare-data-item  $('#fetch_compare_list_items li[compare-data-item="''"]')
+				var del_compare_data_item = $(this).closest('li').attr('compare-data-item'); 
+				var sel_item = '.product-thumbnail span.comp[compare-item-number="'+del_compare_data_item+'"]'; 
+				$(sel_item).removeClass('active');  
+				 
+				$(this).closest('li').remove();
+				
+				var compare_list_items = $('#fetch_compare_list_items li').length;
+				
+				if(compare_list_items=='0'){
+					$('.cardstripe-fixed').css('display',"none"); 
+					$('.cardstripe-fixed .card-box .card-action').css('display','none');
+					$('.cardstripe-fixed .card-box #compare_message_box').html('<i class="icon-Group-1566"></i> Add products to compare!'); 
+					$('.cardstripe-fixed .card-box #compare_message_box').css('display',"block");
+					
+				}else if(compare_list_items=='1'){
+					$('.cardstripe-fixed').css('display',"block"); 
+					$('.cardstripe-fixed .card-box .card-action').css('display','none');  
+				 	$('.cardstripe-fixed .card-box #compare_message_box').html('<i class="icon-Group-1566"></i> Add more products to compare!'); 
+				 	$('.cardstripe-fixed .card-box #compare_message_box').css('display',"block");
+				 
+				}else{
+					$('.cardstripe-fixed').css('display',"block"); 
+					$('.cardstripe-fixed .card-box .card-action').css('display','block');  
+					$('.cardstripe-fixed .card-box #compare_message_box').css('display','none'); 
+				} 
+
+			//}
+		}); 
+		
+		$("#cancel_compare_btn").click(function(){
+			//var conf = confirm("Do you want to cancel all the items?");
+			//if(conf == true){
+				$("ul#fetch_compare_list_items").html(''); 
+				 
+				$(".product-thumbnail .comp").removeClass('active');
+				// alert('testing');
+				$('.cardstripe-fixed .card-box .card-action').css('display','none');
+				$('.cardstripe-fixed .card-box #compare_message_box').html('<i class="icon-Group-1566"></i> Add products to compare!'); 
+				$('.cardstripe-fixed .card-box #compare_message_box').css('display',"block");
+				
+				$('.cardstripe-fixed').css('display',"none"); 
+			//}
+		});  
+	});
+		
+	</script>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

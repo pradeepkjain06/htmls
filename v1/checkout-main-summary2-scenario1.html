@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+  <title>Tinext - Delivery Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+  <!-- dated 8-4-2020 code starts -->
+  <link href="css/datepicker.css" rel="stylesheet" />
+  <!-- dated 8-4-2020 code ends -->
+
+
+</head>
+
+<body class="">
+  <div id="wrapper" class="container-fluid delivery-page">
+
+
+    <div class="content_min_height">
+        <!-- Header -->
+      <header class="header main-header-bg thank-you-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row main-header-row flex-align-center">
+                    <div class="col-md-4 col-3">
+                        <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                    </div>
+                    <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                        <!-- Division which shown in Tablet and Mobile -->
+                        <div class="mobile-controls text-right">
+                            <ul class="mobile-nav">
+                                <li>
+                                    <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="right-nav justify-content-end offset-md-3">
+                            <li class="profile-btn"> <a href="javascript:void(0)" data-target-menu="#form_pp"
+                                    class="btn btn-pc-4 btn-small text-t-none">Login</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!--Cart Desktop-->
+    <section class="shopping_cart_section_xain desktop_section_cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center animate completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery & Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Cart Desktop END-->
+
+     <!--Cart Mobile-->
+    <section class="shopping_cart_mobile_section_xain">
+        <div class="container">
+       
+            <div class="row">
+                <div class="col-12 mb-0 pb-0 mb-md-5 pb-md-5">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed ">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center animate completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery &amp; Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mob_seperator_cart"></div>
+                </div>
+            </div>
+        </div>
+
+
+      <div class="cart_main_mob_wrap">
+
+        <div class="cart_scroll_mob_main fixed-cta">
+
+          <div class="cart_scroll_inner" style="display: none">
+            <div class="summaary_heading_cart_mob">
+              <h2 class="mb-0">Summary</h2>
+            </div>
+
+              <div class="scroll_products_cart">
+
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>iPhone Pro Max</h3>
+                      <p class="mb-0">Red - 256GB</p>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/ipods_scrolls.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Apple Airpods 3rd Gen</h3>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 5</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+              </div>
+
+          </div>
+       
+
+        </div>
+
+        
+      </div>
+     
+
+    </section>
+
+       <!--Cart Mobile End-->
+
+
+       <section class="checkout-summary-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter summary-form-section">
+                                <h2 class="check-out-summary-title">Confirmation</h2>
+                                <h3>User  Details</h3>
+                                <div class="summary-form">
+                                    <form class='form-validation user_pg'>
+                                        <div class="row">
+                                          <div class="col-lg-6">
+                                            <div class="form-group data-valid">
+                                                <label>Full Name <span>*</span></label>
+                                                <input type="text" value="Juan Test Fernandez" class="form-control disabled" placeholder="Name Here">
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                            <div class="form-group data-valid">
+                                                <label>Contact Number <span>*</span></label>
+                                                <input type="text" value="123456789" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control disabled" placeholder="Number">
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                            <div class="form-group data-valid">
+                                                <label>Email <span>*</span></label>
+                                                <input type="email" value="Email@test.com" class="form-control disabled" placeholder="Test@email.com">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter new-card-section">
+
+                                <h2 class="check-out-summary-title">Payment Selection</h2>
+                                <div class="payment-box">
+
+                                    <div class="custom-radio">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="n-net" id="n-net">
+                                        <label for="n-net"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/knet-logo.svg" alt="">
+                                                    <h2>K-net</h2>
+                                                </div>   
+                                                <div class="custom-radio-text">
+                                                    <p class="m-0">You will be redirected to KNET gateway to complete your payment</p>
+                                                </div> 
+                                            </div>
+                                        </label>
+                                      </div>
+
+                                      <div class="custom-radio">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="new-card" id="new-card">
+                                        <label for="new-card"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/new-card.svg" alt="">
+                                                    <h2>New Card</h2>
+                                                </div>   
+                                                <div class="custom-radio-text">
+                                                    <p class="m-0">Use your credit or debit card</p>
+                                                </div> 
+                                            </div>
+                                        </label>
+
+                                            <div class="summary-form new-card-form" style="display: none;">
+                                                <form class='form-validation user_pg'>
+                                                    <div class="row">
+                                                      <div class="col-lg-6 col-12">
+                                                        <div class="form-group group_card">
+                                                            <label>Card Number <span>*</span></label>
+                                                            <input inputmode="numeric" pattern="[0-9]*" autocomplete="off" type="text" class="form-control credit_card_number" placeholder="Number Here" maxlength="19">
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-lg-3 col-6">
+                                                        <div class="form-group date-id group_card">
+                                                          <label for="">Expiry date <span>*</span></label>
+                                                          <input inputmode="numeric" pattern="[0-9]*" autocomplete="off" type="text" name="" id="" class="form-control date_card"
+                                                            placeholder="MM/YY" />
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-lg-3 col-6">
+                                                        <div class="form-group group_card">
+                                                            <label>Security Code<span>*</span></label>
+                                                            <input inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" maxlength="3" class="form-control" placeholder="CVV">
+                                                        </div>
+                                                      </div>
+                                                      
+                                                    </div>
+                                                  </form>
+                                            </div>
+
+                                      </div>
+
+                                      <div class="custom-radio mb-0">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="paypaal" id="paypaal">
+                                        <label for="paypaal"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/paypaal.svg" alt="">
+                                                    <h2>Paypal</h2>
+                                                </div>   
+                                            </div>
+                                        </label>
+                                      </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row mt-md-0 mt-4 due-today">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter placement_items_price">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-8 col-6">
+                                        <div class="order_place_left">
+                                            <h2>Due Today: KD 16.5</h2>
+                                            <p>By placing your order, you agree to Zain privacy notice and conditions of use.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 ">
+                                        <div class="order_place_right">
+                                            <button onclick="document.location='./checkout-thankyou.html'" class="btn placeorder-btn" disabled>Place your order</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="order-sidebar">
+                        <div class="sidebar-summary">
+                            <h2 class="check-out-summary-title">Order Sumary</h2>
+                            <div class="sidebar-summary-content">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="sidebar-summary-content-left">
+                                            <div class="sidebar-summary-content-left-img">
+                                                <img src="./images/shopping_cart.png" alt="">
+                                            </div>
+                                            <div class="sidebar-summary-content-left-text">
+                                                <h2>Nintendo-Gift Card </h2>
+                                                <p>USA - $50</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="sidebar-summary-content-right">
+                                            <p>KD 7.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-8">
+                                      <div class="sidebar-summary-content-left">
+                                          <div class="sidebar-summary-content-left-img">
+                                              <img src="./images/playstation_product.png" alt="">
+                                          </div>
+                                          <div class="sidebar-summary-content-left-text">
+                                              <h2>PlayStation-Gift Card</h2>
+                                              <p>USA - $20</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                      <div class="sidebar-summary-content-right">
+                                          <p>KD 7.4</p>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="order-summary-total">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="summary-subtotal">
+                                        <h2>Sub total</h2>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal text-right">
+                                        <h2>KD 14.8</h2>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                  <div class="summary-subtotal">
+                                      <h2>Shipping</h2>
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                  <div class="summary-subtotal text-right">
+                                      <h2>KD 1</h2>
+                                  </div>
+                              </div>
+                                <div class="col-12">
+                                    <div class="border-bottom"></div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal">
+                                        <h2 class="clr-green">Due Today</h2>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal text-right">
+                                        <h2 class="clr-green">KD 15.8</h2>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="order-summary-buttons">
+                                        <button class="edit-btn">EDIT CART</button>
+                                        <!-- Button to be used for development purpose -->
+                                        <button onclick="document.location='./checkout-thankyou.html'" class="placeorder-btn" disabled>
+                                          <div class="spinner-border d-none" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                          </div>
+                                          Place your order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="shopping_cart_mobile_section_xain">
+
+      <div class="cart_main_mob_wrap">
+  
+        <div class="cart_scroll_mob_main fixed-cta">
+  
+          <div class="cart_scroll_inner" style="display: none">
+            <div class="summaary_heading_cart_mob">
+              <h2 class="mb-0">Summary</h2>
+            </div>
+  
+              <div class="scroll_products_cart">
+  
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>iPhone Pro Max</h3>
+                      <p class="mb-0">Red - 256GB</p>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/ipods_scrolls.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Apple Airpods 3rd Gen</h3>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 5</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+              </div>
+  
+          </div>
+       
+  
+  
+          <div class="car_total_mob_new" >
+            <div class="order_summary_mob">
+              <div class="d-flex justify-content-between content_tab_fixed_bar">
+                <h2>Order Summary</h2>
+                <a href="javascript:void(0)" class="view_details_cart_zain">
+                  View Details
+                </a>
+              </div>
+                
+                <ul class="pl-0 order_summary_mob_list">
+  
+                  <li>
+                    <div class="d-flex align-items-center">
+                       <p>Sub Total</p>
+                    </div>
+                    <p>KD <span>366</span></p>
+                 </li>
+  
+                 <li>
+                  <div class="d-flex align-items-center">
+                     <p>Deposit Payment</p>
+                     <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                        <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                     </div>
+                  </div>
+                  <p>KD 24</p>
+               </li>
+  
+               <li>
+                <div class="d-flex align-items-center">
+                   <p>Monthly payment</p>
+                   <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                      <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                   </div>
+                </div>
+                <p>KD 24</p>
+             </li>
+                    
+                </ul>
+                <div class="dues_total_mob">
+                    <h2>Due Today</h2>
+                    <h2>KD <span>16.5</span></h2>
+                </div>
+                <div class="btn_wrapper d-flex">
+                          
+                    <button class="btn btn-cart-1c">CLEAR CART</button>
+                    <button onclick="document.location='./checkout-thankyou.html'" class="btn btn-pc-1a">CHECKOUT</button>
+  
+                </div>
+            </div>
+        </div>
+        </div>
+  
+        
+      </div>
+     
+  
+    </section>
+  
+      <!--Cart Mobile End-->
+
+   </div>
+    
+
+        <!-- Footer -->
+        <footer class="main-footer2 footer_extra_master">
+          <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="footer_zain_new d-flex justify-content-between align-items-center w-100">
+                           <a href="#">
+                               <img src="./images/footer_new_zain.svg" alt="footer logo" />
+                           </a>
+                           <div class="footer_new">
+                               <div class="links_footer_master">
+                                   <ul class="d-flex">
+                                       <li>
+                                          <a href="#"><img src="./images/instagram_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/twitter_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/facebook_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/youtube_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="col-12">
+                       <div class="disclaimer_footer d-flex ali">
+                         <div>
+                          <p class="mb-0">2022 Zain. All right reserved.</p>
+                         </div>
+                         <div>
+                          <a href="#">Privacy Policy</a>
+                          <a href="#">Terms of Services</a>
+                          <a href="#">Cookies Settings </a>
+                         </div>
+                       </div>
+                   </div>
+               </div>
+          </div>
+       </footer>
+       <!-- Footer Ends -->
+ 
+    <div class="bodyoverlay overlay_checkout"></div>
+    <div id="modal_id" class="order-tracking-popup new-address-popup summary-form -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header p-0 m-0">
+        <h3>New Address</h3>
+        <form class='form-validation user_pg'>
+          <div class="row">
+            <div class="col-md-6">
+              <div id="governate_Wrap" class="form-group control-wrap mb-3">
+                <label for="">Governorate <span>*</span></label>
+                <select id="governorate" name="GB" class="form-control custom-select-main-sum bg-gray unit-type">
+                  <option value="1">Select</option>
+                  <option value="2">Select 1</option>
+                  <option value="3">Select 2</option>
+                </select>
+                <span class="downarrow"></span> 
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group control-wrap mb-3">
+                <label for="">Area <span>*</span></label>
+                <select id="area" name="GB" class="form-control custom-select-main-sum bg-gray unit-type">
+                  <option value="1">Select</option>
+                  <option value="2">Select 1</option>
+                  <option value="3">Select 2</option>
+                </select>
+                <span class="downarrow"></span> 
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Block <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Street <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Unit type <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Building name <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>House number <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Avenue <span>*</span></label>
+                  <input type="text" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="form-group mb-0">
+                <label for="">Description</label>
+                <textarea class="form-control" placeholder="Write your comments…"></textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="text-right">
+                <a class="next-btn" href="" disabled="true">Create</a>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    
+
+
+
+    <div class="scripts">
+      <!-- jQuery -->
+      <script src="./js/jQuery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="./js/scrolltrigger.js" ></script>
+      <!-- Jquery Mask -->
+      <script src="./js/maskedjquery.js"></script>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/bootstrap.bundlev5.js"></script>
+      <!-- Slick Slider -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Custom - Select Slider -->
+      <script src="./js/select2.min.js"></script>
+      <!-- Search type suggetion -->
+      <script src="./js/typeahead.bundle.min.js"></script>
+      <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <!-- jQuery UI -->
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+      <!-- Custom js -->
+      <script src="./js/custom.js"></script>
+      <!-- dated 8-4-2020 code starts -->
+      <script src="js/bootstrap-datepicker.js"></script>
+
+      <script>
+
+      $.fn.datepicker.dates['en'] = {
+          days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+          daysMin: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
+          months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+          monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          format: "yyyy-mm",
+          titleFormat: "MM yyyy",
+
+      };
+     
+        $(".datepicker2").datepicker({
+            language: "en",
+            format: "yyyy-mm",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+            
+          }).on('click', function(e){
+            $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+            $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+          $(".datepicker29").datepicker({
+            language: "en",
+            format: "yyyy-mm",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+          }).on('click', function(e){
+    
+       $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+       $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+          $(".datepicker22").datepicker({
+            language: "en",
+            format: "DD, d MM yyyy",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+          }).on('click', function(e){
+            $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+      $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          });
+          $(function () {
+              $("[rel='tooltip']").tooltip();
+          });
+
+      </script>
+       <script>
+        $('.credit_card_number').mask('0000 0000 0000 0000');
+        $('.date_card').mask('00/00');
+    </script>
+   
+ 
+    </div>
+  </div>
+</body>
+
+</html>

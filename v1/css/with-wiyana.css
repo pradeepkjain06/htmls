@@ -1,0 +1,43 @@
+.wiyana-box {
+    text-align: center;
+    padding: 0 40px;
+}
+.wiyana-separator{
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(87.62deg, #D12B8A 27.08%, #70489D 107.7%);
+}
+.wiyana-box .wiyana-separator {
+    margin: 10px auto;
+}
+.wiyana-box h2 {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.wiyana-box h2 span {
+    display: flex;
+    justify-content: center;
+    font-family: "NunitoSans-SemiBold" !important;
+}
+
+.wiyana-box p{
+  font-size: 18px;
+  color: #999999;
+}
+@media (min-width: 280px) and (max-width: 1200px){
+  .wiyana-logo img {
+      width: 100% !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 767px){
+  .wiyana-box {
+      padding: 0 0px;
+  }
+  .wiyana-box h2 {
+      font-size: 20px;
+  }
+  .wiyana-logo img {
+      width: 100% !important;
+  }
+}

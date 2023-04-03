@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_5152" data-name="Group 5152" transform="translate(-56 -647)">
+    <g id="Ellipse_1160" data-name="Ellipse 1160" transform="translate(56 647)" fill="#fff" stroke="#cebfe0" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+    <g id="instagram" transform="translate(65.75 656.75)">
+      <g id="Group_4694" data-name="Group 4694">
+        <g id="Group_4693" data-name="Group 4693">
+          <path id="Path_2358" data-name="Path 2358" d="M7.982,0H3.268A3.272,3.272,0,0,0,0,3.268V7.982A3.272,3.272,0,0,0,3.268,11.25H7.982A3.272,3.272,0,0,0,11.25,7.982V3.268A3.272,3.272,0,0,0,7.982,0Zm2.389,7.982a2.392,2.392,0,0,1-2.389,2.389H3.268A2.392,2.392,0,0,1,.879,7.982V3.268A2.392,2.392,0,0,1,3.268.879H7.982a2.392,2.392,0,0,1,2.389,2.389Z" fill="#70489d"/>
+        </g>
+      </g>
+      <g id="Group_4696" data-name="Group 4696" transform="translate(2.593 2.593)">
+        <g id="Group_4695" data-name="Group 4695">
+          <path id="Path_2359" data-name="Path 2359" d="M121.032,118a3.032,3.032,0,1,0,3.032,3.032A3.036,3.036,0,0,0,121.032,118Zm0,5.186a2.153,2.153,0,1,1,2.153-2.153A2.156,2.156,0,0,1,121.032,123.186Z" transform="translate(-118 -118)" fill="#70489d"/>
+        </g>
+      </g>
+      <g id="Group_4698" data-name="Group 4698" transform="translate(8.262 2.109)">
+        <g id="Group_4697" data-name="Group 4697">
+          <circle id="Ellipse_1162" data-name="Ellipse 1162" cx="0.439" cy="0.439" r="0.439" fill="#70489d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

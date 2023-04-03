@@ -1,0 +1,19 @@
+
+@media (min-width: 280px) and (max-width: 767px)
+{
+    .paybill a {
+    min-width: 100% !important;
+}
+.pay-for-number a{
+    font-size:16px;
+    padding: 10px 15px;
+}
+}
+@media (min-width: 280px) and (max-width: 319px){
+    .nav-item .for280{
+        font-size:12px;
+    }
+    .autopay-recharge h2{
+        font-size:20px;
+    }
+}

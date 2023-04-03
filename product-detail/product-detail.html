@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html class="kw ltr en_US" dir="ltr" lang="en-US">
+
+<head>
+    <title>Tinext - Product Detail</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/product-detail.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-new.css" />
+    <link rel="stylesheet" type="text/css" href="css/naveed-main.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+
+
+</head>
+
+<body class="">
+
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="sub-header">
+
+                <div class="container">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+
+                            <ul class="left-menu ">
+                                <li>
+                                    <a href="#" class="active">Customer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Business</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <ul class="text-right right-menu">
+                                <li>
+                                    <a href="#" class="text-uppercase">Quick Pay</a>
+                                </li>
+                                <li>
+                                    <div class="form-group d-inline-block">
+                                        <select class="form-control custom-select dropdown-transparent" id="">
+                                            <option value="Kuwait">Kuwait</option>
+                                            <option value="USA">USA</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">العربية</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-right">
+
+                                <ul class="mobile-nav">
+                                    <li>
+                                        <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+
+                                    <li class="cart-dropdown">
+                                        <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                class="icon-empty-shopping-card"></i></a>
+                                    </li>
+
+                                    <li class="mobile-menu-toggle position-static">
+
+                                        <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                                        <div class="main-mobile-menu" id="mobile-menu">
+
+                                            <div class="sub-menu">
+                                                <div class="form-group">
+                                                    <select
+                                                        class="form-control custom-select dropdown-transparent light"
+                                                        id="">
+                                                        <option value="Customer">Customer</option>
+                                                        <option value="Business">Business</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="container-fluid-custom">
+                                                <ul class="mobile-megamenu">
+                                                    <li>
+                                                        <a href="#" class="active">
+                                                            <i class="icon-cart-with-plus"></i>&ensp;Shop
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+
+
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-headphones-with-mic"></i>
+                                                            &ensp;Support
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-Group-1561"></i>
+                                                            &ensp;5G
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div class="container">
+                                                <p class="quick-pay-link text-left">
+                                                    <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="mobile-search">
+                                                <!-- Search -->
+                                                <div class="search-autocomplete d-block">
+                                                    <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                        spellcheck="false" placeholder="Search">
+                                                    <button class="btn main-search-btn btn-pc-3 ">
+                                                        <i class="icon-magnifying-glass "></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Search End -->
+                                            </div>
+
+                                            <div class="language-selector text-center">
+                                                <ul>
+                                                    <li><a href="#">EN</a></li>
+                                                    <li><a href="#">العربية</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="form-group country-selector">
+                                                <select class="form-control custom-select dropdown-transparent light"
+                                                    id="">
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    <option value="USA">USA</option>
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                            <ul class="main-navigation d-inline-block">
+                                <li class="megamenu-container">
+                                    <a href="javascript:void(0)" class="active"><i
+                                            class="icon-cart-with-plus"></i>&nbsp;Shop</a>
+                                    <div id="shopmegamenu" class="megamenu">
+                                        <div class=" container-fluid-custom">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <ul>
+                                                                <li class="megamenu-title">
+                                                                    <img src="./images/pagenav_plans.svg"
+                                                                        alt="megamenu-plans">
+                                                                    <h3 class="">Plans</h3>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="#">Pay Monthly</a>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="#">Pay as you go</a>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="#">Romming and
+                                                                        International</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <ul>
+                                                                <li class="megamenu-title">
+                                                                    <img src="./images/pagenav_products.svg"
+                                                                        alt="megamenu-products">
+                                                                    <h3 class="">Products</h3>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                                                <li class="megamenu-link"><a href="">Home Broadband</a>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="">SIM Card</a></li>
+                                                                <li class="megamenu-link"><a href="">Tablet</a></li>
+                                                                <li class="megamenu-link"><a href="">Gaming</a></li>
+                                                                <li class="megamenu-link"><a href="">Accessories</a>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="">E-cards</a></li>
+                                                                <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <ul>
+                                                                <li class="megamenu-title">
+                                                                    <img src="./images/pagenav_zainlife.svg"
+                                                                        alt="megamenu-zainlife">
+                                                                    <h3 class="">Zain Life</h3>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                                                <li class="megamenu-link"><a href="">Health</a></li>
+                                                                <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                                                <li class="megamenu-link"><a href="">Entertainment</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <ul>
+                                                                <li class="megamenu-title">
+                                                                    <img src="./images/pagenav_offers.svg"
+                                                                        alt="megamenu-offers">
+                                                                    <h3 class="">Offers</h3>
+                                                                </li>
+                                                                <li class="megamenu-link"><a href="">Existing Customer
+                                                                        Offers</a></li>
+                                                                <li class="megamenu-link"><a href="">All Offers &
+                                                                        Promotions</a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+
+                                                    <div class="i-watch_img-container">
+                                                        <img src="./images/menu.png" alt="">
+                                                        <div class="content">
+                                                            <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                                            <button class="btn btn-pc-3">Buy Now</button>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;Support</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <ul class="right-nav">
+                                <li>
+                                    <a href="#"><i class="icon-magnifying-glass"></i></a>
+                                </li>
+                                <li class="cart-dropdown">
+                                    <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                            class="icon-empty-shopping-card"></i></a>
+
+                                    <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                                        <div class="text-center dropdown-header">
+                                            <h4 class="mb-0">Cart Summary</h4>
+                                        </div>
+                                        <div class="card-body">
+
+                                            <div class="product-sect">
+                                                <h5 class="sect-title">Products</h5>
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">iPhone XS</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>64 GB</p>
+                                                                <p>Gold</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Commitment period 24 Months
+                                                                </p>
+                                                                <label for="" class="right-lbl">KD 29</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="plan-sect">
+                                                <h5 class="sect-title">Plan</h5>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">eeZee Internet Bundle</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>5 gB 4G LTE</p>
+                                                                <p>Unlimited Local Messages</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                <label for="" class="right-lbl">KD 10</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="entertainment-sect">
+                                                <h5 class="sect-title">Entertainment</h5>
+
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/smarthomecamera.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex mb-2">
+                                                                <p class="left-lbl item-title">Smart Home Camera</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                <label for="" class="right-lbl">KD 29</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="card-footer">
+
+                                            <h5 class="sect-title">Total</h5>
+
+                                            <div class="product-item main-total">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                            <label for="" class="right-lbl">KD 0</label>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                            <label for="" class="right-lbl">KD 29</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-action">
+
+                                                <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                                                    CLEAR CART</button>
+                                                <button class="btn btn-pc-3"> REVIEW AND PAY</button>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                                </li>
+
+                                <li class="profile-btn">
+                                    <a href="#" class="btn btn-pc-4 btn-small text-t-none"><i
+                                            class="icon-user-4"></i>&nbsp;My
+                                        ZAIN</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+
+        <section class="container-fluid-custom">
+            <div class="breadcrumb-wrapper inner-main-section-sm">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item " aria-current="page">
+                            <a href="#">Shop</a>
+                        </li>
+                        <li class="breadcrumb-item " aria-current="page">
+                            <a href="#">products</a>
+                        </li>
+                        <li class="breadcrumb-item active">Iphone XS</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <section class="container-fluid-custom pd-container-fluid-custom">
+            <div class="layout-6-6">
+                <div class="container">
+
+                    <div class="left-content-area col-lg-7">
+                        <!-- Slider here -->
+                        <div class="product-detail-slider product-shadow">
+
+                            <!-- nav slide -->
+                            <div class="slider_nav">
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/mobile-red.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/mobile-2.png" alt="img-thumb">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/slider-tv.png" alt="img-thumb">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/mobile-2.png" alt="img-thumb">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/mobile-2.png" alt="img-thumb">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-thumbnail">
+                                        <img src="./images/mobile-2.png" alt="img-thumb">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- main slide -->
+                            <div class="slider_main">
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/mobile-red.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/mobile-2.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/slider-tv.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/mobile-2.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/mobile-2.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <img src="./images/mobile-2.png" alt="main-img">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <div class="d-flex justify-content-center add-to-favorites-btn">
+                                    <button class="btn btn-pc-3 mt-3"><i class="icon-favorite-heart-button1"></i> ADD TO FAVORITES</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Fixed section 
+                    <div class="bottom-stripe">
+                        <div class="fixed-sect">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="month-details">
+                                            <ul class="month-plans">
+                                                <li>
+                                                    <label>Due Today</label>
+                                                    <p>KD 0</p>
+                                                </li>
+                                                <li>
+                                                    <label>Due per Month</label>
+                                                    <p>KD <span id="output">0</span></p>
+                                                </li>
+                                            </ul>
+                                            <button class="btn btn-pc-3 chooseplan" name="chooseplan">choose
+                                                Plan</button>
+                                        </div>
+                                        <div class="no-commitmentplans hide">
+                                            <ul class="prepaid-plans">
+                                                <li>
+                                                    <label>Prepaid Plans</label>
+                                                    <p>KD 0</p>
+                                                </li>
+                                            </ul>
+                                            <ul class="deviceprice hide">
+                                                <li>
+                                                    <label>Device only</label>
+                                                    <p>KD 0</p>
+                                                </li>
+                                            </ul>
+                                            <button class="btn btn-pc-3 chooseplan" name="chooseplan">choose
+                                                Plan</button>
+                                            <button class="btn btn-pc-3 hide buyplan" name="buyplan">Buy Device</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      Detail Here -->
+                    <div class="row">
+                        <div class="right-content-area product-content offset-lg-7 col-lg-5">
+                            <!-- Detail Here -->
+
+                            <div class="device-details">
+
+                                <div class="d-md-block">
+                                    <h4 class="brand-name">Apple</h4>
+                                    <h1 class="device-name">Samsung Galaxy S22 Plus 5G</h1>
+                                    <div class="review-stock">
+                                        <div class="class-stock">
+                                            <img src="./images/stock.svg" alt="site_logo"> <span>in stock</span>
+                                            </span>
+                                        </div>
+                                        <div class="class-review">
+                                            <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                                        </div>
+                                        <!-- <div class="class-stock of-stock">
+                                            <img src="./images/out-of-stock.svg" alt="site_logo"> <span>out of stock</span>
+                                            </span>
+                                        </div>
+                                        <div class="class-stock lql-stock">
+                                            <img src="./images/limited-quantity-left.svg" alt="site_logo"> <span>Limited Quantity Left</span>
+                                            </span>
+                                        </div> -->
+                                    </div>
+
+                                    <h1 class="device-name">KD 25<span>/month</span></h1>
+                                    <div class="separator mt-3 mb-3"></div>
+
+                                    <div class="memory-variant memory-variant-pd">
+
+                                        <p>Capacity</p>
+
+                                        <div class="radio-wraper btn-group">
+                                            <div class="btn custom-radio active">
+                                                <input type="radio" checked id="64gb" value="64 GB" name="memory-size"
+                                                    class="">
+                                                <label for="64gb">64 GB</label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <input type="radio" id="126gb" value="126 GB" name="memory-size"
+                                                    class="">
+                                                <label for="126gb">126 GB</label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <input type="radio" id="256gb" value="256 GB" name="memory-size"
+                                                    class="">
+                                                <label for="256gb">256 GB</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="color-variant">
+
+                                        <p>Colors</p>
+
+                                        <div class="radio-wraper">
+                                            <div class="btn custom-radio active">
+                                                <span class="color-thumb" style="background:#ffffff;"></span>
+                                                <input type="radio" checked id="white" value="White" name="color"
+                                                    class="">
+                                                <label for="white"></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <span class="color-thumb" style="background:#000000;"></span>
+                                                <input type="radio" id="black" value="Black" name="color" class="">
+                                                <label for="black"></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <span class="color-thumb" style="background:#2390C0;"></span>
+                                                <input type="radio" id="blue" value="Blue" name="color" class="">
+                                                <label for="blue"></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <span class="color-thumb" style="background:#F4D800;"></span>
+                                                <input type="radio" id="yellow" value="Yellow" name="color" class="">
+                                                <label for="yellow"></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <span class="color-thumb" style="background:#FFAA84;"></span>
+                                                <input type="radio" id="coral" value="Coral" name="color" class="">
+                                                <label for="coral"></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <span class="color-thumb" style="background:#C40000;"></span>
+                                                <input type="radio" id="rubarb-red" value="Rubarb Red" name="color"
+                                                    class="">
+                                                <label for="rubarb-red"></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="memory-variant payment-option-pd">
+
+                                        <p>Payment Option</p>
+
+                                        <div class="radio-wraper btn-group">
+                                            <div class="btn custom-radio active">
+                                                <input type="radio" checked id="Installments" value="" name="memory-size" class="">
+                                                <label for="Installments"><span class="mr-md-1">Monthly</span>
+                                                <span>Installments</span></label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <input type="radio" id="zain-plus" value="" name="memory-size" class="">
+                                                <label for="zain-plus">Zain Plus</label>
+                                            </div>
+                                            <div class="btn custom-radio">
+                                                <input type="radio" id="commitment" value="" name="memory-size" class="">
+                                                <label for="commitment"><span class="mr-md-1">No</span>
+                                                <span>Commitment</span></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="payment-option-tab-group">
+                                        <div class="Installments-tab">
+                                            <div class="tabs-wrapper device-only-tabs">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+            
+                                                        <nav class="sect_sepretor">
+                                                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                                <a   class="nav-item nav-link active" id="nav-home-tab"
+                                                                    data-toggle="tab" href="#nav-home" role="tab"
+                                                                    aria-controls="nav-home" aria-selected="true"
+                                                                    name="add-plans">12 months</a>
+
+                                                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab"
+                                                                    href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                                                    aria-selected="false">18 months</a>
+
+                                                                <a class="nav-item nav-link" id="nav-home-tab"
+                                                                    data-toggle="tab" href="#nav-home" role="tab"
+                                                                    aria-controls="nav-home" aria-selected="true"
+                                                                    name="add-plans">24 months</a>
+
+                                                                <a class="nav-item nav-link" id="nav-home-tab"
+                                                                    data-toggle="tab" href="#nav-home" role="tab"
+                                                                    aria-controls="nav-home" aria-selected="true"
+                                                                    name="add-plans">36 months</a>
+                                                                
+                                                            </div>
+                                                        </nav>
+                                                        <div class="tab-content" id="nav-tabContent">
+                                                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                                                aria-labelledby="nav-home-tab">
+                                                                    <div class="payment-selection">
+                                                                        <div class="row">
+                                                                            <div class="col-md-1 col-2">
+                                                                                <div class="custom-checkbox like-radio">
+                                                                                    <input type="radio" class="gift-radio" id="iphoneXss"
+                                                                                        name="payment-options" value="1">
+                                                                                    <label for="iphoneXss"></label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                                                <h1 class="device-name">KD 25<span>/month</span></h1>
+                                                                                <small>Commitment 12 months</small>
+                                                                                <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                        
+                                                                    <div class="payment-selection mt-4">
+                                                                        <div class="row">
+                                                                            <div class="col-md-1 col-2">
+                                                                                <div class="custom-checkbox like-radio">
+                                                                                    <input type="radio" class="gift-radio" id="kd-276"
+                                                                                        name="payment-options" value="1">
+                                                                                    <label for="kd-276"></label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                                                <h1 class="device-name">KD 28<span>/month</span></h1>
+                                                                                <small>Commitment 12 months</small>
+                                                                                <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                                                aria-labelledby="nav-profile-tab">
+    
+                                                                    <div class="payment-selection">
+                                                                        <div class="row">
+                                                                            <div class="col-md-1 col-2">
+                                                                                <div class="custom-checkbox like-radio">
+                                                                                    <input type="radio" class="gift-radio" id="iphoneXs"
+                                                                                        name="payment-options" value="1">
+                                                                                    <label for="iphoneXs"></label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                                                <h1 class="device-name">KD 25<span>/month</span></h1>
+                                                                                <small>Commitment 12 months</small>
+                                                                                <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                        
+                                                                    <div class="payment-selection mt-4">
+                                                                        <div class="row">
+                                                                            <div class="col-md-1 col-2">
+                                                                                <div class="custom-checkbox like-radio">
+                                                                                    <input type="radio" class="gift-radio" id="kd-28"
+                                                                                        name="payment-options" value="1">
+                                                                                    <label for="kd-28"></label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                                                <h1 class="device-name">KD 28<span>/month</span></h1>
+                                                                                <small>Commitment 12 months</small>
+                                                                                <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+            
+                                                            </div>
+                                                        </div>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="zain-plus-tab" style="display: none">
+                                            <div class="payment-selection mt-4">
+                                                <div class="row">
+                                                    <div class="col-md-1 col-2">
+                                                        <div class="custom-checkbox like-radio">
+                                                            <input type="radio" class="gift-radio" id="zainplus1"
+                                                                name="payment-options" value="1">
+                                                            <label for="zainplus1"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                        <h1 class="device-name">KD 25<span>/month</span></h1>
+                                                        <small>Commitment 12 months</small>
+                                                        <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="payment-selection mt-4">
+                                                <label class="kd-lable green-color">Zain Plus Offer</label>
+                                                <div class="row">
+                                                    <div class="col-md-1 col-2">
+                                                        <div class="custom-checkbox like-radio">
+                                                            <input type="radio" class="gift-radio" id="zainplus2"
+                                                                name="payment-options" value="1">
+                                                            <label for="zainplus2"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                        <h1 class="device-name">KD 20<span>/month</span></h1>
+                                                        <small>Commitment 12 months</small>
+                                                        <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="payment-selection mt-4">
+                                                <div class="row">
+                                                    <div class="col-md-1 col-2">
+                                                        <div class="custom-checkbox like-radio">
+                                                            <input type="radio" class="gift-radio" id="zainplus3"
+                                                                name="payment-options" value="1">
+                                                            <label for="zainplus3"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                        <h1 class="device-name">KD 28<span>/month</span></h1>
+                                                        <small>Commitment 12 months</small>
+                                                        <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="commitment-tab" style="display: none">
+                                            <div class="payment-selection  mt-4">
+                                                <div class="row">
+                                                    <div class="col-md-1 col-2">
+                                                        <div class="custom-checkbox like-radio">
+                                                            <input type="radio" class="gift-radio" id="no-commitment"
+                                                                name="payment-options" value="1">
+                                                            <label for="no-commitment"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-11 col-10 text-left pay_see_more_div">
+                                                        <h1 class="device-name">KD 25<span>/month</span></h1>
+                                                        <small>Commitment 12 months</small>
+                                                        <div class="position-relative">
+                                                                                    <p>5000 Local Minutes + 500GB 5G Internet + Unlimited Social Media <span class="d-none">+  Roaming Data GCC 1GB + Commitment 24 months.</span> <a href="javascipt:void(0)" class="pay_see_more" data-iteration="1">See more</a></p>
+                                                                                    <p class="pay_see_more_text" style="display: none;"><strong> Included Benefits: Gold Number + Smartphone<br>Aditional Benefits: Wearables & Headsets</strong></p>
+                                                                                </div>
+                                                                                <a href="javascipt:void(0)" class="pay_see_less d-none">See Less</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <button class="btn btn-pc-3 mt-3 add-to-cart-btn">CONTINUE</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator pd-separator"></div>
+
+        <div class="layout-6-6">
+            <div class="container">
+                <div class="product-table">
+                    <div class="row mb-3 mb-md-5">
+                        <div class="col-md-6 col-6">
+                            <h2>Device Specification</h2>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="view-more-tables text-right">
+                                <a href="javascript:void(0)" class="view-more-text">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3 mb-md-5">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Sensors</td>
+                                        <td class="ellipses-text">Fingerprint (under display, ultrasonic) Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Praesentium, explicabo!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Display</td>
+                                        <td class="ellipses-text">Dynamic AMOLED 2X, 120Hz, HDR10 Lorem ipsum dolor sit
+                                            amet consectetur
+                                            adipisicing elit. Praesentium, explicabo!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SIM type</td>
+                                        <td>Dual SIM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Resolution</td>
+                                        <td>3200 x 1440</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Storage</td>
+                                        <td>256GB, 512GB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-6 mb-3 mb-md-5">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Battery</td>
+                                        <td>5.000mAh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera</td>
+                                        <td class="ellipses-text">108 MP, f/1.8, 24mm (wide), 1/1.33" Lorem ipsum dolor
+                                            sit amet consectetur
+                                            adipisicing elit. Praesentium, explicabo!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Front Camera</td>
+                                        <td class="ellipses-text">40 MP, f/2.2, 26mm (wide), 1/2.8" Lorem ipsum dolor
+                                            sit amet consectetur
+                                            adipisicing elit. Praesentium, explicabo!.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Processor / Chip</td>
+                                        <td>Exynos 2100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Memory</td>
+                                        <td>12GB, 512GB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="right-content-area pt-0 mt-4 mb-5 product-listing-option product-listing-option-en product-listing-height">
+                    <div class="row">
+
+                        <div class="col-md-12 mb-4">
+                            <h2 class="recommended-heading">Product Content Based recommendations</h2>
+                        </div>
+
+                        <!-- New --> 
+              <!-- New --> 
+              <div class="col-md-4 col-sm-6 pay_montly mobile-height">
+                <div class="product-thumbnail">
+                  <div class="product-image"> 
+                    <div class="pd-img-height">
+                      <img src="./images/pd-1.png" alt="">
+                    </div>
+                    <div class="card-top-details kd-card-desktop">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Max</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="product-detail">
+                    
+                    <div class="card-top-details kd-card-mobile">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Max</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+                    <button class="btn btn-pc-1 buy-desktop-btn">Buy Now</button>
+                  
+                    <div class="kd-card-desktop">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-81" name="checkbox">
+                        <label for="checkbox-81">Compare</label>
+                      </div>
+                      <!-- <div class="kd-custom-checkbox" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox"  />
+                        <label for="checkbox-1">Compare</label>
+                      </div> -->
+                    </div>
+                  
+                  </div>
+                  <!--mobile compare buttons-->
+                  <div class="col-12 mobile-btn-wrap-col">
+                    <div class="kd-card-mobile">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-85" name="checkbox">
+                        <label for="checkbox-85">Compare</label>
+                      </div>
+                    </div>
+                    <div class="kd-buy-btn-wrap">
+                      <button class="btn btn-pc-1">Buy Now</button>
+                    </div>
+                  </div>
+                  <!--end mobile compare buttons-->
+                </div>
+              </div>
+              <!-- New -->
+              <div class="col-md-4 col-sm-6 pay_montly mobile-height">
+                <div class="product-thumbnail">
+                  <div class="kd-mobile-outter">
+                    <div class="kd-mobile-lable blue-color">Limited Quantity Left</div>
+                  </div>
+                  <div class="product-image"> 
+                    <label class="kd-lable blue-color">Limited Quantity<br>Left</label>
+                    <div class="pd-img-height">
+                      <img src="./images/pd-2.png" alt="">
+                    </div>
+                    <!-- <div class="kd-card-mobile">
+                      <div class="kd-custom-checkbox" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox"  />
+                        <label for="checkbox-1">Compare</label>
+                      </div>
+                    </div> -->
+
+                    <div class="card-top-details kd-card-desktop">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Max</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="product-detail">
+                    
+                    <div class="card-top-details kd-card-mobile">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Max</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+                    <button class="btn btn-pc-1 buy-desktop-btn">Buy Now</button>
+                  
+                    <div class="kd-card-desktop">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="1">
+                        <input class="checkbox" type="checkbox" id="checkbox-82" name="checkbox">
+                        <label for="checkbox-82">Compare</label>
+                      </div>
+                      <!-- <div class="kd-custom-checkbox" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox"  />
+                        <label for="checkbox-1">Compare</label>
+                      </div> -->
+                    </div>
+                  
+                  </div>
+                  <!--mobile compare buttons-->
+                  <div class="col-12 mobile-btn-wrap-col">
+                    <!-- <div class="kd-card-mobile">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-86" name="checkbox">
+                        <label for="checkbox-86">Compare</label>
+                      </div>
+                    </div> -->
+                    <div class="kd-buy-btn-wrap">
+                      <button class="btn btn-pc-1">Buy Now</button>
+                    </div>
+                  </div>
+                  <!--end mobile compare buttons-->
+                </div>
+              </div>
+
+              <!-- New -->
+              <div class="col-md-4 col-sm-6 pay_montly mobile-height">
+                <div class="product-thumbnail">
+                  <div class="kd-mobile-outter">
+                    <div class="kd-mobile-lable org-color">Limited Quantity Left</div>
+                  </div>
+                  <div class="product-image"> 
+                    <label class="kd-lable org-color">Limited Quantity<br>Left</label>
+                    <div class="pd-img-height">
+                      <img src="./images/tv-screen.png" alt="">
+                    </div>
+                    <!-- <div class="kd-card-mobile">
+                      <div class="kd-custom-checkbox" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox"  />
+                        <label for="checkbox-1">Compare</label>
+                      </div>
+                    </div> -->
+
+                    <div class="card-top-details kd-card-desktop">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Mini</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="product-detail">
+                    
+                    <div class="card-top-details kd-card-mobile">
+                      <p>Apple</p>
+                      <h2>iPhone 12 Pro Max</h2>
+                      <div class="class-review">
+                        <img src="./images/star.svg" alt=""> <span>4.4 (307)</span>
+                      </div>
+                    </div>
+                    <button class="btn btn-pc-1 buy-desktop-btn">Buy Now</button>
+                  
+                    <div class="kd-card-desktop">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="3">
+                        <input class="checkbox" type="checkbox" id="checkbox-83" name="checkbox">
+                        <label for="checkbox-83">Compare</label>
+                      </div>
+                      <!-- <div class="kd-custom-checkbox" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox"  />
+                        <label for="checkbox-1">Compare</label>
+                      </div> -->
+                    </div>
+                  
+                  </div>
+                  <!--mobile compare buttons-->
+                  <div class="col-12 mobile-btn-wrap-col">
+                    <div class="kd-card-mobile">
+                      <div class="custom-checkbox kd-custom-checkbox1" item-data-info="0">
+                        <input class="checkbox" type="checkbox" id="checkbox-87" name="checkbox">
+                        <label for="checkbox-87">Compare</label>
+                      </div>
+                    </div>
+                    <div class="kd-buy-btn-wrap">
+                      <button class="btn btn-pc-1">Buy Now</button>
+                    </div>
+                  </div>
+                  <!--end mobile compare buttons-->
+                </div>
+              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <footer class="main-footer">
+
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-lg-3 colunm-wrapper">
+                        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">Products</a></h3>
+
+                        <ul class="footer-links">
+                            <li><a href="">Smartphone</a></li>
+                            <li><a href="">Home Broadband</a></li>
+                            <li><a href="">SIM Card</a></li>
+                            <li><a href="">Tablet</a></li>
+                            <li><a href="">Gaming</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">E-cards</a></li>
+                            <li><a href="">Add-ons</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Plans</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">Pay Monthly</a></li>
+                            <li><a href="">Pay As You Go</a></li>
+                            <li><a href="">Roaming and International</a></li>
+                        </ul>
+                        <div class="d-none d-md-block">
+                            <h3 class="footer-title"><a href="">Zain Life</a></h3>
+                            <h3 class="footer-title"><a href="">Offers</a></h3>
+                            <h3 class="footer-title"><a href="">5G</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Support</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">Chat</a></li>
+                            <li><a href="">Locate A Branch</a></li>
+                            <li><a href="">Order Tracking</a></li>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Careers</a></li>
+                        </ul>
+
+                        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">Discover Zain</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">Discover Zain</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title connect">Connect With Us</h3>
+
+                        <ul class="socialmedia footer-links inline">
+                            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                        </ul>
+
+                        <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>My Zain</h3>
+
+                        <ul class="user footer-links">
+                            <li><a href="" class="cl-pc-3">Login</a></li>
+                            <li><a href="" class="cl-pc-3">Register</a></li>
+                        </ul>
+
+                        <div class="footer-seprator"></div>
+
+                        <div class="order-track">
+
+                            <h3 class="footer-title"></i>Track My Order</h3>
+
+                            <div class="form-group">
+                                <form>
+                                    <input type="text" name="" class="form-control" placeholder="Email Order Number"
+                                        id="">
+                                    <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid-custom">
+                <div class="footer-seprator"></div>
+            </div>
+
+            <div class="container copyright_sect">
+                <div class="row align-items-end">
+                    <div class="col-md-2 col-12">
+                        <div class="site-logo">
+                            <img src="./images/zain_logo.svg" alt="site_logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12">
+                        <ul class="footer-links inline mb-0">
+                            <li class="d-none d-md-inline-block">© Copyright © 2019 Zain All Rights Reserved</li>
+                            <li><a href="">POLICY</a></li>
+                            <li><a href="">TERMS & CONDITIONS</a></li>
+                            <li class="d-block d-md-none mt-4">© Copyright © 2019 Zain All Rights Reserved</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <div class="bottom-stripe payment-option-tab-group">
+            <div class="fixed-sect" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-pc-3 add-to-cart-btn" disabled="disabled">CONTINUE</button>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- body overlay -->
+        <div class="bodyoverlay"></div>
+        <!-- Footer Ends -->
+
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <script src="./js/css_browser_selector.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Scrollbar js -->
+            <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script>
+
+            <script type="text/javascript">
+
+            </script>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+.hotspot_routers.py-5 {
+    background: #F6F6F6;
+}
+
+.huawei_router img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.title_router {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #6F6F6F;
+    margin-top: 10px;
+}
+
+.huawei_router h2 {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2E2E2E;
+}
+
+.huawei_router p {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #6F6F6F;
+}
+
+.huawei_router h3 {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.huawei_router h3 span {
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+}
+
+.huawei_router h3 del {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #999999;
+}
+
+button.btn.btn_buy_now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    width: 100%;
+    height: 51px;
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #D12B8A;
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+    transition: .3s all ease-in;
+}
+
+.btn_buy_now:hover {
+    background-color: #D12B8A;
+    color: #fff !important;
+}
+
+
+.internet_devices h3 {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.internet_devices h2 {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.internet_devices p {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222C38;
+}
+
+.shop_all_btn {
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D12B8A;
+    text-decoration: none;
+    transition: .3s all ease-in;
+}
+
+.shop_all_btn {
+    opacity: 0.5;
+}

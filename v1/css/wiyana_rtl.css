@@ -1,0 +1,1370 @@
+[dir='rtl'] h2.wiyana_heading.hero_banner_heading{
+    text-align: right;
+}
+[dir='rtl'] .slider-btn-wrapper .secondary-button{
+    margin-right: 5px;
+}
+[dir='rtl'] .data_gb{
+    /* min-height: 52px; */
+}
+
+[dir='rtl'] .single_outer_product::before{
+    left: unset !important;
+    right: 0 !important;
+    border-radius: 8px 0px 0px 8px;
+}
+
+[dir='rtl'].limited_offer.single_outer_product::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    border-radius: 0;
+    left: 0px;
+    background: #70489D !important;
+}
+[dir='rtl'] .single_outer_product.limited_offer::before{
+    left: 0 !important;
+    right: unset !important;
+}
+[dir='rtl'].kw #wrapper .localminutes-ssection .accordion.features_accordian .card .card-header .btn-link:after{
+    right: unset !important;
+    left: 0 !important;
+}
+[dir='rtl'].kw #wrapper .localminutes-ssection .accordion.features_accordian .card .card-header .btn-link{
+    text-align: right;
+}
+[dir='rtl'] .benefits_tab ul li span{
+ margin-left: 0;
+ margin-right: 10px;
+}
+[dir='rtl'] .wiyana-experience{
+    background-position: center left !important;
+}
+[dir='rtl'] .products_single_slide .content_single_box h3{
+    line-height: 25px;
+}
+[dir='rtl'].kw #wrapper .wzp_evenmore_slider_sec .sale-price-cut {
+    line-height: 25px;
+}
+
+[dir='rtl'].kw #wrapper .tablets_stay_connected .subheading_ipad {
+    font-size: 24px;
+}
+[dir='rtl'].kw #wrapper .wzp_evenmore_slider_sec .product_button_box h3 {
+    line-height: 22px !important;
+}
+[dir='rtl'] .product_info_box h3{
+    font-size: 20px;
+}
+[dir='rtl'] .product_info_box img{
+    margin: 0 0px 0 7px !important;
+}
+[dir='rtl'].kw #wrapper .accordion.features_accordian .card .card-header .btn-link{
+    margin-left: 0px;
+    margin-right: 16px;
+}
+[dir='rtl'].kw #wrapper .also_get .accordion.features_accordian .card .card-header .btn-link{
+    margin-right: 0;
+}
+[dir='rtl'].kw #wrapper .local-minutes .accordion.features_accordian .card .card-header .btn-link{
+    margin-right: 0;
+    padding-left: 25px;
+}
+[dir='rtl'].kw #wrapper .accordion.features_accordian .card .card-header .btn-link{
+    padding-left: 25px;
+    padding-right: 0;
+}
+[dir='rtl'] .benefits_tab ul li span.loc-toggle-head{
+    margin-right: 0px;
+}
+[dir='rtl'] .youAlsoGet_flex_img{
+    margin-right: 0;
+}
+[dir='rtl'] .youAlsoGet_flex_img img{
+    margin-right: 0;
+    margin-left: 7px;
+}
+[dir='rtl'].kw #wrapper .accordion.features_accordian .card .card-body{
+    padding-right: 0 !important;
+}
+[dir='rtl'].kw #wrapper .wiyana-faq .accordion.features_accordian .card .card-header .btn-link{
+    padding-left: 0 !important;
+    transform: rotate(180deg);
+}
+[dir='rtl'].kw #wrapper .wiyana-faq .accordion.features_accordian .card .card-header .btn-link.collapsed{
+    transform: rotate(90deg);
+}
+
+body, .kw #wrapper span, .kw #wrapper a, .kw #wrapper p, .kw #wrapper label, .ff-rg, .kw #wrapper span, .kw #wrapper a, .kw #wrapper *{
+    font-family: 'qt_zaintextregular' !important;
+}
+[dir='rtl'].kw #wrapper .slide-content p, 
+[dir='rtl'].kw #wrapper .exp-content-wrap p,
+[dir='rtl'].kw #wrapper .wiyana-faq .card-header h4{
+    font-family: 'qt_zaintextregular' !important;
+}
+.kw #wrapper * .icon-add-2, .kw #wrapper * i{
+    font-family: "icomoon" !important;;
+}
+[dir='rtl'] .sepcial_tag{
+    right: unset !important;
+    left: 0;
+}
+[dir='rtl'] .sepcial_tag:before{
+    left: unset !important;
+    right: -24px;
+    transform: rotate(180deg);
+    border-bottom: 24px solid transparent;
+}
+[dir='rtl'] .slick-slide.single_outer_product{
+    display: block !important;
+}
+[dir="rtl"] .wiyana_go_card .heading_sec_wiyana .data_gb#data_gb {
+    font-family: 'NunitoSans-Regular' !important;
+}
+[dir="rtl"] .wiyana_go_card .heading_sec_wiyana .data_gb#data_gb span {
+    font-family: 'qt_zaintextregular' !important;
+    line-height: 14px !important;
+}
+[dir="rtl"].kw #wrapper .wiyana_slider .choose-wiyana-plan-slider .wiyana_go_card .benefits_tab {
+    min-height: 218px;
+}
+[dir="rtl"] .also_get .youalso-get-ssection p {
+    font-size: 14px !important;
+}
+[dir="rtl"] .product_slide_Section .wiyana_heading#semi_bold {
+    font-weight: 500 !important;
+}
+[dir="rtl"].kw #wrapper .products_zain_slider .single_outer_product .products_single_slide .product_info_box h3  {
+    align-items: center;
+}
+[dir="rtl"].kw #wrapper .products_zain_slider .single_outer_product .products_single_slide .product_info_box h3 img {
+    margin: 0 !important;
+    margin-left: 7px !important;
+}
+
+[dir="rtl"] .looking-device-row h2 {
+    font-family: "nunitosans-bold" !important;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-bottom: 15px;
+    font-weight: 500 !important;
+}
+[dir="rtl"].kw #wrapper .benefits-icons-wrap .digits {
+    font-family: 'NunitoSans-Bold' !important;
+}
+[dir="rtl"].kw #wrapper .heading_sec_wiyana .data_gb {
+    font-family: 'NunitoSans-Bold' !important;
+}
+[dir='rtl'].kw #wrapper .content_single_box h3 {
+    font-family: "nunitosans-bold" !important;
+}
+[dir='rtl'].kw #wrapper .content_single_box span {
+    font-family: 'NunitoSans-Regular' !important;
+}
+
+[dir='rtl'] .wiyana_slider .slick-slide {
+    float: right !important;
+}
+.wiyana_round_slider_section .slick-slide {
+    direction: rtl !important;
+}
+[dir='rtl'].kw #wrapper .smart_tv_slider .slick-next {
+    transform: rotateY(180deg);
+    left: 20px;
+    right: unset !important;
+}
+[dir='rtl'].kw #wrapper .smart_tv_slider .slick-prev {
+    right: unset !important;
+    left: 30px;
+    transform: rotateY(180deg);
+}
+[dir='rtl'].kw #wrapper .heading_sec_wiyana h3 {
+    font-family: 'qt_zaintextregular' !important;
+    font-weight: 200;
+}
+[dir='rtl'].kw #wrapper .reasons_to_join_wiyana .wiyana_heading {
+    font-weight: 300;
+}
+[dir='rtl'].kw #wrapper .wiyana-faq-main-heading .wiyana_heading {
+    font-weight: 300;
+}
+[dir='rtl'].kw #wrapper .zainplus_howwork_sec .btn_video_play img {
+    transform: rotate(-180deg);
+}
+
+[dir='rtl'].kw #wrapper .wiyana_slider .wiyana_heading,[dir='rtl'].kw #wrapper .product_slide_Section.wwi_latest_products_slider .product_slide_row .wiyana_heading {
+    font-weight: 300;
+}
+
+[dir='rtl'].kw #wrapper .wiyana_heading.heading_right_sepcial {
+    padding-left: 15px !important;
+    font-weight: 300;
+}
+[dir='rtl'].kw #wrapper .internet_devices h3 {
+    font-weight: 300;
+}
+[dir='rtl'].kw #wrapper .internet_devices h2 {
+    font-size: 32px;
+    line-height: 45px;
+}
+[dir='rtl'].kw #wrapper h2.main_heading_ipad {
+    font-size: 32px;
+}
+[dir='rtl'].kw #wrapper .wzp-heading-wrap h2 {
+    font-size: 38px;
+    font-weight: 300;
+}
+[dir='rtl'].kw #wrapper .huawei_router h3 del {
+    margin-right: 5px;
+}
+[dir='rtl'].kw #wrapper .tbc_product_img .btn {
+
+    right: unset;
+    left: 0;
+ 
+}
+[dir='rtl'].kw #wrapper .content_slide_round .wiyana_price_content {
+    margin-top: 15px !important;
+}
+[dir='rtl'].kw #wrapper .wh_slider_main_content .sm_discount_price {
+    margin-right: 10px !important;
+    font-size: 22px !important;
+} 
+[dir='rtl'].kw #wrapper .wh_slider_main_content .sm_discount_price span {
+    font-size: 22px !important;
+}    
+.smart_slider_content h3 .sm_discount_price {
+    margin-right: 15px;
+    margin-left: 0px;
+}
+[dir='rtl'].kw #wrapper .wiyana_round_slider_section .main_heading_ipad {
+    max-width: 390px;
+}
+[dir='rtl'].kw #wrapper .huawei_router h2,[dir='rtl'].kw #wrapper .huawei_router h3 {
+    font-size: 20px;
+}
+[dir='rtl'] .ezee_tabs_section .checkboxes_prpr label{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+[dir='rtl'].kw #wrapper h2.title_gaming_txt, [dir='rtl'].kw #wrapper h3.subheading_gaming_txt {
+    font-size: 38px;
+}
+[dir='rtl'].kw #wrapper .products_zain_slider .content_single_box h4 span {
+
+    font-family: "qt_zaintextregular" !important;
+}
+
+[dir='rtl'].kw #wrapper .stay_connected_slider h4 span, [dir='rtl'].kw #wrapper .stay_connected_slider del span{
+    font-family: "qt_zaintextregular" !important;
+}
+[dir='rtl'] .box_master_outter.nobais_wix .content_box_wiy.nobais {
+    border-right: 0 !important;
+    border-left: 1px solid #E5E5E5 !important;
+}
+[dir='rtl'] .box_master_outter.nobais_wix .content_box_wiy:last-child {
+    border: 0 !important;
+}
+[dir='rtl'] .wiyana_banner_master {
+    background-image: url("../images/wiyana_bg_master_1-ar.png");
+}
+[dir='rtl'] .wiyana_banner_master_2 {
+    background-image: url("../images/wiyana_bg_master_2-ar.png");
+}
+[dir='rtl'] .wiyana_banner_master_3 {
+    background-image: url("../images/wiyana_bg_master_3-ar.png");
+}
+[dir='rtl'].kw #wrapper .wiyana_choose_master_filter_btns_top .btn {
+    font-family: 'qt_zaintextregular' !important;
+}
+[dir='rtl'].kw #wrapper .wiyanna_banner_heading h2 span{
+    font-size: 41px;
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+}
+[dir='rtl'] .wiyanna_banner_heading h2 span::before{
+    bottom: 3px;
+}
+[dir='rtl'] .wearable_slider_nav .slick-slide {
+    float: right !important;
+}
+[dir='rtl'] .wearable_slider_nav .slick-next {
+    right: inherit;
+    left: 13%;
+    transform: rotate(180deg);
+}
+[dir='rtl'].kw #wrapper .heading__tablets_conected .content_single_box span {
+    font-family: 'qt_zaintextregular' !important;
+}
+[dir='rtl'].also_get_title, .benefits_tab h3 {
+    font-size: 19px;
+}
+[dir="rtl"].images-wrap img {
+    margin-right: unset;
+    margin-left: 10px;
+}
+[dir="rtl"].kw #wrapper .product_info_box h3 span {
+    font-family: 'nunitosans-bold' !important;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D12B8A;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+[dir="rtl"].kw #wrapper .simeeZee .eeZee-generic-style h2 {
+    font-weight: 500;
+    line-height: 40px;
+}
+[dir="rtl"] .icon-play-filled{
+    transform: rotate(180deg);
+}
+[dir="rtl"] .showbiz-icons{
+    margin-left: 0;
+    margin-right: 35px;
+}
+[dir="rtl"] .main-header{
+    position: fixed;
+    width: 100%;
+}
+[dir="rtl"].kw #wrapper .ezee_ar_btn_wrap .secondary-button {
+    font-size: 16px !important;
+}   
+[dir="rtl"].kw #wrapper .eezee-slider-style .benefits_tab .benefits-icons-wrap {
+    justify-content: right !important;
+}
+[dir="rtl"].kw #wrapper .ar_looking_adjust .secondary-button {
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+}
+
+[dir="rtl"] .content_inner_banner_prr {
+    padding-right: 20px;
+}
+
+ .subheading_ipad {
+    font-weight: 400 !important;
+}
+
+:root {
+    --screen-x: 20px;
+    --spacing-L: 1260px;
+  }
+
+  .benefits_tab {
+    min-height: 229px;
+}
+
+.outter_ezee_pills .nav-pills.ezee_nav_tabs {
+    /* max-width: 660px; */
+    max-width: fit-content;
+}
+
+
+[dir="rtl"].kw #wrapper .with-wiyana-internet .box_outter_wiy .content_box_wiy .desk-head  {
+    font-size: 26px;
+}
+[dir="rtl"].kw #wrapper .with-wiyana-internet .box_outter_wiy .content_box_wiy p  {
+    font-size: 18px;
+}
+[dir="rtl"].kw #wrapper .banner_wiyana_prc .banner_img_wiyana_prr.banner_img_wiyana_prr_desk .content_inner_banner_prr p {
+    font-size: 22px !important;
+}
+[dir="rtl"].kw #wrapper .banner_wiyana_prc .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+    font-size: 28px;
+}
+[dir="rtl"] .mylines-page {
+    overflow: hidden !important;
+}
+.with-wiyana.section-padding .wiyana-box p {
+    font-size: 22px !important;
+  
+}
+.gaming_product img {
+    margin-left: 50px;
+}
+
+.zainplus_howwork_sec h2 {
+    font-size: 38px;
+}
+[dir="rtl"].kw #wrapper .smart_tv_slider .smart_tv_slider_outer .smart_single_slide .mob_rev_row .smart_slider_content .content_1 h2 {
+    font-family: 'nunitosans-semibold' !important;
+}
+[dir="rtl"].kw #wrapper .products_single_slide .product_info_box.wzp_info_box .eng {
+    font-family: 'NunitoSans-Bold' !important;
+}
+.products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box h3 {
+    margin-top: -10px !important;
+}
+
+.wzp_evenmore_slider_sec .products_zain_slider.wzp_evenmore_pro_slider .single_outer_product 
+.products_single_slide .content_single_box h3 {
+    font-size: 20px !important;
+}
+.wzp_evenmore_slider_sec .sale-price-cut{
+    font-size: 16px !important;
+}
+
+.hotspot_routers .mobile_rev_row .huawei_router h3 del {
+    font-size: 16px !important;
+}
+.hotspot_routers .mobile_rev_row .huawei_router h3 {
+    font-size: 20px !important;
+}
+
+.tablets_stay_connected .heading__tablets_conected .stay_connected_slider .products_single_slide .content_single_box del {
+    font-size: 16px;
+}
+.tablets_stay_connected .heading__tablets_conected .stay_connected_slider .products_single_slide .content_single_box h4 {
+    font-size: 24px !important;
+}
+.wiyana_round_slider_section .wiyana_round_slider .slide_single .content_slide_round h3 {
+    font-size: 24px !important;
+}
+.wiyana_round_slider_section .wiyana_round_slider .slide_single .content_slide_round .price_indent {
+    font-size: 16px !important;
+}
+
+
+.ezee_nav_tabs li .nav-link {
+    font-size: 14px;
+}
+.ezee_tabs_section .benefits_tab h3 {
+    font-size: 14px;
+}
+.ezee_tabs_section  .benefits_menu_2 span {
+    font-size: 18px;
+}
+.ezee_tabs_section .pricing_card_buy p {
+    font-size: 16px !important;
+}
+.ezee_tabs_section .pricing_card_buy p .color-purp {
+    font-size: 18px !important;
+}
+
+.ezee_tabs_section.weze_tabs_section .pricing_card_buy p:last-child {
+    font-size: 17px !important;
+}
+.ezee_tabs_section .checkboxes_prpr label {
+    font-size: 18px !important;
+}
+.ezee_nav_tabs li .nav-link.active {
+    padding: 12px 41px;
+}
+
+.ezee_nav_tabs li .nav-link {
+    font-size: 18px;
+}
+.ezee_tabs_row.wiyana_mx_width {
+    max-width: 100%;
+}
+
+.shop_all_btn .icon-arrow-double {
+    transform: rotateY(180deg);
+    font-size: 9px;
+    margin-right: 3px;
+}
+
+
+.shop_all_anchor .icon-arrow-double, .shop_all_btn_btn .icon-arrow-double{
+    transform: rotateY(180deg);
+    font-size: 9px;
+    margin-right: 3px;
+}
+.btn_video_play .icon-play {
+    margin-left: unset;
+    margin-right: 5px;
+    font-size: 12px;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+.smart_tv_content_wrap {
+    max-width: 100%;
+}
+.wiyana_round_slider_section .txt_paragraph {
+    max-width: 600px;
+}
+
+.eezee_flexi .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+    font-size: 28px !important;
+}
+
+.hotspot_routers .mobile_rev_row .internet_devices h3 {
+        font-size: 24px;
+}
+
+.tablets_stay_connected .heading__tablets_conected .main_heading_ipad {
+    font-size: 32px !important;
+}
+
+.wiyana_round_slider_section .subheading_ipad, .wearable_section .main-content-wrap .subheading_ipad {
+    font-size: 24px;
+}
+.smart_tv_section .smart_tv_content_wrap .txt_paragraph {
+    font-size: 24px !important;
+}
+.product_slide_Section.wzp_product_slider_sec .single_outer_product .products_single_slide .content_single_box.wzp_single_box p {
+    font-size: 16px !important;
+}
+
+.products_zain_slider .single_outer_product .products_single_slide .product_info_box.wzp_info_box span {
+    font-size: 14px !important;
+}
+.product_slide_Section.wzp_product_slider_sec .single_outer_product .products_single_slide .product_button_box .sale-price-cut {
+    font-size: 16px !important;
+}
+
+.product_slide_Section.wzp_product_slider_sec .products_zain_slider.wzp_pro_slider .product_button_box h3 b {
+    font-size: 24px !important;
+}
+
+.product_slide_Section.wzp_product_slider_sec .products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box p {
+    font-size: 16px !important;
+}
+.content_silde_xrm_manage {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+/* new mobile rtl */
+
+.new_discounted_img img {
+    display: inline;
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+
+.kw #wrapper .benefits_menu .new_digits_offer {
+    font-family: 'nunitosans-bold' !important;
+}
+
+.wiyana_top_tag_upgrande h3 {
+    font-weight: 400;
+}
+
+.wiyana_go_card .new_gb_line {
+    margin-left: 3px;
+    margin-right: unset;
+}
+
+
+
+.choose-wiyana-plan-slider.wiyana_mbl_slide, .choose-wiyana-plan-slider.wwi_internet_mbl {
+    margin-right: unset;
+
+}
+
+.wiyana_top_tag_plan h3 {
+    font-size: 18px;
+}
+
+.wiyana_go_card .new_gb_line {
+    line-height: 19px !important;
+}
+
+.wiyana_top_tag_plan h3 {
+
+    font-size: 18px;
+  }
+
+  .eezee-banner.weze_desk_hero.banner_hero_ezee_flex .ezee-banner-txt p {
+    font-weight: 400;
+    line-height: 42px;
+  }
+  .eezee-banner.weze_desk_hero.banner_hero_ezee_flex .ezee-banner-txt h1 {
+      line-height: 71px;
+      font-weight: 400;
+  }
+  .text_ezee_5g_inner .top_ezee_heading, .list_flexi_5g ul li .flanks_content_list .list_top_heading,
+  .customize_your_plan .custommize_inner_box .custommize-top-left h2, .title__extra, .customize_your_plan .addons_option h3,
+  .info_ezee_flexi h2, .content_crousal_main_5g h2, .eezee_flexi .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+      font-weight: 400;
+  }
+  .kw #wrapper .list_flexi_5g ul li .list_numbers_counter {
+    margin-right: unset;
+    margin-left: 15px;
+    font-family: 'nunitosans-bold' !important;
+    }
+    .kw #wrapper .custommize-top-left .pricing .price__zain .price__zain-span {
+      font-family: 'nunitosans-Semibold' !important;
+    }
+    .kw #wrapper .range-bar-style .rs-tooltip {
+       font-family: 'qt_zaintext_bold_pcbold' !important;
+       font-weight: 400;
+
+    }
+    .kw #wrapper .range-bar-style .rs-tooltip div {
+        font-family: 'nunitosans-bold' !important;
+    }
+    .custom-switch.extra-switch2.extra_switch_flexi {
+        margin-right: 16px;
+        margin-left: 30px;
+    }
+    [dir="rtl"] .custom-switch .custom-switch-input + .custom-switch-btn {
+        width: 50px !important;
+        height: 22px !important;
+    }
+    .content_crousal_main_5g p {
+        text-align: right;
+    }
+    .kw #wrapper .content_mobile_wrapper_inner .upper_txt_wrap {
+        font-family: 'NunitoSans-Regular' !important;
+    }
+    .kw #wrapper .content_mobile_wrapper_inner .main_name_items {
+        font-family: 'nunitosans-bold' !important;
+    }
+    .kw #wrapper .custommize-top-left h2 small {
+        display: block;
+        font-family: 'NunitoSans-Bold' !important;
+    }
+    .kw #wrapper .custommize_inner_box .custommize-top-left .pricing p {
+        font-size: 22px;
+        line-height: 24px;
+        color: #999999;
+    }
+    .text_ezee_5g_inner .ezee_main_gradient {
+        line-height: 120px;
+    }
+
+    .ezee-flex-col h2 {
+        font-size: 77px;
+    }
+    .eezee_prepaid .span_divider h3, .wiyana_slider.choose_wiyana_master .choose_mob_master_heading .txt_wiyana_master_cards,
+    .ezee_tabs_section.weze_tabs_section.bg_eeze_master .wiyana_heading, .ezee_tabs_section .benefits_tab h3,
+    .ezee_tabs_section .benefits_tab ul li span, .wiyana-experience .exp-content-wrap h2, .tabbable-line .osn_plus_tabs .nav-tabs.osn__tabs li .tab_title,
+    .range_bar h2, .range_bar h3, .custommize-top-left .pricing .price__zain,
+    .pricing .price__zain  {
+        font-weight: 400;
+    }
+    .customize_your_plan .custommize_inner_box .addons_option .custom-switch.extra-switch {
+        margin-left: 30px;
+    }
+    .kw #wrapper .wiyanna_border_master h2 span {
+        font-family: 'qt_zaintext_bold_pcbold' !important;
+        font-weight: 400;
+      }
+
+      .wiyanna_border_master h2 span::before {
+        right: 0;
+        left: unset; 
+   }
+   .content_crousal_main_5g h2 {
+       font-size: 32px !important;
+   }
+   .content_crousal_main_5g p,
+   .content_crousal_main_5g .shop_all_anchor {
+       font-size: 18px !important;
+   }
+   .text_ezee_5g_inner {
+    margin-top: -140px;
+    }
+    .kw #wrapper .benefits_tab ul li .offer_new_digits_line {
+        margin-right: 4px;
+        margin-left: unset ;
+    }
+    .kw #wrapper .custommize-top-left .button-zain button, .kw #wrapper .button-zain.mobile_slider_buy .my_zain_btn,
+    .kw #wrapper .customize-mobile-pricing .button-zain .my_zain_app,  .kw #wrapper  .customize-mobile-pricing .button-zain .my_zain_btn {
+        font-family: 'qt_zaintext_bold_pcbold' !important;
+    }
+
+    .addon_outter_wrap_single {
+        margin-right: 21px;
+        margin-left: unset;
+    }
+    .addon_single_outter .single_content_addon {
+        margin-right: 36px;
+        margin-left: unset;
+    }
+    .kw #wrapper .single_price_single button.addon_add_button.active {
+        font-family: 'qt_zaintext_bold_pcbold' !important;
+    }
+    .product_input_select_wrap .select_wrap_single  .form-select.form_gb.ltr {
+        direction: ltr;
+    }
+
+    .kw #wrapper .arrow_mobile_ezee_left.slick-prev {
+        transform: rotate(180deg) translateY(50%) !important;
+        background: transparent !important;
+        cursor: pointer;
+        position: absolute;
+        top: 60%;
+        right: -70px;
+        left: unset;
+      }
+      .kw #wrapper .arrow_mobile_ezee_right.slick-next {
+        transform: rotate(0deg) translateY(-50%) !important;
+        background: transparent !important;
+        cursor: pointer;
+        position: absolute;
+        top: 60%;
+        right: unset;
+        left: -70px;
+      }
+      .list_flexi_5g ul li .flanks_content_list .list_para_bottom {
+          line-height: 48px;
+      }
+
+      .content_mobile_wrapper_inner {
+        left: unset;
+        right: -150px;
+    }
+    .ezee-flex-col.new_flex_content h2 {
+        line-height: 150px;
+
+    }
+
+    .ot-plan-type .payment-box .custom-radio {
+        margin-top: 0;
+        margin-left: 50px;
+        margin-right: unset;
+    }
+
+    .kw #wrapper .product_input_select_wrap .select_wrap_single .form-select {
+        max-width: 100%;
+    }
+    .kw #wrapper .custom-radio.outbound input+label {
+        font-size: 16px !important;
+        font-family: 'qt_zaintext_bold_pcbold' !important;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-right: unset;
+        padding-right: 38px;
+    }
+    .kw #wrapper .cl-custom-check + .cl-custom-check-label {
+        font-family: 'NunitoSans-Regular' !important;
+    }
+    .kw #wrapper .main_table table thead tr th, .kw #wrapper .list_box ul li a, .kw #wrapper .device_search h2 {
+        font-family: 'nunitosans-SemiBold' !important;
+    }
+   
+  @media(min-width: 1200px) {
+    .smart_tv_slider {
+        padding-right: calc(calc(var(--screen-x) - 1048px)/2) !important;
+        padding-left: 0 !important;
+    }
+  }
+  @media(min-width: 1440px) {
+    .smart_tv_slider {
+        padding-right: calc(calc(var(--screen-x) - 1260px)/2) !important;
+        padding-left: 0 !important;
+    }
+      
+  }
+
+
+  @media(min-width: 1600px) {
+    .smart_tv_slider {
+        padding-right: calc(calc(var(--screen-x) - 1470px)/2) !important;
+        padding-left: 0 !important;
+    }
+  }
+
+
+@media(max-width:1200px) {
+
+    .customize_your_plan .custommize_inner_box .addons_option .custom-switch.extra-switch {
+        margin-left: 0px;
+    }
+    .custom-switch.extra-switch2.extra_switch_flexi {
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .gaming_product img {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 767px){
+    [dir='rtl'] .ezee_tabs_section .checkboxes_prpr label{
+        font-size: 14px !important;
+    }
+    [dir='rtl'] .simeeZee-left-text {
+        text-align: right !important;
+    }
+    [dir="rtl"] .product_slide_Section .product_info_box h3{
+        font-size: 18px !important;
+    }
+    [dir="rtl"].kw #wrapper .wiyana_slider.choose_wiyana_master.wiyana_filter_section .wiyana_go_card .benefits_tab {
+        min-height: 166px !important;
+    }
+    .kw #wrapper .progress_new_checkout_zain .progress-status.extras.delivery_st .step:first-child::after {
+        content: none !important;
+    }
+    .kw #wrapper .progress_new_checkout_zain .progress-status.extras .step:last-child:after {
+        content: none !important;
+    }
+    .ezee-flex-col.new_flex_content h2 {
+        line-height: 60px;
+    }
+    .banner_hero_ezee_flex {
+        background-image: url('../images/mobile_ezee_fliped.png') !important;
+    }
+    .list_flexi_5g ul li .flanks_content_list .list_para_bottom {
+        line-height: 18px;
+    }
+    .order_summary_mob_list li p {
+        font-size: 16px !important;
+    }
+    .kw #wrapper .customize-mobile-pricing .button-zain .my_zain_app,  .kw #wrapper  .customize-mobile-pricing .button-zain .my_zain_btn {
+        font-size: 16px !important;
+        line-height: 16px;
+    }
+    .text_ezee_5g_inner {
+        margin-top: -70px;
+    }
+    .content_mobile_wrapper_inner {
+        left: unset;
+        right: -90px;
+    }
+    .content_crousal_main_5g h2 {
+        font-size: 20px !important;
+    }
+    .weze_featured_blocks.master_blocks_flexi .wiyana-box h2 {
+        font-size: 24px;
+    }
+    .weze_featured_blocks.master_blocks_flexi .wiyana-box p {
+        font-size: 18px !important;
+    }
+    .ezee-flex-col.new_flex_content h2 {
+        padding-bottom: 20px !important;
+    }
+    .kw #wrapper .pricing .price__zain .price__zain-span {
+        font-family: 'NunitoSans-SemiBold' !important;
+    }
+    .kw #wrapper .wiyana_slider.choose_wiyana_master.wiyana_filter_section .wiyana_go_card .benefits_tab {
+        min-height: 136px !important;
+    }
+    .zain_flexi_mobile .info_ezee_flexi h2 {
+        line-height: 55px;
+        text-align: center;
+    }
+    .kw #wrapper .eezee_prepaid .span_divider {
+        padding-bottom: 0px !important;
+        padding-top: 40px !important;
+    }
+    .kw #wrapper .eezee_prepaid .ezee-flex-col p {
+        font-size: 14px;
+        line-height: 23px;
+        color: #2E2E2E;
+        
+    }
+    .kw #wrapper  .eezee_prepaid {
+        padding: 50px 0;
+    }
+    .kw #wrapper .eezee_prepaid .span_divider p {
+        font-size: 18px !important;
+    }
+    .ezee-flex-col h2 {
+        font-size: 46px !important;
+        line-height: 69px;
+        padding: 0px 0 15px;
+    }
+    .text_ezee_5g_inner .ezee_main_gradient {
+        line-height: 70px;
+    }
+    .wwi_choose_slider_btnwrap.mbl_scroll {
+        padding-right: 0px;
+    }
+    .slider-btn-wrapper.wwi_wrap_btn_three {
+        display: block;
+        white-space: nowrap;
+    }
+    .slider-btn-wrapper.wwi_wrap_btn_three .left-btn-wrap, .slider-btn-wrapper.wwi_wrap_btn_three .right-btn-wrap {
+        display: inline-block;
+    }
+    .slider-btn-wrapper.wwi_wrap_btn_three .left-btn-wrap .secondary-button, 
+    .slider-btn-wrapper.wwi_wrap_btn_three .right-btn-wrap .secondary-button {
+        min-width: 100px;
+        padding: 10px 13px !important;
+    }
+    .choose-wiyana-plan-slider.wiyana_mbl_slide, .choose-wiyana-plan-slider.wwi_internet_mbl {
+        margin-left: -8px;
+    }
+
+.kw #wrapper .wiyana_go_card .new_gb_line {
+    line-height: 30px !important;
+}
+
+    .wwi_wrap_btn_three div:first-child {
+        margin-left: unset;
+        margin-right: 0px;
+    }
+    .wearable_slider_nav .slick-slide {
+        margin-right: 22px;
+        margin-left: unset;
+    }
+ 
+    .looking-device-row.eeZee-looking-device-row .btn-wrapper .secondary-button:first-child {
+        margin-right: unset;
+        margin-left: 8px;
+    }
+    .kw #wrapper .wzp-steps-wrap p {
+        font-size: 16px !important;
+    }
+    .smart_tv_section .smart_tv_content_wrap .shop_all_anchor {
+        margin-top: 0px;
+    }
+    .wearable_section .main-content-wrap .main_heading_ipad {
+        font-size: 20px !important;
+    }
+    a.shop_all_anchor {
+        line-height: 20px;
+    }
+    .product_slide_Section.wzp_product_slider_sec .products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box p {
+        font-size: 16px !important;
+    }
+    .wzp_evenmore_slider_sec .product_button_box p {
+        font-size: 16px !important;
+    }
+    .smart_tv_section .smart_tv_content_wrap .txt_paragraph {
+        font-size: 14px !important;
+    }
+    .eezee_flexi .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+        font-size: 18px !important;
+    }
+    
+    .products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box p {
+        color: #6F6F6F !important;
+    }
+
+    .wiyana-zain-plus-about .wzp_steps_row .wzp-steps-wrap p {
+        font-size: 16px !important;
+    }
+    .ezee_tabs_section.weze_tabs_section .pricing_card_buy p:last-child {
+        font-size: 14px !important;
+    }
+    .ezee_tabs_section.weze_tabs_section .benefits_tab h3 {
+        font-size: 14px !important;
+    }
+
+    .ezee_tabs_section.weze_tabs_section .outter_ezee_pills  {
+        margin-right: unset;
+        margin-left: -15px;
+    }
+    
+
+    .ezee_nav_tabs li .nav-link.active {
+        padding: 5px 31px;
+    }
+    .ezee_tabs_section .checkboxes_prpr label {
+        font-size: 16px !important;
+    }
+    .wiyana_round_slider_section .wiyana_round_slider .slide_single .content_slide_round .price_indent {
+        font-size: 12px !important;
+    }
+    
+
+    .wiyana_round_slider_section .wiyana_round_slider .slide_single .content_slide_round h3 {
+        font-size: 16px !important;
+    }
+
+
+   
+    .products_zain_slider.wzp_pro_slider .single_outer_product 
+    .products_single_slide .content_single_box.wzp_single_box span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .products_zain_slider.wzp_pro_slider .single_outer_product 
+    .products_single_slide .product_info_box.wzp_info_box span {
+        font-size: 14px;
+    }
+    .products_zain_slider.wzp_pro_slider .single_outer_product 
+    .products_single_slide .product_button_box h3 b {
+        font-size: 24px !important;
+    }
+    .products_zain_slider.wzp_pro_slider .single_outer_product 
+    .products_single_slide .product_button_box p {
+        font-size: 16px !important;
+    }
+    .product_slide_Section.wzp_product_slider_sec .single_outer_product .products_single_slide .content_single_box.wzp_single_box p {
+        font-size: 16px !important;
+    }
+
+    .wzp_product_slider_sec .products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box .sale-price-cut{
+        font-size: 16px !important;
+    }
+    .product_slide_Section.wzp_product_slider_sec .products_zain_slider.wzp_pro_slider .single_outer_product .products_single_slide .product_button_box h3 b {
+        font-size: 24px !important;
+    }
+
+    .wzp-steps-wrap .wzp-steps {
+        font-size: 14px;
+    }
+    .wzp-steps-wrap p {
+        font-size: 16px !important;
+    }
+    .smart_slider_content h3 .sm_discount_price {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    [dir='rtl'].kw #wrapper .wh_slider_main_content .sm_discount_price {
+        font-size: 12px !important;
+    }  
+    [dir='rtl'].kw #wrapper .wh_slider_main_content .sm_discount_price span {
+        font-size: 12px !important;
+    }  
+.hotspot_routers .mobile_rev_row {
+    flex-direction: column-reverse;
+    gap:50px;
+}
+.zainplus_howwork_sec h2 {
+    font-size: 22px;
+}
+    [dir="rtl"].kw #wrapper .banner_wiyana_prc .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+        font-size: 18px;
+    }
+    .wwi_latest_products_slider .wiyana_heading {
+        padding-right: 0px;
+        padding-left: 8px;
+    }
+    .with-wiyana.section-padding .wiyana-box p {
+        font-size: 16px !important;
+      
+    }
+    .reasons_to_join_wiyana .txt_osn_tab p {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+
+    .products_single_slide .product_button_box h3 {
+        font-size: 21px !important;
+    }
+    .products_zain_slider.wzp_evenmore_pro_slider .products_single_slide .product_button_box h3 b {
+        font-size: 24px !important;
+    }
+    .heading_sec_wiyana .friends_fam {
+        font-size: 14px !important;
+    }
+    [dir="rtl"].kw #wrapper .wiyana_slider.container-padding.section-padding.wwi_slider .wiyana_heading {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+    [dir="rtl"].kw #wrapper .banner_wiyana_prc .banner_content_wiyana_prr .heading__zain__plus__prr p {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+    [dir='rtl'].kw #wrapper .wiyana_slider.eeZees_slider.wwi_slider .wiyana_heading {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    [dir='rtl'] .ezee-banner-txt h1 {
+        margin-right: 0;
+        margin-left: auto;
+    }
+    [dir='rtl'] .weze_checkboxes_col2 .outter_input_prpr .checkboxes_prpr {
+        margin-left: 0px !important;
+        margin-right: 18px !important;
+    }
+    [dir='rtl'].kw #wrapper .stay_connected_slider .single_outer_product .products_single_slide .content_single_box .apple_ipad_title {
+        margin-bottom: 14px !important;
+    }
+    [dir='rtl'].kw #wrapper .smart_tv_section .smart_nopadd_cont1 .smart_tv_slider_row .smart_tv_slider .smart_tv_slider_outer .smart_single_slide .mob_rev_row .sm_btn_wrap {
+        text-align: left;
+    }
+    [dir='rtl'].kw #wrapper .gaming_section.gaming_mobile_section .subheading_gaming_txt, 
+    [dir='rtl'].kw #wrapper .gaming_section.gaming_mobile_section .title_gaming_txt  {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    [dir='rtl'].kw #wrapper .smart_tv_section .smart_tv_content_wrap .main_heading_ipad {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    [dir='rtl'].kw #wrapper .smart_tv_section .smart_tv_content_wrap .txt_paragraph {
+        line-height: 32px;
+    }
+    [dir='rtl'].kw #wrapper .tablets_stay_connected .heading__tablets_conected .main_heading_ipad,
+    [dir='rtl'].kw #wrapper .wiyana_round_slider_section .main_heading_ipad {
+        font-size: 20px !important;
+        line-height: 28px;
+    }
+ 
+    .wiyana_round_slider_section .main-content-wrap .shop_all_anchor {
+        line-height: 20px;
+    }
+    [dir='rtl'].kw #wrapper .wiyana_round_slider_section .subheading_ipad {
+        font-size: 14px;
+    }
+    [dir='rtl'].kw #wrapper .wiyana_round_slider_section .main_heading_ipad {
+        max-width: 220px;
+    }
+    [dir='rtl'].kw #wrapper .tablets_stay_connected .subheading_ipad {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    [dir='rtl'].kw #wrapper .internet_devices h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    [dir='rtl'].kw #wrapper .internet_devices h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    [dir='rtl'].kw #wrapper .wzp-heading-wrap h2 {
+        font-size: 20px !important;
+    }
+    .images-wrap img {
+        margin-right: unset !important;
+        margin-left: 10px !important;
+    
+    }
+    [dir='rtl'] .products_single_slide .content_single_box h3 {
+        line-height: 25px;
+    }
+    
+    [dir="rtl"].kw #wrapper .product_info_box h3 span {
+        font-size: 20px !important;
+    }
+    [dir="rtl"] .looking-device-row h2 {
+        line-height: 32px;
+    }
+    [dir="rtl"].kw #wrapper .heading_sec_wiyana .data_gb {
+        margin-bottom: 5px;
+    }
+    [dir='rtl'].kw #wrapper .wiyana_slider .wiyana-cards-privacy-text {
+        padding-left: 15px !important;
+        font-family: 'qt_zaintext_bold_pcbold' !important;
+        font-weight: 400;
+        font-size: 14px !important;
+    }
+    [dir='rtl'] .ultra-fast-content h2{
+        font-size: 22px !important;
+    }
+    [dir='rtl'] .ultra-fast-content p{
+        font-size: 20px !important;
+    }
+    [dir='rtl'] .box_master_outter.nobais_wix .content_box_wiy.nobais{
+        border-left: 0px solid #E5E5E5 !important;
+    }
+    [dir='rtl'] .box_master_outter.nobais_wix .content_box_wiy.nobais {
+        border: 0 !important;
+    }
+    [dir='rtl'].kw #wrapper .wiyana_round_slider_section .container {
+        padding-right: 15px !important;
+        padding-left: 0px !important;
+    }
+
+    [dir="rtl"] .looking-device-row h2 {
+        font-size: 25px !important;
+    }
+    [dir='rtl'].also_get_title, .benefits_tab h3 {
+        font-size: 18px !important;
+    }
+    [dir='rtl'].kw #wrapper .benefits_tab ul li  {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 992px) {
+
+    [dir='rtl'] .data_gb{
+        margin-top: 6px;
+        line-height: 35px !important;
+        /* min-height: 75px; */
+    }
+    [dir='rtl'] .wiyana_slider .container-fluid, [dir='rtl'] .wiyana_slider.container-padding{
+        padding-right: 8px !important;
+        padding-left: 0px !important;
+    }
+    
+    .product_slide_Section.section-padding .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+
+
+
+.wearable_slider_for > div:nth-child(1n+2) { display: none }
+        
+.wearable_slider_for.slick-initialized > div:nth-child(1n+2) { display: block }
+.wearable_slider_for h3 {
+    line-height: 10rem;
+}
+
+.wearable_slider h3::before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+@media screen and (min-width: 991px) {
+    .wearable_slider_nav .slick-list{
+        padding:0 0% 0 35% !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .wearable_slider_nav .slick-list{
+        padding:0 0% 0 55% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1279px){
+    [dir="rtl"] .custommize_inner_box .addons_option .custom-switch{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 767px) {
+    [dir="rtl"] .ezee-flex-col.new_flex_content h2 {
+        font-size: 36px !important;
+        line-height: 36px !important;
+    }
+    .kw #wrapper .wiyana_slider .wiyana_para {
+        font-size: 15px !important;
+    }
+    .wearable_slider_nav .slick-list{
+        padding:0 0% 0 25% !important;
+    }
+}
+
+.wearable_slider h3 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wearable_slider .slick-slide { cursor: pointer; }
+
+.wearable_slider.is-active h3 {
+    color: #c00;
+    background-color: #fff
+}
+@media (min-width: 1396px) and (max-width: 1439px){
+    [dir='rtl'] .product_slide_Section .product_info_box h3 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    [dir='rtl'] .box_outter_wiy .mob-head {
+        text-align: right !important;
+    }
+    [dir='rtl'] .wiyana-page header {
+        overflow: inherit !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    [dir='rtl'] .box_master_outter.nobais_wix .content_box_wiy.nobais {
+        border-right: 0 !important;
+        border-left: 0 !important;
+    }
+    [dir='rtl'] .simeeZee-left-text {
+        text-align: right !important;
+    }
+    [dir='rtl'] .simeeZee-right-text {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    [dir='rtl'] .content_box_wiy p {
+        text-align: right !important;
+    }
+    [dir="rtl"].kw #wrapper .banner_wiyana_prc .banner_content_wiyana_prr .heading__zain__plus__prr h3 {
+        line-height: 40px;
+    }
+}
+
+
+
+[dir=rtl] .yag-box-icon {
+    margin-right: 0;
+    margin-left: 30px;
+}
+[dir=rtl] .eligibility-rule .order-tracking-popup-header .popup-title {
+    text-align: right;
+}
+[dir=rtl] .eligibility-rule .close-tracking {
+    left: 20px !important;
+}
+html[dir=rtl].kw #wrapper .search_box h2 {
+    text-align: right;
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+
+[dir=rtl] .device_search {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+[dir=rtl] .tables_wrapper_right {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 8px;
+}
+
+[dir=rtl] .total_price_wrap {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+}
+
+[dir=rtl] .table_wrap_head {
+    text-align: right;
+}
+[dir=rtl] .search_box .search-autocomplete input::placeholder {
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+html[dir=rtl].kw #wrapper 
+ .device_search .search-autocomplete button {
+    right: 7px !important;
+}
+[dir=rtl] .list_box ul li {
+    text-align: right;
+}
+[dir=rtl] .total_price_text {
+    text-align: right;
+}
+[dir=rtl].kw #wrapper .main_table table .row-title {
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+[dir=rtl] .add_new_device .close-tracking {
+    left: 30px !important;
+}
+[dir=rtl].kw #wrapper .cl-custom-check + .cl-custom-check-label {
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+[dir=rtl].kw #wrapper  .custom-checkbox.form-group .form-group .label_addition_addon {
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+
+[dir=rtl] .campaign-input input::placeholder{
+    font-family: 'qt_zaintext_bold_pcbold' !important;
+    font-weight: 400;
+}
+[dir=rtl] .secondary_device_popover.outbound_input_wrapper .form-control {
+    padding-right: 8px;
+}
+[dir=rtl].kw #wrapper   .custom-radio.outbound input:checked+label::after {
+    right: 6px !important;
+}
+[dir='rtl'].kw #wrapper .outbound-slider .heading_sec_wiyana h3 {
+    font-family: 'NunitoSans-SemiBold' !important;
+}
+[dir="rtl"].kw #wrapper .outbound-slider .heading_sec_wiyana .data_gb {
+    font-family: "NunitoSans-Black" !important;
+}
+[dir="rtl"] .error_msg p {
+    text-align: right;
+}

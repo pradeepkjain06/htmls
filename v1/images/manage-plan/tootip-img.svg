@@ -1,0 +1,16 @@
+<svg id="Info_icon" data-name="Info icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_4991" data-name="Group 4991" transform="translate(62 1571) rotate(180)">
+    <g id="Ellipse_589" data-name="Ellipse 589" transform="translate(40 1549)" fill="#fff" stroke="#727272" stroke-width="1">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10.5" fill="none"/>
+    </g>
+    <g id="warning" transform="translate(49.999 1554.211)">
+      <g id="Group_1580" data-name="Group 1580" transform="translate(0 0)">
+        <g id="Group_1579" data-name="Group 1579" transform="translate(0 0)">
+          <rect id="Rectangle_2214" data-name="Rectangle 2214" width="1.42" height="7.571" transform="translate(0.237)" fill="#727272"/>
+          <ellipse id="Ellipse_584" data-name="Ellipse 584" cx="0.946" cy="0.946" rx="0.946" ry="0.946" transform="translate(0 8.99)" fill="#727272"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+<head>
+<title>Tinext - منزل التسليم</title>
+<meta charset="UTF-8">
+<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+<!-- Style links -->
+<link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+<link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />    
+<link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+<!-- jQuery UI -->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+<link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+<link rel="stylesheet" type="text/css" href="css/rtl.css" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />   
+
+<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+<!-- dated 8-4-2020 code starts -->
+<link href="css/datepicker.css" rel="stylesheet" />
+  
+<!-- dated 8-4-2020 code ends -->
+</head>
+<body class="delivery-page">
+<input type="hidden" name="langs" id="langs" value="" />
+<div id="wrapper" class="container-fluid delivery-page">
+  <!-- Header -->
+  <header class="header main-header-bg">
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-9 main-menu text-lg-center text-md-right">
+
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-right">
+
+                                <ul class="mobile-nav">
+                                    <li>
+                                        <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+
+                                    <li class="cart-dropdown"> 
+                                        <a href="#" data-target-menu="#cartdropdownmenu" class="active">
+                                            <i class="icon-empty-shopping-card"></i>
+                                            <span>2</span>
+                                        </a> 
+                                    </li>
+
+                                    <li class="mobile-menu-toggle position-static">
+
+                                        <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                                        <div class="main-mobile-menu" id="mobile-menu">
+
+                                            <div class="sub-menu">
+                                                <div class="form-group">
+                                                    <select
+                                                        class="form-control custom-select dropdown-transparent light"
+                                                        id="">
+                                                        <option value="Customer">الزبون</option>
+                                                        <option value="Business">اعمال</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="container-fluid-custom">
+                                                <ul class="mobile-megamenu">
+                                                    <li>
+                                                        <a href="#" class="active">
+                                                            <i class="icon-cart-with-plus"></i>&ensp;متجر
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+
+                                                      
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-headphones-with-mic"></i>
+                                                            &ensp;الدعم
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-Group-1561"></i>
+                                                            &ensp;5 جي
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div class="container">
+                                                <p class="quick-pay-link text-left">
+                                                    <a href="">الدفع السريع <i class="icon-right-arrow"></i></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="mobile-search">
+                                                <!-- Search -->
+                                                <div class="search-autocomplete d-block">
+                                                    <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                        spellcheck="false" placeholder="بحث">
+                                                    <button class="btn main-search-btn btn-pc-3 ">
+                                                        <i class="icon-magnifying-glass "></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Search End -->
+                                            </div>
+
+                                            <div class="language-selector text-center">
+                                                <ul>
+                                                    <li><a href="#">EN</a></li>
+                                                    <li><a href="#">العربية</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="form-group country-selector">
+                                                <select class="form-control custom-select dropdown-transparent light" id="">
+                                                    <option value="Kuwait">الكويت</option>
+                                                    <option value="USA">الولايات المتحدة الأمريكية</option>
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-5">
+
+                            <ul class="right-nav justify-content-between offset-md-3">
+
+                                <li class="grand-total"> <a href="javascript:void(0)" class="active"><i
+                                            class="icon-empty-shopping-card"></i><span>02</span></a>
+                                  <div class="text-left mt-1">
+                                    <h6 class="mb-0">المجموع الكلي</h6>
+                                    <h3 class="mb-0">59 دينار</h3>
+                                  </div>
+                                </li>
+
+                                <li class="profile-btn logedin">
+
+                                    <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                                        <img src="images/profile_picture.png" alt="" class="profile-image">
+                                        <div class="user-info">
+                                            <p class="name">أهلا بك <strong>خالد</strong></p>
+                                            <p class="contact">90079990</p>
+                                        </div>
+                                        <i class="icon-right-arrow icon-rotate-90"></i>
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+  <!-- End Header -->
+  <section class="container-fluid-custom">
+  <div class="breadcrumb-wrapper inner-main-section-sm">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a> </li>
+        <li class="breadcrumb-item " aria-current="page"> <a href="#">ايفون XS</a> </li>
+        <li class="breadcrumb-item active">توصيل & الدفع</li>
+      </ol>
+    </nav>
+  </div>
+  <div class="layout-8-4 deliver-sec">
+    <div class="container">
+      <div class="row">
+        <div class="left-content-area col-sm-12 col-md-9">
+          <div class="section-checkout_progressbar mb-3 pb-5 mb-sm-5 sect_sepretor">
+            <div class="overflow-auto-mobile">
+              <ul class="progress-status extras">
+                  <li class="step completed text-left text-sm-center">
+                    <h3 class="step_label"><span>01</span><small>اضافات</small></h3>
+                    <div class="step_circle m-0 m-sm-auto"> <i class="icon-button"></i> </div>
+                  </li>
+                  <li class="step completed text-left text-sm-center">
+                    <h3 class="step_label"><span>02</span><small>ملخص سلة التسوق</small></h3>
+                    <div class="step_circle m-0 m-sm-auto"> <i class="icon-checklist"></i> </div>
+                  </li>
+                  <li class="step active completed text-left text-sm-center">
+                    <h3 class="step_label"><span>03</span><small>التسليم والخروج</small></h3>
+                    <div class="step_circle m-0 m-sm-auto"> <i class="icon-checkout1"></i> </div>
+                  </li>
+                  <li class="step text-left text-sm-center">
+                    <h3 class="step_label"><span>04</span><small>تاكيد</small></h3>
+                    <div class="step_circle m-0 m-sm-auto"> <i class="icon-confirmation"></i> </div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="delivery-tabs">
+            <!-- Tabs Headings -->
+             
+            <!-- Tab Content -->
+            <div class="tab-content">
+              <!-- Tab 1 -->
+              <form name="myCheckoutForm" id="myCheckoutForm" action="" method="post">
+              <div id="home_delivery" class="home-stars">
+              <div class="sect_sepretor pb-5 mb-5">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="contact-form pt-0 pb-0">
+                      <h2 class="main-heading mb-3"><img src="images/icon_user.png" width="55" class="ml-3">تفاصيل المستلم</h2>
+                      <h3>من سيتلقى الطلب؟</h3>    
+                      <div class="row">
+                            <div class="col-md-6">
+                               <div class="custom-radio form-group m-0">
+                                 <input type="radio" class="form-control" name="received" id="receive" value="person" checked="">
+                                 <label for="receive" class="ml-0 mt-3 pl-5">
+                                    <div class="labels mt-0">
+                                        <p class="sub-label m-0"><strong>انا خالد محمود</strong>  سوف تتلقى الطلب</p>
+                                    </div>
+                                 </label>
+                               </div>
+                            </div>  
+                            <div class="col-md-6">
+                               <div class="custom-radio form-group m-0">
+                                 <input type="radio" class="form-control" name="received" value="someone" id="someoneelse">
+                                 <label for="someoneelse" class="ml-0 mt-3 pl-5">
+                                    <div class="labels mt-0">
+                                        <p class="sub-label m-0"><strong>شخص اخر</strong> سوف تتلقى الطلب</p>
+                                    </div>
+                                 </label>
+                               </div>
+                            </div>  
+                      </div>
+                      <div class="someone-request mt-4">
+                          <div class="row">
+                             <div class="col-md-5">
+                                <div class="form-group control-wrap mb-3">
+                                    <label for="">الاسم الكامل</label>
+                                    <input type="text" id="blockport" class="form-control bg-gray">
+                                </div>
+                             </div>
+                             <div class="col-md-5">
+                                <div class="form-group control-wrap mb-3">
+                                    <label for="">رقم الاتصال</label>
+                                    <input type="text" id="blockport" class="form-control bg-gray">
+                                </div>
+                             </div>  
+                             <div class="col-md-5">
+                                <div class="form-group control-wrap mb-3">
+                                    <label for=""><span>*</span> رقم الاتصال</label>
+                                    <input type="text" id="blockport" class="form-control bg-gray">
+                                </div>
+                             </div>    
+                             <div class="col-md-5">
+                                 <div class="form-group">
+                                    <div class="custom-file-upload btn btn-pc-1" id="card-upload-button"> <span>بطاقة التعريف
+                                        رفع</span>
+                                      <!-- <input type="file" name="" id="" class="form-control"> -->
+                                    </div>
+                                  </div>
+                             </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+               <div class="sect_sepretor">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="contact-form pt-0 pb-0">
+                      <h2 class="main-heading mb-3"><img src="images/icon_user.png" width="55" class="ml-3">توصيل تفاصيل</h2>
+                      <p>إما إدخال العنوان يدويًا أو تثبيت الموقع على الخريطة (مع اكتشاف موقعي)</p>
+                      <div class="delivery-tabs">
+                        <div class="delivery-tab-headings">
+                          <div class="col-xl-12">
+                            <div class="row pb-4 pt-3 nav nav-tabs nav_new nav-fill tab-heading-wrapper mb-0" id="nav-tab" role="tablist">
+                                <div class="col-sm-6 col-6 active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                                    <a class="nav-item"> 
+                                        <img src="./images/entry.svg" alt="" class="mb-2">
+                                        <h3 class="main-heading">دخول عنوان</h3>
+                                        <p class="sub-text w-50">احصل على منتجاتك في منزلك. </p>
+                                    </a>
+                                </div>    
+                                <div class="col-sm-6 col-6" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                    <a class="nav-item"> 
+                                        <img src="./images/map_pn.svg" alt="" class="mb-2">
+                                        <h3 class="main-heading text-center">استخدم الخريطة </h3>
+                                        <p class="sub-text w-50">احصل على طلبك من متجر من اختيارك. </p>
+                                    </a> 
+                                </div>
+                              </div>
+                            <div class="tab-content py-0 px-3 px-sm-0" id="nav-tabContent">
+                              <div class="tab-pane p-0 show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="row flex-align-center mb-3 pt-3 saved-addresses">
+                                  <div class="col-md-2">
+                                    <p class="m-0">استخدم العنوان المحفوظ:</p>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="list-group list-group-horizontal m-0">
+                                      <div class="product_wrapper" style="width: 100%; float: left;">
+                                        <div class="saved_slider_new">
+                                          <div class="col-lg-3 "><a href="javascript:void(0)" class="list-group-item" id="address1">عنوان مكتب هديل</a> </div>
+                                          <div class="col-lg-3 "><a href="javascript:void(0)" class="list-group-item" id="address2">منزل</a> </div>
+                                          <div class="col-lg-3 "><a href="javascript:void(0)" class="list-group-item" id="address3">البيت 2</a> </div>    
+                                          <div class="col-lg-3 "><a href="javascript:void(0)" class="list-group-item" id="address4">مكتب. مقر. مركز</a> </div>
+                                          <div class="col-lg-3 "><a href="javascript:void(0)" class="list-group-item" id="address5">خالد</a> </div>    
+                                        </div> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="forms_area">
+                                  <div class="row align-items-end">
+                                    <!-- Row 5 -->
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3 area-section">
+                                        <label for="">منطقة</label>
+                                        <div class="input-group form-group m-0 search-fields">
+                                          <select id="governorate_areas1" class="form-control select2 main_input border-0">
+                        <option>حدد المنطقة </option>
+                                            <option>المنطقة 1 </option>
+                                            <option>المنطقة 2 </option>
+                                            <option>المنطقة 3 </option>
+                                            <option>المنطقة 4 </option>
+                                            <option>المنطقة 5 </option>
+                                            <option>المنطقة 6 </option>
+                                          </select>
+                                          <span class="input-group-addon success main_input border-0"> <a class="btn main-search-btn btn-pc-3 "><i class="icon-magnifying-glass "></i></a> </span> </div>
+                                        <div class="dropdown-list">
+                                          <ul>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="">المحافظة</label>
+                                        <select name="gv" id="select-gov" class="form-control custom-select bg-gray" onChange="operate_governorate_area1(this.value)">
+                                          <option value=""> حدد المحافظة </option>
+                                          <option value="1"> المحافظة 1 </option>
+                                          <option value="2"> المحافظة 2 </option>
+                                          <option value="3"> المحافظة 3 </option>
+                      <option value="4"> المحافظة 4 </option>
+                                          <option value="5"> المحافظة 5 </option>    
+                                        </select>
+                                        <span class="downarrow"></span> 
+                                        </div>
+                                    </div>   
+                                    <!-- Row 6 -->
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3">    
+                                        <label for="">السبيل</label>
+                                        <input type="text" name="avenue" class="form-control bg-gray">
+                                      </div>      
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="">منع</label>
+                                        <input type="text" id="blockport" class="form-control bg-gray">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="">شارع</label>
+                    <input type="text" name="street" id="street-address" class="form-control bg-gray"> 
+                                        <!--<select name="GB" id="safat" class="form-control custom-select bg-gray">
+                                          <option value="1">Safat 13005 1</option>
+                                          <option value="2">Safat 13005 2</option>
+                                          <option value="3">Safat 13005 3</option>
+                                          <option value="4">Safat 13005 4</option>
+                                          <option value="5">Safat 13005 4</option>
+                                        </select>-->
+                                        <span class="downarrow"></span> </div>
+                                    </div>
+                                    <!-- Row 7 -->
+                                    <div class="col-md-5">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="">نوع الوحدة</label>
+                                        <select id="unittype" name="GB" class="form-control custom-select bg-gray unit-type">
+                                          <option value="1">منزل</option>
+                                          <option value="2">شقة</option>
+                                          <option value="3">بناء</option>
+                                        </select>
+                                        <span class="downarrow"></span> </div>
+                                    </div>
+                                    <div class="col-md-5" id="unit-type-field-1">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="" id="avenue-label">اسم المبنى</label>
+                                        <input type="text" name="building_name" id="avenue" class="form-control bg-gray">
+                                      </div>
+                                    </div>
+                                    <!-- Row 8 -->
+                                    <div class="col-md-5" id="unit-type-field-2">
+                                      <div class="form-group control-wrap mb-3">
+                                        <label for="" id="avenue-label">رقم الدار</label>
+                                        <input type="number" name="house_number" id="avenue" class="form-control bg-gray">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-5" id="unit-type-field-3">
+                                    </div>
+                                    <!-- Row 9 -->
+                                    <div class="col-md-10">
+                                      <div class="form-group mb-4">
+                                        <label for="">تعليقات اضافية</label>
+                                        <textarea class="form-control" placeholder="اكتب تعليقاتك ..."></textarea>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row flex-align-center mt-0 pt-0">
+                                  <div class="col-md-3">
+                                    <div class="custom-radio form-group m-0">
+                                      <input type="radio" class="form-control" name="payOption1" id="knets" checked>
+                                      <label for="knets">
+                                      <div class="labels mt-0">
+                                        <p id="save-address" class="sub-label m-0 pb-0">حفظ العنوان باسم</p>
+                                      </div>
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="input-group form-group m-0">
+                                      <input type="text" class="form-control main_input border-0" placeholder="بيت الكويت">
+                                      <span class="input-group-addon success main_input border-0"> <img src="images/edit.svg"> </span> </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <p class="border_dashed_top">تختلف رسوم التوصيل حسب موقع التسليم</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="tab-pane p-0" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="map-sect pb-4 pt-3">
+                                  <h1 class="main-heading mb-2">ثبت موقعك</h1>
+                                  <p class="sub-text">هذا سوف يساعد على تسليم أسرع</p>
+                                  <div class="map-container position-relative">
+                                    <div id="map-canvas" width="600" height="450" style="border:0;"> </div>
+                                    <div class='map-search'>
+                                      <div class="map-search-section" id="search">
+                                        <input type="text" id="pac-input" placeholder="موقعك">
+                                        <span class="btn main-search-btn btn-pc-3" onClick="initAutocomplete(1)"><i class="icon-magnifying-glass "></i></span> <img src="images/detect-location.svg" alt=""> </div>
+                                      <!--<div class='map-search-section-list'>
+                                        <ul class='map-search-section-location-list no-overflow'>
+                                          <li class='no-border'>
+                                            <div class='map-list-counter'> <i class="icon-user-4"></i> </div>
+                                            <div class='map-searched-name'>Your Address</div>
+                                            <h4 class='no-border p-0 m-0'>Kuwait Magic Mall Salem Sabah </h4>
+                                          </li>
+                                        </ul>
+                                      </div>-->
+                                    </div>
+                                    <!--
+									
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899" id="map-canvas" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+									
+									-->
+                                    <!-- Search -->
+                                    <!--<div class='map-search'> 
+                                      <div class="map-search-section" id="search">
+                                        <input type="text" placeholder="Search">
+                                        <button class="btn main-search-btn btn-pc-3 "><i class="icon-magnifying-glass "></i></button>
+                                      </div> 
+                                      <div class='map-search-section-list'>
+                                        <ul class='map-search-section-location-list no-overflow'>
+                                          <li class='no-border'>
+                                            <div class='map-list-counter'> <i class="icon-user-4"></i> </div>
+                                            <div class='map-searched-name'>Your Address</div>
+                                            <h4 class='no-border p-0 m-0'>Kuwait Magic Mall Salem Sabah </h4>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class='map-search-section-location-detail d-none'>
+                                      <ul class='map-search-section-location-list'>
+                                        <li>
+                                          <div class='map-list-counter'> 25 </div>
+                                          <div class='map-searched-name'>Zain</div>
+                                          <div class='row'>
+                                            <div class='col-md-6'>
+                                              <h4>Kuwait Magic Mall Salem Sabah Al Salem Al Sabah St, Kuwait</h4>
+                                            </div>
+                                            <div class='col-md-6'>
+                                              <p> Sunday - Wednesday (10am - 10pm) <br>
+                                                Thursday - Saturday (10am - 10pm) </p>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                    </div>-->
+                                    <!-- Search End -->
+                                  </div>
+                                </div>
+                                <div class="input-map">
+                                  <div class="row align-items-end">
+                                    <!-- Row 6 -->
+                                    <div class="col-md-6">
+                                      <div class="form-group mb-3">
+                                        <label>منع</label>
+                                        <input type="text" class="form-control bg-gray no-border">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group mb-3">
+                                        <label>شارع</label>
+                                        <input type="text" class="form-control bg-gray no-border">
+                                      </div>
+                                    </div>
+                                    <!-- Row 7 -->
+                                    <div class="col-md-6">
+                                      <div class="form-group mb-3">
+                                        <label>تاريخ المنزل / الشقة</label>
+                                        <input type="text" class="form-control bg-gray no-border">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group mb-3">
+                                        <label>السبيل</label>
+                                        <input type="text" class="form-control bg-gray no-border">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                      <div class="form-group mb-4">
+                                        <label for="">تعليقات اضافية</label>
+                                        <textarea class="form-control no-border" placeholder="اكتب تعليقاتك ..."></textarea>
+                                      </div>
+                                    </div>  
+                                    <div class="col-md-12 flex-align-center mt-0 pt-0">
+                                      <div class="row">
+                                          <div class="col-md-3">
+                                        <div class="custom-radio form-group m-0 mt-2">
+                                          <input type="radio" class="form-control" name="payOption12" id="knetss">
+                                          <label for="knetss">
+                                          <div class="labels mt-0">
+                                            <p id="address" class="sub-label m-0">حفظ العنوان باسم</p>
+                                          </div>
+                                          </label>
+                                        </div>
+                                      </div>
+                                        <div class="col-md-4">
+                                        <div class="input-group form-group m-0">
+                                          <input type="text" class="form-control main_input border-0" placeholder="بيت الكويت">
+                                          <span class="input-group-addon success main_input border-0"> <img src="images/edit.svg"> </span> </div>
+                                      </div>
+                                      </div>          
+                                    </div>
+                                    <!-- Row 8 -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='map-search-section-location-delivery-options pt-0 pb-4'>
+                  <div class='row mb-4 mt-4'>
+                    <div class="col-md-12 mb-3"> <span class="sub-text-new">حدد نوع التسليم:</span> </div>
+                    <div class="slick-packages">
+                      <div class="slick-mobile">
+                        <div class='col-md-4'>
+                          <div class='custom-checkbox custm_new'>
+                            <input type='radio' value='3' id='b' name="delivery-radio" onClick="delivery();" />
+                            <label for='b'>
+                            <h3>تسليم سريع</h3>
+                            <p>على عتبة داركم في الثلاث ساعات القادمة</p>
+                            <span class="divider"></span>
+                            <h5>دينار كويتي 29</h5>
+                            </label>
+                          </div>
+                        </div>
+                        <div class='col-md-4'>
+                          <div class='custom-checkbox custm_new'>
+                            <input type='radio' value='3' id='c' name="delivery-radio" onClick="delivery();" />
+                            <label for='c'>
+                            <h3>نفس الأيام</h3>
+                            <p>حدد الفترة الزمنية المفضلة</p>
+                            <span class="divider"></span>
+                            <h5>مجانا <span>KD 20</span></h5>
+                            </label>
+                          </div>
+                        </div>
+                        <div class='col-md-4'>
+                          <div class='custom-checkbox custm_new'>
+                            <input type='radio' value='3' id='d' name="delivery-radio" onClick="delivery();" />
+                            <label for='d'>
+                            <h3>التسليم القياسية</h3>
+                            <p>حدد اليوم المفضل وفتحة الوقت</p>
+                            <span class="divider"></span>
+                            <h5>مجانا</h5>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='col-md-12 display-box mt-4 hide'>
+                      <div class="display_new p-4">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class=" display-schedule"> <img src="images/delivery-home-truck.svg" alt="">
+                              <h3>تفاصيل التسليم الخاصة بك</h3>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="text-center date_sect_2">
+                              <div class="date-section">
+                                <h3>تاريخ التسليم او الوصول</h3>
+                                <div class="delivery-fields calendar">
+                                  <!--<img src="images/calendar-delivery.svg" alt="">-->
+                                  <div class="form-group">
+                                    <div id="datepicker-group" class="input-group date" data-date-format="D, MM d, yy"> <span class="input-group-addon"><img src="images/calendar-delivery.svg" alt=""> </span>
+                                      <input class="form-control" name="data" type="text" placeholder="اختر موعدا" />
+                                    </div>
+                                  </div>
+                                  <!--<h4>Thu, Apr 13</h4> 
+                                  <style>
+									span.year_pickers {
+										width:60px;
+									}	
+									 
+									#year_pickers_input {
+										font-size: 11px;
+										width: 60px;
+										text-align: center;
+									} 
+								  </style>
+                                  <span class="year_pickers">
+                                  <input id="year_pickers_input" type="number" />
+                                  </span> -->
+                                </div>
+                                <div class="form-group">
+                                  <div id="calendar2">
+                                    <div id="calendar1-wrapper2"></div>
+                                    <div class="bottom-stripe"> <a href="javascript:void(0);">حسنا</a> <a href="javascript:void(0);">إلغاء</a> </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="text-center">
+                              <div class="date-section">
+                                <h3>فتحة وقت التسليم</h3>
+                                <div class="delivery-fields time-table"> <img src="images/clock-delivery.svg" alt="">
+                                  <h4><span id="clock-time">اختر الوقت</span></h4>
+                                </div>
+                                <!-- CHANGE -->
+                                <div class="clock-sec" id="clock-sec">
+                                  <ul>
+                                    <li>
+                                      <label>
+                                      <input id="time11" type="radio" name="time" value="10:00 AM-12:00 PM" onClick="deltime(this);">
+                                      10:00 AM-12:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time12" type="radio" name="time2" value="12:00 PM-2:00 PM" onClick="deltime(this);">
+                                      12:00 PM-2:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time13" type="radio" name="time2" value="2:00 PM-4:00 PM" onClick="deltime(this);">
+                                      2:00 PM-4:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time14" type="radio" name="time2" value="4:00 PM-6:00 PM" onClick="deltime(this);">
+                                      4:00 PM-6:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time15" type="radio" name="time2" value="6:00 PM-8:00 PM" onClick="deltime(this);">
+                                      6:00 PM-8:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time16" type="radio" name="time2" value="8:00 PM-10:00 PM" onClick="deltime(this);">
+                                      8:00 PM-10:00 PM </label>
+                                    </li>
+                                    <li>
+                                      <label>
+                                      <input id="time17" type="radio" name="time2" value="10:00 PM-12:00 AM" onClick="deltime(this);">
+                                      10:00 PM-12:00 AM </label>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mt-4 p-4 clock-box hide">
+                      <div class=" display-schedule"> <img src="images/delivery-home-truck.svg" alt="">
+                              <h3>تفاصيل التسليم الخاصة بك</h3>
+                            </div>
+                      <div class="text-center">
+                        <div class="date-section">
+                          <h3>فتحة وقت التسليم</h3>
+                          <div class="delivery-fields time-table"> <img src="images/clock-delivery.svg" alt="">
+                            <h4><span id="time-slot">أختر زمن</span></h4>
+                          </div>
+                          <div class="clock-sec" id="clock-sec">
+                            <ul>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="10:00 AM-12:00 PM" onClick="seltime(this);">
+                                10:00 AM-12:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="12:00 PM-2:00 PM" onClick="seltime(this);">
+                                12:00 PM-2:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="2:00 PM-4:00 PM" onClick="seltime(this);">
+                                2:00 PM-4:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="4:00 PM-6:00 PM" onClick="seltime(this);">
+                                4:00 PM-6:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="6:00 PM-8:00 PM" onClick="seltime(this);">
+                                6:00 PM-8:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="8:00 PM-10:00 PM" onClick="seltime(this);">
+                                8:00 PM-10:00 PM </label>
+                              </li>
+                              <li>
+                                <label>
+                                <input id="time1" type="radio" name="time" value="10:00 PM-12:00 AM" onClick="seltime(this);">
+                                10:00 PM-12:00 AM </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='col-md-12 mt-4'>
+                              <div class="error-timeslot">
+                                <h2><span><img src="images/error.svg" alt=""></span> اختر فترة زمنية مختلفة!</h2>
+                                <p>لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد.كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي.</p>
+                              </div>
+                            </div>
+                  </div>
+                </div>
+              </div>
+              <div class="payment-method-sect sect_sepretor device-only-tabs">
+              <h1 class="main-heading">اختر طريقة الدفع</h1>
+              <div class="payment-radios card-radios ctm-rdio-btn">
+                <ul>
+                  <li>
+                    <div class="custom-radio card-radio form-group">
+                      <input type="radio" class="form-control" name="payOption" value="7845" id="7845">
+                      <label for="7845">
+                      <div class="card-icon"> <img src="./images/visa.png" alt="7845"> </div>
+                      <div class="labels">
+                        <h4 class="main-label">تنتهي في 7845</h4>
+                        <p class="sub-label">تنتهي في 02/20</p>  
+                      </div>
+                      <div class="form-group radio-setting cvv-input payOption-cvv" style="display: none;">
+                          <label for="">CVV</label>
+                          <input type="text" maxlength="3" name="cvv" id="cvv" class="form-control">
+                          <div class="tooltip_new float-right">
+                            <i class="icon-exclamatory"></i>
+                            <span class="tooltiptext">Tooltip text</span>
+                          </div>    
+                        </div>       
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-radio card-radio form-group">
+                      <input type="radio" class="form-control" name="payOption" value="6553" id="6553">
+                      <label for="6553">
+                      <div class="card-icon"> <img src="./images/mastercard.png" alt="6553"> </div>
+                      <div class="labels">
+                        <h4 class="main-label">تنتهي عام 6553</h4>
+                        <p class="sub-label">تنتهي في 23/04</p>  
+                      </div>
+                      <div class="form-group radio-setting cvv-input payOption-cvv" style="display: none;">
+                          <label for="">CVV</label>
+                          <input type="text" maxlength="3" name="cvv" id="cvv" class="form-control">
+                          <div class="tooltip_new float-right">
+                            <i class="icon-exclamatory"></i>
+                            <span class="tooltiptext">Tooltip text</span>
+                          </div>    
+                        </div>             
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-radio card-radio form-group">
+                      <input type="radio" class="form-control" name="payOption" value="3667" id="3667">
+                      <label for="3667">
+                      <div class="card-icon"> <img src="./images/american-express.png" alt="3667"> </div>
+                      <div class="labels">
+                        <h4 class="main-label">تنتهي في 3667</h4>
+                        <p class="sub-label">تنتهي في 11/22</p>  
+                      </div>
+                      <div class="form-group radio-setting cvv-input payOption-cvv" style="display: none;">
+                          <label for="">CVV</label>
+                          <input type="text" maxlength="3" name="cvv" id="cvv" class="form-control">
+                          <div class="tooltip_new float-right">
+                            <i class="icon-exclamatory"></i>
+                            <span class="tooltiptext">Tooltip text</span>
+                          </div>    
+                        </div>          
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="custom-radio form-group label-payment">
+                      <input type="radio" class="form-control" name="payOption" value="knet" id="knet">
+                      <label for="knet">
+                      <div class="card-icon"> <img src="./images/k_net.png" alt="knet"> </div>
+                      <div class="labels">
+                        <h3 class="main-label">كي نت</h3>
+                        <p class="sub-label pb-0">الإجمالي الخاص بك قد قليلا جدا
+                          سيتم معالجة طلبك بالدولار الأمريكي</p>
+                      </div>
+                      </label>
+                    </div>
+                  </li>    
+                  <li>
+                    <div class="custom-radio form-group k-net-payment">
+                      <input type="radio" class="form-control" name="payOption" value="credit_card" id="credit_card" checked>
+                      <label for="credit_card">
+                      <div class="labels">
+                        <h3 class="main-label">استخدم بطاقة ائتمان جديدة</h3>
+                      </div>
+                      <div class="card-payments"> <img src="./images/payments.png" alt="knet"> </div>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-details mb-4">
+              <div class="card-detail-form">
+             
+                <div class="row align-items-end mb-35">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="">رقم البطاقة</label>
+                      <input type="text" name="card_number" id="card-nmbr" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="">الاسم على البطاقة</label>
+                      <input type="text" name="name_on_card" id="card-name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-4 d-block d-sm-none">
+                    <button class="btn btn-pc-1">مسح بطاقة الائتمان ضوئيًا</button>
+                  </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="row mb-35">
+                  <div class="col-md-8">
+                    <div class="row align-items-end">
+                      <div class="col-4">
+                        <div class="form-group control-wrap">
+                          <label for="">تاريخ انتهاء الصلاحية</label>
+                          <select name="expiry_date" id="exp-date" class="form-control custom-select">
+                            <option value="0">مم</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                          </select>
+                          <span class="downarrow"></span> </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="form-group control-wrap">
+                          <select name="current_year" id="crnt-year" class="form-control custom-select">
+                            <option value="1">YY</option>
+                            <option value="2">18</option>
+                            <option value="3">19</option>
+                            <option value="4">20</option>
+                          </select>
+                          <span class="downarrow"></span> </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="form-group cvv-input">
+                          <label for="">CVV</label>
+                          <div class="tooltip_new float-left">
+                            <i class="icon-exclamatory"></i>
+                            <span class="tooltiptext">نص تلميح الأداة</span>
+                          </div>    
+                          <input type="text" maxlength="3" name="cvv" id="cvv" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="row align-items-end  mb-35">
+                  <div class="col-md-8">
+                    <div class="form-group control-wrap">
+                      <label for="">عنوان وصول الفواتير</label>
+                      <input name="billing_address" id="billing_address" type="text" class="form-control billing-control">     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                     
+                  </div>
+                </div>
+                <div class="custom-checkbox form-group save-card active">    
+                  <input type="checkbox" class="form-control" name="save-card" id="save-card" checked="">
+                  <label for="save-card">احفظ هذه البطاقة لسرعة الخروج
+                  تجربة</label>
+                  &ensp;
+                  <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                    <span class="tooltiptext">تلميح نص</span>
+                  </div>    
+                </div>
+              
+            </div>
+          </div>
+        </div>
+            
+      <!-- Tab 2 -->
+              <div id="collect_from_store"> </div>
+              <div class="page_navigation d-flex justify-content-between">
+                <button class="btn btn-pc-5 btn-lrg">السابق</button>
+                <button type="submit" name="submit_checkout" id="submit_checkout" class="btn btn-pc-3 btn-lrg" id="complete-btn">ضع طلبك</button>
+              </div>
+			  </div>
+              </form>
+    </div>
+  </div>
+</div>
+</div>
+<div class="right-content-area col-md-3 d-none d-md-block">
+
+                        <!-- right content start -->
+
+                        <div class="card checkout-card cart-summary-dropdown">
+
+                            <div class="card-header text-center">
+                                <p class="mb-0"><i class="icon-empty-shopping-card fs-24"></i><span>ملخص العربة</span>
+                                </p>
+                            </div>
+
+                            <div class="card-body custom-scroll new_height plan-sidebar">
+                                <div class="plan-sidebarhead">
+                                    <h3>KD 30 Plan</h3>
+                                    <ul>
+                                        <li>1000 جيجا 4G LTE</li>
+                                        <li>مكالمات محلية غير محدودة</li>
+                                        <li>120 مينتس دولية</li>
+                                        <li>3 جيجا تجوال دولي</li>
+                                        <li>120 عملة تجوال</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sect border-bottom">
+                                    <div class="d-flex">
+                                        <h5 class="left-lbl item-title">خط 1</h5>
+                                        <label for="" class="right-lbl">دينار كويتي 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">موجود خط <span>(9900 79990)</span></h5>
+                                        <label for="" class="right-lbl">دينار كويتي 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">ابتدائي جهاز</h5>
+                                        <label for="" class="right-lbl">دينار كويتي 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 GB</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex existing-line mt-4">
+                                        <h5 class="left-lbl item-title">ثانوي جهاز</h5>
+                                        <label for="" class="right-lbl">دينار كويتي 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item pt-3 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 GB</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-sect pt-4">
+                                    <div class="d-flex">
+                                        <h5 class="left-lbl item-title">خط 2</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الخط الحالي <span>(9900 79990)</span></h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الجهاز الأساسي</h5>
+                                        <label for="" class="right-lbl">دينار كويتي 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex existing-line mt-4">
+                                        <h5 class="left-lbl item-title">ثانوي جهاز</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 GB</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item pt-3 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card-footer">
+
+                                <h5 class="sect-title">مجموع</h5>
+
+                                <div class="product-item main-total pt-2">
+                                    <div class="row">
+                                        <div class="col">
+                                          <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">قيمة الايداع</p>
+                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">موعد التسليم اليوم</p>
+                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">استحقاق في الشهر</p>
+                                                <label for="" class="right-lbl">دينار كويتي 29</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <h5 class="sect-title left-lbl mt-0">المجموع الكلي</h5>
+                                                <label for="" class="right-lbl">دينار كويتي 29</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-action card-total">
+                                    <div>
+                                        <button class="btn btn-pc-1 ml-3">مواصلة التسوق</button>
+                                        <button class="btn btn-pc-3">الدفع</button>
+                                    </div>    
+                                    <button class="btn btn-link"><i class="icon-delete fs-16 ml-0"></i>&ensp; عربة واضحة</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- right content end -->
+
+                    </div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="main-footer">
+  <div class="container footer-content">
+    <div class="row">
+      <div class="col-lg-3 colunm-wrapper">
+        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">منتجات</a></h3>
+        <ul class="footer-links">
+          <li><a href="">هاتف ذكي</a></li>
+          <li><a href="">النطاق العريض المنزلي</a></li>
+          <li><a href="">شريحة جوال</a></li>
+          <li><a href="">لوح</a></li>
+          <li><a href="">الألعاب</a></li>
+          <li><a href="">مستلزمات</a></li>
+          <li><a href="">البطاقات الإلكترونية</a></li>
+          <li><a href="">الإضافات</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 colunm-wrapper">
+        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الخطط</a></h3>
+        <ul class="footer-links">
+          <li><a href="">ادفع شهريا</a></li>
+          <li><a href="">ادفع كما تذهب</a></li>
+          <li><a href="">التجوال والدولي</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+          <h3 class="footer-title"><a href="">زين لايف</a></h3>
+          <h3 class="footer-title"><a href="">عروض</a></h3>
+          <h3 class="footer-title"><a href="">5 جي</a></h3>
+        </div>
+      </div>
+      <div class="col-lg-3 colunm-wrapper">
+        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الدعم</a></h3>
+        <ul class="footer-links">
+          <li><a href="">دردشة</a></li>
+          <li><a href="">حدد موقع الفرع</a></li>
+          <li><a href="">تتبع الطلب</a></li>
+          <li><a href="">اتصل بنا</a></li>
+          <li><a href="">الأسئلة الشائعة</a></li>
+          <li><a href="">وظائف</a></li>
+        </ul>
+        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">اكتشف
+          زين</a></h3>
+      </div>
+      <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">اكتشف زين</a></h3>
+      </div>
+      <div class="col-lg-3 colunm-wrapper">
+        <h3 class="footer-title connect">اتصل بنا</h3>
+        <ul class="socialmedia footer-links inline">
+          <li><a href=""><i class="icon-Group-1564"></i></a></li>
+          <li><a href=""><i class="icon-twitter"></i></a></li>
+          <li><a href=""><i class="icon-facebook"></i></a></li>
+        </ul>
+        <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>زين بلادي</h3>
+        <ul class="user footer-links">
+          <li><a href="" class="cl-pc-3">تسجيل الدخول</a></li>
+          <li><a href="" class="cl-pc-3">تسجيل</a></li>
+        </ul>
+        <div class="footer-seprator"></div>
+        <div class="order-track">
+          <h3 class="footer-title"></i>تابع طلبي</h3>
+          <div class="form-group">
+            <form>
+              <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني" id="">
+              <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid-custom">
+    <div class="footer-seprator"></div>
+  </div>
+  <div class="container copyright_sect">
+    <div class="row align-items-end">
+      <div class="col-md-2 col-12">
+        <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+      </div>
+      <div class="col-md-10 col-12">
+        <ul class="footer-links inline mb-0">
+          <li class="d-none d-md-inline-block copy">© جميع الحقوق محفوظة © 2019 زين</li>
+          <li><a href="">سياسات</a></li>
+          <li><a href="">البنود و الظروف</a></li>
+          <li class="d-block d-md-none mt-4 copy">© جميع الحقوق محفوظة © 2019 زين</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Ends -->
+<div class="cart-stripe plan-stripe">
+          <div class="fixed-sect"> <a class="btn-stripe" href="javascript:void(0)"><img src="images/cart-up-arrow.svg" alt=""></a>
+            <div class="cart-mobile">
+              <div class="text-center"> <a class="remove-stripe" href="javascript:void(0)"><img src="images/cart-arrow-down.svg" alt=""></a> </div>
+              <div class="card checkout-card cart-summary-dropdown">
+                <div class="card-header text-center">
+                  <p class="mb-0"><i class="icon-empty-shopping-card fs-24"></i><span>ملخص العربة</span> </p>
+                </div>
+
+
+                  <div class="card-body custom-scroll new_height plan-sidebar">
+                                <div class="plan-sidebarhead">
+                                    <h3>خطة بقيمة 30 د</h3>
+                                    <ul>
+                                        <li>1000 جيجابايت 4G LTE</li>
+                                        <li>مكالمات محلية غير محدودة</li>
+                                        <li>120 دقيقة دولية</li>
+                                        <li>3 جيجا تجوال دولي</li>
+                                        <li>120 دقائق تجوال</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sect border-bottom">
+                                    <div class="d-flex">
+                                        <h5 class="left-lbl item-title">خط 1</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الخط الحالي <span>(9900 79990)</span></h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الجهاز الأساسي</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex existing-line mt-4">
+                                        <h5 class="left-lbl item-title">الجهاز الثانوي</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item pt-3 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-sect pt-4">
+                                    <div class="d-flex">
+                                        <h5 class="left-lbl item-title">خط 2</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الخط الحالي <span>(9900 79990)</span></h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="d-flex existing-line">
+                                        <h5 class="left-lbl item-title">الجهاز الأساسي</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex existing-line mt-4">
+                                        <h5 class="left-lbl item-title">ثانوي جهاز</h5>
+                                        <label for="" class="right-lbl">KD 0</label>
+                                    </div>
+                                    <div class="product-item p-0 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item pt-3 border-0">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">ايفون XS</p>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 جيجيت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                  <div class="card-footer">
+
+                                <h5 class="sect-title">مجموع</h5>
+
+                                <div class="product-item main-total pt-2">
+                                    <div class="row">
+                                        <div class="col">
+                                          <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">قيمة الايداع</p>
+                                                <label for="" class="right-lbl">KD 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                <label for="" class="right-lbl">KD 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                <label for="" class="right-lbl">KD 29</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <h5 class="sect-title left-lbl mt-0">المبلغ الإجمالي</h5>
+                                                <label for="" class="right-lbl">KD 29</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-action">
+
+                                    <button class="btn btn-link"><i class="icon-delete fs-16 ml-0"></i>&ensp; عربة واضحة</button>
+                                    <button class="btn btn-pc-3">الدفع</button>
+
+                                </div>
+                            </div>
+
+
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="month-details">
+                    <div class="card-resfooter">
+                                <h5 class="sect-title">المجموع الفرعي</h5>
+                                <div class="product-item main-total pt-2">
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">قيمة الايداع</p>
+                                                <label for="" class="right-lbl">KD 2600</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                <label for="" class="right-lbl">KD 2600</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مجموع العقوبة</p>
+                                                <label for="" class="right-lbl">KD 20</label>
+                                            </div>
+                                            <div class="d-flex mt-3">
+                                                <h5 class="sect-title left-lbl mt-0">المبلغ الإجمالي</h5>
+                                                <label for="" class="right-lbl">KD 2620</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="cardcheckout">
+                        <button class="btn btn-pc-3 chooseplan" name="chooseplan">الدفع</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+</div>
+        </div>
+
+        <div class="bodyoverlay hide"></div>
+    <div class="order-tracking-popup extras-popup -small hide">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>تحميل / مسح الهوية</h3>
+        <div class="col-md-12 text-center">
+          <div class="tab-head">
+            <ul>
+              <li class="active" id="front-tab">
+                <span>1</span>
+                <p>تحميل الجبهة</p>
+              </li>
+              <li id="back-tab">
+                <span>2</span>
+                <p>تحميل مرة أخرى</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <ul>
+              <li class="active">
+                <div class="drag-file">
+                  <!-- onchange="readFrontURL(this);" -->
+                  <input type="file" id="upload-front">
+                  <label for="upload-front">
+                    <div>
+                      <img src="images/card-popup.svg" alt="">
+                    </div>
+                    <p>يرجى تحميل نسخة من هويتك الصالحة بصيغة PNG أو JPEG أو PDF ، بحجم لا يزيد عن 3 ميغا بايت</p>
+                    <div>
+                      <span>رفع</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-front">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> معاينة</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> حذف</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="drag-file">
+                  <input type="file" id="upload-back">
+                  <label for="upload-back">
+                    <div>
+                      <img src="images/card-popup.svg" alt="">
+                    </div>
+                    <p>يرجى تحميل نسخة من هويتك الصالحة بصيغة PNG أو JPEG أو PDF ، بحجم لا يزيد عن 3 ميغا بايت</p>
+                    <div>
+                      <span>رفع</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-back">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> معاينة</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> حذف</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3 next-btn" href="" disabled="true">التالى</a>
+        <a class="btn btn-pc-3 finish-btn hide" href="" disabled="true">إنهاء</a>
+      </div>
+    </div>
+<div class="scripts">
+  <!-- jQuery -->
+  <script src="./js/jQuery.js"></script>
+  <!-- Bootstrap -->
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="./js/slick.min.js"></script>
+  <!-- Custom - Select Slider -->
+  <script src="./js/select2.min.js"></script>
+  <!-- Search type suggetion -->
+  <script src="./js/typeahead.bundle.min.js"></script>
+  <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>    
+  <!-- jQuery UI -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <!-- Custom js -->
+  <script src="./js/custom.js"></script>
+  
+  <!-- dated 8-4-2020 code starts --> 
+  <script src="js/bootstrap-datepicker.js"></script> 
+  <script>
+  	  function operate_unittype_vals(elmt_vals) {
+        document.getElementById("unit-type-field-1").innerHTML = '';
+        document.getElementById("unit-type-field-2").innerHTML = '';
+        document.getElementById("unit-type-field-3").innerHTML = '';
+        if (elmt_vals == 1) {
+            document.getElementById("unit-type-field-1").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">اسم المبنى</label><input type="text" name="building_name" id="avenue" class="form-control bg-gray"></div>';
+            document.getElementById("unit-type-field-2").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">رقم الدار</label><input type="number" name="house_number" id="avenue" class="form-control bg-gray"></div>';
+            // document.getElementById("avenue-label").innerHTML = 'منزل';
+        } else if (elmt_vals == 2) {
+            document.getElementById("unit-type-field-1").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">رقم المبنى/رقم الدار</label><input type="number" name="building_number" id="avenue" class="form-control bg-gray"></div>';
+            document.getElementById("unit-type-field-2").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">رقم الشقة</label><input type="number" name="apartment_number" id="avenue" class="form-control bg-gray"></div>';
+            document.getElementById("unit-type-field-3").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">رقم الطابق</label><input type="number" name="floor_number" id="avenue" class="form-control bg-gray"></div>';
+            // document.getElementById("avenue-label").innerHTML = 'شقة';
+        } else if (elmt_vals == 3) {
+            document.getElementById("unit-type-field-1").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">اسم المكتب</label><input type="text" name="office_name" id="avenue" class="form-control bg-gray"></div>';
+            document.getElementById("unit-type-field-2").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">اسم المبنى</label><input type="text" name="building_name" id="avenue" class="form-control bg-gray"></div>';
+            document.getElementById("unit-type-field-3").innerHTML = '<div class="form-group control-wrap mb-3"><label for="" id="avenue-label">رقم الطابق</label><input type="number" name="floor_number" id="avenue" class="form-control bg-gray"></div>';
+            // document.getElementById("avenue-label").innerHTML = 'بناء';
+        }
+      } 
+
+  	$(document).ready(function(){
+      $('#unittype').change(function() {
+          // console.log($(this).val());
+          operate_unittype_vals($(this).val());
+      });
+      $('input:radio[name="payOption"]').change(function(){
+          // $('.payOption-cvv').css('display','none');
+          $('.payOption-cvv').fadeOut();
+          $(this).siblings('label').children('.payOption-cvv').fadeIn("slow");
+      });
+		var validator = $('#myCheckoutForm').validate({
+			ignore: [],
+			rules: {             
+				card_number: {
+					required: true, 
+				}, 
+				name_on_card: {
+					required: true, 
+				}, 
+				expiry_date: {
+					required: true,
+				},
+				current_year: {
+					required: true,  
+				},
+				cvv: {
+					required: true, 
+				},
+				billing_address: {
+					required: true, 
+				},
+        building_name: {
+            required: true,
+        },
+        house_number: {
+            required: true,
+        },
+        building_number: {
+            required: true,
+        },
+        apartment_number: {
+            required: true,
+        },
+        floor_number: {
+            required: true,
+        },
+        office_name: {
+            required: true,
+        },
+			},
+			messages: { 
+				card_number: {
+					required: "This is required field", 
+				}, 
+				name_on_card: {
+					required: "This is required field", 
+				}, 
+				expiry_date: {
+					required: "This is required field",
+				},
+				current_year: {
+					required: "This is required field",  
+				},
+				cvv: {
+					required: "This is required field", 
+				},
+				billing_address: {
+					required: "This is required field", 
+				},
+        building_name: {
+            required: "This is required field",
+        },
+        house_number: {
+            required: "This is required field",
+        },
+        building_number: {
+            required: "This is required field",
+        },
+        apartment_number: {
+            required: "This is required field",
+        },
+        floor_number: {
+            required: "This is required field",
+        },
+        office_name: {
+            required: "This is required field",
+        }
+			},
+			errorPlacement: function(error, element) {
+			  var placement = $(element).data('error');
+			  if (placement) {
+				$(placement).append(error)
+			  } else {
+				error.insertAfter(element);
+			  }
+			},  
+			submitHandler: function(){ 
+				document.forms["myCheckoutForm"].submit();
+			}  
+		  });
+		}); 
+		
+	$(function() { 
+		 
+		var disableDates = ["4-4-2020", "5-4-2020", "6-4-2020"];
+		$("#datepicker-group").datepicker({  
+			format: 'D, M d,          yy',
+			orientation: 'top',
+			forceParse: false,
+			todayBtn: false,
+			okBtn: false,
+			clearBtn: false, 
+			cancelBtn:false,
+			showButtonPanel: true,   
+			multidateSeparator: "-",
+			autoclose: true,
+			todayHighlight: true,
+			daysOfWeekDisabled: [0], 
+			beforeShowDay: function(date){ 
+				dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear(); 
+				if(disableDates.indexOf(dmy) != -1){ 
+					return false;
+				} else{  
+					return true;
+				} 
+			}
+		});
+		
+		
+		$(".datepicker2").datepicker({  
+			format: "yyyy-mm-dd",
+			orientation: 'auto',
+			forceParse: false,
+			todayBtn: false,
+			okBtn: false,
+			clearBtn: false, 
+			cancelBtn: false,  
+			multidateSeparator: "-",
+			autoclose: true,
+			todayHighlight: true,
+			daysOfWeekDisabled: [5], 
+		}); 
+        $(".datepicker3").datepicker({  
+			format: "yyyy-mm-dd",
+			orientation: 'auto',
+			forceParse: false,
+			todayBtn: false,
+			okBtn: false,
+			clearBtn: false, 
+			cancelBtn: false,  
+			multidateSeparator: "-",
+			autoclose: true,
+			todayHighlight: true,
+			daysOfWeekDisabled: [5], 
+		});
+		   
+	});  
+</script> 
+  
+  <!-- dated 8-4-2020 code ends -->
+<script>
+	$(function() {
+		$('.select2').select2();
+	});
+	 
+  // This example adds a search box to a map, using the Google Place Autocomplete
+  // feature. People can enter geographical searches. The search box will return a
+  // pick list containing a mix of places and predicted search terms.
+
+  // This example requires the Places library. Include the libraries=places
+  // parameter when you first load the API. For example:
+  // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"> 
+	var map;
+	var service;
+	var infowindow;
+	
+	function initAutocomplete(paras2=0) {
+	
+		if(document.getElementById('pac-input').value == '' && paras2==1){ 
+			document.getElementById('pac-input').style.border = "1px solid #FF0000"; 
+			return false;
+		}else{
+			document.getElementById('pac-input').style.border = "none"; 
+		}
+		
+		
+		var sydney = new google.maps.LatLng(-33.867, 151.195);
+
+		infowindow = new google.maps.InfoWindow();
+
+		map = new google.maps.Map(
+			document.getElementById('map-canvas'), {center: sydney, zoom: 13, mapTypeId: 'roadmap'});
+ 
+		var input = document.getElementById('pac-input');
+		var searchBox = new google.maps.places.SearchBox(input); 
+ 
+		var request = {
+		  query: document.getElementById('pac-input').value,
+		  fields: ['name', 'geometry'],
+		};
+
+		service = new google.maps.places.PlacesService(map);
+
+		service.findPlaceFromQuery(request, function(results, status) {
+		  if (status === google.maps.places.PlacesServiceStatus.OK) {
+		   
+			if(document.getElementById('pac-input').value != ''){
+				for (var i = 0; i < results.length; i++) {
+				  createMarker(results[i]);
+				}
+			}
+			
+			map.setCenter(results[0].geometry.location);
+		  }
+		});
+	  }
+
+	  function createMarker(place) {
+	  
+		var icon = {
+		  url: "http://dp8staging.com/dev/zain-html/v1/images/map/map-pin.png", //place.icon,
+		  size: new google.maps.Size(71, 71),
+		  origin: new google.maps.Point(0, 0),
+		  anchor: new google.maps.Point(17, 34),
+		  scaledSize: new google.maps.Size(25, 25)
+		};
+		
+		
+		var marker = new google.maps.Marker({
+		  map: map,
+		  icon: icon,
+		  title: document.getElementById('pac-input').value,
+		  position: place.geometry.location
+		});
+
+		google.maps.event.addListener(marker, 'click', function() {
+		  infowindow.setContent(place.name);
+		  infowindow.open(map, this);
+		});
+	  }   
+
+	</script>
+	
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSNP6SARQUChWnamkkFTVCNybjlEYrcFk&libraries=places&callback=initAutocomplete"></script>
+	
+</div>
+</div>
+</body>
+</html>

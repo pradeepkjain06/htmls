@@ -1,0 +1,26 @@
+.wiyana_heading {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 55px;
+    /* identical to box height, or 134% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.wiyana_slider {
+    background: linear-gradient(180deg, rgba(229, 229, 229, 0.56) 0%, rgba(229, 229, 229, 0) 100%);
+}
+.wiyana_para {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    color: #000000;
+}
+

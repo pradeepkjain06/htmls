@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw"  dir="rtl">
+<head>
+<title>Tinext - Branch Locator</title>
+<meta charset="UTF-8">
+<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+<!-- Style links -->
+<link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+<link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/_header.css" />
+<link rel="stylesheet" type="text/css" href="css/_header_ar.css" />
+<link rel="stylesheet" type="text/css" href="css/main_new.css" />
+<link rel="stylesheet" type="text/css" href="css/main_new_ar.css" />
+<link rel="stylesheet" type="text/css" href="css/tox-progress.css" />
+<!-- Branch Locator Page Css -->
+<link rel="stylesheet" type="text/css" href="css/branch-locator.css" />
+<!-- jQuery UI -->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+<link rel="stylesheet" type="text/css" href="css/rtl.css" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+<link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+<link rel="stylesheet" type="text/css" href="css/_header_ar.css" />
+<link rel="stylesheet" href="css/datepicker.css" />
+<style>
+    .select2-dropdown { background: #fff; float: left; padding: 12px 0; box-shadow: 0px 0px 5px -1px #ccc; border-radius: 3px; z-index: 999; }
+    .select2-search--dropdown {
+    float: left;
+    width: 100%;
+    padding: 0 15px !important;
+    position: relative;
+    margin-bottom: 10px;
+}
+    .select2-search--dropdown input {
+        background-color: #f7f7f7;
+        min-height: 46px;
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        font-family: "NunitoSans-SemiBold", sans-serif !important;
+        position: relative;
+        border-radius: 4px;
+        border: 0 !important;
+        padding: 0 80px 0 20px;
+    }
+    .select2-container--open .select2-dropdown--below .select2-results .select2-results__options { border: 1px solid transparent !important; }
+    .select2-results__option {
+        float: left !important; 
+        width: 100% !important; 
+        /* padding: 10px 40px !important;  */
+        color: #727272; 
+    }
+    .select2-container--open .select2-dropdown--below .select2-results .select2-results__options .select2-results__option--highlighted:hover,
+    .select2-container--open .select2-dropdown--below .select2-results .select2-results__options .select2-results__option--highlighted,
+    .select2-container--default .select2-results__option[aria-selected="true"]{
+        color: #d12b8a !important;
+        background: #FBE9F3 !important;
+    }
+    .select2-search--dropdown .select2-search__field {
+    padding: 4px 15px;
+    }
+</style>
+</head>
+<body class="mylines-page my-zain-bg">
+<div id="wrapper" class="container-fluid bg-white">
+
+   <!-- Header -->
+   <header class="header main-header-bg">
+
+    <div class="sub-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <ul class="left-menu">
+              <li> <a href="#" class="active">العملاء</a> </li>
+              <li> <a href="#">اعمال</a> </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul class="right-menu text-left">
+              <li> <a href="#" class="text-uppercase">الدفع السريع</a> </li>
+              <li>
+                <div class="form-group d-inline-block">
+                  <select class="form-control custom-select dropdown-transparent" id="">
+                    <option value="Kuwait">الكويت</option>
+                    <option value="USA">الولايات المتحدة الأمريكية</option>
+                  </select>
+                </div>
+              </li>
+              <li> <a href="#">English</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-header">
+      <div class="container-fluid-custom">
+        <div class="row main-header-row flex-align-center">
+          <div class="col-md-4 col-3">
+            <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+          </div>
+          <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+            <!-- Division which shown in Tablet and Mobile -->
+            <div class="mobile-controls text-left">
+
+                      <ul class="mobile-nav">
+                          <li class="cart-dropdown profile-btn logedin">
+                   <button class="btn btn-pc-4 profile-btn">
+                    <img src="images/profile_picture.png" alt="" class="profile-image" data-target-menu="#profiledropdownmenu1">
+                   </button>
+                   <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+                      <div class="card-body pt-3">
+                         <div class='profile-dropmen-login pb-4 text-center'>
+                            <h3 class="text-center">خالد بن سليمان</h3>
+                            <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a>                         
+                         </div>
+                         <div class='profile-dropmen-links text-right'>
+                            <ul>
+                               <li><a href='#'>الدفع السريع</a></li>
+                               <li><a href='#'>أضف خط</a></li>
+                               <li><a href='#'>إدارة الخطة</a></li>
+                               <li><a href='#'>طلباتي</a></li>
+                               <li><a href='#'>الاستخدام الخاص بي</a></li>
+                               <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج </a></li>
+                            </ul>
+                         </div>
+                      </div>
+                   </div>
+                </li>
+
+                          <li>
+                              <a href=""><i class="icon-heart-feel-grey"></i></a>
+                          </li>
+
+                          <li class="cart-dropdown">
+                              <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                      class="icon-empty-shopping-card"></i></a>
+                          </li>
+                          <li class="mobile-menu-toggle position-static">
+                              <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                              <div class="main-mobile-menu" id="mobile-menu">
+
+                                  <div class="sub-menu">
+                                      <div class="form-group">
+                                          <select
+                                              class="form-control custom-select dropdown-transparent light"
+                                              id="">
+                                              <option value="Customer">عميل</option>
+                                              <option value="Business">عمل</option>
+                                          </select>
+                                      </div>
+                                  </div>
+
+                                  <div class="container-fluid-custom">
+                                    <ul class="mobile-megamenu">
+                                      <li>
+                                          <a href="#" class="active">
+                                              <i class="icon-cart-with-plus"></i>&ensp;محل
+                                          </a>
+                                          <span class="float-right"><i
+                                                  class="icon-right-arrow"></i></span>
+
+                                          <div class="mobile-megamenu-level-2">
+                                              <div class="lvl-2-header">
+                                                  <div class="container-fluid-custom">
+                                                      <a href="" class="back-link">
+                                                          <i
+                                                              class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                          <span>خلف</span>
+                                                      </a>
+
+                                                      <p class="heading">
+                                                          <i class="icon-empty-shopping-card"></i>&ensp;
+                                                          <span class="">محل</span>
+                                                      </p>
+                                                  </div>
+                                              </div>
+                                              <div class="lvl-2-content">
+                                                  <div class="container-fluid-custom">
+
+                                                      <ul class="accordian-menu">
+                                                          <li>
+                                                              <a href="#">
+                                                                  <img src="./images/pagenav_plans.svg"
+                                                                      alt="plans">
+                                                                  <span>الخطط</span>
+                                                                  <i
+                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                              </a>
+                                                              <ul class="expandable-links">
+                                                                  <li class="megamenu-link"><a
+                                                                          href="#">الدفع شهريا</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="#">ادفع كما تذهب</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="#">التجوال و
+                                                                          دولي</a></li>
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <a href="#">
+                                                                  <img src="./images/pagenav_products.svg"
+                                                                      alt="plans">
+                                                                  <span>منتجات</span>
+                                                                  <i
+                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                              </a>
+                                                              <ul class="expandable-links">
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">هاتف ذكي</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">البرودباند المنزلي</a></li>
+                                                                  <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                          بطاقة</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">لوح</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">الألعاب</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">مستلزمات</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">البطاقات الإلكترونية</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">الإضافات</a></li>
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <a href="#">
+                                                                  <img src="./images/pagenav_zainlife.svg"
+                                                                      alt="plans">
+                                                                  <span>زين لايف</span>
+                                                                  <i
+                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                              </a>
+                                                              <ul class="expandable-links">
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">المنزل الذكي</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">الصحة</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">أسلوب الحياة</a></li>
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">تسلية</a></li>
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <a href="#">
+                                                                  <img src="./images/pagenav_offers.svg"
+                                                                      alt="plans">
+                                                                  <span>عروض</span>
+                                                                  <i
+                                                                      class="icon-angle-arrow-pointing-to-right"></i>
+                                                              </a>
+                                                              <ul class="expandable-links">
+                                                                  <li class="megamenu-link"><a
+                                                                          href="">الزبون الحالي
+                                                                          عروض</a></li>
+                                                                  <li class="megamenu-link"><a href="">الجميع
+                                                                          عروض &
+                                                                          الترقيات</a>
+                                                                  </li>
+                                                              </ul>
+                                                          </li>
+                                                      </ul>
+
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <i class="icon-headphones-with-mic"></i>
+                                              &ensp;زين
+                                          </a>
+                                          <span class="float-right"><i
+                                                  class="icon-right-arrow"></i></span>
+
+                                                  <div class="mobile-megamenu-level-2">
+                                                      <div class="lvl-2-header">
+                                                          <div class="container-fluid-custom">
+                                                              <a href="" class="back-link">
+                                                                  <i
+                                                                      class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                  <span>خلف</span>
+                                                              </a>
+
+                                                              <p class="heading">
+                                                                  <i class="icon-headphones-with-mic"></i>&ensp;
+                                                                  <span class="">زين</span>
+                                                              </p>
+                                                          </div>
+                                                      </div>
+                                                      <div class="lvl-2-content">
+                                                          <div class="container-fluid-custom">
+
+                                                              <ul class="accordian-menu">
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_plans.svg"
+                                                                              alt="plans">
+                                                                          <span>ايفون</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">الدفع شهريا</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">ادفع كما تذهب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">التجوال و
+                                                                                  دولي</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_products.svg"
+                                                                              alt="plans">
+                                                                          <span>سيمز</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">هاتف ذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البرودباند المنزلي</a></li>
+                                                                          <li class="megamenu-link"><a href="">SIM
+                                                                                  Card</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">لوح</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الألعاب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">مستلزمات</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البطاقات الإلكترونية</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الإضافات</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_zainlife.svg"
+                                                                              alt="plans">
+                                                                          <span>عروض زين</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">المنزل الذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الصحة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">أسلوب الحياة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">تسلية</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_offers.svg"
+                                                                              alt="plans">
+                                                                          <span>زين لود</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">موجود عميل
+                                                                                  عروض</a></li>
+                                                                          <li class="megamenu-link"><a href="">الجميع
+                                                                                  عروض &
+                                                                                  الترقيات</a>
+                                                                          </li>
+                                                                      </ul>
+                                                                  </li>
+                                                              </ul>
+
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <i class="icon-Group-1561"></i>
+                                             الدعم
+                                          </a>
+                                          <span class="float-right"><i
+                                                  class="icon-right-arrow"></i></span>
+                                          
+                                                  <div class="mobile-megamenu-level-2">
+                                                      <div class="lvl-2-header">
+                                                          <div class="container-fluid-custom">
+                                                              <a href="" class="back-link">
+                                                                  <i
+                                                                      class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                  <span>خلف</span>
+                                                              </a>
+
+                                                              <p class="heading">
+                                                                  <i class="icon-Group-1561"></i>&ensp;
+                                                                  <span class="">الدعم</span>
+                                                              </p>
+                                                          </div>
+                                                      </div>
+                                                      <div class="lvl-2-content">
+                                                          <div class="container-fluid-custom">
+
+                                                              <ul class="accordian-menu">
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_plans.svg"
+                                                                              alt="plans">
+                                                                          <span>دعم زين</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">الدفع شهريا</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">ادفع كما تذهب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="#">التجوال و
+                                                                                  دولي</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_products.svg"
+                                                                              alt="plans">
+                                                                          <span>اتصل</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">هاتف ذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البرودباند المنزلي</a></li>
+                                                                          <li class="megamenu-link"><a href="">بطاقة SIM
+                                                                                  بطاقة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">لوح</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الألعاب</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">مستلزمات</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">البطاقات الإلكترونية</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الإضافات</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_zainlife.svg"
+                                                                              alt="plans">
+                                                                          <span>خط المساعدة</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">المنزل الذكي</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">الصحة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">أسلوب الحياة</a></li>
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">تسلية</a></li>
+                                                                      </ul>
+                                                                  </li>
+                                                                  <li>
+                                                                      <a href="#">
+                                                                          <img src="./images/pagenav_offers.svg"
+                                                                              alt="plans">
+                                                                          <span>عروض</span>
+                                                                          <i
+                                                                              class="icon-angle-arrow-pointing-to-right"></i>
+                                                                      </a>
+                                                                      <ul class="expandable-links">
+                                                                          <li class="megamenu-link"><a
+                                                                                  href="">موجود عميل
+                                                                                  عروض</a></li>
+                                                                          <li class="megamenu-link"><a href="">الجميع
+                                                                                  عروض &
+                                                                                  الترقيات</a>
+                                                                          </li>
+                                                                      </ul>
+                                                                  </li>
+                                                              </ul>
+
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                      </li>
+                                  </ul>
+                                  </div>
+
+
+                                  <div class="container">
+                                      <p class="quick-pay-link text-left">
+                                          <a href="">الدفع السريع<i class="icon-right-arrow"></i></a>
+                                      </p>
+                                  </div>
+
+                                  <div class="mobile-search">
+                                      <!-- Search -->
+                                      <div class="search-autocomplete d-block">
+                                          <input type="text" class="typeahead tt-query" autocomplete="off"
+                                              spellcheck="false" placeholder="بحث">
+                                          <button class="btn main-search-btn btn-pc-3 ">
+                                              <i class="icon-magnifying-glass "></i>
+                                          </button>
+                                      </div>
+                                      <!-- Search End -->
+                                  </div>
+
+                                  <div class="language-selector text-center">
+                                      <ul>
+                                          <li><a href="#" class="current-language">EN</a></li>
+                                          <li><a href="#">العربية</a></li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="form-group country-selector selection-border">
+                                      <select class="form-control custom-select dropdown-transparent light"
+                                          id="">
+                                          <option value="Kuwait">Kuwait</option>
+                                          <option value="USA">USA</option>
+                                      </select>
+                                  </div>
+
+
+                              </div>
+
+                          </li>
+                      </ul>
+
+                  </div>
+            <ul class="main-navigation d-inline-block">
+              <li class="megamenu-container"> 
+                <a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;متجر</a>
+                <div id="shopmegamenu" class="megamenu container-fluid-custom">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <ul>
+                            <li class="megamenu-title"> <img src="./images/pagenav_plans.svg"
+                                                                    alt="megamenu-plans">
+                              <h3 class="">الخطط</h3>
+                            </li>
+                            <li class="megamenu-link"><a href="#">ادفع شهريا</a></li>
+                            <li class="megamenu-link"><a href="#">ادفع كما تذهب</a></li>
+                            <li class="megamenu-link"><a href="#">التجوال و
+                              الدولية</a> </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li class="megamenu-title"> <img src="./images/pagenav_products.svg"
+                                                                    alt="megamenu-products">
+                              <h3 class="">منتجات</h3>
+                            </li>
+                            <li class="megamenu-link"><a href="">هاتف ذكي</a></li>
+                            <li class="megamenu-link"><a href="">النطاق العريض المنزلي</a></li>
+                            <li class="megamenu-link"><a href="">شريحة جوال</a></li>
+                            <li class="megamenu-link"><a href="">لوح</a></li>
+                            <li class="megamenu-link"><a href="">الألعاب</a></li>
+                            <li class="megamenu-link"><a href="">مستلزمات</a></li>
+                            <li class="megamenu-link"><a href="">البطاقات الإلكترونية</a></li>
+                            <li class="megamenu-link"><a href="">الإضافات</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li class="megamenu-title"> <img src="./images/pagenav_zainlife.svg"
+                                                                    alt="megamenu-zainlife">
+                              <h3 class="">زين لايف</h3>
+                            </li>
+                            <li class="megamenu-link"><a href="">المنزل الذكي</a></li>
+                            <li class="megamenu-link"><a href="">الصحة</a></li>
+                            <li class="megamenu-link"><a href="">نمط الحياة</a></li>
+                            <li class="megamenu-link"><a href="">وسائل الترفيه</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li class="megamenu-title"> <img src="./images/pagenav_offers.svg"
+                                                                    alt="megamenu-offers">
+                              <h3 class="">عروض</h3>
+                            </li>
+                            <li class="megamenu-link"><a href="">الزبون الحالي
+                              عروض</a></li>
+                            <li class="megamenu-link"><a href="">كل العروض &
+                              الترقيات</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="i-watch_img-container"> <img src="./images/menu.png" alt="">
+                        <div class="content">
+                          <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                          <button class="btn btn-pc-3">اشتري الآن</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li> <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;الدعم</a> </li>
+              <li> <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-4 position-static">
+            <ul class="right-nav">
+              <li> <a href="javascript:void(0)" data-target-menu="#search"><i class="icon-magnifying-glass"></i></a> </li>
+              <li class="cart-dropdown"> <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                            class="icon-empty-shopping-card"></i></a>
+                <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                  <div class="text-center dropdown-header">
+                    <h4 class="mb-0">ملخص العربة</h4>
+                  </div>
+                  <div class="card-body mx-350 mobile-card-body">
+                    <div class="product-sect">
+                      <h5 class="sect-title">منتجات</h5>
+                      <div class="product-item">
+                        <div class="row">
+                          <div class="col-2 mobile-alignment">
+                            <div class="product-img"> <img src="./images/Iphone.png" alt=""> </div>
+                          </div>
+                          <div class="col">
+                            <div class="d-flex">
+                              <p class="left-lbl item-title">ايفون XS</p>
+                              <label for="" class="right-lbl">دينار  0</label>
+                            </div>
+                            <div class="product-details">
+                              <p>64 غيغابايت</p>
+                              <p>ذهب</p>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">مدة الالتزام 24 شهر </p>
+                              <label for="" class="right-lbl">دينار  29</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="plan-sect">
+                      <h5 class="sect-title">Plan</h5>
+                      <div class="product-item">
+                        <div class="row">
+                          <div class="col-2 mobile-alignment">
+                            <div class="product-img"> <img src="./images/Iphone.png" alt=""> </div>
+                          </div>
+                          <div class="col">
+                            <div class="d-flex">
+                              <p class="left-lbl item-title">حزمة إنترنت eeZee</p>
+                              <label for="" class="right-lbl">دينار  0</label>
+                            </div>
+                            <div class="product-details">
+                              <p>5 جيجابايت 4G LTE</p>
+                              <p>رسائل محلية غير محدودة</p>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                              <label for="" class="right-lbl">دينار  0</label>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                              <label for="" class="right-lbl">دينار  10</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="entertainment-sect">
+                      <h5 class="sect-title">وسائل الترفيه</h5>
+                      <div class="product-item">
+                        <div class="row">
+                          <div class="col-2 mobile-alignment">
+                            <div class="product-img"> <img src="./images/smarthomecamera.png" alt=""> </div>
+                          </div>
+                          <div class="col">
+                            <div class="d-flex mb-2">
+                              <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                              <label for="" class="right-lbl">دينار  0</label>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                              <label for="" class="right-lbl">دينار  29</label>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                              <label for="" class="right-lbl">دينار  0</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="sect-title">مجموع</h5>
+                    <div class="product-item main-total">
+                      <div class="row">
+                        <div class="col">
+                          <div class="d-flex">
+                            <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                            <label for="" class="right-lbl">دينار  0</label>
+                          </div>
+                          <div class="d-flex">
+                            <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                            <label for="" class="right-lbl">دينار  29</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-action mobile-card-action">
+                      <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                      عربة واضحة</button>
+                      <button class="btn btn-pc-3"> مراجعة ودفع</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li> <a href="#"><i class="icon-heart-feel-grey"></i></a> </li>
+              <li class="cart-dropdown profile-btn logedin"> <a href="#" class="btn btn-pc-4 btn-small text-t-none" data-target-menu="#profiledropdownmenu"> <img src="images/profile_picture.png" alt="" class="profile-image">
+                <div class="user-info">
+                  <p class="name">أهلا بك <strong>خالد</strong></p>
+                  <p class="contact">90079990</p>
+                </div>
+                <i class="icon-right-arrow icon-rotate-90"></i> </a>
+                <div class="cart-summary-dropdown " id="profiledropdownmenu">
+                  <div class="card-body">
+                    <div class='profile-dropmen-login pb-4'>
+                      <h3 class="text-center">خالد بن سليمان</h3>
+                      <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a> </div>
+                    <div class='profile-dropmen-links text-right'>
+                      <ul>
+                        <li><a href='#'>الدفع السريع</a></li>
+                        <li><a href='#'>إضافة خط</a></li>
+                        <li><a href='#'>إدارة الخطة</a></li>
+                        <li><a href='#'>طلباتي</a></li>
+                        <li><a href='#'>استخدامي</a></li>
+                        <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج</a></li>
+                      </ul>
+
+
+                
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+                   <!-- Search -->
+                   <div class="search-autocomplete" id="search">
+                    <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false"
+                        placeholder="ناك حقيقة ">
+                    <button class="btn main-search-btn btn-pc-3 "><i
+                            class="icon-magnifying-glass "></i></button>
+                    </div>
+                <!-- Search End -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</header>
+<!-- End Header -->
+
+<section class="container-fluid-custom mb-4">
+  <div class="breadcrumb-wrapper inner-main-section-sm">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a> </li>
+        <li class="breadcrumb-item active">محدد الفرع</li>
+      </ol>
+    </nav>
+  </div>
+  <div class="container">
+    <h1 class="main-heading fz-34 mb-sm-2 mt-5 text-center text-uppercase"> محدد موقع الفرع </h1>
+    <p class="text-center"> حدد فرعًا أو تصفح قوائم الموزعين لدينا </p>
+    <div class="divider-extra"></div>
+  </div>
+</section>
+<section class="container-fluid-custom btn-branch">
+  <!-- <a href="#">عرض القائمة</a> <a href="#">عرض الخريطة</a> -->
+  <a href="javascript:void(0);" onClick="operate_branch_locator_view('list');" id="tab_list_btn_elmnt" class="active">عرض القائمة</a> <a href="javascript:void(0);" onClick="operate_branch_locator_view('map');" id="tab_map_btn_elmnt" class="">عرض الخريطة</a> </section>
+<section class="container-fluid-custom mb-5 pb-5 branch-sec">
+<div class="container">
+  <div class="row mt-3">
+    <!-- Branch Locator Select start -->
+    <input name="services_vals" class="services_vals_elmt" type="hidden" value="" />
+    <input name="page_lang" class="page_lang_vals_elmt" type="hidden" value="arabic" />
+    <div class="col-md-4 mobile-filter-item">
+      <div class="form-group branch_locator_form control-wrap mb-3">
+        <label for="governate"> حدد المحافظة </label>
+        <select name="governate" id="governate" class="form-control custom-select bg-gray" onChange="operate_branches_clone('');">
+          <option value="">يختار</option>
+          <option value="قاعدة 1">قاعدة 1</option>
+          <option value="قاعدة 2">قاعدة 2</option>
+          <option value="قاعدة 3">قاعدة 3</option>
+          <option value="قاعدة 4">قاعدة 4</option>
+        </select>
+        <span class="downarrow"></span> </div>
+    </div>
+    <div class="col-md-4 mobile-filter-item">
+      <div class="form-group branch_locator_form control-wrap mb-3 area-section">
+        <label for="governorate_areas">منطقة</label>
+        <div class="input-group form-group m-0 search-fields">
+          <select id="governorate_areas" name="governorate_areas" class="form-control select_text_able main_input border-0" onChange="operate_branches_clone('');">
+            <option value=""> حدد المنطقة </option>
+            <option value="منطقة 1">منطقة 1</option>
+            <option value="منطقة 2">منطقة 2</option>
+            <option value="منطقة 3">منطقة 3</option>
+            <option value="منطقة 4">منطقة 4</option>
+          </select>
+          <!-- <span class="input-group-addon success main_input border-0"> <a class="btn main-search-btn btn-pc-3 "><i class="icon-magnifying-glass "></i></a> </span> -->
+        </div>
+        <div class="dropdown-list">
+          <ul>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+            <li class="li"><a href="#">منطقة التجارة الحرة بالكويت</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mobile-filter-item">
+      <div id="hidden-div">
+        <div class="quickpay-select">
+          <div class="form-group branch_locator_form control-wrap mb-3">
+            <label for=""> حدد الخدمة </label>
+            <div class="form-group">
+              <div class="addons-logged-bar mr-0 ml-0">
+                <div class="mainline-content">
+                  <div class="form-group control-wrap mb-3 area-section">
+                    <form id="searchservice" class="existing-1">
+                      <!-- existing-1 -->
+                      <div class="input-group form-group m-0 search-fields search-input">
+                        <div class="monthly-amount-display"> <span class="kd-recharge number-span">حدد رقمًا</span> </div>
+                        <input type="text" autocomplete="off" readonly="true" data-page="eezee-recharge" class="form-control branch-locator-service-multiselect" id="select-number" />
+                        <!-- <span class="input-group-addon dropdown-arrow border-0"> <img src="./images/auto-pay-arrow-down.svg" alt=""> </span> -->
+                      </div>
+                    </form>
+                    <div class="number-dropdown number-dropdown-ez" style="top: 52px;">
+                      <ul>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-1" data-index="1" value="موزعين" onClick="operate_branches_clone('');">
+                          <img class="icon_service pl-1 " src="assets/img/delivery.png" alt="موزعين">
+                          <label data-number="My Numbers" for="select-1"> <strong class="autopay-data-number">موزعين </strong> </label>
+                        </li>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-2" data-index="2" value="الفروع" onClick="operate_branches_clone('');">
+                          <img class="icon_service pl-1" src="assets/img/pin.png" alt="الفروع">
+                          <label data-number="My Numbers" for="select-2"> <strong class="autopay-data-number">الفروع </strong> </label>
+                        </li>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-3" data-index="3" value="ورش عمل" onClick="operate_branches_clone('');">
+                          <img class="icon_service pl-1" src="assets/img/workshop.png" alt="ورش عمل">
+                          <label data-number="My Numbers" for="select-3"> <strong class="autopay-data-number">ورش عمل </strong> </label>
+                        </li>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-4" data-index="4" value="الأكشاك" onClick="operate_branches_clone('');">
+                          <img class="icon_service pl-1" src="assets/img/kiosks.png" alt="الأكشاك">
+                          <label data-number="My Numbers" for="select-4"> <strong class="autopay-data-number">الأكشاك </strong> </label>
+                        </li>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-5" data-index="5" value="الفرع الذكي" onClick="operate_branches_clone('');">
+                          <img class="icon_service pl-1" src="assets/img/smart_branch.png" alt="الفرع الذكي">
+                          <label data-number="My Numbers" for="select-5"> <strong class="autopay-data-number">الفرع الذكي </strong> </label>
+                        </li>
+                        <li>
+                          <input class="service_cls checkbox-class" type="checkbox" data-value="" id="select-6" data-index="6" value="فرع الأعمال" onClick="operate_branches_clone('');" >
+                          <img class="icon_service pl-1" src="assets/img/business-branch.png" alt="فرع الأعمال">
+                          <label data-number="My Numbers" for="select-6"> <strong class="autopay-data-number">فرع الأعمال </strong> </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Branch Locator Select End -->
+    </div>
+    <div class="map-details"> <a href="#">أخف التفاصيل</a> </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-3">
+    <!-- Branch Locator Right Bar -->
+    <div class="col-md-4" id="fetch_view_mobile_branches_data">
+      <!-- Box 1 -->
+      <div class="right-bar-branch-locator shadow-sm p-0 bg-white fetch_branches_data"> </div>
+    </div>
+    <!-- Branch Locator Right Bar End -->
+    <!-- Branch Locator MAP -->
+    <div class="col-md-8">
+      <div class="map-container map_new position-relative" id="fetch_view_mobile_branches_map">
+        <div class="map_elmt" style="width:100%; height:695px;"></div>
+      </div>
+      <!-- Branch Locator MAP END -->
+    </div>
+  </div>
+  </section>
+  <!-- Footer Start -->
+  <footer class="main-footer display-none-mobile">
+    <div class="container footer-content">
+      <div class="row">
+        <div class="col-lg-3 colunm-wrapper">
+          <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">منتجات</a></h3>
+          <ul class="footer-links">
+            <li><a href="">هاتف ذكي</a></li>
+            <li><a href="">الصفحة الرئيسية موجة عريضة</a></li>
+            <li><a href="">سيم بطاقة</a></li>
+            <li><a href="">لوح</a></li>
+            <li><a href="">الألعاب</a></li>
+            <li><a href="">مستلزمات</a></li>
+            <li><a href="">البطاقات الإلكترونية</a></li>
+            <li><a href="">الإضافات</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 colunm-wrapper">
+          <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الخطط</a></h3>
+          <ul class="footer-links">
+            <li><a href="">دفع شهريا</a></li>
+            <li><a href="">ادفع كما تذهب</a></li>
+            <li><a href="">التجوال والدولي</a></li>
+          </ul>
+          <div class="d-none d-md-block">
+            <h3 class="footer-title"><a href="">زين لايف</a></h3>
+            <h3 class="footer-title"><a href="">عروض</a></h3>
+            <h3 class="footer-title"><a href="">5G</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-3 colunm-wrapper">
+          <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الدعم</a></h3>
+          <ul class="footer-links">
+            <li><a href="">دردشة</a></li>
+            <li><a href="">حدد موقع الفرع</a></li>
+            <li><a href="">تتبع الطلب</a></li>
+            <li><a href="">اتصل بنا</a></li>
+            <li><a href="">الأسئلة الشائعة</a></li>
+            <li><a href="">وظائف</a></li>
+          </ul>
+          <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                        href="">اكتشف زين</a></h3>
+        </div>
+        <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+          <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">اكتشف زين</a></h3>
+        </div>
+        <div class="col-lg-3 colunm-wrapper">
+          <h3 class="footer-title connect">اتصل بنا</h3>
+          <ul class="socialmedia footer-links inline">
+            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+            <li><a href=""><i class="icon-twitter"></i></a></li>
+            <li><a href=""><i class="icon-facebook"></i></a></li>
+          </ul>
+          <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>زين بلادي</h3>
+          <ul class="user footer-links">
+            <li><a href="" class="cl-pc-3">تسجيل الدخول</a></li>
+            <li><a href="" class="cl-pc-3">تسجيل</a></li>
+          </ul>
+          <div class="footer-seprator"></div>
+          <div class="order-track">
+            <h3 class="footer-title">تابع طلبي</h3>
+            <div class="form-group">
+              <form>
+                <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                                id="">
+                <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid-custom">
+      <div class="footer-seprator"></div>
+    </div>
+    <div class="container copyright_sect">
+      <div class="row align-items-end">
+        <div class="col-md-2 col-12">
+          <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+        </div>
+        <div class="col-md-10 col-12">
+          <ul class="footer-links inline mb-0">
+            <li class="d-none d-md-inline-block">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+            <li><a href="">سياسات</a></li>
+            <li><a href="">البنود و الظروف</a></li>
+            <li class="d-block d-md-none mt-4">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+  <!-- body overlay -->
+<div class="bodyoverlay"></div>
+  <!-- Mobile Footer Start -->
+  <footer class="mobile-footer mb-0">
+    <div class="container">
+      <div class="row border-bootom">
+        <div class="col-7">
+          <ul class="footer-links inline mb-0 mr-3">
+            <li><a href="">سياسات</a></li>
+            <li class="mr-3"><a href="">البنود و الظروف</a></li>
+          </ul>
+        </div>
+        <div class="col-5">
+          <ul class="footer-social-media ml-1">
+            <li><a href=""><img src="./images/mb-instagram.svg" alt=""></i></a></li>
+            <li><a href=""><img src="./images/mb-twitter.svg" alt=""></i></a></li>
+            <li><a href=""><img src="./images/mb-facebook.svg" alt=""></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <p class="mobile-copyright">© حقوق الطبع والنشر © 2020 جميع الحقوق محفوظة زين</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Mobile Footer Ends -->
+  <!-- body overlay -->
+  <div class="chat-sec">
+    <div class="promo-spot-panel"> <span><img src="./images/chatbot-icon-only.png" alt=""> <i>Need<br>
+      Help?</i> </span> </div>
+    <div class="circle_B"></div>
+  </div>
+  <div class="bodyoverlay"></div>
+	<div class='order-tracking-popup branch-appoinment-popup' id="popup-small">
+	<div>
+	<div class='close-tracking'>X</div>
+	<div class="layout-8-4 deliver-sec">
+	<div class="container">
+	  <div class="row">
+		<div class="container mb-4">
+		  <h1 class="main-heading fz-34 mb-sm-1 text-center text-uppercase justify-content-center" id="fetch_appte_heading1_msg">موعد الكتاب</h1>
+		  <p class="text-center" id="fetch_appte_heading2_msg">حدد فرعًا أو تصفح قوائم الموزعين لدينا</p>
+		  <div class="divider-extra"></div>
+		</div>
+		<div class="col-md-1"></div>
+		<div class="left-content-area col-sm-12 col-md-10">
+		  <div class="address-timing" id="fetch_appte_address_details">
+			<div class="d-flex">
+			  <div class="address">
+				<h3><img src="assets/img/placeholder.png"> <span id="fetch_sl_branch_name">يوريكا شويخ</span></h3>
+				<p> <span id="fetch_sl_branch_id">107</span><br>
+				  <span id="fetch_sl_branch_address">العاصمة ، الري 1</span> </p>
+			  </div>
+			  <div class="timings">
+				<p><span id="fetch_sl_branch_working_days">من السبت إلى الأحد</span><br>
+				  ساعات العمل : <span id="fetch_sl_branch_work_timing">ساعات العمل: 8:00 صباحا - 4:00 مساءا</span> </p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="delivery-tabs address-site">
+			<div class="tab-content">
+			  <!-- Tab 1 -->
+			  <form name="visitForm" id="visitForm" action="" method="post">
+				<div id="home_delivery" class="home-stars">
+				  <div id="fetch_step1_content">
+				  <div class="row">
+					<div class="col-xl-12">
+					  <div class="contact-form pb-0 pt-2 branch-form">
+						<div class="delivery-tabs">
+						  <div class="delivery-tab-headings">
+							<div class="col-xl-12">
+							  <div class="tab-content py-0 px-3 px-sm-0" id="nav-tabContent">
+								<div class="tab-pane p-0 show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+								  <div class="forms_area">
+									<div class="row align-items-end">
+									  <!-- Row 6 -->
+									  <div class="col-md-6">
+										<div class="form-group input-sec control-wrap mb-3">
+										  <label for="appte_name">أدخل أسمك</label>
+										  <input name="appte_name" id="appte_name" type="text" placeholder="اسم" class="required">
+										</div>
+									  </div>
+									  <div class="col-md-6">
+										<div class="form-group  input-sec  control-wrap mb-3">
+										  <label for="appte_mobile_no">أدخل رقم هاتفك المحمول</label>
+										  <input name="appte_mobile_no" id="appte_mobile_no" type="text" placeholder="رقم الهاتف المحمول" class="required" onkeyup="this.value=this.value.replace(/\D/g,'')" onchange="this.value=this.value.replace(/\D/g,'')">
+										</div>
+									  </div>
+									  <!-- Row 7 -->
+									  <div class="col-md-6">
+										<div class="form-group  input-sec  control-wrap mb-3">
+										  <label for="appte_civil_id">أدخل بطاقتك المدنية</label>
+										  <input name="appte_civil_id" id="appte_civil_id" type="text" placeholder="رقم البطاقة المدنية" class="required" onkeyup="this.value=this.value.replace(/\D/g,'')" onchange="this.value=this.value.replace(/\D/g,'')">
+										</div>
+									  </div>
+									  <div class="col-md-6">
+										<div class="form-group  input-sec  control-wrap mb-3">
+										  <label for="appte_email">أدخل عنوان بريدك الالكتروني</label>
+										  <input name="appte_email" id="appte_email" type="text" placeholder="عنوان البريد الإلكتروني" class="required email">
+										</div>
+									  </div>
+									  <div class="col-md-6">
+										<div class="form-group control-wrap mb-3">
+										  <label for="appte_area1">حدد المنطقة</label> 
+										  <select name="appte_area1" id="appte_area1" class="form-control custom-select bg-gray">
+											<option value="">حدد المنطقة</option>
+											<option value="المنطقة 1">المنطقة 1</option>
+											<option value="المنطقة 2">المنطقة 2</option>
+											<option value="المنطقة 3">المنطقة 3</option>
+										  </select>
+										  <span class="downarrow"></span> </div>
+									  </div>
+									  <div class="col-md-6">
+										<div class="form-group control-wrap mb-3">
+										  <label for="appte_service1">حدد الخدمة</label>
+										   <select name="appte_service1" id="appte_service1" class="form-control custom-select bg-gray">
+											<option value="">اختر الخدمة </option>
+											<option value="الخدمة 1">الخدمة 1</option>
+											<option value="الخدمة 2">الخدمة 2</option>
+											<option value="الخدمة 3">الخدمة 3</option>
+										  </select>
+										  <span class="downarrow"></span> </div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class='map-search-section-location-delivery-options pt-0'>
+					<div class='row mb-4'>
+					  <div class='col-md-12 display-box mt-4'>
+						<div class="display_new p-2 visit-fields">
+						  <div class="row">
+							<div class="col-md-12">
+							  <div class=" display-schedule"> <img src="images/circle-location.svg" alt="">
+								<h3>تفاصيل التسليم الخاصة بك</h3>
+							  </div>
+							</div>
+							<div class="col-md-6">
+							  <div class="text-center date_sect_2">
+								<div class="date-section">
+								  <h3>تاريخ التسليم او الوصول</h3>
+								  <div class="delivery-fields calendar">
+									<!--<img src="images/calendar-delivery.svg" alt="">-->
+									<div class="form-group">
+									  <div id="datepicker-group" class="input-group date" data-date-format="D, MM d, yy"> <span class="input-group-addon"><img src="images/calendar-delivery.svg" alt=""> </span>
+										<input class="form-control datepicker required" name="appte_visiting_date" id="appte_visiting_date" type="text" placeholder="Choose date" />
+									  </div>
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div id="calendar2">
+									  <div id="calendar1-wrapper2"></div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-6">
+							  <div class="text-center">
+								<div class="date-section time-space">
+								  <h3>فتحة وقت التسليم</h3>
+								  <div class="delivery-fields time-table"> <img src="images/clock-delivery.svg" alt="">
+									<h4><span id="clock-time">اختر الوقت</span></h4>
+								  </div>
+								  <div class="clock-sec" id="clock-sec">
+									<ul>
+									  <li>
+										<label>
+										<input class="time_cls" id="time11" type="radio" name="time" value="10:00 AM-12:00 PM" onClick="deltime(this);">
+										10:00 AM-12:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time12" type="radio" name="time2" value="12:00 PM-2:00 PM" onClick="deltime(this);">
+										12:00 PM-2:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time13" type="radio" name="time2" value="2:00 PM-4:00 PM" onClick="deltime(this);">
+										2:00 PM-4:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time14" type="radio" name="time2" value="4:00 PM-6:00 PM" onClick="deltime(this);">
+										4:00 PM-6:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time15" type="radio" name="time2" value="6:00 PM-8:00 PM" onClick="deltime(this);">
+										6:00 PM-8:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time16" type="radio" name="time2" value="8:00 PM-10:00 PM" onClick="deltime(this);">
+										8:00 PM-10:00 PM </label>
+									  </li>
+									  <li>
+										<label>
+										<input class="time_cls" id="time17" type="radio" name="time2" value="10:00 PM-12:00 AM" onClick="deltime(this);">
+										10:00 PM-12:00 AM </label>
+									  </li>
+									</ul>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-12 mt-4 mb-5 pb-0 pb-sm-5 pb-md-5 pb-lg-5">
+					<button onClick="proceed_place_request();" type="button" class="btn btn-pc-3" id="complete-btn">طلب مكان</button>
+				  </div>
+				  </div>
+				  
+				  <div id="fetch_step2_content" style="display:none">
+					<div class="row">
+							<div class="col-xl-12">
+							  <div class="contact-form pb-0 pt-2 branch-form">
+								<div class="delivery-tabs">
+								  <div class="delivery-tab-headings">
+									<div class="col-xl-12">
+									  <div class="tab-content py-0 px-3 px-sm-0" id="nav-tabContent">
+										<div class="tab-pane p-0 show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+										  <div class="forms_area">
+											<div class="row align-items-end">
+											  <!-- Row 6 -->
+											  <div class="col-md-6">
+												<div class="form-group input-sec control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">اسمك</h2>
+												  <label class="w-100" for="" id="fetch_appte_name"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group  input-sec  control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">رقم هاتفك</h2>
+												  <label class="w-100" for="" id="fetch_appte_mobile_no"> </label>
+												</div>
+											  </div>
+											  <!-- Row 7 -->
+											  <div class="col-md-6">
+												<div class="form-group  input-sec  control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">بطاقتك المدنية</h2>
+												  <label class="w-100" for="" id="fetch_appte_civil_id"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group  input-sec  control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">عنوان بريدك الإلكتروني</h2>
+												  <label class="w-100" for="" id="fetch_appte_email"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">منطقة</h2>
+												  <label class="w-100" for="" id="fetch_appte_area1"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">خدمة</h2>
+												  <label class="w-100" for="" id="fetch_appte_service1"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">تاريخ الزيارة</h2>
+												  <label class="w-100" for="" id="fetch_appte_visiting_date"> </label>
+												</div>
+											  </div>
+											  <div class="col-md-6">
+												<div class="form-group control-wrap mb-3">
+												  <h2 class="text-bold ml-2" for="">وقت الزيارة</h2>
+												  <label class="w-100" for="" id="fetch_appte_visiting_time"> </label>
+												</div>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+				  </div>
+				  
+				</div>
+				<!-- Tab 2 -->
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	</div>
+	</div>
+	</div>
+   
+   
+  
+  <div class="scripts">
+    <!-- jQuery -->
+    <script src="./js/jQuery.js"></script>
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick.min.js"></script>
+    <!-- Custom - Select Slider -->
+    <script src="./js/select2.min.js"></script>
+    <!-- Search type suggetion -->
+    <script src="./js/typeahead.bundle.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <!-- Custom js -->
+    <script src="./js/custom.js"></script>
+    <script src="./js/bootstrap-datepicker.js"></script>
+    <!--<script src="./js/nice-date-picker.js"></script> -->
+    <script src="./js/tox-progress.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEeTC8gW2IYzZlJ3dGeJ0tO3Xa71CnhUY"></script>
+    <script src="./js/operate_branch_map.js"></script>
+    <script src="./js/branch_locators.js"></script>
+    <script>   
+	  $(document).ready(function(){   
+	  	
+		$("#visitForm").validate();  
+	  
+	  	$(".datepicker").datepicker({  
+			format: "yyyy-mm-dd",
+			orientation: 'auto',
+			forceParse: false,
+			todayBtn: false,
+      startDate: 'today',
+			okBtn: true,
+			clearBtn: false, 
+			cancelBtn: true,  
+			multidateSeparator: "-",
+			autoclose: true,
+			todayHighlight: true,
+			daysOfWeekDisabled: [5], 
+			/*beforeShow: function (input) {
+				$(input).css({
+					"position": "relative",
+					"z-index": 999999999999
+				});
+			},
+			//zIndexOffset: 99999 */
+		});
+		
+		$('.select_text_able').select2();
+		 
+		/* multi services select ends */  
+	}); 
+	
+	setTimeout(function () {
+		ToxProgress.create();
+		ToxProgress.animate();
+	}, 200);
+
+	$(window).ready(function (e) {
+		$.each($('div.progress-bar'), function () {
+			$(this).css('height', $(this).attr('aria-valuenow') + '%');
+		});
+	});
+	</script>
+  </div>
+</div>
+</body>
+</html>

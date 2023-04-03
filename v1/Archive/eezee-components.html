@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+    <title>Tinext - Wiyana Internet</title>
+    <meta charset="UTF-8" />
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/tox-progress.css" />
+    <link rel="stylesheet" type="text/css" href="css/wiyana-mobile.css" />
+    <link rel="stylesheet" href="./css/wiyana_asad.css" />
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/wiyana_addional.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="mylines-page my-zain-bg wiyana-page">
+    <div id="wrapper" class="container-fluid">
+        <header class="header main-header-bg header-height">
+            <div class="sub-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <ul class="left-menu">
+                                <li>
+                                    <a href="#" class="active">Customer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="right-menu text-right">
+                                <li>
+                                    <a href="#" class="text-uppercase">Quick Pay</a>
+                                </li>
+                                <li>
+                                    <div class="form-group d-inline-block">
+                                        <select class="form-control custom-select dropdown-transparent" id="">
+                                            <option value="Kuwait">Kuwait</option>
+                                            <option value="USA">USA</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">العربية</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container-fluid-custom">
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-right">
+                                <ul class="mobile-nav">
+                                    <li class="cart-dropdown profile-btn logedin">
+                                        <button class="btn btn-pc-4 profile-btn">
+                                            <img src="images/profile_picture.png" alt="" class="profile-image" data-target-menu="#profiledropdownmenu1" />
+                                        </button>
+                                        <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+                                            <div class="card-body pt-3">
+                                                <div class="profile-dropmen-login pb-4 text-center">
+                                                    <h3 class="text-center">Khaled Bin Suleman</h3>
+                                                    <a href="#" class="btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto">My Account</a>
+                                                </div>
+                                                <div class="profile-dropmen-links">
+                                                    <ul>
+                                                        <li><a href="#">Quick Pay</a></li>
+                                                        <li><a href="#">Add Line</a></li>
+                                                        <li><a href="#">Manage Plan</a></li>
+                                                        <li><a href="#">My Orders</a></li>
+                                                        <li><a href="#">My Usage</a></li>
+                                                        <li class="logout text-center">
+                                                            <a href="#"><img src="images/sign-out.svg" class="mr-2" />Log out
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+                                    <li class="cart-dropdown">
+                                        <a href="#" data-target-menu="#cartdropdownmenu"><i class="icon-empty-shopping-card"></i></a>
+                                    </li>
+                                    <li class="mobile-menu-toggle position-static">
+                                        <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+                                        <div class="main-mobile-menu" id="mobile-menu">
+                                            <div class="sub-menu">
+                                                <div class="form-group">
+                                                    <select class="form-control custom-select dropdown-transparent light" id="">
+                                                        <option value="Customer">Customer</option>
+                                                        <option value="Business">Business</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="container-fluid-custom">
+                                                <ul class="mobile-megamenu">
+                                                    <li>
+                                                        <a href="#" class="active">
+                                                            <i class="icon-cart-with-plus"></i>&ensp;Shop
+                                                        </a>
+                                                        <span class="float-right"><i class="icon-right-arrow"></i></span>
+                                                        <div class="mobile-megamenu-level-2">
+                                                            <div class="lvl-2-header">
+                                                                <div class="container-fluid-custom">
+                                                                    <a href="" class="back-link">
+                                                                        <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                        <span>Back</span>
+                                                                    </a>
+                                                                    <p class="heading">
+                                                                        <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                        <span class="">Shop</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="lvl-2-content">
+                                                                <div class="container-fluid-custom">
+                                                                    <ul class="accordian-menu">
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_plans.svg" alt="plans" />
+                                                                                <span>Plans</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay Monthly</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay as you go</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Roaming and International</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_products.svg" alt="plans" />
+                                                                                <span>Products</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smartphone</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Home Broadband</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">SIM Card</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Tablet</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Gaming</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Accessories</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">E-cards</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Add-ons</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_zainlife.svg" alt="plans" />
+                                                                                <span>Zain Life</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smart Home</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Health</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Lifestyle</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Entertainment</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_offers.svg" alt="plans" />
+                                                                                <span>Offers</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Existing Customer Offers</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">All Offers & Promotions</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-headphones-with-mic"></i>
+                                                            &ensp;My Zain
+                                                        </a>
+                                                        <span class="float-right"><i class="icon-right-arrow"></i></span>
+                                                        <div class="mobile-megamenu-level-2">
+                                                            <div class="lvl-2-header">
+                                                                <div class="container-fluid-custom">
+                                                                    <a href="" class="back-link">
+                                                                        <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                        <span>Back</span>
+                                                                    </a>
+                                                                    <p class="heading">
+                                                                        <i class="icon-headphones-with-mic"></i>&ensp;
+                                                                        <span class="">My Zain</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="lvl-2-content">
+                                                                <div class="container-fluid-custom">
+                                                                    <ul class="accordian-menu">
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_plans.svg" alt="plans" />
+                                                                                <span>Iphone</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay Monthly</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay as you go</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Roaming and International</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_products.svg" alt="plans" />
+                                                                                <span>Sims</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smartphone</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Home Broadband</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">SIM Card</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Tablet</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Gaming</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Accessories</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">E-cards</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Add-ons</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_zainlife.svg" alt="plans" />
+                                                                                <span>Zain Offers</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smart Home</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Health</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Lifestyle</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Entertainment</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_offers.svg" alt="plans" />
+                                                                                <span>Zain Load</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Existing Customer Offers</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">All Offers & Promotions</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-Group-1561"></i>
+                                                            Support
+                                                        </a>
+                                                        <span class="float-right"><i class="icon-right-arrow"></i></span>
+                                                        <div class="mobile-megamenu-level-2">
+                                                            <div class="lvl-2-header">
+                                                                <div class="container-fluid-custom">
+                                                                    <a href="" class="back-link">
+                                                                        <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                        <span>Back</span>
+                                                                    </a>
+                                                                    <p class="heading">
+                                                                        <i class="icon-Group-1561"></i>&ensp;
+                                                                        <span class="">Support</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="lvl-2-content">
+                                                                <div class="container-fluid-custom">
+                                                                    <ul class="accordian-menu">
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_plans.svg" alt="plans" />
+                                                                                <span>Zain Support</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay Monthly</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Pay as you go</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="#">Roaming and International</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_products.svg" alt="plans" />
+                                                                                <span>Contact</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smartphone</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Home Broadband</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">SIM Card</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Tablet</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Gaming</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Accessories</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">E-cards</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Add-ons</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_zainlife.svg" alt="plans" />
+                                                                                <span>Helpline</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Smart Home</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Health</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Lifestyle</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Entertainment</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <img src="./images/pagenav_offers.svg" alt="plans" />
+                                                                                <span>Offers</span>
+                                                                                <i class="icon-angle-arrow-pointing-to-right"></i>
+                                                                            </a>
+                                                                            <ul class="expandable-links">
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">Existing Customer Offers</a>
+                                                                                </li>
+                                                                                <li class="megamenu-link">
+                                                                                    <a href="">All Offers & Promotions</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="container">
+                                                <p class="quick-pay-link text-left">
+                                                    <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                                                </p>
+                                            </div>
+                                            <div class="mobile-search">
+                                                <!-- Search -->
+                                                <div class="search-autocomplete d-block">
+                                                    <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false" placeholder="Search" />
+                                                    <button class="btn main-search-btn btn-pc-3">
+                                                        <i class="icon-magnifying-glass"></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Search End -->
+                                            </div>
+                                            <div class="language-selector text-center">
+                                                <ul>
+                                                    <li><a href="#" class="current-language">EN</a></li>
+                                                    <li><a href="#">العربية</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="form-group country-selector selection-border">
+                                                <select class="form-control custom-select dropdown-transparent light" id="">
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    <option value="USA">USA</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="main-navigation d-inline-block">
+                                <li class="megamenu-container">
+                                    <a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;Shop</a>
+                                    <div id="shopmegamenu" class="megamenu container-fluid-custom">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <ul>
+                                                            <li class="megamenu-title">
+                                                                <img src="./images/pagenav_plans.svg" alt="megamenu-plans" />
+                                                                <h3 class="">Plans</h3>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="#">Pay Monthly</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="#">Pay as you go</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="#">Romming and International</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul>
+                                                            <li class="megamenu-title">
+                                                                <img src="./images/pagenav_products.svg" alt="megamenu-products" />
+                                                                <h3 class="">Products</h3>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Smartphone</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Home Broadband</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">SIM Card</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Tablet</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Gaming</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Accessories</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">E-cards</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Add-ons</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul>
+                                                            <li class="megamenu-title">
+                                                                <img src="./images/pagenav_zainlife.svg" alt="megamenu-zainlife" />
+                                                                <h3 class="">Zain Life</h3>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Smart Home</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Health</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Lifestyle</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Entertainment</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul>
+                                                            <li class="megamenu-title">
+                                                                <img src="./images/pagenav_offers.svg" alt="megamenu-offers" />
+                                                                <h3 class="">Offers</h3>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">Existing Customer Offers</a>
+                                                            </li>
+                                                            <li class="megamenu-link">
+                                                                <a href="">All Offers & Promotions</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="i-watch_img-container">
+                                                    <img src="./images/menu.png" alt="" />
+                                                    <div class="content">
+                                                        <h1 class="main-heading">
+                                                            Apple Watch S4 44mm Celular
+                                                        </h1>
+                                                        <button class="btn btn-pc-3">Buy Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;Support</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="right-nav">
+                                <li>
+                                    <a href="#"><i class="icon-magnifying-glass"></i></a>
+                                </li>
+                                <li class="cart-dropdown">
+                                    <a href="#" data-target-menu="#cartdropdownmenu"><i class="icon-empty-shopping-card"></i></a>
+                                    <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                                        <div class="text-center dropdown-header">
+                                            <h4 class="mb-0">Cart Summary</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="product-sect">
+                                                <h5 class="sect-title">Products</h5>
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">iPhone XS</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>64 GB</p>
+                                                                <p>Gold</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">
+                                                                    Commitment period 24 Months
+                                                                </p>
+                                                                <label for="" class="right-lbl">KD 29</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="plan-sect">
+                                                <h5 class="sect-title">Plan</h5>
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/Iphone.png" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="left-lbl item-title">
+                                                                    eeZee Internet Bundle
+                                                                </p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>5 gB 4G LTE</p>
+                                                                <p>Unlimited Local Messages</p>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                <label for="" class="right-lbl">KD 10</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="entertainment-sect">
+                                                <h5 class="sect-title">Entertainment</h5>
+                                                <div class="product-item">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="product-img">
+                                                                <img src="./images/smarthomecamera.png" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="d-flex mb-2">
+                                                                <p class="left-lbl item-title">
+                                                                    Smart Home Camera
+                                                                </p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                <label for="" class="right-lbl">KD 29</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                <label for="" class="right-lbl">KD 0</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <h5 class="sect-title">Total</h5>
+                                            <div class="product-item main-total">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                            <label for="" class="right-lbl">KD 0</label>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                            <label for="" class="right-lbl">KD 29</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-action">
+                                                <button class="btn btn-link">
+                                                    <i class="icon-delete fs-16"></i>&ensp; CLEAR CART
+                                                </button>
+                                                <button class="btn btn-pc-3">REVIEW AND PAY</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                                </li>
+                                <li class="profile-btn logedin">
+                                    <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                                        <img src="images/profile_picture.png" alt="" class="profile-image" />
+                                        <div class="user-info">
+                                            <p class="name">Welcome <strong>Khaled</strong></p>
+                                            <p class="contact">90079990</p>
+                                        </div>
+                                        <i class="icon-right-arrow icon-rotate-90"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- eeZee Flexi on Zain App Starts -->
+        <section class="zain_flexi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="zain-mobile-img" src="./images/zain-mobile.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 info_ezee_flexi">
+                        <h2>eeZee Flexi on Zain App</h2>
+                        <p>Enjoy special offers exclusivly on our app</p>
+                        <div class="btn_downloads">
+                            <a href="#"><img src="./images/g-play.png" alt="" /></a>
+                            <a href="#"><img src="./images/apple-store.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="zain_flexi_mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-8 info_ezee_flexi">
+                        <h2>eeZee Flexi on Zain App</h2>
+                        <p>Enjoy special offers exclusivly on our app</p>
+                        <div class="btn_downloads">
+                            <a href="#"><img src="./images/g-play.png" alt="" /></a>
+                            <a href="#"><img src="./images/apple-store.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 zain_flex_img_mob">
+                <img class="zain-mobile-img" src="./images/zain-mobile.png" alt="" />
+            </div>
+        </section>
+        <!-- eeZee Flexi on Zain App Ends -->
+        <!-- eeZee Prepaid Started -->
+        <section class="eezee_prepaid py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 ezee-flex-col">
+                        <span>Welcome to Kuwait’s favorite prepaid choice</span>
+                        <h2>eeZee Prepaid</h2>
+                        <p>
+                            The choices are varied, you can design the package that suits
+                            your needs from calls and data on your own through the Zain app.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./images/ezee-rounded.png" alt="" />
+                    </div>
+                </div>
+                <div class="row span_divider py-4">
+                    <div class="col-xs-6 col-lg-3">
+                        <h3>
+                            No.1 <br />
+                            5G Network
+                        </h3>
+                        <span></span>
+                        <p>Get Access to Kuwait’s no.1 5G network!</p>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <h3>
+                            Control <br />
+                            your Spend
+                        </h3>
+                        <span></span>
+                        <p>Be in full control of your spend. More GBs less KDs.</p>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <h3>
+                            Design your <br />
+                            Own Plan
+                        </h3>
+                        <span></span>
+                        <p>or select from our ready-made plans.</p>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <h3>
+                            Online <br />
+                            Exclusive Deals
+                        </h3>
+                        <span></span>
+                        <p>eeZee offers you exclusive offers, perks and benefits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- eeZee Prepaid Ended -->
+    </div>
+    <div class="scripts">
+        <!-- jQuery -->
+        <script src="./js/jQuery.js"></script>
+        <!-- Bootstrap -->
+        <script src="./js/bootstrap.min.js"></script>
+        <!-- Slick Slider -->
+        <script src="./js/slick.min.js"></script>
+        <!-- Custom - Select Slider -->
+        <script src="./js/select2.min.js"></script>
+        <!-- Search type suggetion -->
+        <script src="./js/typeahead.bundle.min.js"></script>
+        <!-- jQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+        <!-- Custom js -->
+        <script src="./js/custom.js"></script>
+        <script src="./js/tox-progress.js"></script>
+        <script>
+        $(function() {
+            $("#datepicker").datepicker({
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "c-32:c-10",
+            });
+        });
+        setTimeout(function() {
+            ToxProgress.create();
+            ToxProgress.animate();
+        }, 200);
+        </script>
+        <script>
+        // This example adds a search box to a map, using the Google Place Autocomplete
+        // feature. People can enter geographical searches. The search box will return a
+        // pick list containing a mix of places and predicted search terms.
+
+        // This example requires the Places library. Include the libraries=places
+        // parameter when you first load the API. For example:
+        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+        var map;
+        var service;
+        var infowindow;
+
+        function initAutocomplete(paras2 = 0) {
+            if (document.getElementById("pac-input").value == "" && paras2 == 1) {
+                document.getElementById("pac-input").style.border =
+                    "1px solid #FF0000";
+                return false;
+            } else {
+                document.getElementById("pac-input").style.border = "none";
+            }
+
+            var sydney = new google.maps.LatLng(-33.867, 151.195);
+
+            infowindow = new google.maps.InfoWindow();
+
+            map = new google.maps.Map(document.getElementById("map-canvas"), {
+                center: sydney,
+                zoom: 13,
+                mapTypeId: "roadmap",
+            });
+
+            var input = document.getElementById("pac-input");
+            var searchBox = new google.maps.places.SearchBox(input);
+
+            var request = {
+                query: document.getElementById("pac-input").value,
+                fields: ["name", "geometry"],
+            };
+
+            service = new google.maps.places.PlacesService(map);
+
+            service.findPlaceFromQuery(request, function(results, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK) {
+                    if (document.getElementById("pac-input").value != "") {
+                        for (var i = 0; i < results.length; i++) {
+                            createMarker(results[i]);
+                        }
+                    }
+
+                    map.setCenter(results[0].geometry.location);
+                }
+            });
+        }
+
+        function createMarker(place) {
+            var icon = {
+                url: "http://dp8staging.com/dev/zain-html/v1/images/map/map-pin.png", //place.icon,
+                size: new google.maps.Size(71, 71),
+                origin: new google.maps.Point(0, 0),
+                anchor: new google.maps.Point(17, 34),
+                scaledSize: new google.maps.Size(25, 25),
+            };
+
+            var marker = new google.maps.Marker({
+                map: map,
+                icon: icon,
+                title: document.getElementById("pac-input").value,
+                position: place.geometry.location,
+            });
+
+            google.maps.event.addListener(marker, "click", function() {
+                infowindow.setContent(place.name);
+                infowindow.open(map, this);
+            });
+        }
+        </script>
+        <script type="text/javascript">
+        $(window).ready(function(e) {
+            $.each($("div.progress-bar"), function() {
+                $(this).css("height", $(this).attr("aria-valuenow") + "%");
+            });
+        });
+        </script>
+    </div>
+</body>
+
+</html>

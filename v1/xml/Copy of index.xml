@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<BranchesList> 
+	
+		<BranchItem> 
+			<id>1</id>
+			<name>Automotive - West Region</name>
+			<address>Address 1</address> 
+			<working_days>Sunday - Thursday</working_days> 
+			<working_hours>8:30 Am - 3:00 PM</working_hours> 
+			<phone_no>11111111</phone_no>
+			<latitudes>29.3746267</latitudes> 
+			<longitudes>47.97709</longitudes> 
+			<getdirection>https://www.google.com/maps/place/Kuwait+International+Bank/@29.3746271,47.9595805,14z/data=!4m5!3m4!1s0x3fcf84ebefd05a61:0x74421fe33c62689b!8m2!3d29.3746267!4d47.97709</getdirection> 
+			<icons></icons>
+			<offersavailable>1</offersavailable>    
+			<ServicesList> 
+				<Serviceitem>  
+					<Stitle>Showrooms</Stitle>
+					<Sicon>images/location3.svg</Sicon> 
+				</Serviceitem> 
+                <Serviceitem>  
+					<Stitle>Service Center</Stitle>
+					<Sicon>images/location1.svg</Sicon>  
+				</Serviceitem>  
+                <Serviceitem> 
+					<Stitle>Parts</Stitle> 
+					<Sicon>images/location2.svg</Sicon> 
+				</Serviceitem>  
+                <Serviceitem>  
+					<Stitle>Vehicle Delivery</Stitle>
+					<Sicon></Sicon>  
+				</Serviceitem> 
+				<Serviceitem>  
+					<Stitle>Fleet Sales</Stitle>
+					<Sicon></Sicon>   
+				</Serviceitem>   
+			</ServicesList>  
+		</BranchItem> 
+		
+		<BranchItem> 
+			<id>2</id>
+			<name>Car Show - South Road</name>
+			<address>address 2</address> 
+			<working_days>Sunday - Thursday</working_days> 
+			<working_hours>8:30 Am - 3:00 PM</working_hours> 
+			<phone_no>11111111</phone_no>
+			<latitudes>29.07976</latitudes>
+			<longitudes>48.1258513</longitudes>
+			<getdirection></getdirection> 
+			<icons></icons>  
+			<offersavailable></offersavailable>   
+			<ServicesList> 
+				<Serviceitem>  
+					<Stitle>Showrooms</Stitle>
+					<Sicon>images/location3.svg</Sicon> 
+				</Serviceitem> 
+                <Serviceitem>  
+					<Stitle>Service Center</Stitle>
+					<Sicon>images/location1.svg</Sicon>  
+				</Serviceitem>  
+                <Serviceitem> 
+					<Stitle>Parts</Stitle> 
+					<Sicon>images/location2.svg</Sicon> 
+				</Serviceitem>  
+                <Serviceitem>  
+					<Stitle>Vehicle Delivery</Stitle>
+					<Sicon></Sicon>  
+				</Serviceitem> 
+				<Serviceitem>  
+					<Stitle>Fleet Sales</Stitle>
+					<Sicon></Sicon>   
+				</Serviceitem>  
+			</ServicesList>   
+		</BranchItem>
+		
+		<BranchItem> 
+			<id>3</id>
+			<name>Dimson Cars - Ltd - KW</name>
+			<address>address 3</address> 
+			<working_days>Sunday - Thursday</working_days> 
+			<working_hours>8:30 Am - 3:00 PM</working_hours> 
+			<phone_no>11111111</phone_no> 
+			<latitudes>29.086124</latitudes> 
+			<longitudes>48.0776763</longitudes> 
+			<getdirection></getdirection> 
+			<icons></icons>
+			<offersavailable>1</offersavailable>    
+			<ServicesList> 
+				<Serviceitem>  
+					<Stitle>Showrooms</Stitle>
+					<Sicon>images/location3.svg</Sicon> 
+				</Serviceitem> 
+                <Serviceitem>  
+					<Stitle>Service Center</Stitle>
+					<Sicon>images/location1.svg</Sicon>  
+				</Serviceitem> 
+                <Serviceitem>  
+					<Stitle>Vehicle Delivery</Stitle>
+					<Sicon></Sicon>  
+				</Serviceitem> 
+				<Serviceitem>  
+					<Stitle>Fleet Sales</Stitle>
+					<Sicon></Sicon>   
+				</Serviceitem>   
+			</ServicesList>  
+		</BranchItem>
+		
+		<BranchItem> 
+			<id>4</id>
+			<name>Service Parts- Garage Ltd</name>
+			<address>address 4</address> 
+			<working_days>Sunday - Thursday</working_days> 
+			<working_hours>8:30 Am - 3:00 PM</working_hours> 
+			<phone_no>11111111</phone_no>
+			<latitudes>29.264780</latitudes> 
+			<longitudes>47.938719</longitudes>
+			<getdirection></getdirection> 
+			<icons></icons> 
+			<offersavailable></offersavailable>   
+			<ServicesList> 
+				<Serviceitem>  
+					<Stitle>Showrooms</Stitle>
+					<Sicon>images/location3.svg</Sicon> 
+				</Serviceitem> 
+                <Serviceitem>  
+					<Stitle>Service Center</Stitle>
+					<Sicon>images/location1.svg</Sicon>  
+				</Serviceitem>  
+                <Serviceitem> 
+					<Stitle>Parts</Stitle> 
+					<Sicon>images/location2.svg</Sicon> 
+				</Serviceitem>  
+                <Serviceitem>  
+					<Stitle>Vehicle Delivery</Stitle>
+					<Sicon></Sicon>  
+				</Serviceitem> 
+				<Serviceitem>  
+					<Stitle>Fleet Sales</Stitle>
+					<Sicon></Sicon>   
+				</Serviceitem>     
+			</ServicesList>  
+		</BranchItem>
+		
+	</BranchesList>

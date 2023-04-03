@@ -1,0 +1,73 @@
+html,
+body {
+  overflow: auto !important;
+  overflow-x: auto !important;
+}
+
+.ezee-banner-txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 72px;
+}
+
+.ezee-banner-txt p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.ezee-flex-col span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.ezee-flex-col h2 {
+  font-weight: 700;
+  font-size: 96px;
+}
+
+.ezee-flex-col {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.span_divider h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.span_divider p {
+  font-size: 26px !important;
+}
+
+.custommize-top-left h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.addons_option p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.custommize-top-left h2 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 55px;
+}
+
+.custommize-top-left p {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 55px;
+}
+
+.custommize-top-left {
+  direction: rtl;
+}

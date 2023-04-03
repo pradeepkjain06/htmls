@@ -1,0 +1,2557 @@
+<!DOCTYPE html>
+<html class="kw ltr en_US" dir="ltr" lang="en-US">
+
+<head>
+    <title>Tinext-HOME</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/cookies.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-new.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <style>
+
+.kw #wrapper .site-logo img {
+  height: 42px;
+}
+.kw #wrapper .header ul li {
+  display: inline;
+}
+.kw #wrapper .header ul li a {
+  display: inline-block;
+  padding: 8px 26px 9px;
+  color: #ffffff;
+}
+.kw #wrapper .header ul li a.active, .kw #wrapper .header ul li a:hover {
+  background: #d12b8a;
+}
+.kw #wrapper .header .sub-header .form-group {
+  width: auto;
+  margin-bottom: 0;
+}
+.kw #wrapper .header .sub-header ul.right-menu li a {
+  padding: 11px 26px 12px;
+}
+.kw #wrapper .header .sub-header ul.left-menu li {
+  float: left;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent {
+  max-width: initial;
+  background: transparent;
+  border: none;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent + .select2-container .select2-selection--single {
+  border: none;
+  background: transparent;
+  outline: none;
+  min-height: auto;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent + .select2-container .select2-selection--single .select2-selection__rendered {
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-weight: 600;
+  padding: 1px;
+  padding-right: 28px;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent + .select2-container .select2-selection--single .select2-selection__arrow {
+  right: 6px;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent + .select2-container .select2-selection--single .select2-selection__arrow::before {
+  font-size: 10px;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent + .select2-container .select2-selection--single .select2-selection__arrow b[role=presentation] {
+  display: none;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent.light + .select2-container .select2-selection--single .select2-selection__rendered {
+  color: #ffffff;
+  font-weight: normal;
+}
+.kw #wrapper .header .sub-header .dropdown-transparent.light + .select2-container .select2-selection--single .select2-selection__arrow::before {
+  color: #ffffff;
+}
+.kw #wrapper .header .main-header {
+  z-index: 3;
+}
+.kw #wrapper .header .main-header .main-header-row {
+  min-height: 96px;
+  height: 96px;
+}
+.kw #wrapper .header .main-header .site-logo {
+  padding: 9px 0;
+}
+.kw #wrapper .header .main-header .site-logo img {
+  position: relative;
+}
+.kw #wrapper .header .main-header .mobile-controls {
+  display: none;
+}
+.kw #wrapper .header .main-header .main-menu {
+  position: static;
+}
+.kw #wrapper .header .main-header ul.main-navigation {
+  border-bottom: 1px solid #ffffff;
+}
+.kw #wrapper .header .main-header ul.main-navigation > li {
+  float: left;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a {
+  position: relative;
+  color: #ffffff;
+  padding: 26px 30px;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a.active, .kw #wrapper .header .main-header ul.main-navigation li a:hover {
+  background: transparent;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a.active::before, .kw #wrapper .header .main-header ul.main-navigation li a:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+  height: 3px;
+  background: #d12b8a;
+  left: 0;
+  z-index: 2;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a i {
+  font-size: 26px;
+  margin-right: 6px;
+  vertical-align: text-bottom;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a i.icon-headphones-with-mic {
+  vertical-align: text-bottom;
+}
+.kw #wrapper .header .main-header ul.main-navigation li a i.icon-Group-1561 {
+  vertical-align: text-bottom;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  z-index: 1;
+  text-align: left;
+  padding-top: 45px;
+  padding-bottom: 65px;
+  transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+  transform: scale(0.75) translateX(0%);
+  transform-origin: 50% 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  pointer-events: none;
+  box-shadow: 0px -3px 16px 0px rgba(0, 0, 0, 0.4);
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul {
+  margin-left: 50px;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-title {
+  position: relative;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-title img {
+  position: absolute;
+  left: -46px;
+  height: 35px;
+  max-width: 35px;
+  width: 35px;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-link a {
+  color: #727272;
+  display: block;
+  padding: 10px 0 4px 0;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #c9c9c9;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-link a:hover {
+  color: #000000;
+  border-bottom: 1px solid #c9c9c9;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-link a:hover::before {
+  display: none;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container:hover .megamenu {
+  transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+  transform: scale(1) translateX(0%);
+  transform-origin: 50% 0;
+  opacity: 1;
+  visibility: visible;
+  overflow: auto;
+  pointer-events: all;
+}
+.kw #wrapper .header .main-header ul.right-nav {
+  position: relative;
+  text-align: right;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.kw #wrapper .header .main-header ul.right-nav li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.kw #wrapper .header .main-header ul.right-nav li a {
+  border-radius: 50%;
+  padding: 18px;
+  line-height: 0;
+  margin: 0 16px;
+}
+.kw #wrapper .header .main-header ul.right-nav li a i {
+  font-size: 26px;
+}
+.kw #wrapper .header .main-header ul.right-nav li a.active, .kw #wrapper .header .main-header ul.right-nav li a:hover {
+  background: #ffffff;
+}
+.kw #wrapper .header .main-header ul.right-nav li a.active,
+.kw #wrapper .header .main-header ul.right-nav li a.active i, .kw #wrapper .header .main-header ul.right-nav li a:hover,
+.kw #wrapper .header .main-header ul.right-nav li a:hover i {
+  color: #d12b8a;
+}
+.kw #wrapper .header .main-header ul.right-nav li + li::before {
+  content: "";
+  height: 15px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  left: 0;
+  top: 0;
+  display: inline-block;
+}
+.kw #wrapper .header .main-header ul.right-nav li.grand-total {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+}
+.kw #wrapper .header .main-header ul.right-nav li.grand-total a {
+  margin-left: 0;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn {
+  border-left: 0;
+  padding: unset;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn::before {
+  display: none;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn a {
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: "NunitoSans-Regular", sans-serif;
+  line-height: 1.3;
+  margin-right: 0;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn a i {
+  font-size: 18px;
+  vertical-align: sub;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn a:hover {
+  background: #23b7c0;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn a:hover,
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn a:hover i {
+  color: #ffffff;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a {
+  position: relative;
+  display: flex;
+  max-height: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 35px !important;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .profile-image {
+  max-width: 44px;
+  max-height: 44px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  object-fit: cover;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .icon-right-arrow {
+  position: absolute;
+  right: 10px;
+  top: 42%;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info {
+  text-align: left;
+  margin-left: 15px;
+}
+.kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info p {
+  margin-bottom: 0;
+  font-weight: 100;
+  font-family: "NunitoSans-Regular", sans-serif;
+}
+.kw #wrapper .header .main-header .section-nav {
+  display: none;
+}
+.kw #wrapper .header.shop_landing_header .main-header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  margin-top: 10px;
+}
+.kw #wrapper .header.shop_landing_header .sub-header {
+  background: url("../images/subheader_bg.png") repeat;
+  background-size: 100%;
+}
+.kw #wrapper .header.main-header-bg .main-header {
+  background: url("../images/Header.png");
+  background-size: cover;
+  position: relative;
+}
+.kw #wrapper .header.main-header-bg .main-header ul.main-navigation {
+  border-bottom: 0;
+}
+.kw #wrapper .header.main-header-bg .main-header ul.main-navigation li a {
+  padding: 30px 30px;
+}
+.kw #wrapper .header.main-header-bg .sub-header {
+  background: #ffffff;
+}
+.kw #wrapper .header.main-header-bg .sub-header ul.left-menu li a {
+  color: #d12b8a;
+}
+.kw #wrapper .header.main-header-bg .sub-header ul.left-menu li a.active, .kw #wrapper .header.main-header-bg .sub-header ul.left-menu li a:hover {
+  background: #d12b8a;
+  color: #ffffff;
+}
+.kw #wrapper .header.main-header-bg .sub-header ul.right-menu li a {
+  color: #000000;
+  font-weight: 800;
+}
+.kw #wrapper .header.main-header-bg .sub-header ul.right-menu li a.active, .kw #wrapper .header.main-header-bg .sub-header ul.right-menu li a:hover {
+  background: transparent;
+  color: #d12b8a;
+}
+.kw #wrapper .header .i-watch_img-container {
+  position: relative;
+  max-width: 60%;
+  margin-left: auto;
+  height: auto;
+}
+.kw #wrapper .header .i-watch_img-container img {
+  max-width: 100%;
+}
+.kw #wrapper .header .i-watch_img-container .content {
+  position: absolute;
+  bottom: 35px;
+  left: -120px;
+}
+.kw #wrapper .header .i-watch_img-container .content .main-heading {
+  display: inline;
+  background: #70489d;
+  color: #ffffff;
+  line-height: 1.6;
+}
+.kw #wrapper .header .i-watch_img-container .content .btn {
+  display: block;
+  margin-top: 20px;
+  min-width: auto;
+  min-height: auto;
+  padding: 10px 30px;
+}
+.kw #wrapper .sect_sepretor {
+  position: relative;
+}
+.kw #wrapper .sect_sepretor::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: calc(100% + 1000px);
+  right: 0;
+  background: #d12b8a;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .kw #wrapper .header .main-header .main-header-row {
+    min-height: 76px;
+    height: 76px;
+  }
+  .kw #wrapper .site-logo img {
+    height: 40px;
+  }
+  .kw #wrapper .header.shop_landing_header .main-header {
+    margin-top: 5px;
+  }
+  .kw #wrapper .header ul li a {
+    padding: 5px 14px 6px;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li a {
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li a i {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li a {
+    padding: 15px;
+    margin: 0 8px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li a i {
+    font-size: 20px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn a {
+    padding: 12px 16px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn a i {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  .kw #wrapper .header .sub-header ul.right-menu li a {
+    padding: 8px 25px 9px;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-link a {
+    font-size: 14px;
+    padding: 6px 0 2px 0;
+  }
+  .kw #wrapper .header.main-header-bg .main-header ul.main-navigation li a {
+    padding: 23px 20px;
+  }
+  .kw #wrapper .header .i-watch_img-container .content {
+    position: absolute;
+    bottom: 20px;
+    left: -100px;
+  }
+  .kw #wrapper .header .i-watch_img-container .content .btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .profile-image {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info {
+    text-align: left;
+    margin-left: 4px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a {
+    padding: 10px 25px 10px 10px !important;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info p.name {
+    font-size: 14px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info p.content {
+    font-size: 10px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .icon-right-arrow {
+    right: 2px;
+    font-size: 8px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .kw #wrapper .header .main-header .main-header-row {
+    min-height: 72px;
+    height: 72px;
+  }
+  .kw #wrapper .header .sub-header ul.right-menu li a {
+    padding: 8px 26px;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li a i {
+    font-size: 20px;
+  }
+  .kw #wrapper .site-logo img {
+    height: 36px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn a {
+    font-size: 12px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn a i {
+    font-size: 15px;
+    vertical-align: text-top;
+  }
+  .kw #wrapper .header ul li a {
+    padding: 6px 26px 7px;
+  }
+  .kw #wrapper .header.shop_landing_header .main-header {
+    margin-top: 0;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li a {
+    padding: 14px;
+    font-size: 14px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li a {
+    margin: 0 6px;
+    padding: 12px 13px 10px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li a i {
+    font-size: 16px;
+  }
+  .kw #wrapper .header.main-header-bg .main-header ul.main-navigation li a {
+    padding: 23px 20px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li a {
+    padding: 12px;
+  }
+  .kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu ul .megamenu-link a {
+    font-size: 12px;
+  }
+  .kw #wrapper .header .i-watch_img-container {
+    max-width: 65%;
+  }
+  .kw #wrapper .header .i-watch_img-container .content {
+    position: absolute;
+    bottom: 20px;
+    left: -90px;
+  }
+  .kw #wrapper .header .i-watch_img-container .content .btn {
+    margin-top: 10px;
+    min-width: auto;
+    min-height: auto;
+    padding: 8px 20px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .profile-image {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info {
+    text-align: left;
+    margin-left: 4px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a {
+    padding: 8px 25px 8px 8px !important;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info p.name {
+    font-size: 14px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .user-info p.content {
+    font-size: 10px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav li.profile-btn.logedin a .icon-right-arrow {
+    right: 8px;
+    font-size: 8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .kw #wrapper .header.main-header-bg .main-header,
+.kw #wrapper .header.shop_landing_header .main-header {
+    margin-top: 0;
+    background-image: url("../images/Header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .kw #wrapper .header.main-header-bg .main-header .main-header-row,
+.kw #wrapper .header.shop_landing_header .main-header .main-header-row {
+    min-height: 60px;
+    height: 60px;
+  }
+  .kw #wrapper .header.main-header-bg .main-header .main-navigation,
+.kw #wrapper .header.shop_landing_header .main-header .main-navigation {
+    display: none !important;
+  }
+  .kw #wrapper .site-logo img {
+    height: 32px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav,
+.kw #wrapper .header .sub-header {
+    display: none !important;
+  }
+  .kw #wrapper .header .main-header .mobile-controls {
+    display: block;
+    margin-bottom: -5px;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li {
+    position: relative;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li:last-child::before, .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li:first-child::before {
+    display: none;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a {
+    margin: 0 10px;
+    padding: 10px;
+    line-height: 0;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a.active, .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a:hover {
+    background: #ffffff;
+    color: #d12b8a;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav .profile-btn {
+    border-radius: 50%;
+    height: 36px;
+    min-height: 36px;
+    width: 36px;
+    padding: 0;
+    border-width: 1px;
+    margin: 0 15px;
+  }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+  .product_plan .main-heading button {
+      min-width: 60px !important;
+  }
+  .mobile-height .product-thumbnail {height: 360px !important;}
+  .kw #wrapper .header.shop_landing_header .main-header .mobile-menu-toggle .main-mobile-menu {
+    top: 49%;
+    left: 0;
+  }
+  .kw #wrapper .header.main-header-bg .main-header,
+.kw #wrapper .header.shop_landing_header .main-header {
+    margin-top: 0;
+    background-image: url("../images/Footer.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .kw #wrapper .header.main-header-bg .main-header .main-header-row,
+.kw #wrapper .header.shop_landing_header .main-header .main-header-row {
+    min-height: 60px;
+    height: 60px;
+  }
+  .kw #wrapper .header.main-header-bg .main-header .main-navigation,
+.kw #wrapper .header.shop_landing_header .main-header .main-navigation {
+    display: none !important;
+  }
+  .kw #wrapper .site-logo img {
+    height: 30px;
+  }
+  .kw #wrapper .header .main-header ul.right-nav,
+.kw #wrapper .header .sub-header {
+    display: none !important;
+  }
+  .kw #wrapper .header .main-header .mobile-controls {
+    display: block;
+    margin-bottom: -5px;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li {
+    position: relative;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li:last-child::before, .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li:first-child::before {
+    display: none;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a {
+    margin: 0 2px 0 6px;
+    padding: 10px;
+    line-height: 0;
+    vertical-align: middle;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a.active, .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav li a:hover {
+    background: #ffffff;
+    color: #d12b8a;
+  }
+  .kw #wrapper .header .main-header .mobile-controls ul.mobile-nav .profile-btn {
+    border-radius: 50%;
+    height: 36px;
+    min-height: 36px;
+    width: 36px;
+    padding: 0;
+    border-width: 1px;
+    margin: 0 10px;
+    min-width: auto;
+  }
+  .kw #wrapper .header .main-header .section-nav {
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .kw #wrapper .header .main-header .section-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -3px;
+  }
+  .kw #wrapper .header .main-header .section-nav ul li {
+    flex: 1;
+    padding: 0 3px;
+  }
+  .kw #wrapper .header .main-header .section-nav ul li a {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 58px;
+    padding: 6px 0;
+    border-radius: 5px;
+  }
+  .kw #wrapper .header .main-header .section-nav ul li a i {
+    font-size: 26px;
+    margin-bottom: 6px;
+  }
+  .kw #wrapper .header .main-header .section-nav ul li a h4 {
+    font-size: 12px;
+    font-family: "NunitoSans-Regular", sans-serif;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 280px) and (max-width: 1199px) {
+  .kw #wrapper .header .main-header .mobile-menu-toggle a {
+    margin: 0 !important;
+    padding-right: 0 !important;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle a:hover {
+    background: transparent !important;
+    color: #ffffff !important;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu {
+    transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+    transform: scale(0.75) translateX(0%);
+    transform-origin: 50% 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-image: url("../images/Footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu.show {
+    transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear;
+    transform: scale(1) translateX(0%);
+    transform-origin: 50% 0;
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+    pointer-events: all;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu > .form-group {
+    margin-bottom: 0;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu .select2-container {
+    background: #d12b8a;
+    height: 40px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu .select2-container .select2-selection {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    max-width: fit-content;
+    min-width: auto;
+    margin: auto;
+    position: relative;
+    height: 100%;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu .select2-container .select2-selection .select2-selection__rendered {
+    color: #ffffff;
+    font-family: "NunitoSans-Regular", sans-serif;
+    text-align: center;
+    padding: 7px 26px 7px 10px;
+    top: 0;
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu .select2-container .select2-selection .select2-selection__arrow {
+    top: 1px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .sub-menu .select2-container .select2-selection .select2-selection__arrow::before {
+    color: #ffffff;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu {
+    margin-bottom: 30px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li {
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgba(227, 227, 227, 0.4);
+    padding: 22px 10px;
+    position: static;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li::before {
+    display: none;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li a {
+    color: #ffffff !important;
+    font-size: 20px;
+    width: calc(100% - 20px);
+    text-transform: uppercase;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li a:hover, .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li a.active {
+    font-weight: 600;
+    color: #d12b8a !important;
+    background: none;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li a i {
+    font-size: 24px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li span.float-right {
+    position: relative;
+    top: 12px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li span.float-right i {
+    color: #ffffff;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    right: 100%;
+    overflow: auto;
+    z-index: 9;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    pointer-events: none;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2.slide-left {
+    right: 0;
+    pointer-events: all;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header {
+    background: #d12b8a;
+    padding: 15px 10px;
+    position: relative;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header .container-fluid-custom .back-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: none;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header .container-fluid-custom .back-link:hover {
+    color: #ffffff !important;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header .container-fluid-custom .back-link i {
+    font-size: 16px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header .container-fluid-custom .heading {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-header .container-fluid-custom .heading i {
+    font-size: 22px;
+    vertical-align: middle;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li {
+    padding: 0;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li > a {
+    padding: 0;
+    width: 100%;
+    padding: 20px 10px !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li > a img {
+    max-height: 30px;
+    width: 33px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li > a span {
+    font-family: "NunitoSans-SemiBold", sans-serif;
+    color: #000000;
+    margin-left: 18px;
+    flex: 1;
+    font-size: 18px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li > a i {
+    font-size: 12px;
+    float: right;
+    color: #000000;
+    line-height: 30px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li .expandable-links {
+    height: 0;
+    overflow: hidden;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li .expandable-links.expand {
+    height: auto;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li .expandable-links li {
+    padding: 0;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li .expandable-links li a {
+    color: #727272 !important;
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: inherit;
+    margin-left: 62px !important;
+    text-transform: capitalize;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu > li .expandable-links li:last-child {
+    border-bottom: 0;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-search {
+    margin: 30px 15px 15px 15px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-search .search-autocomplete {
+    position: relative;
+    margin: auto;
+    left: auto;
+    top: auto;
+    width: 100%;
+    max-width: 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    max-width: 624px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .quick-pay-link {
+    text-transform: uppercase;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .quick-pay-link a,
+.kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .quick-pay-link a i {
+    font-size: 13px !important;
+    margin-left: 20px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .language-selector {
+    margin-top: 30px;
+    margin-bottom: 34px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .language-selector .current-language {
+    font-weight: bold;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .language-selector li {
+    margin: 0 10px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .country-selector {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .country-selector .select2-container {
+    max-width: 205px;
+    margin: 0 auto;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .country-selector .select2-container .select2-selection {
+    background: transparent;
+    border: 1px solid #d12b8a;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .country-selector .select2-container .select2-selection .select2-selection__rendered {
+    color: #ffffff;
+    font-family: "NunitoSans-Regular", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .country-selector .select2-container .select2-selection .select2-selection__arrow::before {
+    color: #ffffff;
+  }
+}
+.kw #wrapper .layout-8-4 {
+  position: relative;
+}
+.kw #wrapper .layout-8-4 .right-content-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 0 !important;
+  height: max-content;
+}
+.kw #wrapper .layout-6-6 {
+  position: relative;
+}
+.kw #wrapper .layout-6-6 .left-content-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: max-content;
+  padding-left: 0;
+}
+.kw #wrapper .layout-2-10 {
+  position: relative;
+}
+.kw #wrapper .layout-2-10 .left-content-area {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.kw #wrapper .box {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  margin: 15px 0;
+}
+@media (max-width: 1199px) {
+  .ui-slider-pip-selected i::after {
+      left: 29px !important;
+  }
+  .kw #wrapper .layout-8-4 .right-content-area {
+    display: none;
+  }
+  .kw #wrapper .layout-6-6 .right-content-area {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .kw #wrapper .layout-6-6 .left-content-area {
+    padding-left: inherit;
+    position: static;
+    max-width: 100%;
+  }
+}
+.kw #wrapper .breadcrumb-wrapper {
+  margin: 20px 0;
+}
+.kw #wrapper .breadcrumb-wrapper .breadcrumb {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+.kw #wrapper .breadcrumb-wrapper .breadcrumb li.breadcrumb-item,
+.kw #wrapper .breadcrumb-wrapper .breadcrumb li a {
+  color: #727272;
+  font-family: "NunitoSans-SemiBold", sans-serif;
+  white-space: nowrap;
+}
+.kw #wrapper .breadcrumb-wrapper .breadcrumb li.active {
+  color: #70489d;
+}
+.kw #wrapper .breadcrumb-wrapper .breadcrumb li + li {
+  padding-left: 0;
+}
+.kw #wrapper .breadcrumb-wrapper .breadcrumb li + li::before {
+  margin-right: 16px;
+  margin-left: 16px;
+  position: relative;
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .kw #wrapper .breadcrumb-wrapper .breadcrumb li + li::before {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+  .kw #wrapper .breadcrumb-wrapper .breadcrumb li + li::before {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+}
+.kw #wrapper .search-autocomplete {
+  display: none;
+  position: absolute;
+  top: 12px;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 100%;
+  max-width: 42%;
+  z-index: 2;
+}
+.kw #wrapper .search-autocomplete.show {
+  display: block;
+}
+.kw #wrapper .search-autocomplete .twitter-typeahead {
+  width: 100%;
+}
+.kw #wrapper .search-autocomplete input {
+  width: 100%;
+  height: 75px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 160px 12px 70px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  outline: none;
+  color: #000000;
+  font-family: "NunitoSans-Black", sans-serif;
+  font-weight: 600;
+}
+
+.kw #wrapper .search-autocomplete input::placeholder {
+  color: #727272;
+  font-family: "NunitoSans-Regular", sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+.kw #wrapper .search-autocomplete input:-ms-input-placeholder {
+  color: #727272;
+  letter-spacing: 0.5px;
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-weight: normal;
+}
+.kw #wrapper .search-autocomplete input::-ms-input-placeholder {
+  color: #727272;
+  letter-spacing: 0.5px;
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-weight: normal;
+}
+.kw #wrapper .search-autocomplete input::-ms-clear {
+  display: none;
+}
+.kw #wrapper .search-autocomplete .main-search-btn {
+  position: absolute;
+  width: 144px;
+  min-width: auto;
+  height: calc(100% - 18px);
+  right: 10px;
+  top: 10px;
+  border-radius: 5px;
+}
+.kw #wrapper .search-autocomplete .tt-menu {
+  background: #ffffff;
+  width: 100%;
+  text-align: left;
+  z-index: -1 !important;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  margin-top: -5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+}
+.kw #wrapper .search-autocomplete .tt-menu .tt-suggestion {
+  letter-spacing: 0.4px;
+  color: #727272;
+  padding: 12px 60px;
+  border-bottom: 1px dashed #c9c9c9;
+}
+.kw #wrapper .search-autocomplete .tt-menu .tt-suggestion:last-child {
+  border-bottom: none;
+}
+.kw #wrapper .search-autocomplete .tt-menu .tt-suggestion:hover, .kw #wrapper .search-autocomplete .tt-menu .tt-suggestion.tt-cursor {
+  background: #d12b8a;
+  color: #ffffff;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .kw #wrapper .search-autocomplete input {
+    height: 64px;
+    padding: 12px 140px 12px 30px;
+  }
+  .kw #wrapper .search-autocomplete .tt-menu .tt-suggestion {
+    padding: 10px 20px;
+  }
+  .kw #wrapper .search-autocomplete .main-search-btn {
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .kw #wrapper .search-autocomplete {
+    top: 4px;
+  }
+  .kw #wrapper .search-autocomplete input {
+    height: 60px;
+    padding: 12px 120px 12px 30px;
+  }
+  .kw #wrapper .search-autocomplete .tt-menu .tt-suggestion {
+    padding: 10px 20px;
+  }
+  .kw #wrapper .search-autocomplete .main-search-btn {
+    width: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .kw #wrapper .search-autocomplete input {
+    height: 52px;
+    padding: 10px 100px 10px 30px !important;
+  }
+  .kw #wrapper .search-autocomplete .tt-menu .tt-suggestion {
+    padding: 12px 20px;
+  }
+  .kw #wrapper .search-autocomplete .main-search-btn {
+    min-height: auto;
+    max-height: max-content;
+    height: 36px;
+    width: auto;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+    margin: 8px;
+    padding: 2px 26px;
+  }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+  .kw #wrapper .search-autocomplete input {
+    height: 52px;
+    padding: 10px 20px;
+  }
+  .kw #wrapper .search-autocomplete .main-search-btn {
+    min-height: auto;
+    max-height: max-content;
+    height: 36px;
+    width: auto;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+    margin: 8px;
+    padding: 2px 26px;
+  }
+  .kw #wrapper .search-autocomplete .tt-menu .tt-suggestion {
+    padding: 12px 10px;
+  }
+}
+@media (min-width: 2150px) {
+  .kw #wrapper .search-autocomplete {
+    max-width: 35%;
+  }
+}
+.kw #wrapper .section-checkout_progressbar {
+  padding: 24px 0 65px 0;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  padding-left: 10px;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step {
+  position: relative;
+  flex: 1;
+  opacity: 0.4;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step .step_label {
+  margin-left: -15px;
+  margin-bottom: 18px;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step .step_label small {
+  color: #727272;
+  font-family: "NunitoSans-Regular", sans-serif;
+  margin-left: 10px;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step .step_circle {
+  position: relative;
+  display: flex;
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  background: #c9c9c9;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #ffbde3;
+  z-index: 1;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step::before {
+  content: "";
+  height: 1px;
+  width: calc(100% - 72px);
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  border-top: 2px dashed #c9c9c9;
+  z-index: 1;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step:last-child::before {
+  display: none;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.completed {
+  opacity: 1;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.completed .step_label small {
+  color: #000000;
+  font-family: "NunitoSans-Black", sans-serif;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.completed .step_circle {
+  background: #d12b8a;
+  color: #ffffff;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.completed::before {
+  border-top-style: solid;
+  border-top-color: #d12b8a;
+  z-index: 1;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.active {
+  opacity: 1;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_label small {
+  font-family: "NunitoSans-Black", sans-serif;
+  color: #d12b8a;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_circle {
+  background: #d12b8a;
+  color: #ffffff;
+}
+.kw #wrapper .section-checkout_progressbar .progress-status .step.active::before {
+  z-index: 1;
+  opacity: 0.4;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .kw #wrapper .section-checkout_progressbar {
+    padding: 25px 0 25px 0;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status {
+    overflow-x: auto;
+    padding-bottom: 17px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    min-width: max-content;
+    justify-content: flex-end;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step::before {
+    width: 100%;
+    bottom: 18px;
+    z-index: 1;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step .step_label {
+    display: none;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active {
+    min-width: 200px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_label {
+    display: inline-flex;
+    visibility: hidden;
+    margin-left: -20px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_label small {
+    visibility: visible;
+    background: #ffffff;
+    line-height: 1.3;
+    max-width: min-content;
+    margin-left: 0;
+    padding-left: 6px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active::before {
+    z-index: -1;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step .step_circle {
+    height: 38px;
+    width: 38px;
+    border: 2px solid #ffbde3;
+  }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+  .kw #wrapper .section-checkout_progressbar {
+    padding: 25px 0 25px 0;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status {
+    overflow-x: auto;
+    padding-bottom: 17px;
+    justify-content: flex-start;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    min-width: max-content;
+    justify-content: flex-end;
+    display: none;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step::before {
+    width: 120%;
+    bottom: 24px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step .step_label {
+    display: none;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.completed.recent-completed {
+    display: inherit;
+    max-width: 10%;
+    z-index: 2;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active {
+    max-width: 60%;
+    display: inherit;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active + .step {
+    display: inherit;
+    max-width: 20%;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active::before {
+    z-index: -1;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active::after {
+    content: "";
+    width: 30%;
+    left: 0;
+    border-top: 2px solid #d12b8a;
+    margin-left: -10%;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_label {
+    display: inline-flex;
+    visibility: hidden;
+    margin-left: -20px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step.active .step_label small {
+    visibility: visible;
+    background: #ffffff;
+    line-height: 1.3;
+    max-width: min-content;
+    margin-left: -4px;
+    padding-left: 6px;
+  }
+  .kw #wrapper .section-checkout_progressbar .progress-status .step .step_circle {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ffbde3;
+  }
+}
+.kw #wrapper .btn {
+  text-transform: uppercase;
+  font-size: 14px;
+  min-height: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "NunitoSans-Black", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.kw #wrapper .btn:focus, .kw #wrapper .btn.focus {
+  box-shadow: none;
+  outline: none;
+}
+.kw #wrapper .btn + .btn {
+  margin-left: 18px;
+}
+.kw #wrapper .btn.btn-pc-1, .kw #wrapper .paln-specification .action .btn {
+  background: transparent;
+  border: 2px solid #d12b8a;
+  color: #d12b8a;
+}
+.kw #wrapper .btn.btn-pc-1:hover:not([disabled]), .kw #wrapper .paln-specification .action .btn:hover:not([disabled]) {
+  color: #ffffff;
+  background: #d12b8a;
+}
+.kw #wrapper .btn.btn-pc-2 {
+  background: #ffffff;
+  color: #d12b8a;
+  border: 2px solid #ffffff;
+}
+.kw #wrapper .btn.btn-pc-2:hover:not([disabled]) {
+  color: #ffffff;
+  background: transparent;
+}
+.kw #wrapper .btn.btn-pc-3 {
+  background: #d12b8a;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+.kw #wrapper .btn.btn-pc-3:hover:not([disabled]) {
+  background: transparent;
+  color: #d12b8a;
+  border-color: #d12b8a;
+}
+.kw #wrapper .btn.btn-pc-4 {
+  border: 2px solid #23b7c0;
+  background: transparent;
+  color: #ffffff;
+}
+.kw #wrapper .btn.btn-pc-4:hover:not([disabled]) {
+  background: #23b7c0;
+}
+.kw #wrapper .btn.btn-pc-5 {
+  background: transparent;
+  border: 1px solid #c9c9c9;
+  color: #727272;
+}
+.kw #wrapper .btn.btn-pc-5.btn-remove {
+  position: relative;
+  min-height: 44px;
+  padding: 6px 30px 6px 56px;
+  margin-right: 80px;
+}
+.kw #wrapper .btn.btn-pc-5.btn-remove i {
+  left: 30px;
+  position: absolute;
+  top: 10px;
+}
+.kw #wrapper .btn.btn-pc-5:hover:not([disabled]) {
+  background: #E3E3E3;
+  color: #000000;
+  border-color: #E3E3E3;
+}
+.kw #wrapper .btn.btn-lrg {
+  font-size: 16px;
+  min-height: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-width: 212px;
+}
+.kw #wrapper .btn.btn-small {
+  min-height: 42px;
+  font-size: 14px;
+  min-width: auto;
+  padding: 10px 20px !important;
+  max-height: 45px;
+}
+.kw #wrapper .btn.btn-link {
+  position: relative;
+  padding: 15px;
+  text-decoration: none;
+}
+.kw #wrapper .btn.btn-link i {
+  position: relative;
+  margin-left: 10px;
+  left: 0px;
+}
+.kw #wrapper .btn.btn-link:active, .kw #wrapper .btn.btn-link:focus, .kw #wrapper .btn.btn-link:hover {
+  text-decoration: none;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .kw #wrapper .btn {
+    min-width: 160px;
+    font-size: 12px;
+    min-height: 46px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .kw #wrapper .btn.arrow-link {
+    min-width: 200px;
+  }
+  .kw #wrapper .btn + .btn {
+    margin-left: 15px;
+  }
+  .kw #wrapper .btn.btn-small {
+    min-height: 36px;
+    font-size: 12px;
+    min-width: unset;
+    padding: 10px 12px !important;
+  }
+  .kw #wrapper .btn.btn-lrg {
+    font-size: 14px;
+    min-height: 50px;
+    padding-left: 36px;
+    padding-right: 36px;
+    min-width: 190px;
+  }
+  .kw #wrapper .btn.btn-pc-5.btn-remove {
+    margin-right: 60px;
+    padding: 9px 26px 10px 44px;
+    min-width: auto;
+    min-height: 38px;
+  }
+  .kw #wrapper .btn.btn-pc-5.btn-remove i {
+    left: 24px;
+  }
+}
+    </style>
+   
+</head>
+
+
+<body class="landing_page">
+
+    <div id="wrapper" class="container-fluid">
+
+              <!-- Header -->
+              <header class="header shop_landing_header">
+
+           
+    
+         
+    
+    
+                <div class="sub-header top_with_sim_verified header_with_top_bar">
+                    <div class="container">
+    
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+    
+                                <ul class="left-menu ">
+                                    <li>
+                                        <a href="#" class="active">Customer</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Business</a>
+                                    </li>
+                                </ul>
+    
+                            </div>
+                            <div class="col-lg-6">
+    
+                                <ul class="right-menu text-right">
+                                    <li>
+                                        <a href="#" class="text-uppercase">Quick Pay</a>
+                                    </li>
+                                    <li>
+                                        <div class="form-group d-inline-block">
+                                            <select class="form-control custom-select dropdown-transparent light" id="">
+                                                <option value="Kuwait">Kuwait</option>
+                                                <option value="USA">USA</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">العربية</a>
+                                    </li>
+                                </ul>
+    
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="main-header">
+                    <div class="container-fluid-custom">
+    
+                        <div class="row main-header-row flex-align-center">
+                            <div class="col-md-4 col-3">
+    
+                                <div class="site-logo">
+                                    <img src="./images/zain_logo.svg" alt="site_logo">
+                                </div>
+    
+                            </div>
+                            <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+    
+                                <!-- Division which shown in Tablet and Mobile -->
+                                <div class="mobile-controls text-right">
+    
+                                    <ul class="mobile-nav">
+                                        <li>
+                                            <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                                        </li>
+    
+                                        <li>
+                                            <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                        </li>
+    
+                                        <li class="cart-dropdown">
+                                            <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                    class="icon-empty-shopping-card"></i></a>
+                                        </li>
+                                        <li class="mobile-menu-toggle position-static">
+                                            <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+    
+                                            <div class="main-mobile-menu" id="mobile-menu">
+    
+                                                <div class="sub-menu">
+                                                    <div class="form-group">
+                                                        <select
+                                                            class="form-control custom-select dropdown-transparent light"
+                                                            id="">
+                                                            <option value="Customer">Customer</option>
+                                                            <option value="Business">Business</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="container-fluid-custom">
+                                                    <ul class="mobile-megamenu">
+                                                        <li>
+                                                            <a href="#" class="active">
+                                                                <i class="icon-cart-with-plus"></i>&ensp;Shop
+                                                            </a>
+                                                            <span class="float-right"><i
+                                                                    class="icon-right-arrow"></i></span>
+    
+                                                            <div class="mobile-megamenu-level-2">
+                                                                <div class="lvl-2-header">
+                                                                    <div class="container-fluid-custom">
+                                                                        <a href="" class="back-link">
+                                                                            <i
+                                                                                class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                            <span>Back</span>
+                                                                        </a>
+    
+                                                                        <p class="heading">
+                                                                            <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                            <span class="">Shop</span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="lvl-2-content">
+                                                                    <div class="container-fluid-custom">
+    
+                                                                        <ul class="accordian-menu">
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <img src="./images/pagenav_plans.svg"
+                                                                                        alt="plans">
+                                                                                    <span>Plans</span>
+                                                                                    <i
+                                                                                        class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                </a>
+                                                                                <ul class="expandable-links">
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="#">Pay Monthly</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="#">Pay as you go</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="#">Roaming and
+                                                                                            International</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <img src="./images/pagenav_products.svg"
+                                                                                        alt="plans">
+                                                                                    <span>Products</span>
+                                                                                    <i
+                                                                                        class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                </a>
+                                                                                <ul class="expandable-links">
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Smartphone</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Home Broadband</a></li>
+                                                                                    <li class="megamenu-link"><a href="">SIM
+                                                                                            Card</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Tablet</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Gaming</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Accessories</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">E-cards</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Add-ons</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <img src="./images/pagenav_zainlife.svg"
+                                                                                        alt="plans">
+                                                                                    <span>Zain Life</span>
+                                                                                    <i
+                                                                                        class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                </a>
+                                                                                <ul class="expandable-links">
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Smart Home</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Health</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Lifestyle</a></li>
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Entertainment</a></li>
+                                                                                </ul>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <img src="./images/pagenav_offers.svg"
+                                                                                        alt="plans">
+                                                                                    <span>Offers</span>
+                                                                                    <i
+                                                                                        class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                </a>
+                                                                                <ul class="expandable-links">
+                                                                                    <li class="megamenu-link"><a
+                                                                                            href="">Existing Customer
+                                                                                            Offers</a></li>
+                                                                                    <li class="megamenu-link"><a href="">All
+                                                                                            Offers &
+                                                                                            Promotions</a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+    
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="icon-headphones-with-mic"></i>
+                                                                &ensp;My Zain
+                                                            </a>
+                                                            <span class="float-right"><i
+                                                                    class="icon-right-arrow"></i></span>
+    
+                                                                    <div class="mobile-megamenu-level-2">
+                                                                        <div class="lvl-2-header">
+                                                                            <div class="container-fluid-custom">
+                                                                                <a href="" class="back-link">
+                                                                                    <i
+                                                                                        class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                                    <span>Back</span>
+                                                                                </a>
+            
+                                                                                <p class="heading">
+                                                                                    <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                                    <span class="">Shop</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="lvl-2-content">
+                                                                            <div class="container-fluid-custom">
+            
+                                                                                <ul class="accordian-menu">
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_plans.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Iphone</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Pay Monthly</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Pay as you go</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Roaming and
+                                                                                                    International</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_products.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Sims</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Smartphone</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Home Broadband</a></li>
+                                                                                            <li class="megamenu-link"><a href="">SIM
+                                                                                                    Card</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Tablet</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Gaming</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Accessories</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">E-cards</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Add-ons</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_zainlife.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Zain Offers</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Smart Home</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Health</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Lifestyle</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Entertainment</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_offers.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Zain Load</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Existing Customer
+                                                                                                    Offers</a></li>
+                                                                                            <li class="megamenu-link"><a href="">All
+                                                                                                    Offers &
+                                                                                                    Promotions</a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+            
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="icon-Group-1561"></i>
+                                                               Support
+                                                            </a>
+                                                            <span class="float-right"><i
+                                                                    class="icon-right-arrow"></i></span>
+                                                            
+                                                                    <div class="mobile-megamenu-level-2">
+                                                                        <div class="lvl-2-header">
+                                                                            <div class="container-fluid-custom">
+                                                                                <a href="" class="back-link">
+                                                                                    <i
+                                                                                        class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                                                                    <span>Back</span>
+                                                                                </a>
+            
+                                                                                <p class="heading">
+                                                                                    <i class="icon-empty-shopping-card"></i>&ensp;
+                                                                                    <span class="">Shop</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="lvl-2-content">
+                                                                            <div class="container-fluid-custom">
+            
+                                                                                <ul class="accordian-menu">
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_plans.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Zain Support</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Pay Monthly</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Pay as you go</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="#">Roaming and
+                                                                                                    International</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_products.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Contact</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Smartphone</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Home Broadband</a></li>
+                                                                                            <li class="megamenu-link"><a href="">SIM
+                                                                                                    Card</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Tablet</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Gaming</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Accessories</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">E-cards</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Add-ons</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_zainlife.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Helpline</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Smart Home</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Health</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Lifestyle</a></li>
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Entertainment</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="#">
+                                                                                            <img src="./images/pagenav_offers.svg"
+                                                                                                alt="plans">
+                                                                                            <span>Offers</span>
+                                                                                            <i
+                                                                                                class="icon-angle-arrow-pointing-to-right"></i>
+                                                                                        </a>
+                                                                                        <ul class="expandable-links">
+                                                                                            <li class="megamenu-link"><a
+                                                                                                    href="">Existing Customer
+                                                                                                    Offers</a></li>
+                                                                                            <li class="megamenu-link"><a href="">All
+                                                                                                    Offers &
+                                                                                                    Promotions</a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+            
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+    
+    
+                                                <div class="container">
+                                                    <p class="quick-pay-link text-left">
+                                                        <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                                                    </p>
+                                                </div>
+    
+                                                <div class="mobile-search">
+                                                    <!-- Search -->
+                                                    <div class="search-autocomplete d-block">
+                                                        <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                            spellcheck="false" placeholder="Search">
+                                                        <button class="btn main-search-btn btn-pc-3 ">
+                                                            <i class="icon-magnifying-glass "></i>
+                                                        </button>
+                                                    </div>
+                                                    <!-- Search End -->
+                                                </div>
+    
+                                                <div class="language-selector text-center">
+                                                    <ul>
+                                                        <li><a href="#" class="current-language">EN</a></li>
+                                                        <li><a href="#">العربية</a></li>
+                                                    </ul>
+                                                </div>
+    
+                                                <div class="form-group country-selector">
+                                                    <select class="form-control custom-select dropdown-transparent light"
+                                                        id="">
+                                                        <option value="Kuwait">Kuwait</option>
+                                                        <option value="USA">USA</option>
+                                                    </select>
+                                                </div>
+    
+    
+                                            </div>
+    
+                                        </li>
+                                    </ul>
+    
+                                </div>
+    
+                                <ul class="main-navigation d-inline-block">
+                                    <li class="megamenu-container">
+                                        <a href="javascript:void(0)" class="active">
+                                            <i class="icon-cart-with-plus"></i>&nbsp;Shop
+                                        </a>
+                                        <div id="shopmegamenu" class="megamenu">
+                                            <div class="container-fluid-custom">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_plans.svg"
+                                                                            alt="megamenu-plans">
+                                                                        <h3 class="">Plans</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay Monthly</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay as you go</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Roaming and
+                                                                            International</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_products.svg"
+                                                                            alt="megamenu-products">
+                                                                        <h3 class="">Products</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                                                    <li class="megamenu-link"><a href="">Home Broadband</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">SIM Card</a></li>
+                                                                    <li class="megamenu-link"><a href="">Tablet</a></li>
+                                                                    <li class="megamenu-link"><a href="">Gaming</a></li>
+                                                                    <li class="megamenu-link"><a href="">Accessories</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">E-cards</a></li>
+                                                                    <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_zainlife.svg"
+                                                                            alt="megamenu-zainlife">
+                                                                        <h3 class="">Zain Life</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                                                    <li class="megamenu-link"><a href="">Health</a></li>
+                                                                    <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                                                    <li class="megamenu-link"><a href="">Entertainment</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_offers.svg"
+                                                                            alt="megamenu-offers">
+                                                                        <h3 class="">Offers</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Existing Customer
+                                                                            Offers</a></li>
+                                                                    <li class="megamenu-link"><a href="">All Offers &
+                                                                            Promotions</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+    
+                                                        <div class="i-watch_img-container">
+                                                            <img src="./images/menu.png" alt="">
+                                                            <div class="content">
+                                                                <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                                                <button class="btn btn-pc-3">Buy Now</button>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="megamenu-container">
+                                        <a href="javascript:void(0)"><i class="icon-headphones-with-mic"></i>&nbsp;My Zain</a>
+                                        <div id="shopmegamenu2" class="megamenu">
+                                            <div class="container-fluid-custom">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_plans.svg"
+                                                                            alt="megamenu-plans">
+                                                                        <h3 class="">Iphone</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay Monthly</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay as you go</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Roaming and
+                                                                            International</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_products.svg"
+                                                                            alt="megamenu-products">
+                                                                        <h3 class="">Sims</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                                                    <li class="megamenu-link"><a href="">Home Broadband</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">SIM Card</a></li>
+                                                                    <li class="megamenu-link"><a href="">Tablet</a></li>
+                                                                    <li class="megamenu-link"><a href="">Gaming</a></li>
+                                                                    <li class="megamenu-link"><a href="">Accessories</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">E-cards</a></li>
+                                                                    <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_zainlife.svg"
+                                                                            alt="megamenu-zainlife">
+                                                                        <h3 class="">Zain Offers</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                                                    <li class="megamenu-link"><a href="">Health</a></li>
+                                                                    <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                                                    <li class="megamenu-link"><a href="">Entertainment</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_offers.svg"
+                                                                            alt="megamenu-offers">
+                                                                        <h3 class="">Zain Load</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Existing Customer
+                                                                            Offers</a></li>
+                                                                    <li class="megamenu-link"><a href="">All Offers &
+                                                                            Promotions</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+    
+                                                        <div class="i-watch_img-container">
+                                                            <img src="./images/menu.png" alt="">
+                                                            <div class="content">
+                                                                <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                                                <button class="btn btn-pc-3">Buy Now</button>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="megamenu-container">
+                                        <a href="#"><i class="icon-Group-1561"></i>Support</a>
+                                        <div id="shopmegamenu3" class="megamenu">
+                                            <div class="container-fluid-custom">
+                                                <div class="row">
+                                                    <div class="col-md-9">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_plans.svg"
+                                                                            alt="megamenu-plans">
+                                                                        <h3 class="">Zain Support</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay Monthly</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Pay as you go</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="#">Roaming and
+                                                                            International</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_products.svg"
+                                                                            alt="megamenu-products">
+                                                                        <h3 class="">Contact</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                                                    <li class="megamenu-link"><a href="">Home Broadband</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">SIM Card</a></li>
+                                                                    <li class="megamenu-link"><a href="">Tablet</a></li>
+                                                                    <li class="megamenu-link"><a href="">Gaming</a></li>
+                                                                    <li class="megamenu-link"><a href="">Accessories</a>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">E-cards</a></li>
+                                                                    <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_zainlife.svg"
+                                                                            alt="megamenu-zainlife">
+                                                                        <h3 class="">Helpline</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                                                    <li class="megamenu-link"><a href="">Health</a></li>
+                                                                    <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                                                    <li class="megamenu-link"><a href="">Entertainment</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="megamenu-title">
+                                                                        <img src="./images/pagenav_offers.svg"
+                                                                            alt="megamenu-offers">
+                                                                        <h3 class="">Offers</h3>
+                                                                    </li>
+                                                                    <li class="megamenu-link"><a href="">Existing Customer
+                                                                            Offers</a></li>
+                                                                    <li class="megamenu-link"><a href="">All Offers &
+                                                                            Promotions</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+    
+                                                        <div class="i-watch_img-container">
+                                                            <img src="./images/menu.png" alt="">
+                                                            <div class="content">
+                                                                <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                                                                <button class="btn btn-pc-3">Buy Now</button>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+    
+                            </div>
+                            <div class="col-md-4 position-static">
+    
+                                <ul class="right-nav">
+                                    <li class="">
+                                        <a href="javascript:void(0)" data-target-menu="#search"><i
+                                                class="icon-magnifying-glass"></i></a>
+                                    </li>
+                                    <li class="cart-dropdown">
+                                        <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                class="icon-empty-shopping-card"></i></a>
+    
+                                        <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                                            <div class="text-center dropdown-header d-flex justify-content-center p-4">
+                                                <img src="./images/shopping-cart.svg" alt="shopping cart" />
+                                                <h4 class="mb-0 text-white ml-2">Cart Summary</h4>
+                                            </div>
+                                            <div class="card-body custom-scroll">
+    
+                                                <div class="product-sect">
+    
+                                                    <h5 class="sect-title">Products</h5>
+    
+                                                    <div class="product-item">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <div class="product-img">
+                                                                    <img src="./images/Iphone.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="d-flex">
+                                                                    <p class="left-lbl item-title">iPhone XS</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                                <div class="product-details">
+                                                                    <p>64 GB</p>
+                                                                    <p>Gold</p>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Commitment period 24 Months
+                                                                    </p>
+                                                                    <label for="" class="right-lbl">KD 29</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="product-item">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <div class="product-img">
+                                                                    <img src="./images/Iphone.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="d-flex">
+                                                                    <p class="left-lbl item-title">iPhone XS</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                                <div class="product-details">
+                                                                    <p>64 GB</p>
+                                                                    <p>Gold</p>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Commitment period 24 Months
+                                                                    </p>
+                                                                    <label for="" class="right-lbl">KD 29</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+    
+    
+                                                <div class="plan-sect">
+                                                    <h5 class="sect-title">Plan</h5>
+    
+                                                    <div class="product-item">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <div class="product-img">
+                                                                    <img src="./images/Iphone.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="d-flex">
+                                                                    <p class="left-lbl item-title">eeZee Internet Bundle</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                                <div class="product-details">
+                                                                    <p>5 gB 4G LTE</p>
+                                                                    <p>Unlimited Local Messages</p>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                    <label for="" class="right-lbl">KD 10</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                                <div class="entertainment-sect">
+                                                    <h5 class="sect-title">Entertainment</h5>
+    
+                                                    <div class="product-item">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <div class="product-img">
+                                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="d-flex mb-2">
+                                                                    <p class="left-lbl item-title">Smart Home Camera</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Due Today</p>
+                                                                    <label for="" class="right-lbl">KD 29</label>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                    <label for="" class="right-lbl">KD 0</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+    
+    
+                                            <div class="card-footer">
+    
+                                                <h5 class="sect-title">Sub Total</h5>
+    
+                                                <div class="product-item main-total">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                                                <label for="" class="right-lbl">KD 2600</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Total Penalty</p>
+                                                                <label for="" class="right-lbl">KD 20</label>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <p class="cl-sc-2 left-lbl">Promo Code Discount</p>
+                                                                <label for="" class="right-lbl text-dark">-KD 20</label>
+                                                            </div>
+                                                            <div class="d-flex mt-4">
+                                                                <h5 class="sect-title mt-0 left-lbl">Grand-Total</h5>
+                                                                <label for="" class="right-lbl">KD 2620</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="card-action">
+    
+                                                    <button class="btn btn-pc-1 btn-larg decline">continue shopping</button>
+                                                    <button class="btn btn-pc-3">Checkout</button>
+    
+                                                </div>
+                                                <div class="card-action d-flex justify-content-center">
+                                                    <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                                                        CLEAR CART</button>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+                                    <li class="profile-btn">
+                                        <a href="#" class="btn btn-pc-4 btn-small text-t-none"><i
+                                                class="icon-user-4"></i>&nbsp;My
+                                            ZAIN</a>
+                                    </li>
+                                </ul>
+    
+                                <!-- Search -->
+                                <div class="search-autocomplete" id="search">
+                                    <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false"
+                                        placeholder="Search">
+                                    <button class="btn main-search-btn btn-pc-3 "><i
+                                            class="icon-magnifying-glass "></i></button>
+                                </div>
+                                <!-- Search End -->
+    
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                   
+                </div>
+    
+            </header>
+            <!-- End Header -->
+
+    </div>
+
+</body>
+
+        <!-- body overlay -->
+        <div class="bodyoverlay"></div>
+
+        <!-- End Footer -->
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <script src="./js/css_browser_selector.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Owl Slider -->
+            <script src="./js/owl.carousel.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Scrollbar js -->
+            <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script> 
+        </div>
+    </div>
+
+</body>
+
+</html>

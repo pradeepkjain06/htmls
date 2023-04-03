@@ -1,0 +1,496 @@
+.product-content .brand-name {
+  font-size: 16px !important;
+  color: #6f6f6f !important;
+  margin-bottom: 0 !important;
+}
+.product-content .device-name {
+  font-size: 32px !important;
+  color: #2e2e2e !important;
+  margin: 10px 0;
+  font-family: "nunitosans-bold" !important;
+}
+.product-content .class-review {
+  margin: 16px 16px 16px 0px;
+}
+.product-content .class-review .icon-mark-as-favorite-star {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.product-content .class-review .icon-mark-as-favorite-star:before {
+  color: #d12c89;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.product-content .class-review span {
+  color: #6f6f6f;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.product-content .class-stock {
+  margin: 16px 16px 16px 0px;
+}
+.product-content .class-stock img {
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.product-content .class-stock span {
+  color: #028666;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "NunitoSans-SemiBold" !important;
+}
+.product-content .device-name span {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #6f6f6f;
+  font-family: "NunitoSans-SemiBold" !important;
+  letter-spacing: 0.4px;
+}
+
+.product-content .btn.custom-radio.active label {
+  color: #d12c89 !important;
+}
+
+.product-content .memory-variant,
+.product-content .color-variant {
+  border: 0 !important;
+  padding-bottom: 10px !important;
+}
+.product-content .memory-variant p,
+.product-content .color-variant p {
+  font-size: 18px !important;
+  color: #2e2e2e !important;
+  margin-bottom: 10px !important;
+}
+
+.memory-variant-pd.memory-variant .custom-radio.active::before,
+.memory-variant-pd.memory-variant .custom-radio.active::after {
+  display: none !important;
+}
+
+.memory-variant-pd .btn-group .btn:last-child,
+.memory-variant-pd .btn-group .btn:first-child,
+.memory-variant-pd .btn-group .btn {
+  border-radius: 5px !important;
+}
+.memory-variant-pd .btn-group .btn {
+  margin-right: 5px;
+}
+
+.payment-option-pd.memory-variant .custom-radio.active::before,
+.payment-option-pd.memory-variant .custom-radio.active::after {
+  display: none !important;
+}
+
+.payment-option-pd.memory-variant .btn-group .btn {
+  flex: 0 0 33.33% !important;
+  max-width: 33.33% !important;
+}
+
+.product-content .color-variant .custom-radio.active::before,
+.product-content .color-variant .custom-radio.active::after {
+  display: none !important;
+}
+
+.payment-selection {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 10px 14px 15px 14px;
+}
+
+.payment-selection .custom-checkbox.like-radio input + label::before {
+  border: 2px solid #6f6f6f !important;
+  background: transparent !important;
+  opacity: 1 !important;
+}
+.payment-selection .custom-checkbox.like-radio label::before {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.payment-selection .custom-checkbox.like-radio input:checked + label::before {
+  border-color: #d12b8a !important;
+}
+
+.kw
+  #wrapper
+  .payment-selection
+  .custom-checkbox.like-radio
+  input:checked
+  + label::after {
+    height: 12px;
+    width: 12px;
+    top: 6px;
+    left: 6px;
+}
+
+.payment-selection .device-name {
+  font-size: 22px !important;
+  margin-bottom: -8px;
+  margin-top: 6px;
+}
+.payment-selection p {
+  color: #2e2e2e !important;
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+}
+
+.payment-selection a {
+  text-decoration: underline !important;
+  font-size: 14px;
+}
+
+.payment-selection small {
+  color: #2e2e2e;
+  font-size: 12px;
+}
+.product-detail-slider.product-shadow
+  .slider_main
+  .slick-list
+  .slide
+  .slide-img {
+  box-shadow: none !important;
+}
+.separator.pd-separator {
+  border-top: 2px solid #d8008e;
+  margin: 30px 0 80px 0;
+  width: 96%;
+}
+
+.view-more-tables a {
+  font-size: 20px !important;
+  text-decoration: underline !important;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table table tr td {
+  width: 50%;
+}
+
+.product-table table tr:nth-child(odd) {
+  background: #f8f8f8;
+}
+.product-table table tr td:nth-child(odd) {
+  color: #6f6f6f;
+}
+.product-table table tr td:nth-child(even) {
+  color: #2e2e2e;
+}
+.product-table table tr td {
+  width: 50%;
+  padding: 16px 8px;
+}
+.payment-selection.active-border {
+  border: 2px solid #d12c89 !important;
+}
+.review-stock{
+  display: flex;
+}
+.payment-selection {
+  position: relative;
+}
+.payment-selection .kd-lable {
+  position: absolute;
+  clip-path: polygon(100% 0, 100% 50%, 100% 99%, 0% 100%, 10% 50%, 0% 0%);
+  font-size: 12px !important;
+  padding: 10px 10px 10px 15px !important;
+  top: -20px !important;
+  right: 0;
+  transform: translate(0, 100%) !important;
+  text-transform: capitalize !important;
+  font-family: "NunitoSans-Black" !important;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kd-lable.green-color {
+  background: #09b5c0;
+}
+.kw #wrapper .device-details .color-variant .custom-radio span.color-thumb{
+  border: 1px solid #fff;
+}
+.kw #wrapper .device-details .color-variant .custom-radio:first-child span.color-thumb{
+  border: 1px solid #E3E3E3;
+}
+/* .kw #wrapper .color-variant .radio-wraper .btn.custom-radio{
+  border: 1px solid #fff;
+}
+.kw #wrapper .color-variant .radio-wraper .btn.custom-radio:first-child{
+  border: 1px solid #E3E3E3;
+}
+.kw #wrapper .color-variant .radio-wraper .btn.custom-radio.active:first-child{
+  border: 2px solid #d12b8a;
+} */
+.kw #wrapper .radio-wraper .btn.custom-radio label span {
+  font-family: "NunitoSans-Black", sans-serif;
+}
+.pay_see_more{
+  display: block;
+}
+.kw #wrapper .radio-wraper .btn.custom-radio label {
+  font-family: "NunitoSans-Black", sans-serif !important;
+  color: #2e2e2e;
+}
+.kw #wrapper .payment-option-pd .radio-wraper .btn.custom-radio label{
+  color: #6F6F6F;
+}
+.kw #wrapper .color-variant .radio-wraper .btn.custom-radio {
+  padding: 7px 0;
+  height: 40px;
+  max-width: 40px;
+  width: 40px;
+  min-height: 40px;
+  border-radius: 4px;
+}
+.kw #wrapper .device-details .color-variant .custom-radio label {
+  height: calc(100% + 0px);
+}
+.kw #wrapper .device-details .color-variant .custom-radio span.color-thumb {
+  border-radius: 2px;
+  height: 24px;
+  width: 24px;
+}
+.kw #wrapper .radio-wraper .btn.custom-radio label {
+  font-size: 14px;
+}
+.kw #wrapper .btn-group .btn:first-child {
+  border-radius: 10px 0 0 10px;
+}
+.kw #wrapper .btn-group .btn:last-child {
+  border-radius: 0 10px 10px 0;
+}
+.payment-option-tab-group .device-name {
+    font-size: 20px !important;
+    margin-bottom: -2px;
+  }
+.review-stock .class-review {
+  justify-content: left;
+  min-width: 110px;
+}
+.product-content .brand-name{
+  font-family: "NunitoSans-SemiBold" !important;
+}
+.payment-option-tab-group button:disabled {
+  background: #E5E5E5 !important;
+  color: #6F6F6F !important;
+  opacity: 1;
+}
+.of-stock span {
+  color: #c60224 !important;
+}
+.lql-stock span {
+  color: #9e6801 !important;
+}
+.product-table h2, .recommended-heading{
+  font-family: "nunitosans-bold" !important;
+}
+.payment-option-tab-group .nav-tabs .nav-item {
+  flex-basis: 50%;
+}
+.kw #wrapper .payment-option-tab-group .tabs-wrapper .tab-content {
+  margin-top: 0px;
+}
+.kw #wrapper .payment-option-tab-group .tabs-wrapper .nav-tabs {
+  border-bottom: 1px solid #6F6F6F;
+  margin: 20px 0 30px 0;
+}
+.kw #wrapper .payment-option-tab-group .tabs-wrapper .nav-tabs .nav-link{
+  font-family: "NunitoSans-SemiBold" !important;
+  font-size: 14px;
+} 
+.kw #wrapper .payment-option-tab-group .tabs-wrapper .nav-tabs .nav-link.active {
+  color: #000000;
+  background-color: transparent;
+  border-bottom: 4px solid #D12B8A !important;
+  padding: 6px 10px;
+}
+.ellipses-text {
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ellipses-text.show-full-text {
+  text-overflow: unset;
+  max-width: unset;
+  white-space: unset;
+  overflow: unset;
+}
+
+.add-to-favorites-btn .btn {
+  min-height: 48px !important;
+  font-size: 14px !important;
+  color: #6F6F6F !important;
+  background: transparent !important;
+  border: 1px solid #6F6F6F !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.add-to-favorites-btn .btn .icon-favorite-heart-button1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+.add-to-favorites-btn .btn:hover{
+  background: transparent !important;
+  color: #D12B8A !important;
+  border-color: #D12B8A !important;
+}
+.add-to-favorites-btn{
+  justify-content: center !important;
+  max-width: 86%;
+  margin: -30px 0 0 auto;
+}
+.bottom-stripe.payment-option-tab-group{
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .right-content-area.product-content {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .right-content-area{
+    padding-top: 20px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .class-review{
+    display: inline-block !important;
+  }
+  .kw #wrapper .radio-wraper .btn.custom-radio label {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-content .payment-option-tab-group .add-to-cart-btn {
+      display: none;
+  }  
+  .payment-option-tab-group .fixed-sect {
+      padding: 20px 0 30px 0 !important;
+      border-top: 0 !important;
+  }
+  .add-to-favorites-btn .btn {
+      font-family: "NunitoSans-Black", sans-serif !important;
+      min-height: 40px !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+  }
+  .add-to-favorites-btn {
+      max-width: inherit;
+      margin: 0px 0 0 auto;
+  }
+  .kw #wrapper .radio-wraper .btn.custom-radio label span {
+    font-family: "nunitosans-bold" !important;
+  }
+  
+  .kw #wrapper .radio-wraper .btn.custom-radio label {
+    font-family: "nunitosans-bold" !important;
+    color: #2e2e2e;
+  }
+  .product-content .class-stock img {
+      margin-right: 5px;
+      height: 15px !important;
+  }
+  .product-content .memory-variant p,
+  .product-content .color-variant p {
+    font-size: 17px !important;
+  }
+  .payment-option-pd.memory-variant .btn-group .btn {
+    flex: 0 0 33.33% !important;
+    max-width: 33.33% !important;
+  }
+  .recommended-heading {
+    font-size: 28px;
+  }
+  .product-content .btn.custom-radio label {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .kw .payment-selection p {
+    font-size: 12px !important;
+  }
+  .payment-option-tab-group button.btn {
+    width: 100% !important;
+    font-size: 14px !important;
+    font-family: "NunitoSans-Black" !important;
+  }
+  .view-more-tables a {
+    font-size: 12px !important;
+  }
+  .product-table h2 {
+    font-size: 17px;
+    font-family: "NunitoSans-Regular" !important;
+  }
+  .product-table {
+    margin-top: 50px;
+  }
+  .separator.pd-separator {
+    display: none;
+  }
+  .kw
+    #wrapper
+    .payment-selection
+    .custom-checkbox.like-radio
+    input:checked
+    + label::after {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .kw #wrapper .payment-option-tab-group .device-name {
+    font-size: 20px !important;
+  }
+  .kw #wrapper .radio-wraper .btn.custom-radio label {
+    font-size: 14px !important;
+  }
+  .payment-selection .device-name {
+    margin-bottom: -5px;
+  }
+  .payment-selection small {
+    font-size: 12px;
+  }
+  .payment-option-pd.memory-variant .btn-group .btn label {
+    font-size: 10px !important;
+  }
+
+  .product-content .memory-variant p,
+  .product-content .color-variant p {
+    text-align: left;
+  }
+  .memory-variant-pd .radio-wraper,
+  .color-variant .radio-wraper,
+  .payment-option-pd .radio-wraper {
+    justify-content: left !important;
+  }
+  .product-content .brand-name {
+    text-align: left;
+  }
+  .product-content .device-name {
+    font-size: 28px !important;
+    text-align: left;
+    margin-top: 0;
+  }
+  .review-stock {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: left;
+  }
+}

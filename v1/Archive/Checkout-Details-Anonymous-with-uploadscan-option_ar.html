@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+
+<head>
+    <title>Tinext - Delivery and Checkout</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+	
+	<!-- jQuery UI -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+	
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body class="">
+
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-right">
+
+                                <ul class="mobile-nav">
+                                    <li>
+                                        <a href="javascript:void(0)" data-target-menu="#form_pp" class="profile-btn btn btn-pc-4">
+                                        <i class="icon-user-4"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+
+                                    <li class="cart-dropdown">
+                                        <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                class="icon-empty-shopping-card"></i></a>
+
+                                    </li>
+
+                                    <li class="mobile-menu-toggle position-static">
+
+                                        <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                                        <div class="main-mobile-menu" id="mobile-menu">
+
+                                            <div class="sub-menu">
+                                                <div class="form-group">
+                                                    <select
+                                                        class="form-control custom-select dropdown-transparent light"
+                                                        id="">
+                                                        <option value="Customer">Customer</option>
+                                                        <option value="Business">Business</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="container-fluid-custom">
+                                                <ul class="mobile-megamenu">
+                                                    <li>
+                                                        <a href="#" class="active">
+                                                            <i class="icon-cart-with-plus"></i>&ensp;Shop
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+
+                                                      
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-headphones-with-mic"></i>
+                                                            &ensp;Support
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-Group-1561"></i>
+                                                            &ensp;5G
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div class="container">
+                                                <p class="quick-pay-link text-left">
+                                                    <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="mobile-search">
+                                                <!-- Search -->
+                                                <div class="search-autocomplete d-block">
+                                                    <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                        spellcheck="false" placeholder="بحث">
+                                                    <button class="btn main-search-btn btn-pc-3 ">
+                                                        <i class="icon-magnifying-glass "></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Search End -->
+                                            </div>
+
+                                            <div class="language-selector text-center">
+                                                <ul>
+                                                    <li><a href="#">EN</a></li>
+                                                    <li><a href="#">العربية</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="form-group country-selector">
+                                                <select class="form-control custom-select dropdown-transparent light" id="">
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    <option value="USA">USA</option>
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <ul class="right-nav justify-content-between offset-md-3">
+
+                                <li class="grand-total">
+                                    <a href="javascript:void(0)" class="active"><i
+                                            class="icon-empty-shopping-card"></i></a>
+                                    <div class="text-right mt-1">
+                                        <h6 class="mb-0">المبلغ الإجمالي</h6>
+                                        <h3 class=" mb-0">KD 59</h3>
+                                    </div>
+                                </li>
+
+                                <li class="profile-btn">
+                                    <a href="javascript:void(0)" data-target-menu="#form_pp" class="btn btn-pc-4 btn-small text-t-none">
+                                        <i class="icon-user-4"></i>
+                                        &nbsp;بلدي زين
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+        <!-- End Header -->
+
+        <section class="container-fluid-custom">
+
+
+            <div class="breadcrumb-wrapper inner-main-section-sm">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item " aria-current="page">
+                            <a href="#">iPhone xs</a>
+                        </li>
+                        <li class="breadcrumb-item active">التسليم والخروج</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="layout-8-4">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="left-content-area col-sm-12 col-md-9">
+
+                            <div class="section-checkout_progressbar sect_sepretor mb-3 pb-3 mb-sm-5 pb-sm-5">
+                                <div class="overflow-auto-mobile">
+                                    <ul class="progress-status extras">
+                                        <li class="step completed text-left text-sm-center">
+                                            <h3 class="step_label"><span>01</span><small>اضافات</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-button"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center completed">
+                                            <h3 class="step_label"><span>02</span><small>ملخص سلة التسوق</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-checklist"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center completed active">
+                                            <h3 class="step_label"><span>03</span><small>التسليم والخروج</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-checkout1"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center">
+                                            <h3 class="step_label"><span>04</span><small>تاكيد</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-confirmation"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="delivery-tabs">
+                                <!-- Tabs Headings -->
+                                <div class="delivery-tab-headings sect_sepretor">
+                                    <div class="row">
+                                        <div class="col-xl-11">
+
+                                            <div class="row tab-heading-wrapper">
+
+                                                <div class="col-sm-6">
+                                                    <a href="" data-tab-target="#home_delivery">
+                                                        <img src="./images/home_delivery.svg" alt="" class="mb-2">
+                                                        <h3 class="main-heading">توصيل منزلي</h3>
+                                                        <p class="sub-text w-50">الحصول على المنتجات الخاصة بك تسليمها إلى منزلك.
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+
+                                                <div class="col-sm-6">
+                                                    <a href="" data-tab-target="#collect_from_store" class="active">
+                                                        <img src="./images/collect_from_store.svg" alt="" class="mb-2">
+                                                        <h3 class="main-heading"> جمع من المتجر</h3>
+                                                        <p class="sub-text w-50">الحصول على طلبك من متجر من اختيارك.
+                                                        </p>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tab Content -->
+                                <div class="tab-content">
+                                    <!-- Tab 1 -->
+                                    <div id="home_delivery">
+
+                                        <div class="sect_sepretor">
+                                            <div class="row">
+                                                <div class="col-xl-11">
+
+                                                    <div class="contact-form">
+                                                        <h2 class="main-heading">إضافة تفاصيل الاتصال الخاصة بك</h2>
+
+                                                        <form class='form-validation'  action="">
+
+                                                            <div class="row align-items-end">
+
+                                                                <!-- row 1 -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id=""
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <div class="custom-file-upload btn btn-pc-1">
+                                                                            <span>إضافة</span>
+                                                                            <input type="file" name="" id=""
+                                                                                class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!--Row 2  -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id="datepicker_civil_id"
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id="datepicker"
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- Row 3 -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id=""
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id=""
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- Row 3 -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="">إضافة</label>
+                                                                        <input type="text" name="" id=""
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+
+
+
+                                                            </div>
+
+                                                            <p class="sub-text">إضافة تفاصيل الاتصال الخاصة بك</p>
+
+                                                        </form>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="map-sect sect_sepretor">
+
+                                            <h1 class="main-heading">إضافة تفاصيل الاتصال الخاصة بك</h1>
+                                            <p class="sub-text">ابحث عن عرض الخريطة أو استخدمه للعثور على أقرب متجر لديك</p>
+
+                                            <div class="map-container position-relative">
+                                                
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899" id="map-canvas" width="600" height="450" frameborder="0"
+                                                    style="border:0;" allowfullscreen=""></iframe>
+													<div class='map-markers'>
+														<span>21</span>
+														<span style='left:10%; top:20%'>22</span>
+														<span style='left:9%; top:50%'>23</span>
+														<span style='left:80%; top:60%'>24</span>
+														<span style='left:85%; top:20%'>25</span>
+													</div>
+                                               
+												<div class='map-search'>
+													<!-- Search -->
+													<div class="map-search-section" id="search">
+														<input type="text" placeholder="البحث عن طريق الأفنيوز">
+														<button class="btn main-search-btn btn-pc-3 "><i class="icon-magnifying-glass "></i></button>
+													</div>
+													<!-- Search End -->
+													<div class='map-search-section-list'>
+														<ul class='map-search-section-location-list'>
+															<li class='active'>
+																<div class='map-list-counter'>
+																	25
+																</div>
+																<div class='map-searched-name'>زين</div>
+																<h4>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت</h4>
+																<p>
+																	الأحد - الأربعاء (10 صباحًا - 10 مساءً)</br>
+																	الخميس - السبت (10 صباحًا - 10 مساءً)		
+																</p>
+															</li>
+															<li>
+																<div class='map-list-counter'>
+																	24
+																</div>
+																<div class='map-searched-name'>زين</div>
+																<h4>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت</h4>
+																<p>
+																	الأحد - الأربعاء (10 صباحًا - 10 مساءً)</br>
+																	الخميس - السبت (10 صباحًا - 10 مساءً)		
+																</p>
+															</li>
+															<li>
+																<div class='map-list-counter'>
+																	23
+																</div>
+																<div class='map-searched-name'>زين</div>
+																<h4>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت</h4>
+																<p>
+																	الأحد - الأربعاء (10 صباحًا - 10 مساءً)</br>
+																	الخميس - السبت (10 صباحًا - 10 مساءً)		
+																</p>
+															</li>
+															<li>
+																<div class='map-list-counter'>
+																	22
+																</div>
+																<div class='map-searched-name'>زين</div>
+																<h4>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت</h4>
+																<p>
+																	الأحد - الأربعاء (10 صباحًا - 10 مساءً)</br>
+																	الخميس - السبت (10 صباحًا - 10 مساءً)		
+																</p>
+															</li>															
+														</ul>
+													</div>
+												</div>
+												<div class='map-search-section-location-detail'>
+														<ul class='map-search-section-location-list'>
+															<li>
+																<div class='map-list-counter'>
+																	25
+																</div>
+																<div class='map-searched-name'>زين</div>
+																<div class='row'>
+																	<div class='col-md-6 sprt-col-line'><h4>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت</h4></div>
+																	<div class='col-md-6'><p>
+																		الأحد - الأربعاء (10 صباحًا - 10 مساءً)<br>
+																		الخميس - السبت (10 صباحًا - 10 مساءً)		
+																</p></div>
+																</div>
+																
+																
+															</li>
+														</ul>															
+												</div>
+												
+                                            </div>
+
+                                        </div>
+
+                                        <div class="payment-method-sect sect_sepretor device-only-tabs">
+
+                                            <h1 class="main-heading">اختر طريقة الدفع</h1>
+
+                                            <div class="payment-radios">
+
+                                                <ul>
+                                                    <li>
+                                                        <div class="custom-radio form-group">
+                                                            <input type="radio" class="form-control" name="payOption" value="knet" 
+                                                                id="knet">
+                                                            <label for="knet">
+                                                                <div class="card-icon">
+                                                                    <img src="./images/k_net.png" alt="knet">
+                                                                </div>
+                                                                <div class="labels">
+                                                                    <h3 class="main-label">K-نت</h3>
+                                                                    <p class="sub-label">قد إجمالي الخاص بك قليلاً جداً كما سيتم معالجة طلبك بالدولار الأمريكي</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="custom-radio form-group">
+                                                            <input type="radio" class="form-control" name="payOption" value="credit_card" 
+                                                                id="credit_card" checked>
+                                                            <label for="credit_card">
+                                                                <div class="card-icon">
+                                                                    <img src="./images/credit-card.svg" alt="knet">
+                                                                </div>
+                                                                <div class="labels">
+                                                                    <h3 class="main-label">بطاقة الائتمان</h3>
+                                                                    <p class="sub-label">استخدم بطاقة الائتمان أو الخصم الخاصة بك
+                                                                    </p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+
+                                            <div class="card-details card-detail-with-no-box p-0 pt-2 mb-4">
+
+                                                <div class="card-detail-form">
+                                                    <form action="">
+
+                                                        <div class="row align-items-end">
+                                                            <div class="col-md-4">
+
+                                                                <div class="form-group">
+                                                                    <label for="">استخدم</label>
+                                                                    <input type="text" name="" id=""
+                                                                        class="form-control">
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-md-4">
+
+                                                                <div class="form-group">
+                                                                    <label for="">استخدم</label>
+                                                                    <input type="text" name="" id=""
+                                                                        class="form-control">
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-md-4">
+
+                                                                <button class="btn btn-pc-1 btn_hd">Scan credit card</button>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <!-- Row 2 -->
+
+                                                        <div class="row">
+
+                                                            <div class="col-md-5">
+                                                                <div class="row align-items-end">
+
+                                                                    <div class="col-4">
+
+                                                                        <div class="form-group control-wrap">
+                                                                            <label for="">استخدم</label>
+                                                                            <select name="GB" id=""
+                                                                                class="form-control custom-select">
+                                                                                <option value="">شهر</option>
+                                                                                <option value="">01</option>
+                                                                                <option value="">02</option>
+                                                                                <option value="">03</option>
+                                                                                <option value="">04</option>
+                                                                                <option value="">05</option>
+                                                                                <option value="">06</option>
+                                                                                <option value="">07</option>
+                                                                                <option value="">08</option>
+                                                                                <option value="">09</option>
+                                                                                <option value="">10</option>
+                                                                                <option value="">11</option>
+                                                                                <option value="">12</option>
+                                                                            </select>
+                                                                            <span class="downarrow"></span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="col-4">
+
+                                                                        <div class="form-group control-wrap">
+                                                                            <select name="GB" id=""
+                                                                                class="form-control custom-select">
+                                                                                <option value="">استخدم</option>
+                                                                                <option value="">استخدم</option>
+                                                                            </select>
+                                                                            <span class="downarrow"></span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="col-4">
+
+                                                                        <div class="form-group cvv-input">
+                                                                            <label for="">استخدم</label>
+                                                                            <div class="tooltip_new pull-left"><i class="icon-exclamatory"></i>
+                                                                              <span class="tooltiptext">Tooltip text</span>
+                                                                            </div>
+                                                                            <input type="password" maxlength="3" name=""
+                                                                                id="" class="form-control">
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <!-- Row 3 -->
+                                                        <div class="row align-items-end">
+
+                                                            <div class="col-md-6">
+                                                                <div class="form-group control-wrap billing-address">
+                                                                    <label class='d-block' for="">استخدم</label>
+                                                                    <select name="GB" id="" disabled
+                                                                        class="form-control billing-control custom-select w-100">
+                                                                        <option value=""></option>
+                                                                    </select>
+                                                                    <span class="downarrow"></span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-6">
+                                                                <button class="btn btn-pc-1"><i
+                                                                        class="icon-add-1"></i>&ensp;إضافة عنوان الفواتير الجديد</button>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="custom-checkbox form-group save-card">
+                                                            <input type="checkbox" class="form-control" name=""
+                                                                id="save-card">
+                                                            <label for="save-card">احفظ هذه البطاقة للحصول على تجربة تسجيل أسرع</label>
+                                                            &ensp;
+                                                            <div class="tooltip_new tooltip_n"><i class="icon-exclamatory"></i>
+                                                                              <span class="tooltiptext">Tooltip text</span>
+                                                                            </div>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Tab 2 -->
+                                    <div id="collect_from_store">
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="page_navigation d-flex justify-content-between">
+
+                                <button class="btn btn-pc-5 btn-lrg">استخدم</button>
+                                <button class="btn btn-pc-3 btn-lrg">استخدم</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="right-content-area col-md-3 d-none d-md-block">
+
+                        <!-- right content start -->
+
+                        <div class="card checkout-card cart-summary-dropdown">
+
+                            <div class="card-header text-center">
+                                <p class="mb-0"><i class="icon-empty-shopping-card fs-24"></i><span>ملخص سلة التسوق</span>
+                                </p>
+                            </div>
+
+                            <div class="card-body custom-scroll new_height">
+
+                                <div class="product-sect">
+                                    <h5 class="sect-title">المنتجات</h5>
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">فون XS</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>الذهب</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">التزام الفتره <br>24 اشهر</p>
+                                                    <label for="" class="right-lbl">دينار 29</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="plan-sect">
+                                    <h5 class="sect-title">خطه</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">eeZee الإنترنت <br>حزمه</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>5 غيغابايت 4G Lte</p>
+                                                    <p>غير محدود المحليه الرسائل</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب اليوم</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار 10</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    <h5 class="sect-title">الترفيه</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                   
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                               
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب اليوم</p>
+                                                    <label for="" class="right-lbl">دينار 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="card-footer">
+
+                                <h5 class="sect-title">مجموع</h5>
+
+                                <div class="product-item main-total">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                <label for="" class="right-lbl">دينار 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                <label for="" class="right-lbl">دينار 29</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-action">
+
+                                    <button class="btn btn-link"><i class="icon-delete fs-16 mr-0"></i>&ensp; مجموعة واضحة</button>
+                                    <button class="btn btn-pc-3"> الاستعراض والدفع</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- right content end -->
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Footer -->
+        
+        <!-- Footer -->
+        <footer class="main-footer">
+
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-lg-3 colunm-wrapper">
+                        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+
+                        <ul class="footer-links">
+                            <li><a href="">حقيقة /a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+                        <div class="d-none d-md-block">
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">حقوق </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+
+                        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">
+                                حقيقة </a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">حقيقة </a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title connect">حقيقة </h3>
+
+                        <ul class="socialmedia footer-links inline">
+                            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                        </ul>
+
+                        <h3 class="footer-title"><i class="icon-user-4 ml-2"></i>حقيقة </h3>
+
+                        <ul class="user footer-links">
+                            <li><a href="" class="cl-pc-3">حقيقة </a></li>
+                            <li><a href="" class="cl-pc-3">حقيقة </a></li>
+                        </ul>
+
+                        <div class="footer-seprator"></div>
+
+                        <div class="order-track">
+
+                            <h3 class="footer-title"></i>حقيقة </h3>
+
+                            <div class="form-group">
+                                <form>
+                                    <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                        id="">
+                                    <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid-custom">
+                <div class="footer-seprator"></div>
+            </div>
+
+            <div class="container copyright_sect">
+                <div class="row align-items-end">
+                    <div class="col-md-2 col-12">
+                        <div class="site-logo">
+                            <img src="./images/zain_logo.svg" alt="site_logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12">
+                        <ul class="footer-links inline mb-0">
+                            <li class="d-none d-md-inline-block copy">© حقوق الطبع والنشر © 2019 زين جميع الحقوق محفوظة</li>
+                            <li><a href="">سياسات</a></li>
+                            <li><a href="">البنود و الظروف</a></li>
+                            <li class="d-block d-md-none mt-4 copy">© حقوق الطبع والنشر © 2019 زين جميع الحقوق محفوظة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Footer Ends -->
+
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Scrollbar js -->
+            <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+			<!-- jQuery UI -->
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>			
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script>
+			
+			<script>
+			  $( function() {
+					$( "#datepicker,#datepicker_civil_id" ).datepicker({
+					  changeMonth: true,
+					  changeYear: true,
+					  yearRange: "c-32:c-10"								
+					});
+			  } );
+			  </script>					
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

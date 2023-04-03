@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3471" data-name="Rectangle 3471" width="24" height="24" transform="translate(17.5 8)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_20" data-name="Mask Group 20" transform="translate(-17.5 -8)" clip-path="url(#clip-path)">
+    <g id="Assets---v2" transform="translate(17.5 15.412)">
+      <g id="Web" transform="translate(-43.01 -629.774)">
+        <g id="logo" transform="translate(35.294 626.824)">
+          <g id="Group-9">
+            <rect id="Rectangle" width="39.431" height="15.077" fill="none"/>
+            <g id="osn-new-red" transform="translate(9.363 0.58)">
+              <g id="Group_5114" data-name="Group 5114">
+                <g id="Group-3">
+                  <path id="Fill-1" d="M14.743,0c-3.149,1.088-4.71,3.618-5.076,6.935a5.565,5.565,0,0,1-3.745,5.052l.667,1.883c3.149-1.088,4.71-3.618,5.076-6.935A5.565,5.565,0,0,1,15.41,1.883ZM13.066,6.935A4.03,4.03,0,0,1,17.2,2.822a4.03,4.03,0,0,1,4.133,4.114v3.8H19.248v-3.8a2.053,2.053,0,1,0-4.1,0l-.005,3.8H13.066ZM4.133,4.768a2.018,2.018,0,0,0-2.05,2.168,2.054,2.054,0,1,0,4.1,0,2.018,2.018,0,0,0-2.05-2.168ZM8.266,6.935a4.03,4.03,0,0,1-4.133,4.114A4.03,4.03,0,0,1,0,6.935,4.03,4.03,0,0,1,4.133,2.822,4.03,4.03,0,0,1,8.266,6.935Z" fill="red" fill-rule="evenodd"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

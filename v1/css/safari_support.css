@@ -1,0 +1,22 @@
+
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+   
+    .overlapping_safari {
+        transform: translate3d(0,0,10px);
+    }
+    .flag-outter-top h4 {
+        white-space: nowrap;
+    }
+    .saved-addresses .list-group-item.active, .saved-addresses .list-group-item:hover, .saved-cards .list-group-item.active, .saved-cards .list-group-item:hover
+    {
+        font-weight: 500 !important;
+    }
+    .products_single_slide .content_single_box h3 {
+        font-size: 20px !important;
+    }
+    .products_single_slide .product_info_box h3 {
+        font-size: 20px !important;
+    }
+     
+}}

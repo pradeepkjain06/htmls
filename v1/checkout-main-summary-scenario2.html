@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+  <title>Tinext - Delivery Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+  <!-- dated 8-4-2020 code starts -->
+  <link href="css/datepicker.css" rel="stylesheet" />
+  <!-- dated 8-4-2020 code ends -->
+
+
+</head>
+
+<body class="">
+  <div id="wrapper" class="container-fluid delivery-page">
+        <!-- Header -->
+      <header class="header main-header-bg thank-you-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row main-header-row flex-align-center">
+                    <div class="col-md-4 col-3">
+                        <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                    </div>
+                    <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                        <!-- Division which shown in Tablet and Mobile -->
+                        <div class="mobile-controls text-right">
+                            <ul class="mobile-nav">
+                                <li>
+                                    <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="right-nav right-nav-new justify-content-end offset-md-3">
+                        <li class="profile-btn logedin">
+                          <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                              <img src="images/user_name.svg" alt="" class="profile-image">
+                              <div class="user-info">
+                                  <p class="name">Welcome Juan</p>
+                                  <p class="contact">123456789</p>
+                              </div>
+                              <!-- <i class="icon-right-arrow icon-rotate-90"></i> -->
+                          </a>
+                      </li>
+
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!--Cart Desktop-->
+    <section class="shopping_cart_section_xain desktop_section_cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center animate completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery & Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Cart Desktop END-->
+
+     <!--Cart Mobile-->
+    <section class="shopping_cart_mobile_section_xain">
+        <div class="container">
+       
+            <div class="row">
+                <div class="col-12 mb-0 pb-0 mb-md-5 pb-md-5">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed ">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center animate completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery &amp; Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mob_seperator_cart"></div>
+                </div>
+            </div>
+        </div>
+
+
+      <div class="cart_main_mob_wrap">
+
+        <div class="cart_scroll_mob_main fixed-cta">
+
+          <div class="cart_scroll_inner" style="display: none">
+            <div class="summaary_heading_cart_mob">
+              <h2 class="mb-0">Summary</h2>
+            </div>
+
+              <div class="scroll_products_cart">
+
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>iPhone Pro Max</h3>
+                      <p class="mb-0">Red - 256GB</p>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/ipods_scrolls.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Apple Airpods 3rd Gen</h3>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 5</h3>
+                    </div>
+                </div>
+
+                <div class="scroll_product_single d-flex justify-content-between">
+
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+
+              </div>
+
+          </div>
+       
+        </div>
+
+        
+      </div>
+     
+
+    </section>
+
+       <!--Cart Mobile End-->
+
+
+       <section class="checkout-summary-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter main-summary-none-mob summary-form-section">
+                                <h2 class="check-out-summary-title">Confirmation</h2>
+                                <h3>User  Details</h3>
+                                <div class="summary-form">
+                                  <form class='form-validation user_pg'>
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Civil ID / Passport number <span>*</span></label>
+                                              <input type="text" value="1234567890" class="form-control disabled" placeholder="Civil ID">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Civil ID / Passport expiry date <span>*</span></label>
+                                              <input maxlength="10" value="11/22/1991" autocomplete="off" onkeyup="this.value=this.value.replace(/^(\d\d)(\d)$/g,'$1/$2').replace(/^(\d\d\/\d\d)(\d+)$/g,'$1/$2').replace(/[^\d\/]/g,'')" type="text" name="" id="" class="form-control disabled" placeholder="MM/YY/DD">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Full Name <span>*</span></label>
+                                              <input type="text" value="Juan Antonio Test" class="form-control disabled" placeholder="Name Here">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Date of birth <span>*</span></label>
+                                              <input maxlength="10" value="11/22/1991" autocomplete="off" onkeyup="this.value=this.value.replace(/^(\d\d)(\d)$/g,'$1/$2').replace(/^(\d\d\/\d\d)(\d+)$/g,'$1/$2').replace(/[^\d\/]/g,'')" type="text" name="" id="" class="form-control disabled" placeholder="MM/YY/DD">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Nationality <span>*</span></label>
+                                              <input type="text" value="Peruvian" class="form-control disabled" placeholder="Nationality">
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Contact Number <span>*</span></label>
+                                              <input type="text" value="123456789" class="form-control disabled" placeholder="Contact Number">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-6">
+                                          <div class="form-group data-valid">
+                                              <label>Email <span>*</span></label>
+                                              <input value="test@zain.com" type="email" class="form-control disabled" placeholder="Test@email.com">
+                                          </div>
+                                        </div>
+                                        
+
+                                        <div class="col-12">
+                                          <div class="disclaimer_txt_checkout">
+                                            <p>Please show your Civil ID or Passport to receive your order</p>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                    </form>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- user details mobile scenario -->
+
+                    <div class="row mobile_user_details_checkout">
+                      <div class="col-12">
+                        <div class="check-out-outter new-address-section">
+                          <h2 class="check-out-summary-title">User Details</h2>
+                          <div class="payment-box checkout_address_section">
+
+                            <ul>
+                              <li><p>Civil ID:</p> <p>R427684842</p></li>
+                              <li><p>Name:</p> <p>Juan Llerena Fernandez</p></li>
+                              <li><p>Phone Number:</p> <p>995923384</p></li>
+                              <li><p>Email:</p> <p>Juan.llerenaf@test.com</p></li>
+                            </ul>
+                            <a class="edit-address pl-0 pb-0" href="#">Edit</a>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- user detail mobile end -->
+
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="check-out-outter new-address-section">
+                          <h2 class="check-out-summary-title">Delivery Address</h2>
+                          <div class="payment-box">
+
+                            <div class="address-border-bottom">
+                              <div class="custom-radio">
+                                <input type="radio" class="form-control" name="payOption" value="k-net" id="k-net">
+                                <label for="k-net"> 
+                                    <div class="custom-img-text">
+                                        <div class="custom-radio-img">
+                                            <h2><span>Juan Llerena</span>, Area: Sharq, Street & Extra details: 153, block 8, sharq al azizia complex, 4th floor building name: alzizia complex, kuwait</h2>
+                                        </div>    
+                                    </div>
+                                </label>
+                              </div>
+                              <a class="edit-address" href="#">Edit Address</a>
+                            </div>
+                            <div class="add-new-address">
+                              <img src="./images/new-address.svg" alt=""> <a href="#">Add new Address</a>
+                            </div>
+
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- Delivery type section-->
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                          <div class="check-out-outter new-card-section deliver_type_section">
+                              <h2 class="check-out-summary-title">Select the delivery type</h2>
+                              <div class="payment-box">
+
+                                  <div class="custom-radio deliver_radio">
+                                      <input type="radio" class="form-control pay_option" name="delivery" value="expressdelivery" id="expressdelivery">
+                                      <label for="expressdelivery"> 
+                                          <div class="custom-img-text">
+                                              <div class="custom-radio-img d-flex justify-content-between align-items-center">
+                                                 
+                                                  <h2>Express Delivery</h2>
+                                                  <h3>KD 2.9</h3>
+                                              </div>   
+                                              <div class="custom-radio-text">
+                                                  <p class="m-0">Select the preferred date and time slot </p>
+                                              </div> 
+                                          </div>
+                                      </label>
+                                    </div>
+
+                                    <div class="custom-radio deliver_radio">
+                                      <input type="radio" class="form-control pay_option" name="delivery" value="sameday" id="sameday">
+                                      <label for="sameday"> 
+                                          <div class="custom-img-text">
+                                              <div class="custom-radio-img d-flex justify-content-between align-items-center">
+                                                 
+                                                  <h2>Same Day Delivery</h2>
+                                                  <h3>KD 1.9</h3>
+                                              </div>   
+                                              <div class="custom-radio-text">
+                                                  <p class="m-0">If ordered before 3 PM same day</p>
+                                              </div> 
+                                          </div>
+                                      </label>
+                                    </div>
+
+                                    <div class="custom-radio deliver_radio mb-0">
+                                      <input type="radio" class="form-control pay_option" name="delivery" value="expressd" id="expressd">
+                                      <label for="expressd"> 
+                                          <div class="custom-img-text">
+                                              <div class="custom-radio-img d-flex justify-content-between align-items-center">
+                                                  <h2>Standard Delivery</h2>
+                                                  <h3>Free</h3>
+                                              </div>   
+                                              <div class="custom-radio-text">
+                                                <p class="m-0">Select the preferred date and time slot </p>
+                                            </div> 
+                                          </div>
+                                      </label>
+                                     <div class="summary-form form_delivery_slot" style="display: none;">
+                                      <div class="delivery_date_slot form_control_delivery form-validation user_pg">
+                                        <div class="row">
+                                          <div class="col-12  col-md-6 pr-0 pr-md-4">
+                                            <div class="form-group date-id mb-3">
+                                              <label for="">Delivery Date</label>
+                                              <div class="wrapper_control_frm">
+                                                <i class="icon-date"></i>
+                                                <input autocomplete="off" type="text" name="" id="datepicker11" class="form-control datepicker22 d-mob-none" placeholder="Select date">
+                                                <input id="date_current" placeholder="Select date" type="date"  class="form-control mob_date d-desk-none" placeholder="Select date">
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-12 col-md-6 pl-0 pl-md-4">
+                                            <div class="form-group control-wrap mb-3">
+                                              <label for="">Delivery Time <span>*</span></label>
+                                              <div class="wrapper_control_frm">
+                                                <i class="icon-time"></i>
+                                                <select name="" class="form-control nationality-select">
+                                                  <option value="default">Select Time</option>
+                                                  <option value="1">10:00 AM-12:00 PM</option>
+                                                  <option value="2">12:00 PM-02:00 PM</option>
+                                                  <option value="3">02:00 PM-04:00 PM</option>
+                                                  <option value="4">04:00 PM-06:00 PM</option>
+                                                  <option value="5">06:00 PM-08:00 PM</option>
+                                                  <option value="6">08:00 PM-10:00 PM</option>
+                                                  <option value="7">10:00 PM-12:00 AM</option>
+                                                </select>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                     </div> 
+                                    </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                    <!-- End Devliery Type Section -->
+                    <div class="row">
+                      <div class="col-lg-12">
+                          <div class="check-out-outter new-card-section default_options_outter_mob">
+                              <h2 class="check-out-summary-title">Default Selection</h2>
+
+
+                            <div class="payment-box">
+                              <div class="custom-radio  custom-prefilled-radio">
+                                <input type="radio" class="form-control pay_option withdefault" name="payOption" value="new-card" id="new-card2">
+                                <label for="new-card2"> 
+                                    <div class="custom-img-text d-flex align-items-center justify-content-between">
+                                        <div class="custom-radio-img d-flex align-items-center">
+                                          <img src="./images/mastercard_icon.svg" alt="">
+                                            <h2 class="mb-0">Mastercard 4232</h2>
+                                        </div>   
+                                        <div class="edit_default_btn">
+                                          <a href="javascript:void(0)">Remove</a>
+                                        </div>
+                                    </div>
+                                </label>
+
+                                    <div class="summary-form new-card-form" style="display: none;">
+                                        <form class="form-validation user_pg">
+                                            <div class="row">
+                                              <div class="col-lg-6 col-6">
+                                                <div class="form-group group_card">
+                                                    <label>Security Code<span>*</span></label>
+                                                    <input inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="3" type="text" class="form-control" placeholder="Number Here">
+                                                </div>
+                                              </div> 
+                                            </div>
+                                          </form>
+                                    </div>
+
+                              </div>
+                            </div>
+
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- <div class="row">
+                    <div class="col-lg-12">
+                        <div class="check-out-outter new-card-section">
+                            <h2 class="check-out-summary-title">Default Selection</h2>
+
+
+                          <div class="payment-box">
+                            <div class="custom-radio  custom-prefilled-radio">
+                              <input type="radio" class="form-control pay_option" name="payOption2" value="new-card" id="new-card2">
+                              <label for="new-card2"> 
+                                  <div class="custom-img-text d-flex align-items-center justify-content-between">
+                                      <div class="custom-radio-img d-flex align-items-center">
+                                        <img src="./images/mastercard_icon.svg" alt="">
+                                          <h2 class="mb-0">Mastercard 4232</h2>
+                                      </div>   
+                                      <div class="edit_default_btn">
+                                        <a href="javascript:void(0)">Remove</a>
+                                      </div>
+                                  </div>
+                              </label>
+
+                                  <div class="summary-form new-card-form" style="display: none;">
+                                      <form class="form-validation user_pg">
+                                          <div class="row">
+                                            <div class="col-lg-6 col-6">
+                                              <div class="form-group group_card">
+                                                  <label>Security Code<span>*</span></label>
+                                                  <input inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="3" type="text" class="form-control" placeholder="Number Here">
+                                              </div>
+                                            </div> 
+                                          </div>
+                                        </form>
+                                  </div>
+
+                            </div>
+                          </div>
+
+
+                        </div>
+                    </div>
+                </div> -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter new-card-section">
+
+                            <div class="default_selection_cards desktop_options desk-spacing to_be_removed">
+                              <h2 class="check-out-summary-title">Default Selection</h2>
+                              <!-- <div class="payment-box">
+                                <div class="custom-radio">
+                                  <input type="radio" class="form-control pay_option" name="payOption" value="new-card" id="default-master" checked>
+                                  <label for="default-master"> 
+                                      <div class="custom-img-text">
+                                          <div class="custom-radio-img d-flex align-items-center">
+                                              <img src="./images/mastercard_icon.svg" alt="">
+                                              <h2 class="mb-0">Mastercard 4232</h2>
+                                          </div>   
+                                      </div>
+                                  </label>
+                                </div>
+                              </div> -->
+                              <div class="payment-box desktop_payment_box">
+                                <div class="custom-radio  custom-prefilled-radio">
+                                  <input type="radio" class="form-control pay_option withdefault" name="payOption" value="default-selection" id="new-card3">
+                                  <label for="new-card3"> 
+                                      <div class="custom-img-text d-flex align-items-center justify-content-between">
+                                          <div class="custom-radio-img d-flex align-items-center">
+                                            <img src="./images/mastercard_icon.svg" alt="">
+                                              <h2 class="mb-0">Mastercard 4232</h2>
+                                          </div>   
+                                          <div class="edit_default_btn">
+                                            <a href="javascript:void(0)">Remove card</a>
+                                          </div>
+                                      </div>
+                                  </label>
+    
+                                      <div class="summary-form new-card-form" style="display: none;">
+                                          <form class="form-validation user_pg">
+                                              <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                  <div class="form-group group_card">
+                                                      <label>Security Code<span>*</span></label>
+                                                      <input inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" pattern="[0-9]*" autocomplete="off" maxlength="3" type="text" class="form-control" placeholder="CVV">
+                                                  </div>
+                                                </div> 
+                                              </div>
+                                            </form>
+                                      </div>
+    
+                                </div>
+                              </div>
+                                 
+                            </div>
+
+
+                                <h2 class="check-out-summary-title">Payment Selection</h2>
+                                <div class="payment-box">
+
+                                    <div class="custom-radio">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="n-net" id="n-net">
+                                        <label for="n-net"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/knet-logo.svg" alt="">
+                                                    <h2>K-net</h2>
+                                                </div>   
+                                                <div class="custom-radio-text">
+                                                    <p class="m-0">You will be redirected to KNET gateway to complete your payment</p>
+                                                </div> 
+                                            </div>
+                                        </label>
+                                      </div>
+
+                                      <div class="custom-radio">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="new-card" id="new-card">
+                                        <label for="new-card"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/new-card.svg" alt="">
+                                                    <h2>New Card</h2>
+                                                </div>   
+                                                <div class="custom-radio-text">
+                                                    <p class="m-0">Use your credit or debit card</p>
+                                                </div> 
+                                            </div>
+                                        </label>
+
+                                            <div class="summary-form new-card-form" style="display: none;">
+                                                <form class='form-validation user_pg'>
+                                                    <div class="row">
+                                                      <div class="col-lg-6 col-12">
+                                                        <div class="form-group group_card mb-3">
+                                                            <label>Card Number <span>*</span></label>
+                                                            <input  inputmode="numeric"  pattern="[0-9]*" autoComplete="off" type="text"  class="form-control credit_card_number" placeholder="Number Here">
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-lg-3 col-6">
+                                                        <div class="form-group date-id group_card mb-3">
+                                                          <label for="">Expiry date <span>*</span></label>
+                                                          <input inputmode="numeric"  pattern="[0-9]*" autoComplete="off" type="text" name="" id="" class="form-control date_card"
+                                                            placeholder="MM/YY" />
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-lg-3 col-6">
+                                                        <div class="form-group group_card mb-3">
+                                                            <label>Security Code<span>*</span></label>
+                                                            <input  inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" type="text" maxlength="3" class="form-control" placeholder="CVV">
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="col-12">
+                                                        <div class="custom-checkbox form-group mt-3">
+                                                          <div class="form-group mb-3">
+                                                              <input type="checkbox" class="form-control" name="saved-card" id="saved-card">
+                                                              <label for="saved-card">Save the card for future use</label>
+                                                          </div>   
+                                                        </div>
+                                                      </div>
+                                                      
+                                                    </div>
+                                                  </form>
+                                            </div>
+
+                                      </div>
+
+                                      <div class="custom-radio mb-0">
+                                        <input type="radio" class="form-control pay_option" name="payOption" value="paypaal" id="paypaal">
+                                        <label for="paypaal"> 
+                                            <div class="custom-img-text">
+                                                <div class="custom-radio-img">
+                                                    <img src="./images/paypaal.svg" alt="">
+                                                    <h2>Paypal</h2>
+                                                </div>   
+                                            </div>
+                                        </label>
+                                      </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row mt-md-0 mt-4 due-today">
+                        <div class="col-lg-12">
+                            <div class="check-out-outter placement_items_price">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-8 col-6">
+                                        <div class="order_place_left">
+                                            <h2>Due Today: KD 16.5</h2>
+                                            <p>By placing your order, you agree to Zain privacy notice and conditions of use.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 ">
+                                        <div class="order_place_right">
+                                            <button onclick="document.location='./checkout-thankyou.html'" class="btn placeorder-btn" disabled>Place your order</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="order-sidebar">
+                        <div class="sidebar-summary">
+                            <h2 class="check-out-summary-title">Order Sumary</h2>
+                            <div class="sidebar-summary-content">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="sidebar-summary-content-left">
+                                            <div class="sidebar-summary-content-left-img">
+                                                <img src="./images/samsung_plus.png" alt="">
+                                            </div>
+                                            <div class="sidebar-summary-content-left-text">
+                                                <h2>Samsung Galaxy S22 Plus 5G</h2>
+                                                <p>128 GB | Gold </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="sidebar-summary-content-right">
+                                            <p>KD 124</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-summary-total">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="summary-subtotal">
+                                        <h2>Sub total</h2>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal text-right">
+                                        <h2>KD 124</h2>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-6">
+                                  <div class="summary-subtotal">
+                                      <h2>Shipping</h2>
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                  <div class="summary-subtotal text-right">
+                                      <h2>KD 2.9</h2>
+                                  </div>
+                              </div>
+                                <div class="col-12">
+                                    <div class="border-bottom"></div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal">
+                                        <h2 class="clr-green">Due Today</h2>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-subtotal text-right">
+                                        <h2 class="clr-green">KD 126.9</h2>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="order-summary-buttons">
+                                        <button class="edit-btn">EDIT CART</button>
+                                        <!-- Button to be used for development purpose -->
+                                       <button onclick="document.location='./checkout-thankyou.html'" class="placeorder-btn" disabled>
+                                        <div class="spinner-border d-none" role="status">
+                                          <span class="sr-only">Loading...</span>
+                                        </div>
+                                        Place your order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="shopping_cart_mobile_section_xain">
+
+      <div class="cart_main_mob_wrap">
+  
+        <div class="cart_scroll_mob_main fixed-cta">
+  
+          <div class="cart_scroll_inner" style="display: none">
+            <div class="summaary_heading_cart_mob">
+              <h2 class="mb-0">Summary</h2>
+            </div>
+  
+              <div class="scroll_products_cart">
+  
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>iPhone Pro Max</h3>
+                      <p class="mb-0">Red - 256GB</p>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/ipods_scrolls.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Apple Airpods 3rd Gen</h3>
+                      <p class="mb-0">Commitment : 24 months</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 5</h3>
+                    </div>
+                </div>
+  
+                <div class="scroll_product_single d-flex justify-content-between">
+  
+                  <div class="scroll_img_wrap_cart d-flex">
+                    <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+  
+                    <div class="scroll_product_content">
+                      <h3>Zain Plus Phone Number</h3>
+                      <p class="mb-0">Existing Number - 95577833</p>
+                    </div>
+                  </div>
+                  
+  
+                    <div class="price_wrap_scroll_inner">
+                      <h3>KD 13</h3>
+                    </div>
+                </div>
+  
+              </div>
+  
+          </div>
+       
+  
+  
+          <div class="car_total_mob_new" >
+            <div class="order_summary_mob">
+              <div class="d-flex justify-content-between content_tab_fixed_bar">
+                <h2>Order Summary</h2>
+                <a href="javascript:void(0)" class="view_details_cart_zain">
+                  View Details
+                </a>
+              </div>
+                
+                <ul class="pl-0 order_summary_mob_list">
+  
+                  <li>
+                    <div class="d-flex align-items-center">
+                       <p>Sub Total</p>
+                    </div>
+                    <p>KD <span>366</span></p>
+                 </li>
+  
+                 <li>
+                  <div class="d-flex align-items-center">
+                     <p>Deposit Payment</p>
+                     <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                        <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                     </div>
+                  </div>
+                  <p>KD 24</p>
+               </li>
+  
+               <li>
+                <div class="d-flex align-items-center">
+                   <p>Monthly payment</p>
+                   <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                      <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                   </div>
+                </div>
+                <p>KD 24</p>
+             </li>
+                    
+                </ul>
+                <div class="dues_total_mob">
+                    <h2>Due Today</h2>
+                    <h2>KD <span>16.5</span></h2>
+                </div>
+                <div class="btn_wrapper d-flex">
+                          
+                    <button class="btn btn-cart-1c">CLEAR CART</button>
+                    <button onclick="document.location='./checkout-thankyou.html'" class="btn btn-pc-1a">CHECKOUT</button>
+  
+                </div>
+            </div>
+        </div>
+        </div>
+  
+        
+      </div>
+     
+  
+    </section>
+  
+      <!--Cart Mobile End-->
+
+   
+
+
+        <!-- Footer -->
+        <footer class="main-footer2 footer_extra_master">
+          <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="footer_zain_new d-flex justify-content-between align-items-center w-100">
+                           <a href="#">
+                               <img src="./images/footer_new_zain.svg" alt="footer logo" />
+                           </a>
+                           <div class="footer_new">
+                               <div class="links_footer_master">
+                                   <ul class="d-flex">
+                                       <li>
+                                          <a href="#"><img src="./images/instagram_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/twitter_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/facebook_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                       <li>
+                                           <a href="#"><img src="./images/youtube_footer.svg" alt="instagram" /></a> 
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="col-12">
+                    <div class="disclaimer_footer d-flex ali">
+                      <div>
+                       <p class="mb-0">2022 Zain. All right reserved.</p>
+                      </div>
+                      <div>
+                       <a href="#">Privacy Policy</a>
+                       <a href="#">Terms of Services</a>
+                       <a href="#">Cookies Settings </a>
+                      </div>
+                    </div>
+                </div>
+               </div>
+          </div>
+       </footer>
+       <!-- Footer Ends -->
+ 
+    <div class="bodyoverlay"></div>
+    <div id="ctm-prefilled" class="order-tracking-popup new-address-popup summary-form -small">
+      <div class="close-tracking"><img src="./images/close-popup-icon.svg" alt="" /></div>
+      <div class="order-tracking-popup-header p-0 m-0">
+        <h3>Edit Address</h3>
+        <form class='form-validation user_pg'>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group control-wrap mb-3 no_validation">
+                <label for="">Governorate <span>*</span></label>
+                <div class="wrapper_control_frm">
+                  <i class="icon-right-arrow down_arrow_rtm"></i>
+                  <select name="Nationality" class="form-control nationality-select">
+                    <option value="default">Select 1</option>
+                    <option value="1">Select 2</option>
+                    <option value="3">Select 3</option>
+                    <option value="2">Select 4</option>
+                    <option value="3">Select 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group control-wrap mb-3 no_validation">
+                <label for="">Area <span>*</span></label>
+                <div class="wrapper_control_frm">
+                  <i class="icon-right-arrow down_arrow_rtm"></i>
+                  <select name="Nationality" class="form-control nationality-select">
+                    <option value="default">Select 1</option>
+                    <option value="1">Select 2</option>
+                    <option value="3">Select 3</option>
+                    <option value="2">Select 4</option>
+                    <option value="3">Select 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>Block <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>Street <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>Unit type <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>Building name <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>House number <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group data-valid">
+                  <label>Avenue <span>*</span></label>
+                  <input type="text" value="123456789" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="form-group mb-0 data-valid no_validation">
+                <label for="">Description</label>
+                <textarea class="form-control" placeholder="Write your comments…">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu pharetra ipsum,</textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="text-right">
+                <a class="cancel-btn mr-3" href="" disabled="true">Cancel</a>
+                <a class="next-btn mt-0" href="" disabled="true">Update</a>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div id="ctm-address-popup" class="order-tracking-popup new-address-popup summary-form -small">
+      <div class="close-tracking"><img src="./images/close-popup-icon.svg" alt="" /></div>
+      <div class="order-tracking-popup-header p-0 m-0">
+        <h3>New Address</h3>
+        <form class='form-validation user_pg'>
+          <div class="row">
+            <div class="col-md-6">
+              <div id="governate_Wrap" class="form-group control-wrap mb-3 no_validation">
+                <label for="">Governorate <span>*</span></label>
+                <div class="wrapper_control_frm">
+                  <i class="icon-right-arrow down_arrow_rtm"></i>
+                  <select name="Nationality" class="form-control nationality-select">
+                    <option value="default">Select 1</option>
+                    <option value="1">Select 2</option>
+                    <option value="3">Select 3</option>
+                    <option value="2">Select 4</option>
+                    <option value="3">Select 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group control-wrap mb-3 no_validation">
+                <label for="">Area <span>*</span></label>
+                <div class="wrapper_control_frm">
+                  <i class="icon-right-arrow down_arrow_rtm"></i>
+                  <select name="Nationality" class="form-control nationality-select">
+                    <option value="default">Select 1</option>
+                    <option value="1">Select 2</option>
+                    <option value="3">Select 3</option>
+                    <option value="2">Select 4</option>
+                    <option value="3">Select 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Block <span>*</span></label>
+                  <input type="text" value="" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Street <span>*</span></label>
+                  <input type="text" value="" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group control-wrap mb-3 no_validation">
+                <label for="">Unit type <span>*</span></label>
+                <div class="wrapper_control_frm">
+                  <i class="icon-right-arrow down_arrow_rtm"></i>
+                  <select name="Nationality" class="form-control nationality-select">
+                    <option value="default">Select 1</option>
+                    <option value="1">Select 2</option>
+                    <option value="3">Select 3</option>
+                    <option value="2">Select 4</option>
+                    <option value="3">Select 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Building name <span>*</span></label>
+                  <input type="text" value="" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>House number <span>*</span></label>
+                  <input type="text" value="" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <label>Avenue <span>*</span></label>
+                  <input type="text" value="" class="form-control" placeholder="Block Number">
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="form-group mb-0">
+                <label for="">Description</label>
+                <textarea class="form-control" placeholder="Write your comments…"></textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="custom-checkbox form-group mt-3">
+                  <div class="form-group">
+                      <input type="checkbox" class="form-control" name="saved-card" id="saved-card1">
+                      <label for="saved-card1">Save new address</label>
+                  </div>   
+                </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="text-right">
+                <a class="cancel-btn mt-0 mr-3" href="" disabled="true">Cancel</a>
+                <a class="next-btn mt-0" href="" disabled="true">Create</a>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    
+    <!-- Popup Confirmation -->
+    <div class='order-tracking-popup confirmation_popup -small hide' id="popup-small">
+      <div class='close-tracking'><img src="./images/close-popup-icon.svg" alt=""></div>
+      <div class='order-tracking-popup-header'>
+          <h3> Remove </h3>
+          <p class='color-gray'>Are you sure would like to Remove the product</p>
+      </div>
+      <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+         
+          <a class="btn btn-pc-1 close-popup-small cancel_from_popover" href='javascript:void(0)'>Cancel</a>
+          <a class="btn btn-pc-3 close-popup-small remove_item_yes" href='javascript:void(0)'>Confirm</a>
+      </div>
+  </div>
+     <!-- Popup Confirmation End -->
+
+
+    <div class="scripts">
+      <!-- jQuery -->
+      <script src="./js/jQuery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="./js/scrolltrigger.js" ></script>
+      <!-- Jquery Mask -->
+      <script src="./js/maskedjquery.js"></script>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/bootstrap.bundlev5.js"></script>
+      <!-- Slick Slider -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Custom - Select Slider -->
+      <script src="./js/select2.min.js"></script>
+      <!-- Search type suggetion -->
+      <script src="./js/typeahead.bundle.min.js"></script>
+      <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+      <!-- Custom js -->
+      <script src="./js/custom.js"></script>
+      <!-- dated 8-4-2020 code starts -->
+      <script src="js/bootstrap-datepicker.js"></script>
+
+      <script>
+
+      $.fn.datepicker.dates['en'] = {
+          days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+          daysMin: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
+          months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+          monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          format: "yyyy-mm",
+          titleFormat: "MM yyyy",
+
+      };
+     
+        $(".datepicker2").datepicker({
+            language: "en",
+            format: "yyyy-mm",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+            
+          }).on('click', function(e){
+            $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+            $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+          $(".datepicker29").datepicker({
+            language: "en",
+            format: "yyyy-mm",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+          }).on('click', function(e){
+    
+       $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+       $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+          $(".datepicker22").datepicker({
+            language: "en",
+            format: "DD, d MM yyyy",
+            forceParse: false,
+            todayBtn: false,
+            okBtn: true,
+            clearBtn: false,
+            cancelBtn: true,
+            multidateSeparator: "-",
+            autoclose: true,
+            todayHighlight: false,
+            orientation: 'bottom',
+          }).on('click', function(e){
+            $(".prev").replaceWith("<th class='prev'><i class='icon-right-arrow'><i></th>");
+      $(".next").replaceWith("<th class='next'><i class='icon-right-arrow'><i></th>");
+    });
+
+
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          });
+          $(function () {
+              $("[rel='tooltip']").tooltip();
+          });
+
+      </script>
+   
+ 
+    </div>
+  </div>
+
+
+  <script>
+    $('.credit_card_number').mask('0000 0000 0000 0000');
+    $('.date_card').mask('00/00');
+</script>
+
+</body>
+
+</html>

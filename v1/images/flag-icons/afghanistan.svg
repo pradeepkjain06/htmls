@@ -1,0 +1,9 @@
+<svg id="afghanistan" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_1925" data-name="Path 1925" d="M137.739,1.588a16.034,16.034,0,0,0-13.913,0L122.435,16l1.391,14.412a16.034,16.034,0,0,0,13.913,0L139.131,16Z" transform="translate(-114.783)" fill="#d80027"/>
+  <path id="Path_1926" data-name="Path 1926" d="M9.043,25.411a16.005,16.005,0,0,0,0,28.824Z" transform="translate(0 -23.823)"/>
+  <path id="Path_1927" data-name="Path 1927" d="M367.3,25.411V54.235a16.005,16.005,0,0,0,0-28.824Z" transform="translate(-344.347 -23.823)" fill="#496e2d"/>
+  <g id="Group_3416" data-name="Group 3416" transform="translate(10.435 10.435)">
+    <path id="Path_1928" data-name="Path 1928" d="M172.522,166.957a5.565,5.565,0,1,0,5.565,5.565A5.565,5.565,0,0,0,172.522,166.957Zm0,9.043A3.478,3.478,0,1,1,176,172.522,3.478,3.478,0,0,1,172.522,176Z" transform="translate(-166.957 -166.957)" fill="#ffda44"/>
+    <path id="Path_1929" data-name="Path 1929" d="M235.13,222.609A1.391,1.391,0,0,0,233.739,224v2.087h2.783V224A1.391,1.391,0,0,0,235.13,222.609Z" transform="translate(-229.565 -219.131)" fill="#ffda44"/>
+  </g>
+</svg>

@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.tff');
+}
+.product_slide_Section{
+    background: rgba(229, 229, 229, 0.35);
+}
+.products_single_slide {
+    margin: 0px 25px;
+}
+.products_single_slide img {
+    max-width: 120px;
+    margin: 0 auto;
+}
+.single_outer_product {
+    position: relative;
+}
+.single_outer_product {
+    background-color: #FFF;
+}
+.single_outer_product::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0px;
+    background: linear-gradient(87.62deg, #D12B8A 27.08%, #70489D 107.7%);
+}
+.content_single_box span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6F6F6F;
+}
+
+.content_single_box p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #999999;
+}
+.content_single_box {
+    margin-top: 30px;
+}
+
+.content_single_box .plus_selector {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2E2E2E;
+}
+.product_info_box span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+.product_info_box h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #D12B8A;
+}
+.product_info_box p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+}
+.product_button_box h3 {
+    font-family: 'Nunito Sans' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+.single_outer_product {
+    margin: 20px 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.products_zain_slider .slick-dots {
+    bottom: -20px !important;
+}
+
+.btn.buy_now_btn {
+    background: #D12B8A;
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+    padding: 17px 15px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    transition: .3s all ease-in;
+}
+.btn.buy_now_btn:hover {
+    background-color: transparent;
+    border: 1px solid #D12B8A;
+    color: #D12B8A;
+}
+
+.content_box_wiy h3 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 29px;
+    background: linear-gradient(259.7deg, #D12B8A 19.92%, #3738B4 86.76%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+    
+}
+
+.content_box_wiy p {
+    font-family: 'Nunito Sans' !important;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    color: #000000;
+}
+.content_box_wiy {
+    flex-basis: 50%;
+}
+
+.wiyana_img_inner_wix {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.content_box_wiy.nobais {
+    flex-basis: 25%;
+}
+
+h3.subheading_ipad.mb-0 {
+    font-family: 'Nunito Sans' !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F6F6F;
+}
+
+h2.main_heading_ipad {
+    font-family: 'Nunito Sans' !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+p.txt_paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6F6F;
+    max-width: 45%;
+}
+
+.tab_slick_poduct.single_outer_product::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 0px;
+    background: linear-gradient(87.62deg, #D12B8A 27.08%, #70489D 107.7%);
+}
+
+.tab_slick_poduct {
+    background: #F6F6F6;
+}
+
+a.shop_all_anchor {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D12B8A;
+}
+
+.product_img {
+    background-image: url(../images/ipad_9.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 165px;
+    position: relative;
+}
+
+.product_img_2 {
+    background-image: url('../images/ipad_air.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 165px;
+    position: relative;
+}
+
+.product_img_3 {
+    background-image: url('../images/samsung_tab.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 165px;
+    position: relative;   
+}
+
+.product_img_4 {
+    background-image: url('../images/ipad_air.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 165px;
+    position: relative;   
+}
+
+.product_img .btn.btn_buy_now_prr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #D12B8A;
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 135px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    transition: .3s all ease-in;
+}
+
+
+.product_img_2 .btn.btn_buy_now_prr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #D12B8A;
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 135px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    transition: .3s all ease-in;
+}
+
+
+.product_img_3 .btn.btn_buy_now_prr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #D12B8A;
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 135px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    transition: .3s all ease-in;
+}
+
+.product_img_4 .btn.btn_buy_now_prr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #D12B8A;
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 135px;
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    transition: .3s all ease-in;
+}
+
+.btn.btn_buy_now_prr:hover {
+    background: transparent;
+    border: 2px solid #D12B8A;
+    color: #D12B8A;
+}
+/* round slider wiyana */
+.wiyana_round_slider .slide_single {
+    margin: 10px;
+}
+.wiyana_round_slider .slick-dots {
+    bottom: -30px !important;
+}
+.dark_template_round_slide {
+    background-color: #000;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dark_template_round_slide .content_slide_round {
+    color: #FFF;
+}
+
+.dark_template_round_slide .content_slide_round span {
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.dark_template_round_slide .content_slide_round h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.single_outer_tablet_product {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 0px;
+    background: linear-gradient(87.62deg, #D12B8A 27.08%, #70489D 107.7%);
+}
+
+.content_slide_round .wiyana_price_content span {
+
+    font-family: "NunitoSans-Regular" !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.content_slide_round .wiyana_price_content .price_indent {
+
+    font-family: "NunitoSans-Regular" !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: line-through;
+    color: #FFFFFF;
+}
+
+.content_slide_round .wiyana_price_content .price_outent {
+    font-family: 'NunitoSans-Regular' !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.content_slide_round .wiyana_price_content .price_outent span {
+    font-family: 'NunitoSans-Regular' !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.wiyana_round {
+    max-width: 80px;
+}
+
+
+.light_template_round_slide {
+    background-color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.light_template_round_slide .content_slide_round span, 
+.light_template_round_slide .content_slide_round h3,
+.light_template_round_slide .content_slide_round .wiyana_price_content .price_indent,
+.light_template_round_slide .content_slide_round .wiyana_price_content .price_outent {
+    color: #2E2E2E;
+} 
+.light_template_round_slide .content_slide_round .wiyana_price_content span
+{
+    color: #6F6F6F;
+}
+
+/* round slider end wiyana */
+.banner_img_wiyana_prr {
+    background-image: url(../images/bg_wiyana.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 595px;
+    position: relative;
+    max-width: 985px;
+    margin: auto;
+}
+
+.content_inner_banner_prr {
+    position: absolute;
+    top: 270px;
+}
+
+.content_inner_banner_prr h3 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.content_inner_banner_prr p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.heading__zain__plus__prr h3 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.heading__zain__plus__prr p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+button.btn.btn__learn__more {
+    border: 2px solid #D12B8A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #D12B8A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    transition: .3s all ease-in;
+}
+
+.btn.btn__learn__more:hover {
+    background-color: #D12B8A;
+    color: #fff;
+}
+
+.apple_ipad_title.mb-2.mt-0 {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2E2E2E;
+}
+
+h3.apple_ipad_title.mb-2 {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2E2E2E;
+}
+
+.banner_wiyana_mobile {
+    display: none;
+}
+
+@media(max-width: 992px){
+    .content_box_wiy.nobais {
+        flex-basis: 50%;
+    }
+    .box_outter_wiy.nobais_wix {
+        flex-wrap: wrap;
+    }
+
+    .banner_wiyana_mobile {
+        display: block;
+    }
+
+    .banner_wiyana_prc {
+        display: none;
+    }
+}

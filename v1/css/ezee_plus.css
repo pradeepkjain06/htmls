@@ -1,0 +1,545 @@
+/* ezee plus top section */
+
+
+.ezee_top_inner h2 {
+    font-family: "nunitosans-bold" !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 72px;
+    text-align: center;
+}
+.ezee_top_inner h2 span {
+    font-family: "nunitosans-bold" !important;
+    font-size: 65px;
+    font-weight: 700;
+    background: #70B755;
+    background-color: #70B755;
+    background: linear-gradient(180deg, #A6BA77 0%, #70B755 100%);
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.ezee_sep {
+    background: linear-gradient(180deg, #A6BA77 0%, #70B755 100%);
+}
+
+/* ezee plus top section END */
+
+/* ezee plus slider section */
+.ezee_tab {
+    min-height: 125px;
+}
+.ezee_wrap_img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.activation_ezee_slide h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #D12B8A;
+}
+.activation_ezee_slide .sub_ezee_txt {
+    color: #2E2E2E;
+    font-size: 14px;
+}
+.activation_ezee_slide p {
+    font-size: 14px !important;
+    line-height: 18px;
+}
+.choose-ezee-plan-slider .slick-dots {
+    bottom: -20px !important;
+}
+.choose-ezee-plan-slider .slick-dots li button {
+    border: 3px solid #C4C4C4 !important;
+    background-color: #C4C4C4 !important;
+    padding: 3px !important;
+}
+.choose-ezee-plan-slider .slick-dots li.slick-active button {
+    border: 3px solid #d12b8a !important;
+    background-color: #d12b8a !important;
+}
+
+@media(max-width: 767px) {
+    .kw .with_ezee_top .wiyana-box p {
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+    .choose-ezee-plan-slider .slick-dots {
+        bottom: -40px !important;
+    }
+    .ezee_top_inner h2 {
+        font-size: 20px;
+    }
+    .ezee_top_inner h2 span {
+        font-size: 40px;
+    }
+}
+/* ezee plus slider section END */
+
+
+
+    /* ezee nav tabs */
+
+    .ezee_nav_tabs {
+        max-width: 850px;
+        background: #D3389136;
+        height: 60px;
+        border-radius: 100px;
+    }
+    .ezee_nav_tabs li {
+        display: flex;
+        align-items: center;
+    }
+
+    .ezee_nav_tabs {
+        max-width: 855px;
+        background: #D3389136;
+        height: 60px;
+        border-radius: 100px;
+        margin: 30px auto;
+        padding: 6px 14px;
+    }
+    .ezee_nav_tabs li {
+        display: flex;
+        align-items: center;
+    }
+    .ezee_nav_tabs li .nav-link {
+        font-family: 'nunitosans-bold';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #454545;
+        padding: 12px 29px;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        transition: all 250ms ease-in;
+    }
+
+
+    .ezee_nav_tabs li .nav-link.active {
+        background-color: #D33891;
+        border-radius: 100px;
+        padding: 12px 29px;
+    }
+
+
+    /* ezee nav tabs END */
+
+
+/* eeZee Banner Section */
+.eezee-banner {
+  background-image: url('../images/eezee-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.ezee-banner-txt.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.ezee-banner-txt h1 {
+    font-family: 'nunitosans-bold' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.ezee-banner-txt p {
+    font-size: 24px !important;
+    line-height: 33px;
+}
+
+.ezee-banner-txt p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* eeZee banner ends */
+
+/* Need a new phone section starts */
+.primary-button-eze {
+    background: transparent;
+    color: #d12b8a;
+    width: 196px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 15px 40px;
+    display: inline-block;
+    border: 2px solid #d12b8a;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.primary-button-eze:hover {
+  background-color: #d12b8a;
+  background: #d12b8a;
+  color: #fff;
+}
+
+.eezee-new-phone p {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #222C38;
+    margin: 10px auto;
+    max-width: 315px;
+}
+
+.eze-slider {
+    display: flex;
+    justify-content: start;
+}
+
+.benefits_tab.ezee-tab-benefit {
+    min-height: 120px;
+}
+
+.eze-pricing-card h3 {
+    font-family: 'NunitoSans-Regular' !important;
+    font-size: 20px;
+}
+
+a.color-purp {
+    color: #D12B8A;
+    font-size: 16px;
+    font-family: 'NunitoSans-Regular' !important;
+}
+
+.eze-pricing-card p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2E2E2E;
+    font-family: 'NunitoSans-Regular' !important;
+}
+
+.color-blue-link {
+  color: #157BC5;
+}
+
+.eze-pricing-card p:last-child {
+    font-family: 'NunitoSans-Regular' !important;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6F6F6F;
+}
+
+#radio_eze_1, #radio_eze_2, #radio_eze_3 {
+    width: 20px;
+    height: 23px;
+    accent-color: #D12B8A;
+}
+
+#radio_eze_1:focus+.radio_eze {
+  color: #D12B8A;
+}
+
+#radio_eze_2:focus+.radio_eze {
+  color: #D12B8A;
+}
+
+#radio_eze_3:focus+.radio_eze {
+  color: #D12B8A;
+}
+
+.flexbox_eze {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flexbox_eze h3 {
+    font-family: 'NunitoSans-Regular' !important;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222C38;
+}
+
+.checkboxes_prpr {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D12B8A;
+    gap: 10px;
+}
+
+.ezee_tabs_row {
+    display: flex !important;
+}
+.mob_slide_ezee_slider {
+    display: none !important;
+}
+
+.btns_ezee {
+    display: none;
+}
+
+button.btn.btn__shop__now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 112px;
+    height: 40px;
+    background: #D12B8A;
+    border: 2px solid #D12B8A;
+    border-radius: 4px;
+    color: #fff;
+    transition: .3s all ease-in;
+}
+
+.btn.btn__shop__now:hover {
+  background-color: transparent;
+  border: 2px solid #D12B8A;
+  color: #D12B8A;
+}
+
+button.btn.btn__review__plan {
+    border: 1.4px solid #D12B8A;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    color: #fff;
+    width: 138px;
+    height: 40px;
+    transition: .3s all ease-in;
+}
+
+button.btn.btn__review__plan:hover {
+  background-color: #D12B8A;
+  color: #fff;
+}
+
+.ezee-banner-woman {
+  background-image: url('../images/eze-woman.png') !important;
+}
+
+.ezee-banner-woman h2 {
+    font-family: 'nunitosans-bold' !important;
+}
+.kw #wrapper .ezee_tabs_section {
+    margin-bottom: 0 !important;
+}
+
+@media(min-width: 768px) and (max-width: 1200px){
+    .ezee_tabs_section .benefits_tab.ezee-tab-benefit {
+        min-height: 170px !important;
+    }
+    .kw #wrapper .showbiz-icons li img {
+        width: 30px !important;
+    }
+    .kw #wrapper .ezee_tabs_section {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .ezee_tabs_section .wiyana_go_card {
+        margin-bottom: 10px;
+    }
+    .ezee_nav_tabs li .nav-link {
+        font-size: 15px;
+    }
+    .with_ezee_top.section-padding {
+        padding: 0 !important;
+    }
+    .kw #wrapper .eezee_flexi .btn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eezee-banner {
+        display: block;
+    }
+}
+
+@media(max-width: 767px) {
+    .eeZee-looking-device-row p {
+        text-align: center !important;
+    }
+    
+    .overflow-auto-mob {
+        overflow: auto;
+    }
+    .outter_input_prpr {
+        min-width: 550px;
+    }
+
+    .outter_input_prpr .checkboxes_prpr {
+        margin-left: 50px;
+    }
+    .eezee-banner {
+        display: none;
+    }
+    .with_ezee_top.section-padding {
+        padding: 0 !important;
+    }
+    .flexbox_eze {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ezee_nav_tabs li .nav-link {
+        padding: 5px 14px;
+    }
+    .mob_slide_ezee_slider {
+        display: unset !important;
+    }
+    .ezee_tabs_row {
+        display: none !important;
+    }
+    .ezee_tab_content {
+        margin-top: 25px;
+    }
+    .ezee_tab_content .tab-pane.active {
+        padding-top: 0px !important;
+        padding-bottom: 30px !important;
+    }
+    .ezee_nav_tabs li .nav-link.active {
+        padding: 5px 14px;
+    }
+    .ezee_nav_tabs {
+        height: 38px;
+    }
+    .ezee_nav_tabs li .nav-link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .outter_ezee_pills {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .ezee_nav_tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        min-width: 570px;
+    }
+    .btns_ezee {
+      display: flex;
+      margin-right: auto;
+  }
+    .ezee-banner-txt h1,p {
+      text-align: start !important;
+    }
+
+    .ezee-banner-txt h1 {
+      font-size: 39px;
+      margin-right: auto;
+    }
+
+    .ezee-banner-txt p {
+      font-size: 20px !important;
+    }
+
+    .eezee-banner {
+      background-image: url(../images/eezee-banner.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 62%;
+      min-height: 404px;
+  }
+
+  .ezee-banner-txt.text-center {
+    margin-top: 80px;
+}
+}
+
+
+.ezee_tabs_section .wiyana_go_card {
+    padding: 0px 20px 20px 20px;
+}
+.ezee_tabs_section .wiyana_go_card {
+    border-radius: 0px;
+}
+.ezee_tabs_section .wiyana_go_card::before {
+    height: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.ezee_tabs_section .benefits_tab h3 {
+    font-size: 16px;
+    line-height: 32px;
+}
+.ezee_tabs_section .benefits_tab ul li {
+    font-size: 16px;
+}
+.ezee_tabs_section .pricing_card_buy h3 {
+    font-family: "nunitosans-bold" !important;
+}
+.ezee_tabs_section .pricing_card_buy p {
+    font-size: 14px !important;
+    margin-bottom: 0;
+    color: #000 !important;
+}
+.ezee_tabs_section .pricing_card_buy p .color-purp {
+    font-size: 16px !important;
+}
+.ezee_tabs_section .benefits_tab ul li span {
+    color: #000000;
+}
+.ezee_tabs_section .pricing_card_buy p:first-child{
+    color: #000000 !important;
+}
+.ezee_tabs_section .benefits-icons-wrap {
+    width: 30px;
+    justify-content: left;
+}
+.ezee_tabs_section .benefits_tab.ezee-tab-benefit {
+    min-height: 160px;
+}
+.ezee_tabs_section .pricing_card_buy h3 span {
+    font-size: 14px;
+}
+.ezee_tabs_section .checkboxes_prpr label {
+    margin-right: 10px;
+    font-size: 14px !important;
+    font-family: "NunitoSans-Black" !important;
+    color: #6F6F6F;
+}
+.with_ezee_top .wiyana-box p {
+    font-size: 18px !important;
+    text-align: center !important;
+}
+
+.showbiz-icons {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.showbiz-icons li {
+    display: inline-flex;
+    margin-right: 6px;
+}
+.ezee_tabs_section .showbiz-icons li:first-child {
+    margin-bottom: 0px !important;
+}
+.showbiz-icons li img {
+    max-width: initial !important;
+    width: 37px !important;
+    margin-bottom: 0;
+}

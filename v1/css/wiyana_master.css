@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("../fonts/NunitoSans-Regular.ttf");
+}
+.new_plan_slider .slick-dots {
+  display: none !important;
+}
+.wiyana_filter_section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.new_plan_slider .slick-dots li button {
+  border: 3px solid #c4c4c4 !important;
+  background-color: #c4c4c4 !important;
+  padding: 3px !important;
+}
+.new_plan_slider .slick-dots li.slick-active button {
+  border: 3px solid #d12b8a !important;
+  background-color: #d12b8a !important;
+}
+.txt_wiyana_master_cards {
+  font-family: "NunitoSans-Regular" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.buttons_group_bs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+button.btn.btn_mobile_plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  width: 212px;
+  height: 51px;
+  border: 2px solid #d12b8a;
+  border-radius: 8px;
+  color: #d12b8a;
+  transition: 0.3s all ease-in;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #d12b8a;
+}
+
+button.btn.btn_mobile_plans:hover {
+  background-color: #d12b8a;
+  color: #fff;
+}
+
+.sepcial_tag.wiyana_master_tag {
+  top: -14px;
+}
+
+.wiyana_slider_mobile {
+  display: none;
+}
+
+.ultra-fast-heading h2 {
+  background: linear-gradient(87.62deg, #d12b8a 27.08%, #70489d 107.7%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 41px;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+}
+.ultra-fast-heading h3 {
+  font-size: 41px;
+  letter-spacing: -0.02em;
+}
+.ultra-fast-content {
+  margin-bottom: 50px;
+}
+.ultra-fast-content h2 {
+  font-size: 29px;
+  line-height: 40px;
+  color: #2E2E2E;
+  font-family: "NunitoSans-SemiBold" !important;
+}
+.ultra-fast-content p {
+  font-size: 22px !important;
+  line-height: 32px;
+  color: #222C38;
+}
+.ultra-fast-button h2 {
+  font-family: "NunitoSans-SemiBold" !important;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.ultra-fast-button h2 span {
+  font-size: 16px;
+}
+.ultra-fast-img img {
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+}
+.ultra-fast-img p {
+  font-size: 14px !important;
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+}
+.ultra-adjustment {
+  padding: 0 20px;
+}
+
+.wiyana_banner_master {
+  background-image: url("../images/wiyana_bg_master_1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 400px;
+}
+
+.wiyanna_banner_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.wiyanna_border {
+  position: relative;
+}
+
+.wiyanna_border h2 {
+    z-index: 99999;
+}
+
+
+.wiyana_span_border {
+    background: linear-gradient( 87.68deg, rgba(209, 43, 138, 0.86) -25.74%, rgba(159, 65, 139, 0.56) 185.03% );
+    height: 6px;
+    width: 165px;
+    bottom: 18px;
+    position: absolute;
+    right: 34%;
+}
+
+.wiyana_span_border_1 {
+    background: linear-gradient(
+      87.68deg,
+      rgba(209, 43, 138, 0.86) -25.74%,
+      rgba(159, 65, 139, 0.56) 185.03%
+    );
+    height: 10px;
+    width: 92px;
+    bottom: 18px;
+    position: absolute;
+  }
+
+  .wiyana_banner_master {
+    background-image: url("../images/wiyana_bg_master_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 400px;
+  }
+  
+  .wiyanna_banner_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .wiyanna_banner_heading h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .wiyanna_banner_heading h2 span {
+      font-family: "NunitoSans-Black" !important;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.02em;
+      position: relative;
+      display: inline-block;
+  }
+  .wiyanna_banner_heading h2 span::before {
+      content: "";
+      position: absolute;
+      background: linear-gradient(
+        87.68deg,
+        rgba(209, 43, 138, 0.86) -25.74%,
+        rgba(159, 65, 139, 0.56) 185.03%
+      );
+      height: 10px;
+      width: 105%;
+      bottom: 10px;
+      right: -3%;
+      z-index: -1;
+  }
+    .wiyanna_banner_heading h2 {
+        font-family: 'NunitoSans-Regular' !important;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 41px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        position: relative;
+    }
+
+  
+  .wiyanna_banner_heading p {
+    font-family: "NunitoSans-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #f8f8f8;
+  }
+  
+  button.btn.primary-button {
+    width: 196px;
+    height: 50px;
+  }
+  
+  .wiyana_banner_master_2 {
+    background-image: url("../images/wiyana_bg_master_2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 8px;
+  }
+  
+  .wiyana_banner_master_3 {
+    background-image: url("../images/wiyana_bg_master_3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 8px;
+  }
+@media (min-width: 768px) and (max-width: 1200px){
+    .ultra-fast-img p{
+      display: none;
+    }
+    .ultra-adjustment {
+        padding: 40px 0 0 0;
+    }
+}
+.wiyanna_banner_heading h2 {
+  font-family: "NunitoSans-Black";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 41px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  position: relative;
+  z-index: 9999;
+}
+
+.wiyanna_banner_heading p {
+  font-family: "NunitoSans-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #f8f8f8;
+}
+
+
+button.btn.primary-button {
+  width: 196px;
+  height: 50px;
+}
+
+.wiyana_banner_master_2 {
+  background-image: url("../images/wiyana_bg_master_2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 400px;
+  margin-top: 8px;
+}
+
+.wiyana_banner_master_3 {
+  background-image: url("../images/wiyana_bg_master_3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 400px;
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .content_box_wiy p {
+    text-align: left !important;
+  }
+  .ultra-fast-img p {
+    display: none;
+  }
+  .ultra-adjustment {
+    padding: 40px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wiyana_banner_master_2 {
+      margin-top: 0px;
+  }
+  .wiyana_banner_master_3{
+    margin-top: 0;
+  }
+  .new_plan_slider .slick-dots {
+    display: flex !important;
+  }
+  button.btn.btn_mobile_plans {
+    width: 160px;
+    height: 40px;
+  }
+  .txt_wiyana_master_cards {
+    font-size: 25px;
+  }
+  section.wiyana_slider.wiyana_filter_section.container-padding.wiyana_slider_mobile {
+    display: block;
+  }
+  .new_plan_slider .slick-dots {
+    display: flex !important;
+    margin: -15px 0;
+  }
+  .new_plan_slider .slick-dots {
+    bottom: -18px !important;
+  }
+  .box_master_outter .content_box_wiy.nobais {
+    flex-basis: 100% !important;
+    text-align: center;
+    padding-bottom: 25px !important;
+  }
+  .ultra-adjustment {
+    padding: 40px 0 0 0;
+  }
+  .ultra-fast-button button {
+    border-radius: 4px !important;
+  }
+  .ultra-fast-heading h2,
+  .ultra-fast-heading h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .ultra-fast-img p {
+    display: none;
+  }
+  .ultra-fast-content h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .ultra-fast-content p {
+    font-size: 13px !important;
+    line-height: 16px;
+  }
+  .ultra-fast-content {
+    margin-bottom: 30px;
+  }
+  .wiyana_banner_master,
+  .wiyana_banner_master_2,
+  .wiyana_banner_master_3 {
+    background-size: cover !important;
+  }
+
+  .wiyana_span_border {
+    width: 86px;
+    right: 0;
+  }
+  .wiyana_span_border_1 {
+    width: 174px;
+    right: 0;
+  }
+}

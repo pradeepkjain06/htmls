@@ -1,0 +1,20 @@
+<svg id="bermuda" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_1982" data-name="Path 1982" d="M32,16A16,16,0,0,1,0,16S16,0,16,0A16,16,0,0,1,32,16Z" fill="#d80027"/>
+  <g id="Group_3443" data-name="Group 3443" transform="translate(7.652 7.652)">
+    <path id="Path_1983" data-name="Path 1983" d="M172.522,122.435v5.4l-5.565-5.4Z" transform="translate(-164.174 -122.435)" fill="#0052b4"/>
+    <path id="Path_1984" data-name="Path 1984" d="M123.131,162.087h4.7l-4.7-6.261-.7,4.87Z" transform="translate(-122.435 -153.739)" fill="#0052b4"/>
+  </g>
+  <g id="Group_3444" data-name="Group 3444">
+    <path id="Path_1985" data-name="Path 1985" d="M255.96,0h0Z" transform="translate(-239.96)" fill="#f0f0f0"/>
+    <path id="Path_1986" data-name="Path 1986" d="M255.315,255.358h.043v-.043Z" transform="translate(-239.358 -239.358)" fill="#f0f0f0"/>
+    <path id="Path_1987" data-name="Path 1987" d="M16,8.348V0h0A16,16,0,0,0,0,16H8.348V11.3l4.7,4.7h2.909L16,15.957V13.049l-4.7-4.7Z" fill="#f0f0f0"/>
+  </g>
+  <g id="Group_3445" data-name="Group 3445" transform="translate(2.087 2.087)">
+    <path id="Path_1988" data-name="Path 1988" d="M39.4,33.391A16.076,16.076,0,0,0,33.391,39.4V48h4.174V37.565H48V33.391Z" transform="translate(-33.391 -33.391)" fill="#d80027"/>
+    <path id="Path_1989" data-name="Path 1989" d="M141.853,139.886l-6.321-6.321h-1.967l8.288,8.288h0S141.853,140.5,141.853,139.886Z" transform="translate(-127.304 -127.304)" fill="#d80027"/>
+  </g>
+  <path id="Path_1990" data-name="Path 1990" d="M289.391,133.565v7.652c0,3.727,9.739,3.727,9.739,0v-7.652Z" transform="translate(-271.304 -125.217)" fill="#f3f3f3"/>
+  <path id="Path_1991" data-name="Path 1991" d="M289.391,256h0c0,3.728,4.87,4.87,4.87,4.87s4.87-1.142,4.87-4.87h-9.739Z" transform="translate(-271.304 -239.999)" fill="#6da544"/>
+  <path id="Path_1992" data-name="Path 1992" d="M333.391,207.026,331.13,208v2.087l2.261,1.391,2.261-1.391V208Z" transform="translate(-310.434 -194.087)" fill="#a2001d"/>
+  <rect id="Rectangle_3144" data-name="Rectangle 3144" width="4.522" height="2.087" transform="translate(20.696 11.826)" fill="#338af3"/>
+</svg>

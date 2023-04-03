@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+  <title>Tinext - Dashboard</title>
+  <meta charset="UTF-8">
+  <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/tox-progress.css" />
+  <link rel="stylesheet" type="text/css" href="css/wiyana-mobile.css" />
+  
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" href="./css/customize.css">
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="stylesheet" href="./css/roundslider.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/wiyana_master.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/ezee_plus.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/zain-simcard.css" /> -->
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+
+<body class="mylines-page my-zain-bg wiyana-page">
+
+  <div id="wrapper" class="container-fluid">
+
+    <!-- Header -->
+    <header class="header main-header-bg header-height">
+
+      <div class="sub-header">
+
+        <div class="container">
+
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+
+              <ul class="left-menu">
+                <li>
+                  <a href="#" class="active">Customer</a>
+                </li>
+                <li>
+                  <a href="#">Business</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-lg-6">
+
+              <ul class="right-menu text-right">
+                <li>
+                  <a href="#" class="text-uppercase">Quick Pay</a>
+                </li>
+                <li>
+                  <div class="form-group d-inline-block">
+                    <select class="form-control custom-select dropdown-transparent" id="">
+                      <option value="Kuwait">Kuwait</option>
+                      <option value="USA">USA</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">العربية</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="main-header">
+        <div class="container-fluid-custom">
+
+          <div class="row main-header-row flex-align-center">
+            <div class="col-md-4 col-3">
+
+              <div class="site-logo">
+                <img src="./images/zain_logo.svg" alt="site_logo">
+              </div>
+
+            </div>
+            <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+
+              <!-- Division which shown in Tablet and Mobile -->
+              <div class="mobile-controls text-right">
+
+                <ul class="mobile-nav">
+                  <li class="cart-dropdown profile-btn logedin">
+                    <button class="btn btn-pc-4 profile-btn">
+                      <img src="images/profile_picture.png" alt="" class="profile-image"
+                        data-target-menu="#profiledropdownmenu1">
+                    </button>
+                    <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+                      <div class="card-body pt-3">
+                        <div class='profile-dropmen-login pb-4 text-center'>
+                          <h3 class="text-center">Khaled Bin Suleman</h3>
+                          <a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>My
+                            Account</a>
+                        </div>
+                        <div class='profile-dropmen-links'>
+                          <ul>
+                            <li><a href='#'>Quick Pay</a></li>
+                            <li><a href='#'>Add Line</a></li>
+                            <li><a href='#'>Manage Plan</a></li>
+                            <li><a href='#'>My Orders</a></li>
+                            <li><a href='#'>My Usage</a></li>
+                            <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="mr-2">Log
+                                out </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                  </li>
+
+                  <li class="cart-dropdown">
+                    <a href="#" data-target-menu="#cartdropdownmenu"><i class="icon-empty-shopping-card"></i></a>
+                  </li>
+                  <li class="mobile-menu-toggle position-static">
+                    <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                    <div class="main-mobile-menu" id="mobile-menu">
+
+                      <div class="sub-menu">
+                        <div class="form-group">
+                          <select class="form-control custom-select dropdown-transparent light" id="">
+                            <option value="Customer">Customer</option>
+                            <option value="Business">Business</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="container-fluid-custom">
+                        <ul class="mobile-megamenu">
+                          <li>
+                            <a href="#" class="active">
+                              <i class="icon-cart-with-plus"></i>&ensp;Shop
+                            </a>
+                            <span class="float-right"><i class="icon-right-arrow"></i></span>
+
+                            <div class="mobile-megamenu-level-2">
+                              <div class="lvl-2-header">
+                                <div class="container-fluid-custom">
+                                  <a href="" class="back-link">
+                                    <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                    <span>Back</span>
+                                  </a>
+
+                                  <p class="heading">
+                                    <i class="icon-empty-shopping-card"></i>&ensp;
+                                    <span class="">Shop</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="lvl-2-content">
+                                <div class="container-fluid-custom">
+
+                                  <ul class="accordian-menu">
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_plans.svg" alt="plans">
+                                        <span>Plans</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="#">Pay Monthly</a></li>
+                                        <li class="megamenu-link"><a href="#">Pay as you go</a></li>
+                                        <li class="megamenu-link"><a href="#">Roaming and
+                                            International</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_products.svg" alt="plans">
+                                        <span>Products</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                        <li class="megamenu-link"><a href="">Home Broadband</a></li>
+                                        <li class="megamenu-link"><a href="">SIM
+                                            Card</a></li>
+                                        <li class="megamenu-link"><a href="">Tablet</a></li>
+                                        <li class="megamenu-link"><a href="">Gaming</a></li>
+                                        <li class="megamenu-link"><a href="">Accessories</a></li>
+                                        <li class="megamenu-link"><a href="">E-cards</a></li>
+                                        <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_zainlife.svg" alt="plans">
+                                        <span>Zain Life</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                        <li class="megamenu-link"><a href="">Health</a></li>
+                                        <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                        <li class="megamenu-link"><a href="">Entertainment</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_offers.svg" alt="plans">
+                                        <span>Offers</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Existing Customer
+                                            Offers</a></li>
+                                        <li class="megamenu-link"><a href="">All
+                                            Offers &
+                                            Promotions</a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="icon-headphones-with-mic"></i>
+                              &ensp;My Zain
+                            </a>
+                            <span class="float-right"><i class="icon-right-arrow"></i></span>
+
+                            <div class="mobile-megamenu-level-2">
+                              <div class="lvl-2-header">
+                                <div class="container-fluid-custom">
+                                  <a href="" class="back-link">
+                                    <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                    <span>Back</span>
+                                  </a>
+
+                                  <p class="heading">
+                                    <i class="icon-headphones-with-mic"></i>&ensp;
+                                    <span class="">My Zain</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="lvl-2-content">
+                                <div class="container-fluid-custom">
+
+                                  <ul class="accordian-menu">
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_plans.svg" alt="plans">
+                                        <span>Iphone</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="#">Pay Monthly</a></li>
+                                        <li class="megamenu-link"><a href="#">Pay as you go</a></li>
+                                        <li class="megamenu-link"><a href="#">Roaming and
+                                            International</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_products.svg" alt="plans">
+                                        <span>Sims</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                        <li class="megamenu-link"><a href="">Home Broadband</a></li>
+                                        <li class="megamenu-link"><a href="">SIM
+                                            Card</a></li>
+                                        <li class="megamenu-link"><a href="">Tablet</a></li>
+                                        <li class="megamenu-link"><a href="">Gaming</a></li>
+                                        <li class="megamenu-link"><a href="">Accessories</a></li>
+                                        <li class="megamenu-link"><a href="">E-cards</a></li>
+                                        <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_zainlife.svg" alt="plans">
+                                        <span>Zain Offers</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                        <li class="megamenu-link"><a href="">Health</a></li>
+                                        <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                        <li class="megamenu-link"><a href="">Entertainment</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_offers.svg" alt="plans">
+                                        <span>Zain Load</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Existing Customer
+                                            Offers</a></li>
+                                        <li class="megamenu-link"><a href="">All
+                                            Offers &
+                                            Promotions</a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i class="icon-Group-1561"></i>
+                              Support
+                            </a>
+                            <span class="float-right"><i class="icon-right-arrow"></i></span>
+
+                            <div class="mobile-megamenu-level-2">
+                              <div class="lvl-2-header">
+                                <div class="container-fluid-custom">
+                                  <a href="" class="back-link">
+                                    <i class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+                                    <span>Back</span>
+                                  </a>
+
+                                  <p class="heading">
+                                    <i class="icon-Group-1561"></i>&ensp;
+                                    <span class="">Support</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="lvl-2-content">
+                                <div class="container-fluid-custom">
+
+                                  <ul class="accordian-menu">
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_plans.svg" alt="plans">
+                                        <span>Zain Support</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="#">Pay Monthly</a></li>
+                                        <li class="megamenu-link"><a href="#">Pay as you go</a></li>
+                                        <li class="megamenu-link"><a href="#">Roaming and
+                                            International</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_products.svg" alt="plans">
+                                        <span>Contact</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smartphone</a></li>
+                                        <li class="megamenu-link"><a href="">Home Broadband</a></li>
+                                        <li class="megamenu-link"><a href="">SIM
+                                            Card</a></li>
+                                        <li class="megamenu-link"><a href="">Tablet</a></li>
+                                        <li class="megamenu-link"><a href="">Gaming</a></li>
+                                        <li class="megamenu-link"><a href="">Accessories</a></li>
+                                        <li class="megamenu-link"><a href="">E-cards</a></li>
+                                        <li class="megamenu-link"><a href="">Add-ons</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_zainlife.svg" alt="plans">
+                                        <span>Helpline</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Smart Home</a></li>
+                                        <li class="megamenu-link"><a href="">Health</a></li>
+                                        <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                                        <li class="megamenu-link"><a href="">Entertainment</a></li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <a href="#">
+                                        <img src="./images/pagenav_offers.svg" alt="plans">
+                                        <span>Offers</span>
+                                        <i class="icon-angle-arrow-pointing-to-right"></i>
+                                      </a>
+                                      <ul class="expandable-links">
+                                        <li class="megamenu-link"><a href="">Existing Customer
+                                            Offers</a></li>
+                                        <li class="megamenu-link"><a href="">All
+                                            Offers &
+                                            Promotions</a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+
+                      <div class="container">
+                        <p class="quick-pay-link text-left">
+                          <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                        </p>
+                      </div>
+
+                      <div class="mobile-search">
+                        <!-- Search -->
+                        <div class="search-autocomplete d-block">
+                          <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false"
+                            placeholder="Search">
+                          <button class="btn main-search-btn btn-pc-3 ">
+                            <i class="icon-magnifying-glass "></i>
+                          </button>
+                        </div>
+                        <!-- Search End -->
+                      </div>
+
+                      <div class="language-selector text-center">
+                        <ul>
+                          <li><a href="#" class="current-language">EN</a></li>
+                          <li><a href="#">العربية</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="form-group country-selector selection-border">
+                        <select class="form-control custom-select dropdown-transparent light" id="">
+                          <option value="Kuwait">Kuwait</option>
+                          <option value="USA">USA</option>
+                        </select>
+                      </div>
+
+
+                    </div>
+
+                  </li>
+                </ul>
+
+              </div>
+
+
+              <ul class="main-navigation d-inline-block">
+                <li class="megamenu-container">
+                  <a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;Shop</a>
+                  <div id="shopmegamenu" class="megamenu container-fluid-custom">
+                    <div class="row">
+                      <div class="col-md-9">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <ul>
+                              <li class="megamenu-title">
+                                <img src="./images/pagenav_plans.svg" alt="megamenu-plans">
+                                <h3 class="">Plans</h3>
+                              </li>
+                              <li class="megamenu-link"><a href="#">Pay Monthly</a></li>
+                              <li class="megamenu-link"><a href="#">Pay as you go</a></li>
+                              <li class="megamenu-link"><a href="#">Romming and
+                                  International</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul>
+                              <li class="megamenu-title">
+                                <img src="./images/pagenav_products.svg" alt="megamenu-products">
+                                <h3 class="">Products</h3>
+                              </li>
+                              <li class="megamenu-link"><a href="">Smartphone</a></li>
+                              <li class="megamenu-link"><a href="">Home Broadband</a></li>
+                              <li class="megamenu-link"><a href="">SIM Card</a></li>
+                              <li class="megamenu-link"><a href="">Tablet</a></li>
+                              <li class="megamenu-link"><a href="">Gaming</a></li>
+                              <li class="megamenu-link"><a href="">Accessories</a></li>
+                              <li class="megamenu-link"><a href="">E-cards</a></li>
+                              <li class="megamenu-link"><a href="">Add-ons</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul>
+                              <li class="megamenu-title">
+                                <img src="./images/pagenav_zainlife.svg" alt="megamenu-zainlife">
+                                <h3 class="">Zain Life</h3>
+                              </li>
+                              <li class="megamenu-link"><a href="">Smart Home</a></li>
+                              <li class="megamenu-link"><a href="">Health</a></li>
+                              <li class="megamenu-link"><a href="">Lifestyle</a></li>
+                              <li class="megamenu-link"><a href="">Entertainment</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul>
+                              <li class="megamenu-title">
+                                <img src="./images/pagenav_offers.svg" alt="megamenu-offers">
+                                <h3 class="">Offers</h3>
+                              </li>
+                              <li class="megamenu-link"><a href="">Existing Customer
+                                  Offers</a></li>
+                              <li class="megamenu-link"><a href="">All Offers &
+                                  Promotions</a>
+                              </li>
+                            </ul>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+
+                        <div class="i-watch_img-container">
+                          <img src="./images/menu.png" alt="">
+                          <div class="content">
+                            <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+                            <button class="btn btn-pc-3">Buy Now</button>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;Support</a>
+                </li>
+                <li>
+                  <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-md-4">
+
+              <ul class="right-nav">
+                <li>
+                  <a href="#"><i class="icon-magnifying-glass"></i></a>
+                </li>
+                <li class="cart-dropdown">
+                  <a href="#" data-target-menu="#cartdropdownmenu"><i class="icon-empty-shopping-card"></i></a>
+
+                  <div class="cart-summary-dropdown" id="cartdropdownmenu">
+                    <div class="text-center dropdown-header">
+                      <h4 class="mb-0">Cart Summary</h4>
+                    </div>
+                    <div class="card-body">
+
+                      <div class="product-sect">
+                        <h5 class="sect-title">Products</h5>
+                        <div class="product-item">
+                          <div class="row">
+                            <div class="col-2">
+                              <div class="product-img">
+                                <img src="./images/Iphone.png" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="d-flex">
+                                <p class="left-lbl item-title">iPhone XS</p>
+                                <label for="" class="right-lbl">KD 0</label>
+                              </div>
+                              <div class="product-details">
+                                <p>64 GB</p>
+                                <p>Gold</p>
+                              </div>
+                              <div class="d-flex">
+                                <p class="cl-sc-2 left-lbl">Commitment period 24 Months
+                                </p>
+                                <label for="" class="right-lbl">KD 29</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="plan-sect">
+                        <h5 class="sect-title">Plan</h5>
+
+                        <div class="product-item">
+                          <div class="row">
+                            <div class="col-2">
+                              <div class="product-img">
+                                <img src="./images/Iphone.png" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="d-flex">
+                                <p class="left-lbl item-title">eeZee Internet Bundle</p>
+                                <label for="" class="right-lbl">KD 0</label>
+                              </div>
+                              <div class="product-details">
+                                <p>5 gB 4G LTE</p>
+                                <p>Unlimited Local Messages</p>
+                              </div>
+                              <div class="d-flex">
+                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                <label for="" class="right-lbl">KD 0</label>
+                              </div>
+                              <div class="d-flex">
+                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                <label for="" class="right-lbl">KD 10</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="entertainment-sect">
+                        <h5 class="sect-title">Entertainment</h5>
+
+                        <div class="product-item">
+                          <div class="row">
+                            <div class="col-2">
+                              <div class="product-img">
+                                <img src="./images/smarthomecamera.png" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="d-flex mb-2">
+                                <p class="left-lbl item-title">Smart Home Camera</p>
+                                <label for="" class="right-lbl">KD 0</label>
+                              </div>
+                              <div class="d-flex">
+                                <p class="cl-sc-2 left-lbl">Due Today</p>
+                                <label for="" class="right-lbl">KD 29</label>
+                              </div>
+                              <div class="d-flex">
+                                <p class="cl-sc-2 left-lbl">Due per Month</p>
+                                <label for="" class="right-lbl">KD 0</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    <div class="card-footer">
+
+                      <h5 class="sect-title">Total</h5>
+
+                      <div class="product-item main-total">
+                        <div class="row">
+                          <div class="col">
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">Due Today</p>
+                              <label for="" class="right-lbl">KD 0</label>
+                            </div>
+                            <div class="d-flex">
+                              <p class="cl-sc-2 left-lbl">Due per Month</p>
+                              <label for="" class="right-lbl">KD 29</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card-action">
+
+                        <button class="btn btn-link"><i class="icon-delete fs-16"></i>&ensp;
+                          CLEAR CART</button>
+                        <button class="btn btn-pc-3"> REVIEW AND PAY</button>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                </li>
+                <li>
+                  <a href="#"><i class="icon-heart-feel-grey"></i></a>
+                </li>
+
+
+                <li class="profile-btn logedin">
+
+                  <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                    <img src="images/profile_picture.png" alt="" class="profile-image">
+                    <div class="user-info">
+                      <p class="name">Welcome <strong>Khaled</strong></p>
+                      <p class="contact">90079990</p>
+                    </div>
+                    <i class="icon-right-arrow icon-rotate-90"></i>
+                  </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Banner Starts -->
+    <section class="eezee-banner weze_desk_hero banner_hero_ezee_flex">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-5 pb-5 pb-sm-0 mb-sm-0">
+            <div class="ezee-banner-txt text-center">
+              <h1>eeZee Flexi 5G</h1>
+              <p>As flexable as it could ever be</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Banner Ends -->
+
+    <!-- Starts Hero Slider Mobile -->
+        <section id="herobanner-mobile" class="hero-banner zscm_hero_banner weze_mob_hero">
+            <div class="container-fluid no-padding-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main_hero_wrapper">
+                            <div class="main-hero-slider">
+                                
+                                <div class="slick-slide" style="background-image: url(./images/eezee-mobile-slider-img.png);">
+                                    <div class="container">
+                                        <div class="slide-content">
+                                            <h2 class="wiyana_heading hero_banner_heading">Ready-Made Plans</h2>
+                                            <p>Inspired by you and designed to keep you always connected</p>
+                                            <div class="slider-btn-wrapper">
+                                                <div class="left-btn-wrap">
+                                                    <a class="primary-button light-text" href="#">Shop Now</a>
+                                                </div>
+                                                <div class="right-btn-wrap">
+                                                    <a class="secondary-button light-text" href="#">Renew your plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slick-slide" style="background-image: url(./images/eezee-mobile-slider-img.png);">
+                                    <div class="container">
+                                        <div class="slide-content">
+                                            <h2 class="wiyana_heading hero_banner_heading">Ready-Made Plans</h2>
+                                            <p>Inspired by you and designed to keep you always connected</p>
+                                            <div class="slider-btn-wrapper">
+                                                <div class="left-btn-wrap">
+                                                    <a class="primary-button light-text" href="#">Shop Now</a>
+                                                </div>
+                                                <div class="right-btn-wrap">
+                                                    <a class="secondary-button light-text" href="#">Renew your plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slick-slide" style="background-image: url(./images/eezee-mobile-slider-img.png);">
+                                    <div class="container">
+                                        <div class="slide-content">
+                                            <h2 class="wiyana_heading hero_banner_heading">Ready-Made Plans</h2>
+                                            <p>Inspired by you and designed to keep you always connected</p>
+                                            <div class="slider-btn-wrapper">
+                                                <div class="left-btn-wrap">
+                                                    <a class="primary-button light-text" href="#">Shop Now</a>
+                                                </div>
+                                                <div class="right-btn-wrap">
+                                                    <a class="secondary-button light-text" href="#">Renew your plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Slider Mobile -->
+
+
+
+
+        <!-- Ezee FLex 5G section -->
+        <section class="ezee_flex_5g">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="text_ezee_5g_inner">
+                  <h4 class="top_ezee_heading">With</h4>
+                  <h3 class="ezee_main_gradient">eeZee Flexi 5G</h3>
+                </div>
+                <div class="list_flexi_5g">
+                  <ul>
+                    <li>
+                     <span class="list_numbers_counter">1</span>
+                     <div class="flanks_content_list">
+                      <h3 class="list_top_heading">Get access to Kuwait’s no. 1 5G network</h3>
+                      <p class="list_para_bottom">Experince the power of 5G with Kuwait’s fastest and most trusted 5G netwroks.</p>
+                     </div> 
+                    </li>
+                    <li>
+                      <span class="list_numbers_counter">2</span>
+                      <div class="flanks_content_list">
+                       <h3 class="list_top_heading">Double and Triple your benifits</h3>
+                       <p class="list_para_bottom">Double your benefits after your first renewal and Triple the benefits after the second renewal.</p>
+                      </div> 
+                     </li>
+                     <li>
+                      <span class="list_numbers_counter">3</span>
+                      <div class="flanks_content_list">
+                       <h3 class="list_top_heading">Desgin your own plan</h3>
+                       <p class="list_para_bottom">Or select from our ready-made plans. Our plans are tailored for your needs.</p>
+                      </div> 
+                     </li>
+                     <li>
+                      <span class="list_numbers_counter">4</span>
+                      <div class="flanks_content_list">
+                       <h3 class="list_top_heading">Rollover your unused benifits</h3>
+                       <p class="list_para_bottom">Any unused data and minutes will be added to your next month benifits balance.</p>
+                      </div> 
+                     </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 d-none d-md-block">
+                <div class="img_wrap_flexi_list">
+                      <img class="w-100" src="./images/list_ezze_main.png" alt="list ezee main" />
+                </div>
+              </div>
+             
+
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Ezee FLex 5G section -->
+
+
+
+
+        <!-- Customize Plan Section  -->
+        
+        <section class="customize_your_plan py-5">
+          <div class="container">
+              <div class="custommize_inner_box">
+                  <div class="row customize-adjustment d-flex justify-content-center align-items-center">
+                      <div class="col-sm-6 col-md-3 col-lg-3">
+                          <div class="custommize-top-left">
+                              <h2>Customize your plan with <small>eeZee Flexi 5G</small>
+                              </h2>
+                              <div class="pricing">
+                                  <h3 class="price__zain">KD<span data-price="0.0" class="price__zain-span">0</span> <span>/ mo.</span></h3>
+                                  <p>30 days validity</p>
+                              </div>
+                              <div class="button-zain d-flex justify-content-between mobile_hidden_flexi">
+                                  <button class="my_zain_btn">MyZain</button>
+                                  <button class="my_zain_app">Zain App</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-3 d-flex justify-content-center">
+                          <div class="range_bar">
+                              <button class="range-prev1 prev"><img src="./images/range-prev.svg" alt=""></button>
+                              <div id="slider"></div>
+                              <div style="display: inline-block;">
+                                  <div style="background-image: url(./images/circlee.svg);background-repeat: no-repeat;
+                                  background-size: cover; display: inline-block;" class="range-bar-style"
+                                      id="range-bar1"></div>
+                                
+                                  <h2>5G internet</h2>
+                              </div>
+                              <button class="range-next1 next"><img src="./images/range-next.svg" alt=""></button>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-3 d-flex justify-content-center">
+                          <div class="range_bar">
+                            <button class="range-prev2 prev"><img src="./images/range-prev.svg" alt=""></button>
+                              <div id="slider"></div>
+                              <div style="display: inline-block;">
+                                  <div style="background-image: url(./images/circlee.svg);background-repeat: no-repeat;
+                                  background-size: cover; display: inline-block;" class="range-bar-style"
+                                      id="range-bar2"></div>
+                                 
+                                  <h2>Zain to Zain minutes</h2>
+                              </div>
+                              <button class="range-next2 next"><img src="./images/range-next.svg" alt=""></button>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-3 d-flex justify-content-center">
+                          <div class="range_bar">
+                            <button class="range-prev3 prev"><img src="./images/range-prev.svg" alt=""></button>
+                              <div id="slider"></div>
+                              <div style="display: inline-block;">
+                                  <div style="background-image: url(./images/circlee.svg);background-repeat: no-repeat;
+                                  background-size: cover; display: inline-block;" class="range-bar-style"
+                                      id="range-bar3"></div>
+                                 
+                                  <h2>Local minutes</h2>
+                              </div>
+                              <button class="range-next3 next"><img src="./images/range-next.svg" alt=""></button>
+                          </div>
+                      </div>
+                      <div class="col-xl-12">
+                          <div class="customize-mobile-pricing">
+                              <div class="pricing">
+                                  <span>Total</span>
+                                  <h3 class="price__zain">KD<span data-price="50.5" class="price__zain-span">50.5</span> <span>/ mo.</span></h3>
+                                  <p>30 days validity</p>
+                              </div>
+                              <div class="button-zain d-flex">
+                                  <button class="my_zain_btn">MyZain</button>
+                                  <button class="my_zain_app">Zain App</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4">
+                      <div class="col-xl-12">
+                          <h2 class="title__extra">Choose extras and add-ons</h2>
+                      </div>
+                      <div class="col-xl-4">
+                          <div class="addons_option">
+                            <div class="col-7">
+                              <div>
+                                <h3>Unlimited WhatsApp</h3>
+                                <p>2KD</p>
+                              </div>
+                            </div>
+                            <div class="col-5">
+                              <div class="custom-switch mt-2 mt-sm-0  pl-0 extra-switch2 extra_switch_flexi">
+                                <input class="custom-switch-input" id="example_00" type="checkbox" data-val="2">
+                                <label class="custom-switch-btn" for="example_00"></label>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4">
+                          <div class="addons_option">
+                            <div class="col-7">
+                              <div>
+                                  <h3>Unlimited Social Media</h3>
+                                  <p class="mb-0 media_sub">Instagram, Twitter, Snapchat, Facebook</p>
+                                  <p>2KD</p>
+                              </div>
+                              </div>
+                              <div class="col-5">
+                              <div class="custom-switch mt-2 mt-sm-0  pl-0 extra-switch2 extra_switch_flexi">
+                                  <input class="custom-switch-input" id="example_02" type="checkbox" data-val="2">
+                                  <label class="custom-switch-btn" for="example_02"></label>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4">
+                          <div class="addons_option">
+                            <div class="col-7">
+                              <div>
+                                  <h3>30 International Minutes</h3>
+                                  <p>2KD</p>
+                              </div>
+                              </div>
+                              <div class="col-5">
+                              <div class="custom-switch mt-2 mt-sm-0  pl-0 extra-switch2 extra_switch_flexi">
+                                  <input class="custom-switch-input" id="example_03" type="checkbox" data-val="2">
+                                  <label class="custom-switch-btn" for="example_03"></label>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row pt-0 pt-md-3">
+                      <div class="col-xl-4">
+                          <div class="addons_option">
+                            <div class="col-7">
+                              <div>
+                                  <h3>Unlimited Youtube</h3>
+                                  <p>2KD</p>
+                              </div>
+                              </div>
+                              <div class="col-5">
+                              <div class="custom-switch mt-2 mt-sm-0  pl-0 extra-switch2 extra_switch_flexi">
+                                  <input class="custom-switch-input" id="example_04" type="checkbox" data-val="2">
+                                  <label class="custom-switch-btn" for="example_04"></label>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4">
+                          <div class="addons_option">
+                            <div class="col-7">
+                              <div>
+                                  <h3>60 International Minutes</h3>
+                                  <p>2KD</p>
+                              </div>
+                              </div>
+                              <div class="col-5">
+                              <div class="custom-switch mt-2 mt-sm-0  pl-0 extra-switch2 extra_switch_flexi">
+                                  <input class="custom-switch-input" id="example_05" type="checkbox" data-val="2">
+                                  <label class="custom-switch-btn" for="example_05"></label>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+          <!-- Customize Plan Section END  -->
+
+
+
+
+      <!-- eeZee Flexi on Zain App Starts -->
+      <section class="zain_flexi">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                class="zain-mobile-img"
+                src="./images/zain-mobile.png"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 info_ezee_flexi">
+              <h2>eeZee Flexi on Zain App</h2>
+              <p>Enjoy special offers exclusivly on our app</p>
+              <div class="btn_downloads">
+                <a href="#"><img src="./images/g-play.png" alt="" /></a>
+                <a href="#"><img src="./images/apple-store.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="zain_flexi_mobile">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12"></div>
+            <div class="col-lg-12 info_ezee_flexi">
+              <h2>eeZee Flexi on Zain App</h2>
+              <p>Enjoy special offers exclusivly on our app</p>
+              <div class="btn_downloads">
+                <a href="#"><img src="./images/g-play.png" alt="" /></a>
+                <a href="#"><img src="./images/apple-store.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 zain_flex_img_mob">
+          <img class="zain-mobile-img" src="./images/zain-mobile.png" alt="" />
+        </div>
+      </section>
+      <!-- eeZee Flexi on Zain App Ends -->
+
+
+
+            
+        <!-- Start center mobile crousal -->
+
+        <section class="ezee_corousal_5g">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="content_crousal_main_5g text-left">
+                          <h2 class="wiyana_heading">Need a new phone?</h2>
+                          <p>Discover our selection of the latest smartphones from all your favorite brands</p>
+                          <a class="shop_all_anchor mb-2" href="#">Shop all &gt;</a>
+                      </div>
+                  </div>
+                  <div class="col-12">
+                      <div class="ezee_slide_wrap_outter">
+                          <div class="ezee_slider_mobile_phones">
+                              <div data-slide="1" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/ezee-01.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                              <span class="upper_txt_wrap">Apple</span>
+                                              <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                          <div class="price_wrapper_items">
+                                              <span class="upper_txt_item">Device only</span>
+                                              <h2 class="main_price_item">KD401</h2>
+                                          </div>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                              <div data-slide="2" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/iphone_ezee.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Google</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="3" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/ezee-01.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Mac</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="4" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/ezee-01.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Mi</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="5" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/iphone_ezee.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Realme</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="6" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/iphone_ezee.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Oppo</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="7" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/iphone_ezee.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Nokia</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div data-slide="8" class="mobile_inner_single">
+                                  <div class="mobile_wrapper_inner_phones">
+                                      <img src="./images/wiyana/iphone_ezee.png" alt="mobile single" />
+                                      <div class="button-zain mobile_slider_buy">
+                                        <button class="my_zain_btn">BUY NOW</button>
+                                     </div>
+                                      <div class="content_mobile_wrapper_inner">
+                                          <span class="upper_txt_wrap">Samsung</span>
+                                          <h2 class="main_name_items">iPhone 13 Pro </h2>
+                                      <div class="price_wrapper_items">
+                                          <span class="upper_txt_item">Device only</span>
+                                          <h2 class="main_price_item">KD401</h2>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                   
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- End center mobile crousal -->
+
+
+
+    <!-- eeZee Flexi 5G Starts -->
+    <section class="eezee_flexi bg_flexi_master py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <img src="./images/eze-image.png" alt="">
+          </div>
+        </div>
+
+        <div class="row mt-5 banner_content_wiyana_prr">
+          <div class="col-lg-4 col-md-4">
+            <div class="heading__zain__plus__prr">
+              <h3>eeZee Flexi 5G</h3>
+              <p>Exclusive for wiyana customers on the 25KD plan and more. 50% off on all Wiyana 5G
+                interest plans. </p>
+              <button class="btn btn__learn__more">Learn more</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="heading__zain__plus__prr">
+              <h3>Prepaid Roaming</h3>
+              <p>Exclusive for wiyana customers on the 25KD plan and more. 50% off on all Wiyana 5G
+                interest plans. </p>
+              <button class="btn btn__learn__more">Learn more</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="heading__zain__plus__prr">
+              <h3>Entertainment</h3>
+              <p>Exclusive for wiyana customers on the 25KD plan and more. 50% off on all Wiyana 5G
+                interest plans. </p>
+              <button class="btn btn__learn__more">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- eeZee Flexi 5G Ends -->
+
+
+
+
+
+    <!-- Start Wiyana FAQs Section -->
+    <section class="wiyana-faq white-bg section-padding weze_faqs_sec">
+      <div class="container">
+         <div class="row">
+           <div class="col-md-12">
+             <div class="wiyana-faq-main-heading">
+                  <h2 class="wiyana_heading">
+                      Have questions?<br>We’ve got answers.
+                  </h2>
+                  <!-- <h2>Have questions?<br>We’ve got answers.</h2> -->
+             </div>
+           </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="subscribe-ssection">
+                  <div class="accordion features_accordian" id="accordionFaqs">
+                     <div class="card">
+                        <div class="card-header" id="headingOne">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              How can I change my line from Postpaid to Prepaid?
+                              <button class="btn btn-link" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#deviceSpecifications"
+                                 aria-expanded="true"
+                                 aria-controls="deviceSpecifications">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="deviceSpecifications" class="collapse show"
+                           aria-labelledby="headingOne"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header" id="headingTwo">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              How can I know the number of my Data line?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse" data-target="#faqs"
+                                 aria-expanded="false" aria-controls="faqs">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="faqs" class="collapse"
+                           aria-labelledby="headingTwo"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header" id="headingThree">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition" class="collapse"
+                           aria-labelledby="headingThree"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header" id="headingfour">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              How can I know the number of my Data line?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse" data-target="#faqs1"
+                                 aria-expanded="false" aria-controls="faqs">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="faqs1" class="collapse"
+                           aria-labelledby="headingfour"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header" id="headingFive">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition1"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition1" class="collapse"
+                           aria-labelledby="headingFive"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card hidden" style="display: none">
+                        <div class="card-header" id="headingSix">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition2"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition2" class="collapse"
+                           aria-labelledby="headingSix"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card hidden" style="display: none">
+                        <div class="card-header" id="headingSeven">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition3"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition3" class="collapse"
+                           aria-labelledby="headingSeven"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card hidden" style="display: none">
+                        <div class="card-header" id="headingeight">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition4"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition4" class="collapse"
+                           aria-labelledby="headingeight"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card hidden" style="display: none">
+                        <div class="card-header" id="headingNine">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition5"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition5" class="collapse"
+                           aria-labelledby="headingNine"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card hidden" style="display: none">
+                        <div class="card-header" id="headingTen">
+                           <h4 class="mb-0 fs-24 d-flex justify-content-between text-t-none">
+                              What is Zain Plus?
+                              <button class="btn btn-link collapsed" type="button"
+                                 data-toggle="collapse"
+                                 data-target="#termCondition6"
+                                 aria-expanded="false"
+                                 aria-controls="termCondition">
+                              <img src="./images/expand-arrow.svg" alt="">
+                              </button>
+                           </h4>
+                        </div>
+                        <div id="termCondition6" class="collapse"
+                           aria-labelledby="headingTen"
+                           data-parent="#accordionFaqs">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                    <span class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus.</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet feugiat lectus. Aliquam a odio eget nunc aliquam dapibus. Cras convallis massa ut sem porta, at euismod magna faucibus. Nulla justo sem, sodales vitae est dictum, ornare porttitor turpis. Proin quis luctus ipsum. Ut vel lectus vitae ex feugiat ullamcorper. Donec diam est, aliquam eget lectus sit amet, ornare tristique nunc. Quisque placerat non libero non dictum. Quisque vel bibendum enim. Sed ultrices consectetur sem, at porta mi cursus sed. Sed pretium sapien arcu. Vivamus faucibus malesuada turpis, posuere pellentesque felis. Duis cursus mauris ut mi tempor, id congue turpis commodo. Aliquam in auctor felis. Vivamus faucibus molestie tortor id maximus. Aenean quis scelerisque ex. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wiyana-faq-loadmore">
+                       <a href="javascript:void(0)" class="btn btn-link cl-sc-1 faq-view-more">View more</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+  </section>
+  <!-- End Wiyana FAQs Section -->
+
+    <!-- Footer Start -->
+    <footer class="main-footer">
+
+      <div class="container footer-content">
+        <div class="row">
+          <div class="col-lg-3 colunm-wrapper">
+            <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">Products</a></h3>
+
+            <ul class="footer-links">
+              <li><a href="">Smartphone</a></li>
+              <li><a href="">Home Broadband</a></li>
+              <li><a href="">SIM Card</a></li>
+              <li><a href="">Tablet</a></li>
+              <li><a href="">Gaming</a></li>
+              <li><a href="">Accessories</a></li>
+              <li><a href="">E-cards</a></li>
+              <li><a href="">Add-ons</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+
+            <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Plans</a></h3>
+            <ul class="footer-links">
+              <li><a href="">Pay Monthly</a></li>
+              <li><a href="">Pay As You Go</a></li>
+              <li><a href="">Roaming and International</a></li>
+            </ul>
+            <div class="d-none d-md-block">
+              <h3 class="footer-title"><a href="">Zain Life</a></h3>
+              <h3 class="footer-title"><a href="">Offers</a></h3>
+              <h3 class="footer-title"><a href="">5G</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+
+            <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Support</a></h3>
+            <ul class="footer-links">
+              <li><a href="">Chat</a></li>
+              <li><a href="">Locate A Branch</a></li>
+              <li><a href="">Order Tracking</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">FAQs</a></li>
+              <li><a href="">Careers</a></li>
+            </ul>
+
+            <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a href="">Discover
+                Zain</a></h3>
+          </div>
+          <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+            <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">Discover Zain</a></h3>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+
+            <h3 class="footer-title connect">Connect With Us</h3>
+
+            <ul class="socialmedia footer-links inline">
+              <li><a href=""><i class="icon-Group-1564"></i></a></li>
+              <li><a href=""><i class="icon-twitter"></i></a></li>
+              <li><a href=""><i class="icon-facebook"></i></a></li>
+            </ul>
+
+            <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>My Zain</h3>
+
+            <ul class="user footer-links">
+              <li><a href="" class="cl-pc-3">Login</a></li>
+              <li><a href="" class="cl-pc-3">Register</a></li>
+            </ul>
+
+            <div class="footer-seprator"></div>
+
+            <div class="order-track">
+
+              <h3 class="footer-title"></i>Track My Order</h3>
+
+              <div class="form-group">
+                <form>
+                  <input type="text" name="" class="form-control" placeholder="Email Order Number" id="">
+                  <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                </form>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid-custom">
+        <div class="footer-seprator"></div>
+      </div>
+
+      <div class="container copyright_sect">
+        <div class="row align-items-end">
+          <div class="col-md-2 col-12">
+            <div class="site-logo">
+              <img src="./images/zain_logo.svg" alt="site_logo">
+            </div>
+          </div>
+          <div class="col-md-10 col-12">
+            <ul class="footer-links inline mb-0">
+              <li class="d-none d-md-inline-block">© Copyright © 2019 Zain All Rights Reserved</li>
+              <li><a href="">POLICY</a></li>
+              <li><a href="">TERMS & CONDITIONS</a></li>
+              <li class="d-block d-md-none mt-4">© Copyright © 2019 Zain All Rights Reserved</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <!-- Footer Ends -->
+
+
+    <!-- body overlay -->
+    <div class="bodyoverlay"></div>
+    <div class="order-tracking-popup newline-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>Add New Line</h3>
+        <p class="color-gray">Would You like to buy a new link or link add in existing line? </p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" href="">Link Existing line</a>
+        <a class="btn btn-pc-3 border-btn" href="#">Buy New Line</a>
+      </div>
+
+    </div>
+    <div class="order-tracking-popup editline-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>Edit Line</h3>
+        <p class="color-gray">Lorem Ipsum is simply dummy text of the printing and typesetting. </p>
+
+      </div>
+      <div class="edit-poup">
+        <div class="prepad-voice">
+          <h4>900 79990</h4>
+          <p>Postpaid Voice</p>
+        </div>
+        <div class="form-group text-left">
+          <label for="">Edit Label</label>
+          <input type="text" name="" id="" class="form-control">
+          <div class="icon-field">
+            <img src="images/edit-icon.svg" alt="">
+          </div>
+        </div>
+        <div class="popup-action pb-3 text-center pt-2">
+          <a class="btn btn-pc-3 border-btn" href="">Cancel</a>
+          <a class="btn btn-pc-3" href="#">update</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="order-tracking-popup removeline-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>Remove Line</h3>
+        <p class="color-gray">You're Removing this line <strong>900 79990</strong> from your account but not
+          deleting the whole line from zain</p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" href="">Remove line</a>
+        <a class="btn btn-pc-3 border-btn" href="#">Cancel</a>
+      </div>
+
+    </div>
+    <div class="order-tracking-popup new-address-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>
+          <span><i class="icon-confirmation"></i></span>
+          New Address Added Successfully
+        </h3>
+        <p class="color-gray">The Address has been added to the profile successfully</p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" href="">Ok</a>
+      </div>
+    </div>
+    <div class="order-tracking-popup addcard-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>Add a Card</h3>
+        <p class="color-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+      </div>
+      <form name="addcard">
+        <div class="row align-items-end mb-35">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Card Number</label>
+              <input type="text" name="cardnmbr" id="cardnmbr" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Name on Card</label>
+              <input type="text" name="cardname" id="cardname" class="form-control">
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 -->
+
+        <div class="row mb-35">
+          <div class="col-md-7">
+            <div class="row align-items-end">
+              <div class="col-4">
+                <div class="form-group control-wrap">
+                  <label for="">Expire Date</label>
+                  <select name="GB" id="exp-date" class="form-control custom-select">
+                    <option value="0">MM</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <span class="downarrow"></span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="form-group control-wrap">
+                  <select name="crntyear" id="crnt-year" class="form-control custom-select">
+                    <option value="1">YY</option>
+                    <option value="2">18</option>
+                    <option value="3">19</option>
+                    <option value="4">20</option>
+                  </select>
+                  <span class="downarrow"></span>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="form-group cvv-input">
+                  <label for="">CVV</label>
+                  <div class="tooltip_new pull-right">
+                    <i class="icon-exclamatory"></i>
+                    <span class="tooltiptext">Tooltip text</span>
+                  </div>
+                  <input type="password" maxlength="3" name="cvv" id="cvv" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup-action pb-3 text-center pt-2 mt-4">
+          <a class="btn btn-pc-3" id="addcard-link" href="javascript:void(0);">ADD CARD</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="order-tracking-popup cardadded-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>
+          <span><i class="icon-confirmation"></i></span>
+          Card Added Successfully
+        </h3>
+        <p class="color-gray">The Account has been successfully linked with 4567XXXXXXX7890</p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" href="">Ok</a>
+      </div>
+    </div>
+    <div class="order-tracking-popup cardremoved-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>
+          <span><i class="icon-confirmation"></i></span>
+          Do you want to delete this card
+        </h3>
+        <p class="color-gray">Mastercard ending in 3472</p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" id="confirm-link" href="">Confirm</a>
+      </div>
+    </div>
+    <div class="order-tracking-popup deletecard-popup -small">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>
+          <span><i class="icon-confirmation"></i></span>
+          Card Removed Successfully
+        </h3>
+        <p class="color-gray">Your linked card with 4567XXXXXXXX7890 successfully removed</p>
+
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3" id="confirm-link" href="">Ok</a>
+      </div>
+    </div>
+
+
+    <!-- Auto Pay popup starts -->
+    <div class="bodyoverlay overlay-page"></div>
+    <div class='order-tracking-popup -small' id="popup-small">
+      <div class='close-tracking'>X</div>
+      <div class='order-tracking-popup-header'>
+        <h3> Auto Pay </h3>
+        <p class='color-gray'>Lorem ipsum is simply <strong class="color-theme">96079991</strong> text of the
+          printing and typesetting industry. <strong class="color-theme">KD 24.50</strong></p>
+      </div>
+      <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+        <a class="btn btn-pc-3 close-popup-small" href='autopay-recharge.html'>Enable </a>
+        <a class="btn btn-pc-1 close-popup-small" href='javascript:void(0)'>Cancel</a>
+      </div>
+    </div>
+    <!-- Auto Pay popup ends -->
+
+    <!-- body overlay -->
+    <div class="bodyoverlay overlay-page hide"></div>
+    <div class='order-tracking-popup -small hide' id="popup-small">
+      <div class='close-tracking'>X</div>
+      <div class='order-tracking-popup-header'>
+        <h3> <span><i class="icon-confirmation"></i></span> Are you sure to activate the service? </h3>
+        <p class='color-gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+        <a class="btn btn-pc-3 close-popup-small" href='javascript:void(0)'>Yes</a>
+        <a class="btn btn-pc-1 close-popup-small" href='javascript:void(0)'>No</a>
+      </div>
+    </div>
+    <div class="chat-sec">
+      <div class="promo-spot-panel">
+        <span><img src="./images/chatbot-icon-only.png" alt="">
+          <i>Need<br>Help?</i>
+        </span>
+      </div>
+      <div class="circle_B"></div>
+    </div>
+
+    <div class="scripts">
+
+      <!-- jQuery -->
+      <script src="./js/jQuery.js"></script>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/bootstrap.bundlev5.js"></script>
+      <!-- Slick Slider -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Custom - Select Slider -->
+      <script src="./js/select2.min.js"></script>
+      <!-- Search type suggetion -->
+      <script src="./js/typeahead.bundle.min.js"></script>
+      <!-- jQuery UI -->
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+      <!-- Custom js -->
+      <script src="./js/custom.js"></script>
+      <script src="./js/roundslider.js"></script>
+      <script src="./js/tox-progress.js"></script>
+
+
+      <script>
+        var range1 = $("#range-bar1").roundSlider({
+            radius: 90,
+            width: 0,
+            circleShape: "half-top",
+            handleSize: 16,
+            handleShape: "square",
+            value: 0,
+            min: 0,
+            max: 50,
+            create: "created1",
+            change: "valueChanged1",
+            drag: "valueChanged1",
+            tooltipFormat: "tooltipVal"
+        });
+        function tooltipVal(args){
+          return  "<div>" + args.value + "</div>" + "GB" ;
+        }
+        function created1(e) {
+            var perc = e.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var that = this;
+            $('.range-prev1').click(function () {
+                var prev = that.options.value
+                that.setValue(prev - 1);
+                valueChanged1(e, prev)
+            });
+            $('.range-next1').click(function () {
+                var prev = that.options.value
+                that.setValue(prev + 1);
+                valueChanged1(e, prev)
+            });
+
+            changePrice(e.options.value, 0)
+        }
+        function valueChanged1(e, prev) {
+            console.log(e)
+            var perc = e.options.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar1 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var prevValue = e.preValue || prev
+            changePrice(e.options.value, prevValue)
+        }
+
+        $("#range-bar2").roundSlider({
+            radius: 90,
+            width: 0,
+            circleShape: "half-top",
+            handleSize: 16,
+            handleShape: "square",
+            value: 0,
+            min: 0,
+            max: 1000,
+            create: "created2",
+            change: "valueChanged2",
+            drag: "valueChanged2",
+            tooltipFormat: "tooltipVal1"
+        });
+        function tooltipVal1(args){
+          return  "<div>" + args.value + "</div>" + "Mins" ;
+        }
+        function created2(e) {
+            var perc = e.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var that = this;
+            $('.range-prev2').click(function () {
+                var prev = that.options.value
+                that.setValue(prev - 1);
+                valueChanged2(e, prev)
+            });
+            $('.range-next2').click(function () {
+                var prev = that.options.value
+                that.setValue(prev + 1);
+                valueChanged2(e, prev)
+            });
+
+            changePrice(perc, 0)
+        }
+        function valueChanged2(e, prev) {
+            var perc = e.options.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar2 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var prevValue = e.preValue * 100 / e.options.max || prev * 100 / e.options.max
+            changePrice(perc, prevValue)
+        }
+
+        $("#range-bar3").roundSlider({
+            radius: 90,
+            width: 0,
+            circleShape: "half-top",
+            handleSize: 16,
+            handleShape: "square",
+            value: 0,
+            min: 0,
+            max: 200,
+            create: "created3",
+            change: "valueChanged3",
+            drag: "valueChanged3",
+            tooltipFormat: "tooltipVal2"
+        });
+        function tooltipVal2(args){
+          return  "<div>" + args.value + "</div>" + "Mins" ;
+        }
+        function created3(e) {
+            var perc = e.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var that = this;
+            $('.range-prev3').click(function () {
+                var prev = that.options.value
+                that.setValue(prev - 1);
+                valueChanged3(e, prev)
+            });
+            $('.range-next3').click(function () {
+                var prev = that.options.value
+                that.setValue(prev + 1);
+                valueChanged3(e, prev)
+            });
+            changePrice(e.options.value, 0)
+        }
+        function valueChanged3(e) {
+            var perc = e.options.value * 100 / e.options.max;
+            if (perc < 38) {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc - 7 + '%')
+            }
+            else if (perc > 65) {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc + 4 + '%')
+            }
+            else {
+                $('#range-bar3 .rs-container.rs-half.rs-top').css('--widthSlide', perc + '%')
+            }
+            var prevValue = e.preValue || prev
+            changePrice(e.options.value, prevValue)
+        }
+        function changePrice(price, prevValue) {
+          console.log(price)
+          console.log(prevValue)
+          var total = $('.price__zain-span').attr('data-price');
+		  console.log(total)
+          //total = parseFloat(total) + parseFloat(price) - parseFloat(prevValue)
+          //total = total.toFixed(1)
+         // $('.price__zain-span').attr('data-price', total).html(total)
+        }
+    </script>
+    
+   
+     
+
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

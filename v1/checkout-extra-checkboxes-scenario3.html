@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+  <title>Extra Checkout</title>
+  <meta charset="UTF-8">
+  <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" href="./css/checkout-master.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+  <!-- dated 8-4-2020 code starts -->
+  <link href="css/datepicker.css" rel="stylesheet" />
+  <!-- dated 8-4-2020 code ends -->
+  <style>
+ 
+  
+
+
+
+
+  </style>
+
+</head>
+
+<body class="">
+  <div id="wrapper" class="container-fluid delivery-page">
+
+
+    <div class="content_min_height">
+  <!-- Header -->
+  <header class="header main-header-bg">
+    <div class="main-header">
+        <div class="container">
+            <div class="row main-header-row flex-align-center">
+                <div class="col-md-4 col-3">
+                    <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                </div>
+                <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                    <!-- Division which shown in Tablet and Mobile -->
+                    <div class="mobile-controls text-right">
+                        <ul class="mobile-nav">
+                            <li>
+                                <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-nav justify-content-end offset-md-3">
+                        <li class="profile-btn"> <a href="javascript:void(0)" data-target-menu="#form_pp"
+                                class="btn btn-pc-4 btn-small text-t-none">Login</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+
+
+    <!--Cart Desktop-->
+    <section class="shopping_cart_section_xain desktop_section_cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Extra</h2>
+                            </li>
+                            <li class="step  text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery & Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Cart Desktop END-->
+
+     <!--Cart Mobile-->
+    <section class="shopping_cart_mobile_section_xain">
+        <div class="container">
+       
+            <div class="row">
+                <div class="col-12 mb-0 pb-0 mb-md-5 pb-md-5">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Extra</h2>
+                            </li>
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Cart Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mob_seperator_cart"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Cart Mobile End-->
+
+    <section class="extra-boxes-outter">
+      <div class="container">
+         <div class='profie-setting-section pt-2 pb-2 pt-md-5 pb-md-5'>
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <h2>Select New Number</h2>
+                <p>Pick your favorite number from the list below</p>
+              </div>
+               <div class="col-lg-12">
+                  <div class="profile-setting-slider-sec ctm-checkboxes">
+                     <div class='profile-setting-slider-items'>
+                        <div class='row d-flex justify-content-center'>
+                           <div class='col-md-10 text-center'>
+                            <form>
+                              <ul class="list_buttonssss">
+                                 <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing2">
+                                        <label for="pricing2">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing3">
+                                        <label for="pricing3">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing4">
+                                        <label for="pricing4">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing5">
+                                        <label for="pricing5">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing6">
+                                        <label for="pricing6">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing7">
+                                        <label for="pricing7">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing8">
+                                        <label for="pricing8">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing9">
+                                        <label for="pricing9">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing10">
+                                        <label for="pricing10">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing11">
+                                        <label for="pricing11">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+                                  
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing12">
+                                        <label for="pricing12">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing13">
+                                        <label for="pricing13">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing14">
+                                        <label for="pricing14">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing15">
+                                        <label for="pricing15">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing16">
+                                        <label for="pricing16">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing17">
+                                        <label for="pricing17">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing18">
+                                        <label for="pricing18">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing19">
+                                        <label for="pricing19">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing20">
+                                        <label for="pricing20">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing21">
+                                        <label for="pricing21">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                                  <li>
+                                    <div class="custom-radio pricing-checkbox">
+                                        <input type="radio" class="form-control  perfect-pairing" name="radio" value="" id="pricing22">
+                                        <label for="pricing22">
+                                        <div class="labels">
+                                          <h3 class="main-label mt-md-1 mt-2">92208431</h3>
+                                        </div>
+                                        </label>
+                                    </div>
+                                  </li>
+
+                              </ul>
+                            </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12 mb-5 pb-5">
+                 <div class="extra-btn-link text-center">
+                   <a href="#">Refresh Numbers</a>
+                   <div class="order-summary-buttons">
+                      <button class="edit-btn mt-0">CANCEL</button>
+                      <a href="./buying-newline-scenario3.html" class="btn placeorder-btn">CONTINUE</a>
+                  </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+   </div>
+  
+     <!-- Footer -->
+     <footer class="main-footer2 footer_extra_master">
+      <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="footer_zain_new d-flex justify-content-between align-items-center w-100">
+                       <a href="#">
+                           <img src="./images/footer_new_zain.svg" alt="footer logo" />
+                       </a>
+                       <div class="footer_new">
+                           <div class="links_footer_master">
+                               <ul class="d-flex">
+                                   <li>
+                                      <a href="#"><img src="./images/instagram_footer.svg" alt="instagram" /></a> 
+                                   </li>
+                                   <li>
+                                       <a href="#"><img src="./images/twitter_footer.svg" alt="instagram" /></a> 
+                                   </li>
+                                   <li>
+                                       <a href="#"><img src="./images/facebook_footer.svg" alt="instagram" /></a> 
+                                   </li>
+                                   <li>
+                                       <a href="#"><img src="./images/youtube_footer.svg" alt="instagram" /></a> 
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+
+               <div class="col-12">
+                <div class="disclaimer_footer d-flex ali">
+                  <div>
+                   <p class="mb-0">2022 Zain. All right reserved.</p>
+                  </div>
+                  <div>
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Terms of Services</a>
+                   <a href="#">Cookies Settings </a>
+                  </div>
+                </div>
+            </div>
+           </div>
+      </div>
+   </footer>
+   <!-- Footer Ends -->
+
+    
+
+
+
+    
+   
+ 
+    </div>
+  </div>
+</body>
+
+</html>

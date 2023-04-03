@@ -1,0 +1,63 @@
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu{
+    opacity: 1;
+    visibility: hidden;
+    transform: none !important;
+    display: block !important;
+    height: 0vh;
+    min-height: 0vh;
+    transition: all 0.5s !important;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu.showing{
+    opacity: 1;
+    visibility: visible;
+    /* transform: translateY(0%); */
+    height: 100vh;
+    min-height: 100vh;
+    transition: all 0.5s !important;
+}
+.kw #wrapper .header .main-header ul.main-navigation li.megamenu-container .megamenu{
+    background-color: #d4d3d3;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .new_navigation{
+    transform: translateY(-10%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .new_navigation.show-main-list{
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+.tab-content > .tab-pane{
+    height: auto !important;
+    opacity: 1;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .tab-content .links_list_new_nav{
+    transform: translateY(-10%);
+    transform: translateX(-10%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .tab-content .links_list_new_nav.show-sublist-item{
+    transform: translateY(0%);
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+/* .kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .tabs_new_navigation{
+    display: none !important;
+}
+.kw #wrapper .header .main-header ul#megamenu_list.main-navigation li.megamenu-container .megamenu .tabs_new_navigation.active{
+    display: block !important;
+}
+.nav-link.active{
+    border: none !important;
+}
+.kw #wrapper .nav.nav-tabs.new_navigation .nav-item a{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+} */

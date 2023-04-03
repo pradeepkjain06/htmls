@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3560" data-name="Rectangle 3560" width="32" height="32" transform="translate(100 67)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3574" data-name="Rectangle 3574" width="32" height="32" transform="translate(-24150 -22310)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="logo" transform="translate(-100 -67)">
+    <g id="Mask_Group_28" data-name="Mask Group 28" clip-path="url(#clip-path)">
+      <g id="voicemail_desktop" data-name="voicemail desktop" transform="translate(24250 22377)" clip-path="url(#clip-path-2)">
+        <path id="Path_2447" data-name="Path 2447" d="M30,38a7,7,0,0,0-4.89,12H16.89A6.994,6.994,0,1,0,12,52H30a7,7,0,0,0,0-14ZM7,45a5,5,0,1,1,5,5,5,5,0,0,1-5-5Zm23,5a5,5,0,1,1,5-5A5,5,0,0,1,30,50Z" transform="translate(-24154.998 -22339)" fill="#70489d"/>
+      </g>
+    </g>
+  </g>
+</svg>

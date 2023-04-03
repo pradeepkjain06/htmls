@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon_Audio" transform="translate(-65 -213)">
+    <g id="Rectangle_3647" data-name="Rectangle 3647" transform="translate(65 213)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="Group_2630" data-name="Group 2630" transform="translate(-2001 476.605)">
+      <path id="Path_1368" data-name="Path 1368" d="M434.2,172.166a.9.9,0,0,0-1.253,1.292,2.982,2.982,0,0,1,0,4.318.89.89,0,0,0-.019,1.272.873.873,0,0,0,.655.27.92.92,0,0,0,.636-.251,4.762,4.762,0,0,0,1.465-3.47,4.906,4.906,0,0,0-1.484-3.431Z" transform="translate(1648.338 -426.958)" fill="#2caa86"/>
+      <path id="Path_1369" data-name="Path 1369" d="M494.9,97.7a.9.9,0,1,0-1.2,1.349,6.316,6.316,0,0,1,0,9.408.909.909,0,0,0-.077,1.272.923.923,0,0,0,.675.308.9.9,0,0,0,.6-.231,8.137,8.137,0,0,0,2.7-6.053,8,8,0,0,0-2.7-6.053Z" transform="translate(1589.7 -355.08)" fill="#2caa86"/>
+      <path id="Path_1370" data-name="Path 1370" d="M93.253,68.553,87.8,72.621H84.539a.539.539,0,0,0-.54.54V78.27a.539.539,0,0,0,.54.54H87.8L93.253,82.9a.54.54,0,0,0,.867-.443V68.978a.541.541,0,0,0-.867-.424Z" transform="translate(1985.001 -327.047)" fill="#2caa86"/>
+    </g>
+  </g>
+</svg>

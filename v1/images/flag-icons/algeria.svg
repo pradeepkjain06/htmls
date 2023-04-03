@@ -1,0 +1,8 @@
+<svg id="algeria" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_1931" data-name="Path 1931" d="M224.7,0a16,16,0,0,1,0,32c0-.7-2.087-16-2.087-16Z" transform="translate(-208.696)" fill="#f0f0f0"/>
+  <path id="Path_1932" data-name="Path 1932" d="M16,32A16,16,0,0,1,16,0" fill="#496e2d"/>
+  <g id="Group_3433" data-name="Group 3433" transform="translate(10.023 10.435)">
+    <path id="Path_1933" data-name="Path 1933" d="M259.421,206.9l-1.313,1.809-2.126-.689,1.315,1.807-1.313,1.809,2.125-.692,1.315,1.807v-2.235l2.125-.692-2.126-.689Z" transform="translate(-250.006 -204.4)" fill="#d80027"/>
+    <path id="Path_1934" data-name="Path 1934" d="M167.672,177.043a4.522,4.522,0,1,1,2.151-8.5,5.565,5.565,0,1,0,0,7.956A4.5,4.5,0,0,1,167.672,177.043Z" transform="translate(-160.368 -166.956)" fill="#d80027"/>
+  </g>
+</svg>

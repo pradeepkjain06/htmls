@@ -1,0 +1,11 @@
+<svg id="Entertainment_icon" data-name="Entertainment icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3529" data-name="Rectangle 3529" width="16" height="16" transform="translate(-22512 -21103)" fill="#22b7c0"/>
+    </clipPath>
+  </defs>
+  <g id="entertainment_2" data-name="entertainment 2" transform="translate(22512 21103)" clip-path="url(#clip-path)">
+    <path id="Path_2437" data-name="Path 2437" d="M-22504.141-21105.824l2.5,1.5-2.5,1.5Z" transform="translate(-0.359 13.324)" fill="#22b7c0"/>
+    <path id="Union_30" data-name="Union 30" d="M15.349,16H.4V5.908l-.028.01L0,4.837,14.134,0l.374,1.081L.969,5.714H15.35V9.141h0V16h0Zm-13.8-1.143H14.2V9.142H1.552ZM13.05,8H14.2V6.857H13.05ZM9.6,8h1.15V6.857H9.6ZM6.151,8H7.3V6.857H6.151ZM2.7,8H3.851V6.857H2.7Z" transform="translate(-22511.35 -21103)" fill="#22b7c0"/>
+  </g>
+</svg>

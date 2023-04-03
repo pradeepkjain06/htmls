@@ -1,0 +1,3360 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+
+<head>
+    <title>Tinext - Order History</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body class="">
+
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+						<div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+							<!-- Division which shown in Tablet and Mobile -->
+							<div class="mobile-controls text-left">
+		
+									  <ul class="mobile-nav">
+										  <li class="cart-dropdown profile-btn logedin">
+								   <button class="btn btn-pc-4 profile-btn">
+									<img src="images/profile_picture.png" alt="" class="profile-image" data-target-menu="#profiledropdownmenu1">
+								   </button>
+								   <div class="cart-summary-dropdown for_mb_newwww" id="profiledropdownmenu1">
+									  <div class="card-body pt-3">
+										 <div class='profile-dropmen-login pb-4 text-center'>
+											<h3 class="text-center">خالد بن سليمان</h3>
+											<a href='#' class='btn btn-pc-4 cl-sc-1 w-85 m-0 m-auto'>حسابي</a>                         
+										 </div>
+										 <div class='profile-dropmen-links text-right'>
+											<ul>
+											   <li><a href='#'>الدفع السريع</a></li>
+											   <li><a href='#'>أضف خط</a></li>
+											   <li><a href='#'>إدارة الخطة</a></li>
+											   <li><a href='#'>طلباتي</a></li>
+											   <li><a href='#'>الاستخدام الخاص بي</a></li>
+											   <li class='logout text-center'><a href='#'><img src="images/sign-out.svg" class="ml-2">تسجيل خروج </a></li>
+											</ul>
+										 </div>
+									  </div>
+								   </div>
+								</li>
+		
+										  <li>
+											  <a href=""><i class="icon-heart-feel-grey"></i></a>
+										  </li>
+		
+										  <li class="cart-dropdown">
+											  <a href="#" data-target-menu="#cartdropdownmenu"><i
+													  class="icon-empty-shopping-card"></i></a>
+										  </li>
+										  <li class="mobile-menu-toggle position-static">
+											  <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+		
+											  <div class="main-mobile-menu" id="mobile-menu">
+		
+												  <div class="sub-menu">
+													  <div class="form-group">
+														  <select
+															  class="form-control custom-select dropdown-transparent light"
+															  id="">
+															  <option value="Customer">عميل</option>
+															  <option value="Business">عمل</option>
+														  </select>
+													  </div>
+												  </div>
+		
+												  <div class="container-fluid-custom">
+													<ul class="mobile-megamenu">
+													  <li>
+														  <a href="#" class="active">
+															  <i class="icon-cart-with-plus"></i>&ensp;محل
+														  </a>
+														  <span class="float-right"><i
+																  class="icon-right-arrow"></i></span>
+		
+														  <div class="mobile-megamenu-level-2">
+															  <div class="lvl-2-header">
+																  <div class="container-fluid-custom">
+																	  <a href="" class="back-link">
+																		  <i
+																			  class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+																		  <span>خلف</span>
+																	  </a>
+		
+																	  <p class="heading">
+																		  <i class="icon-empty-shopping-card"></i>&ensp;
+																		  <span class="">محل</span>
+																	  </p>
+																  </div>
+															  </div>
+															  <div class="lvl-2-content">
+																  <div class="container-fluid-custom">
+		
+																	  <ul class="accordian-menu">
+																		  <li>
+																			  <a href="#">
+																				  <img src="./images/pagenav_plans.svg"
+																					  alt="plans">
+																				  <span>الخطط</span>
+																				  <i
+																					  class="icon-angle-arrow-pointing-to-right"></i>
+																			  </a>
+																			  <ul class="expandable-links">
+																				  <li class="megamenu-link"><a
+																						  href="#">الدفع شهريا</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="#">ادفع كما تذهب</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="#">التجوال و
+																						  دولي</a></li>
+																			  </ul>
+																		  </li>
+																		  <li>
+																			  <a href="#">
+																				  <img src="./images/pagenav_products.svg"
+																					  alt="plans">
+																				  <span>منتجات</span>
+																				  <i
+																					  class="icon-angle-arrow-pointing-to-right"></i>
+																			  </a>
+																			  <ul class="expandable-links">
+																				  <li class="megamenu-link"><a
+																						  href="">هاتف ذكي</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">البرودباند المنزلي</a></li>
+																				  <li class="megamenu-link"><a href="">بطاقة SIM
+																						  بطاقة</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">لوح</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">الألعاب</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">مستلزمات</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">البطاقات الإلكترونية</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">الإضافات</a></li>
+																			  </ul>
+																		  </li>
+																		  <li>
+																			  <a href="#">
+																				  <img src="./images/pagenav_zainlife.svg"
+																					  alt="plans">
+																				  <span>زين لايف</span>
+																				  <i
+																					  class="icon-angle-arrow-pointing-to-right"></i>
+																			  </a>
+																			  <ul class="expandable-links">
+																				  <li class="megamenu-link"><a
+																						  href="">المنزل الذكي</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">الصحة</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">أسلوب الحياة</a></li>
+																				  <li class="megamenu-link"><a
+																						  href="">تسلية</a></li>
+																			  </ul>
+																		  </li>
+																		  <li>
+																			  <a href="#">
+																				  <img src="./images/pagenav_offers.svg"
+																					  alt="plans">
+																				  <span>عروض</span>
+																				  <i
+																					  class="icon-angle-arrow-pointing-to-right"></i>
+																			  </a>
+																			  <ul class="expandable-links">
+																				  <li class="megamenu-link"><a
+																						  href="">الزبون الحالي
+																						  عروض</a></li>
+																				  <li class="megamenu-link"><a href="">الجميع
+																						  عروض &
+																						  الترقيات</a>
+																				  </li>
+																			  </ul>
+																		  </li>
+																	  </ul>
+		
+																  </div>
+															  </div>
+														  </div>
+		
+													  </li>
+													  <li>
+														  <a href="#">
+															  <i class="icon-headphones-with-mic"></i>
+															  &ensp;زين
+														  </a>
+														  <span class="float-right"><i
+																  class="icon-right-arrow"></i></span>
+		
+																  <div class="mobile-megamenu-level-2">
+																	  <div class="lvl-2-header">
+																		  <div class="container-fluid-custom">
+																			  <a href="" class="back-link">
+																				  <i
+																					  class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+																				  <span>خلف</span>
+																			  </a>
+		  
+																			  <p class="heading">
+																				  <i class="icon-headphones-with-mic"></i>&ensp;
+																				  <span class="">زين</span>
+																			  </p>
+																		  </div>
+																	  </div>
+																	  <div class="lvl-2-content">
+																		  <div class="container-fluid-custom">
+		  
+																			  <ul class="accordian-menu">
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_plans.svg"
+																							  alt="plans">
+																						  <span>ايفون</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="#">الدفع شهريا</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="#">ادفع كما تذهب</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="#">التجوال و
+																								  دولي</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_products.svg"
+																							  alt="plans">
+																						  <span>سيمز</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">هاتف ذكي</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">البرودباند المنزلي</a></li>
+																						  <li class="megamenu-link"><a href="">SIM
+																								  Card</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">لوح</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الألعاب</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">مستلزمات</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">البطاقات الإلكترونية</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الإضافات</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_zainlife.svg"
+																							  alt="plans">
+																						  <span>عروض زين</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">المنزل الذكي</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الصحة</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">أسلوب الحياة</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">تسلية</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_offers.svg"
+																							  alt="plans">
+																						  <span>زين لود</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">موجود عميل
+																								  عروض</a></li>
+																						  <li class="megamenu-link"><a href="">الجميع
+																								  عروض &
+																								  الترقيات</a>
+																						  </li>
+																					  </ul>
+																				  </li>
+																			  </ul>
+		  
+																		  </div>
+																	  </div>
+																  </div>
+													  </li>
+													  <li>
+														  <a href="#">
+															  <i class="icon-Group-1561"></i>
+															 الدعم
+														  </a>
+														  <span class="float-right"><i
+																  class="icon-right-arrow"></i></span>
+														  
+																  <div class="mobile-megamenu-level-2">
+																	  <div class="lvl-2-header">
+																		  <div class="container-fluid-custom">
+																			  <a href="" class="back-link">
+																				  <i
+																					  class="icon-arrow-pointing-to-right icon-rotate-180"></i>&ensp;
+																				  <span>خلف</span>
+																			  </a>
+		  
+																			  <p class="heading">
+																				  <i class="icon-Group-1561"></i>&ensp;
+																				  <span class="">الدعم</span>
+																			  </p>
+																		  </div>
+																	  </div>
+																	  <div class="lvl-2-content">
+																		  <div class="container-fluid-custom">
+		  
+																			  <ul class="accordian-menu">
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_plans.svg"
+																							  alt="plans">
+																						  <span>دعم زين</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="#">الدفع شهريا</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="#">ادفع كما تذهب</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="#">التجوال و
+																								  دولي</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_products.svg"
+																							  alt="plans">
+																						  <span>اتصل</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">هاتف ذكي</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">البرودباند المنزلي</a></li>
+																						  <li class="megamenu-link"><a href="">بطاقة SIM
+																								  بطاقة</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">لوح</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الألعاب</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">مستلزمات</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">البطاقات الإلكترونية</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الإضافات</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_zainlife.svg"
+																							  alt="plans">
+																						  <span>خط المساعدة</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">المنزل الذكي</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">الصحة</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">أسلوب الحياة</a></li>
+																						  <li class="megamenu-link"><a
+																								  href="">تسلية</a></li>
+																					  </ul>
+																				  </li>
+																				  <li>
+																					  <a href="#">
+																						  <img src="./images/pagenav_offers.svg"
+																							  alt="plans">
+																						  <span>عروض</span>
+																						  <i
+																							  class="icon-angle-arrow-pointing-to-right"></i>
+																					  </a>
+																					  <ul class="expandable-links">
+																						  <li class="megamenu-link"><a
+																								  href="">موجود عميل
+																								  عروض</a></li>
+																						  <li class="megamenu-link"><a href="">الجميع
+																								  عروض &
+																								  الترقيات</a>
+																						  </li>
+																					  </ul>
+																				  </li>
+																			  </ul>
+		  
+																		  </div>
+																	  </div>
+																  </div>
+													  </li>
+												  </ul>
+												  </div>
+		
+		
+												  <div class="container">
+													  <p class="quick-pay-link text-left">
+														  <a href="">الدفع السريع<i class="icon-right-arrow"></i></a>
+													  </p>
+												  </div>
+		
+												  <div class="mobile-search">
+													  <!-- Search -->
+													  <div class="search-autocomplete d-block">
+														  <input type="text" class="typeahead tt-query" autocomplete="off"
+															  spellcheck="false" placeholder="بحث">
+														  <button class="btn main-search-btn btn-pc-3 ">
+															  <i class="icon-magnifying-glass "></i>
+														  </button>
+													  </div>
+													  <!-- Search End -->
+												  </div>
+		
+												  <div class="language-selector text-center">
+													  <ul>
+														  <li><a href="#" class="current-language">EN</a></li>
+														  <li><a href="#">العربية</a></li>
+													  </ul>
+												  </div>
+		
+												  <div class="form-group country-selector selection-border">
+													  <select class="form-control custom-select dropdown-transparent light"
+														  id="">
+														  <option value="Kuwait">Kuwait</option>
+														  <option value="USA">USA</option>
+													  </select>
+												  </div>
+		
+		
+											  </div>
+		
+										  </li>
+									  </ul>
+		
+								  </div>
+							<ul class="main-navigation d-inline-block">
+							  <li class="megamenu-container"> 
+								<a href="javascript:void(0)"><i class="icon-cart-with-plus"></i>&nbsp;متجر</a>
+								<div id="shopmegamenu" class="megamenu container-fluid-custom">
+								  <div class="row">
+									<div class="col-md-9">
+									  <div class="row">
+										<div class="col-md-3">
+										  <ul>
+											<li class="megamenu-title"> <img src="./images/pagenav_plans.svg"
+																					alt="megamenu-plans">
+											  <h3 class="">الخطط</h3>
+											</li>
+											<li class="megamenu-link"><a href="#">ادفع شهريا</a></li>
+											<li class="megamenu-link"><a href="#">ادفع كما تذهب</a></li>
+											<li class="megamenu-link"><a href="#">التجوال و
+											  الدولية</a> </li>
+										  </ul>
+										</div>
+										<div class="col-md-3">
+										  <ul>
+											<li class="megamenu-title"> <img src="./images/pagenav_products.svg"
+																					alt="megamenu-products">
+											  <h3 class="">منتجات</h3>
+											</li>
+											<li class="megamenu-link"><a href="">هاتف ذكي</a></li>
+											<li class="megamenu-link"><a href="">النطاق العريض المنزلي</a></li>
+											<li class="megamenu-link"><a href="">شريحة جوال</a></li>
+											<li class="megamenu-link"><a href="">لوح</a></li>
+											<li class="megamenu-link"><a href="">الألعاب</a></li>
+											<li class="megamenu-link"><a href="">مستلزمات</a></li>
+											<li class="megamenu-link"><a href="">البطاقات الإلكترونية</a></li>
+											<li class="megamenu-link"><a href="">الإضافات</a></li>
+										  </ul>
+										</div>
+										<div class="col-md-3">
+										  <ul>
+											<li class="megamenu-title"> <img src="./images/pagenav_zainlife.svg"
+																					alt="megamenu-zainlife">
+											  <h3 class="">زين لايف</h3>
+											</li>
+											<li class="megamenu-link"><a href="">المنزل الذكي</a></li>
+											<li class="megamenu-link"><a href="">الصحة</a></li>
+											<li class="megamenu-link"><a href="">نمط الحياة</a></li>
+											<li class="megamenu-link"><a href="">وسائل الترفيه</a></li>
+										  </ul>
+										</div>
+										<div class="col-md-3">
+										  <ul>
+											<li class="megamenu-title"> <img src="./images/pagenav_offers.svg"
+																					alt="megamenu-offers">
+											  <h3 class="">عروض</h3>
+											</li>
+											<li class="megamenu-link"><a href="">الزبون الحالي
+											  عروض</a></li>
+											<li class="megamenu-link"><a href="">كل العروض &
+											  الترقيات</a> </li>
+										  </ul>
+										</div>
+									  </div>
+									</div>
+									<div class="col-md-3">
+									  <div class="i-watch_img-container"> <img src="./images/menu.png" alt="">
+										<div class="content">
+										  <h1 class="main-heading">Apple Watch S4 44mm Celular</h1>
+										  <button class="btn btn-pc-3">اشتري الآن</button>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </li>
+							  <li> <a href="#"><i class="icon-headphones-with-mic"></i>&nbsp;الدعم</a> </li>
+							  <li> <a href="#"><i class="icon-Group-1561"></i>&nbsp;5G</a> </li>
+							</ul>
+						  </div>
+                        <div class="col-md-4">
+
+                            <ul class="right-nav justify-content-between offset-md-2">
+
+                                <li class="grand-total">
+                                    
+                                </li>
+
+                                <li class="profile-btn logedin">
+
+                                    <a href="#" class="btn btn-pc-4 btn-small text-t-none">
+                                        <img src="images/profile_picture.png" alt="" class="profile-image">
+                                        <div class="user-info">
+                                            <p class="name">Welcome <strong>Khaled</strong></p>
+                                            <p class="contact">90079990</p>
+                                        </div>
+                                        <i class="icon-right-arrow icon-rotate-90"></i>
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+
+        <section class="container-fluid-custom">
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb-wrapper inner-main-section-sm">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a>
+                        </li>
+						<li class="breadcrumb-item " aria-current="page">
+                            <a href="#">iPhone XS</a>
+                        </li>
+                        <li class="breadcrumb-item " aria-current="page">
+                            <a href="#">عربة التسوق</a>
+                        </li>
+                        <li class="breadcrumb-item active">تفاصيل الطلب</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="top-heading-area">
+                
+
+				<div class="section-heading text-center mb-0">
+					<h1 class="main-heading">
+						تاريخ الطلب
+					</h1>
+					<h4 class="ff-rg sub-text">
+					   أبجد هوز دولور الجلوس امات، إيليت الحوار الاقتصادي الاستراتيجي والحيوية، بحيث تعبا وحزنا، وبعض الأشياء الهامة التي يجب القيام.
+					</h4>
+				</div>
+
+                    <!--
+                    <div class="filters-button-row filters-button-control-row d-lg-none">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <button class="btn btn-pc-5 btn-small btn-reset"><span class="close-button-x"> X</span></button> <span class="text">Filters</span>
+                                </div>
+                               <div class="col-sm-4">
+                                    <button class="btn btn-pc-5 btn-small btn-reset"><i class="icon-delete fs-16"></i><span> Reset</span></button>
+                                    <button class="btn btn-pc-3 btn-small btn-save">Save</button>
+                                </div>
+                            </div>
+                    </div>
+                    -->
+					
+							
+                
+
+            </div>
+
+            <div class="order-history-layout tabs-wrapper pt-4">
+								<nav class="sect_sepretor sect_sepretor_limited">
+									<div class="nav nav-tabs order-history-nav">									
+										<a class="nav-item nav-link active" id="nav-profile-tab1" data-toggle="tab"
+                                                        href="#all" role="tab" aria-controls="nav-profile"
+                                                        aria-selected="false">
+											<div class='order-icon all-orders'>
+												<i class="icon-Group-1565"></i>
+												<span>الكل</span>
+											</div>
+										</a>                                                    
+										<a class="nav-item nav-link" id="nav-profile-tab2" data-toggle="tab"
+                                                        href="#upcoming" role="tab" aria-controls="nav-profile"
+                                                        aria-selected="false">
+											<div class='order-icon out-for-delivery'>
+												<i class="icon-delivery-truck-1"></i>
+												<span>خارج للتوصيل</span>
+											</div>
+										</a>
+									   <a class="nav-item nav-link" id="nav-profile-tab3" data-toggle="tab"
+                                                        href="#completed" role="tab" aria-controls="nav-profile"
+                                                        aria-selected="false">
+											<div class="order-icon complete-orders">
+												<i class="icon-confirmation"></i>
+												<span>الطلب جاهز</span>
+											</div>	
+										</a>
+										<a class="nav-item nav-link" id="nav-profile-tab4" data-toggle="tab"
+                                                        href="#cancelled" role="tab" aria-controls="nav-profile"
+                                                        aria-selected="false">
+											<div class="order-icon cancelled-orders">
+												<i class="icon-delete"></i>
+												<span>الطلب الملغي</span>
+											</div>	
+										</a>
+										<span class='dropdown'>
+											<i class='icon-right-arrow'></i>
+										</span>		
+									</div>
+								</nav>
+                                <div class="container tabs-wrapper device-only-tabs">
+                                    <div class="row">
+                                        <div class="col-md-12">
+										
+											<div class='row text-right order-history-head'>
+													<div class='col-9 col-sm-5 sm-text-center'>
+														<span>الطلب #٪ s</span>		
+													</div>
+													<div class='col-3 col-sm-4 sm-text-center'>
+														الحالة
+													</div>
+													<div class='col-12 col-sm-3 desktop-only'>
+														تاريخ الطلب
+													</div>
+											</div>										
+										
+											<div class="tab-content mt-0" id="nav-tabContent">
+												<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                                                    <div class="accordion features_accordian" id="accordionExample">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOne">
+																<div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		   <button class="btn btn-link collapsed" type="button"
+																				data-toggle="collapse"
+																				data-target="#deviceSpecifications"
+																				aria-expanded="false"
+																				aria-controls="deviceSpecifications">
+																				<i class="icon-add-1"></i>
+																			</button>
+                                                                            رقم التعريف الخاص بالطلب: #123456
+                                                                        </h4>
+																		<div class='order-date mobile-only'>
+																		<span class='d-block'>تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2 يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon out-for-delivery'>
+																			<i class="icon-delivery-truck-1"></i>
+																			<span>خارج للتوصيل</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2 يونيو 2020</div>
+																	</div>
+																</div>
+                                                            </div>
+                                                            <div id="deviceSpecifications" class="collapse"
+                                                                aria-labelledby="headingOne"
+                                                                data-parent="#accordionExample">
+                                                                <div class="card-body">
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			 <div class="pink-stripe">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h3>دينار  40 خطة</h3>
+                                        <p>24 التزام شهور</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="stripe-list">
+                                            <ul>
+                                                        <li><i><img src="./images/wifi-1.svg" alt=""></i><p>100 غيغابايت 4G LTE</p></li>
+                                                        <li><i><img src="./images/phone-call.svg" alt=""></i><p>مكالمات محلية غير محدودة</p></li>
+                                                        <li><i><img src="./images/phone-call.svg" alt=""></i><p>120 دقائق دولية</p></li>
+                                                        <li><i><img src="./images/wifi-1.svg" alt=""></i><p>3 تجوال إنترنت غيغابايت</p></li>
+                                                        <li><i><img src="./images/internet.svg" alt=""></i><p>120 دقائق التجوال</p></li>
+                                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-products-summary new_cart cart-summary">
+                                  <h3 class="main-heading color-pink">خط 1</h3>
+                                  <h1 class="main-heading">الخط الحالي <span>(9900 79990)</span>
+                                     <span class="float-right d-none d-md-block mr-20">
+                                        <label class="right-lbl">دينار  0</label>
+                                     </span>
+                                  </h1>
+                                  <p class="device-text">الجهاز الأساسي</p>
+                                  <!-- Product List -->
+                                  <div class="product-item">
+                                     <div class="row">
+                                        <div class="col-2">
+                                           <div class="product-img">
+                                              <img src="./images/Iphone.png" alt="">
+                                           </div>
+                                        </div>
+                                        <div class="col">
+                                           <div class="product-description pl-3">
+                                              <div class="product-name">
+                                                 <h1 class="main-heading left-lbl">ايفون XS</h1>
+                                                 <label class="right-lbl">KD 18</label>
+                                              </div>
+                                              <div class="payment-opts">
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">بحجم <span class="d-span">64     غيغابايت</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">اللون <span class="d-span">ذهب</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">خيار دفع الجهاز <span class="d-span">12 الشهور</span></p>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+
+                                  <!-- Product List -->
+                                  <div class="product-item">
+                                    </h1>
+                                    <p class="device-text">الجهاز الثانوي</p>
+                                     <div class="row">
+                                        <div class="col-2">
+                                           <div class="product-img">
+                                              <img src="./images/Iphone.png" alt="">
+                                           </div>
+                                        </div>
+                                        <div class="col">
+                                           <div class="product-description pl-3">
+                                              <div class="product-name">
+                                                 <h1 class="main-heading left-lbl">Apple Watch</h1>
+                                                 <label class="right-lbl">دينار  12</label>
+                                              </div>
+                                              <div class="payment-opts">
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">بحجم <span class="d-span">256 غيغابايت</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">اللون <span class="d-span">أبيض</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">خيار دفع الجهاز <span class="d-span">12 الشهور</span></p>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+
+                                  <!-- Product List -->
+                                  <div class="product-item mb-5 sect_sepretor-gray">
+                                    </h1>
+                                    <p class="device-text"></p>
+                                     <div class="row">
+                                        <div class="col-2">
+                                           <div class="product-img">
+                                              <img src="./images/Iphone.png" alt="">
+                                           </div>
+                                        </div>
+                                        <div class="col">
+                                           <div class="product-description pl-3">
+                                              <div class="product-name">
+                                                 <h1 class="main-heading left-lbl">ايربودس مع شاحن</h1>
+                                                 <label class="right-lbl">دينار  18</label>
+                                              </div>
+                                              <div class="payment-opts">
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">خيار دفع الجهاز <span class="d-span">12 الشهور</span></p>
+                                                 </div>
+                                              </div>
+                                              <div class="payment-opts-dashed">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl color-pink mb-0">مستحق في الشهر</p>
+                                                <label class="right-lbl cl-pc-1 mb-0">دينار  15</label>
+                                                </div>
+                                              </div>
+                                           </div>
+                                           <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+
+
+                                  <h3 class="main-heading color-pink pt-4">خط 2</h3>
+                                  <h1 class="main-heading">الخط الجديد - فضي<span> (9900 79990)</span>
+                                     <span class="float-right d-none d-md-block mr-20">
+                                        <label class="right-lbl">دينار  0</label>
+                                     </span>
+                                  </h1>
+                                  <p class="device-text">الجهاز الأساسي</p>
+                                  <!-- Product List -->
+                                  <div class="product-item">
+                                     <div class="row">
+                                        <div class="col-2">
+                                           <div class="product-img">
+                                              <img src="./images/Iphone.png" alt="">
+                                           </div>
+                                        </div>
+                                        <div class="col">
+                                           <div class="product-description pl-3">
+                                              <div class="product-name">
+                                                 <h1 class="main-heading left-lbl">اى بادمصغرة</h1>
+                                                 <label class="right-lbl">دينار  18</label>
+                                              </div>
+                                              <div class="payment-opts">
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">بحجم <span class="d-span">512 غيغابايت</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">اللون <span class="d-span">أسود</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">خيار دفع الجهاز <span class="d-span">12 الشهور</span></p>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                           <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+
+                                  <!-- Product List -->
+                                <div class="sect_sepretor pb-2">
+                                  <p class="device-text">الجهاز الثانوي</p>
+                                  <div class="product-item mb-5">
+                                    </h1>
+                                    <p class="device-text"></p>
+                                     <div class="row">
+                                        <div class="col-2">
+                                           <div class="product-img">
+                                              <img src="./images/Iphone.png" alt="">
+                                           </div>
+                                        </div>
+                                        <div class="col">
+                                           <div class="product-description pl-3">
+                                              <div class="product-name">
+                                                 <h1 class="main-heading left-lbl">ايفون XS</h1>
+                                                 <label class="right-lbl">دينار  20</label>
+                                              </div>
+                                              <div class="payment-opts">
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">دينار  <span class="d-span">256 غيغابايت</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">اللون <span class="d-span">أبيض</span></p>
+                                                 </div>
+                                                 <div class="d-flex">
+                                                    <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                 </div><div class="d-flex">
+                                                    <p class="left-lbl">خيار دفع الجهاز<span class="d-span">12 الشهور</span></p>
+                                                 </div>
+                                              </div>
+                                              <div class="payment-opts-dashed">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl color-pink mb-0">مستحق في الشهر</p>
+                                                <label class="right-lbl cl-pc-1 mb-0">دينار  38</label>
+                                                </div>
+                                              </div>
+                                           </div>
+                                           <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                  </div>
+                              </div>
+                                    <div class="pink-stripe">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <h3>دينار  30 خطة</h3>
+                                                <p>24 التزام شهور</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="stripe-list">
+                                                    <ul>
+                                                        <li><i><img src="./images/wifi-1.svg" alt=""></i><p>100 جيجابايت 4G LTE</p></li>
+                                                        <li><i><img src="./images/phone-call.svg" alt=""></i><p>مكالمات محلية غير محدودة</p></li>
+                                                        <li><i><img src="./images/phone-call.svg" alt=""></i><p>120 دقيقة دولية</p></li>
+                                                        <li><i><img src="./images/wifi-1.svg" alt=""></i><p>3 تجوال إنترنت GB</p></li>
+                                                        <li><i><img src="./images/internet.svg" alt=""></i><p>120 دقائق التجوال</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sect_sepretor pb-5">
+                                        <h3 class="main-heading color-pink pt-4">خط 1</h3>
+                                        <h1 class="main-heading">الخط الحالي<span> (9900 79990)</span>
+                                            <span class="float-right d-none d-md-block mr-20">
+                                                <label class="right-lbl">20 الخط الحالي</label>
+                                            </span>
+                                        </h1>
+                                  <p class="device-text">الجهاز الأساسي</p>
+                                  <!-- Product List -->
+                                      <div class="product-item">
+                                         <div class="row">
+                                            <div class="col-2">
+                                               <div class="product-img">
+                                                  <img src="./images/Iphone.png" alt="">
+                                               </div>
+                                            </div>
+                                            <div class="col">
+                                               <div class="product-description pl-3">
+                                                  <div class="product-name">
+                                                     <h1 class="main-heading left-lbl">ايفون XS</h1>
+                                                     <label class="right-lbl">دينار  18</label>
+                                                  </div>
+                                                  <div class="payment-opts">
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">بحجم <span class="d-span">64 غيغابايت</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">اللون<span class="d-span">ذهب</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">كمية <span class="d-span">1</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">خيار دفع الجهاز <span class="d-span">12 الشهور</span></p>
+                                                     </div>
+                                                  </div>
+                                                  <div class="payment-opts-dashed">
+                                                        <div class="d-flex">
+                                                            <p class="left-lbl color-pink mb-0">مستحق في الشهر</p>
+                                                            <label class="right-lbl cl-pc-1 mb-0">دينار  38</label>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <div class="left-lbl color-pink mb-0">
+                                                                ضربة جزاء 
+                                                                <div class="tooltip_new">
+                                                                    <i class="icon-exclamatory"></i>
+                                                                    <span class="tooltiptext">نص تلميح الأداة</span>
+                                                                </div>
+                                                            </div>
+                                                            <label class="right-lbl cl-pc-1 mb-0">دينار  20</label>
+                                                        </div>
+                                                    </div>
+                                               </div>
+                                               <div class="clearfix"></div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="pink-stripe">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <h3>دينار  16 خطة</h3>
+                                                <p>24 التزام شهور</p>
+                                            </div>
+                                            <div class="col-8">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sect_sepretor pb-5">
+                                        <h3 class="main-heading color-pink pt-4">خط 1</h3>
+                                        <h1 class="main-heading">خطة جديدة<span> (SIM فقط)</span>
+                                            <span class="float-right d-none d-md-block mr-20">
+                                                <label class="right-lbl">دينار  16</label>
+                                            </span>
+                                        </h1>
+                                  <!-- Product List -->
+                                      <div class="product-item">
+                                         <div class="row">
+                                            <div class="col-2">
+                                               <div class="product-img">
+                                                  <img src="./images/Iphone.png" alt="">
+                                               </div>
+                                            </div>
+                                            <div class="col">
+                                               <div class="product-description pl-3">
+                                                  <div class="product-name">
+                                                     <h1 class="main-heading left-lbl">دينار  16 خطة</h1>
+                                                     <label class="right-lbl"></label>
+                                                  </div>
+                                                  <div class="payment-opts">
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">دقائق محلية <span class="d-span">2500</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">4G Lte-A <span class="d-span">100 غيغابايت</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">غير محدود من زين إلى زين <span class="d-span"></span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">إنترنت غير محدود <span class="d-span"></span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">مكالمات محلية غير محدودة <span class="d-span">12 شهر</span></p>
+                                                     </div>
+                                                     <div class="d-flex">
+                                                        <p class="left-lbl">خيار الدفع <span class="d-span">12 الشهور</span></p>
+                                                     </div>
+                                                  </div>
+                                                  <div class="payment-opts-dashed">
+                                                        <div class="d-flex">
+                                                            <p class="left-lbl color-pink mb-0">مستحق في الشهر</p>
+                                                            <label class="right-lbl cl-pc-1 mb-0">دينار  16</label>
+                                                        </div>
+                                                    </div>
+                                               </div>
+                                               <div class="clearfix"></div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                    </div>
+
+                               <div class="sub_total sub_total_text">
+                                  <h1 class="main-heading">المجموع الفرعي</h1>
+                                  <div class="product-item">
+                                     <div class=" row">
+                                        <div class="col">
+                                           <div class="payment-opts">
+                                              <div class="d-flex">
+                                                 <p class="left-lbl">مستحق اليوم</p>
+                                                 <label class="right-lbl cl-pc-1">دينار  15</label>
+                                              </div>
+                                              <div class="d-flex">
+                                                 <p class="left-lbl">مستحق في الشهر</p>
+                                                 <label class="right-lbl cl-pc-1">دينار  0</label>
+                                              </div>
+                                              <div class="d-flex bold-text">
+                                                 <h1 class="main-heading left-lbl">المبلغ الإجمالي</h1>
+                                                 <label class="right-lbl cl-pc-1">دينار  142</label>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                               <!--  -->
+                            </div>	
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل<br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>العنوان</br>
+																										    <b>كويت ماجيك مول مالح
+																										       صباح السالم
+																											   شارع الصباح ، الكويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   تسليم سريع
+																											   يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   12 سبتمبر 2019
+																											   2.00 - 3.00 مساء
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				<div class="tracking-button">
+																					<button>تتبع الطلب</button>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+                 
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingTwo">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse"
+																			data-target="#discoverDevice"
+																			aria-expanded="false"
+																			aria-controls="discoverDevice">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                     رقم التعريف الخاص بالطلب: #1234568
+                                                                       </h4>
+																	   <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2 يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon complete-orders'>
+																			<i class="icon-confirmation"></i>
+																			<span>اكمل الطلب</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> الثاني يونيو 2020</div>
+																	</div>
+																</div>															
+															
+                                                                
+                                                            </div>
+                                                            <div id="discoverDevice" class="collapse"
+                                                                aria-labelledby="headingTwo"
+                                                                data-parent="#accordionExample">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">ايفون XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 غيغابايت</b></p>
+																								<p>اللون &ensp;<b>ذهب</b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">المستحقة</p>
+																									<label class="right-lbl">دينار كويتي 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق لكل شهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 جيجا بايت 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b>ذهب</b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">المستحقة</p>
+																									<label class="right-lbl">دينار كويتي 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق لكل شهر</p>
+																									<label class="right-lbl">دينار كويتي 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class='re-order'>
+																				<a href='#' class='btn'>أعد الطلب الآن</a>
+																			</div>			
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>العنوان</br>
+																										    <b>كويت ماجيك مول مالح
+																										       صباح السالم
+																											   شارع الصباح ، الكويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											    تسليم سريع
+																											   يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   12 سبتمبر 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				 
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingThree">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse" data-target="#faqs"
+																			aria-expanded="false" aria-controls="faqs">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                    رقم التعريف الخاص بالطلب: #12345689
+                                                                     </h4>
+																	 <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2 يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon cancelled-orders'>
+																			<i class="icon-delete"></i>
+																			<span>الطلب الملغي</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>	                                                                
+																
+																
+                                                            </div>
+                                                            <div id="faqs" class="collapse"
+                                                                aria-labelledby="headingThree"
+                                                                data-parent="#accordionExample">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">ايفون XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 غيغابايت</b></p>
+																								<p>اللون &ensp;<b>ذهب</b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">المستحقة</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق لكل شهر</p>
+																									<label class="right-lbl">دينار كويتي 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 جيجا بايت 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b>ذهب</b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">المستحقة</p>
+																									<label class="right-lbl">دينار كويتي 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق لكل شهر</p>
+																									<label class="right-lbl">دينار كويتي 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>													
+													
+													
+													
+												</div>
+												<div class="tab-pane fade  " id="upcoming" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="accordion features_accordian" id="accordionExample2">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOnea">
+																<div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		   <button class="btn btn-link collapsed" type="button"
+																				data-toggle="collapse"
+																				data-target="#complete1"
+																				aria-expanded="false"
+																				aria-controls="complete1">
+																				<i class="icon-add-1"></i>
+																			</button>
+                                                                            رقم التعريف الخاص بالطلب: #123456
+                                                                        </h4>
+																		<div class='order-date mobile-only'>
+																		<span class='d-block'>تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2 يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon out-for-delivery'>
+																			<i class="icon-delivery-truck-1"></i>
+																			<span>خارج للتوصيل</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> الثاني يونيو 2020</div>
+																	</div>
+																</div>
+                                                            </div>
+                                                            <div id="complete1" class="collapse"
+                                                                aria-labelledby="headingOnea"
+                                                                data-parent="#accordionExample2">
+                                                                <div class="card-body">
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt=""  class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				<div class="tracking-button">
+																					<button>تتبع الطلب</button>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+                 
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingTwo">
+																<div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		   <button class="btn btn-link collapsed" type="button"
+																				data-toggle="collapse"
+																				data-target="#complete2"
+																				aria-expanded="false"
+																				aria-controls="complete2">
+																				<i class="icon-add-1"></i>
+																			</button>
+                                                                            رقم التعريف الخاص بالطلب: #123456
+                                                                        </h4>
+																		<div class='order-date mobile-only'>
+																		<span class='d-block'>تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon out-for-delivery'>
+																			<i class="icon-delivery-truck-1"></i>
+																			<span>خارج للتوصيل</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>
+                                                            </div>
+                                                            <div id="complete2" class="collapse"
+                                                                aria-labelledby="headingTwo"
+                                                                data-parent="#accordionExample2">
+                                                                <div class="card-body">
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				<div class="tracking-button">
+																					<button>تتبع الطلب</button>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+                 
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingThree">
+																<div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		   <button class="btn btn-link collapsed" type="button"
+																				data-toggle="collapse"
+																				data-target="#complete3"
+																				aria-expanded="false"
+																				aria-controls="complete3">
+																				<i class="icon-add-1"></i>
+																			</button>
+                                                                            رقم التعريف الخاص بالطلب: #123456
+                                                                        </h4>
+																		<div class='order-date mobile-only'>
+																		<span class='d-block'>تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon out-for-delivery'>
+																			<i class="icon-delivery-truck-1"></i>
+																			<span>خارج للتوصيل</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>
+                                                            </div>
+                                                            <div id="complete3" class="collapse"
+                                                                aria-labelledby="headingThree"
+                                                                data-parent="#accordionExample2">
+                                                                <div class="card-body">
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				<div class="tracking-button">
+																					<button>تتبع الطلب</button>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+                 
+
+                                                                </div>
+                                                            </div>
+                                                        </div>														
+
+                                                    </div>	
+												</div>
+												<div class="tab-pane fade  " id="completed" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="accordion features_accordian" id="accordionExample3">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOneab">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse"
+																			data-target="#complete4"
+																			aria-expanded="false"
+																			aria-controls="complete4">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                     رقم التعريف الخاص بالطلب: #1234568
+                                                                       </h4>
+																	   <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon complete-orders'>
+																			<i class="icon-confirmation"></i>
+																			<span>اكمل الطلب</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>															
+															
+                                                                
+                                                            </div>
+                                                            <div id="complete4" class="collapse"
+                                                                aria-labelledby="headingOneab"
+                                                                data-parent="#accordionExample3">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+                                                                                        <div class="product-img p-0">
+                                                                                            <img src="./images/sim.png" alt="">
+                                                                                        </div>
+                                                                                    </div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">بطاقة سيم جديدة</h1>
+																							</div>
+																							<div class="product-meta">
+                                                                                                <p>بحجم &ensp;<b>اساسي</b></p>
+																								
+																								<div class="eezee-bundle-net">
+																								    <ul class="mt-0">
+																									    <li>
+																								           <p>خط جديد <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class='re-order'>
+																				<a href='#' class='btn'>أعد الطلب الآن</a>
+																			</div>			
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				 
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingTwo">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse"
+																			data-target="#complete5"
+																			aria-expanded="false"
+																			aria-controls="complete5">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                     رقم التعريف الخاص بالطلب: #1234568
+                                                                       </h4>
+																	   <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon complete-orders'>
+																			<i class="icon-confirmation"></i>
+																			<span>اكمل الطلب</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>															
+															
+                                                                
+                                                            </div>
+                                                            <div id="complete5" class="collapse"
+                                                                aria-labelledby="headingTwo"
+                                                                data-parent="#accordionExample3">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class='re-order'>
+																				<a href='#' class='btn'>أعد الطلب الآن</a>
+																			</div>			
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																			 
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingThree">
+															    <div class='row  d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse"
+																			data-target="#complete6"
+																			aria-expanded="false"
+																			aria-controls="complete6">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                     رقم التعريف الخاص بالطلب: #1234568
+                                                                       </h4>
+																	   <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon complete-orders'>
+																			<i class="icon-confirmation"></i>
+																			<span>اكمل الطلب</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>															
+															
+                                                                
+                                                            </div>
+                                                            <div id="complete6" class="collapse"
+                                                                aria-labelledby="headingTwo"
+                                                                data-parent="#accordionExample3">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class='re-order'>
+																				<a href='#' class='btn'>أعد الطلب الآن</a>
+																			</div>			
+																		</div>
+																		<div class='col-sm-3'>
+																		    <div class="delivry-option">
+																			    <ul>
+																				     <li>
+																					    <div class="delivery-box first-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_03.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>سافر على متن سفينة ل</br><b>خالد محمود</b></p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box second-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_06.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>عنوان</br>
+																										    <b>كويت ماجيك مال سالم صباح أل سالم أل صباح ست, كويت
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box third-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_09.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>خيار تسليم</br>
+																										    <b>
+																											   التوصيل السريع يتم التوصيل خلال 3 أيام
+																										    </b>
+																										</p>
+																								    </div>
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																					 <li>
+																					    <div class="delivery-box forth-delivery">
+																							<div class="row">
+																								<div class="col-sm-3">
+																									<div class="delivery-img">
+																									    <img src="./images/delivery-pic_12.png" alt="" class="img-fluid">
+																									</div>
+																								</div>
+																								<div class="col-sm-9">
+																									<div class="delivery-text pt-2">
+																									    <p>تم التوصيل</br>
+																										    <b>
+																											   سبتمبر 12 2019
+																											   2.00 - 3.00 PM
+																										    </b>
+																										</p>
+																								    </div>
+																									
+																								</div>
+																							</div>
+																						</div>
+																					 </li>
+																				</ul>
+																				 
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>	
+												</div>
+												<div class="tab-pane fade  " id="cancelled" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                    <div class="accordion features_accordian" id="accordionExample4">
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingOneaa">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse" data-target="#cancelled1"
+																			aria-expanded="false" aria-controls="cancelled1">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                    رقم التعريف الخاص بالطلب: #12345689
+                                                                     </h4>
+																	 <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon cancelled-orders'>
+																			<i class="icon-delete"></i>
+																			<span>الطلب الملغي</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>	                                                                
+																
+																
+                                                            </div>
+                                                            <div id="cancelled1" class="collapse"
+                                                                aria-labelledby="headingOneaa"
+                                                                data-parent="#accordionExample4">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingTwo">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse" data-target="#cancelled2"
+																			aria-expanded="false" aria-controls="cancelled2">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                    رقم التعريف الخاص بالطلب: #12345689
+                                                                     </h4>
+																	 <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon cancelled-orders'>
+																			<i class="icon-delete"></i>
+																			<span>الطلب الملغي</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>	                                                                
+																
+																
+                                                            </div>
+                                                            <div id="cancelled2" class="collapse"
+                                                                aria-labelledby="headingTwo"
+                                                                data-parent="#accordionExample4">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>														
+                                                        <div class="card">
+                                                            <div class="card-header" id="headingThree">
+															    <div class='row d-flex align-items-center'>
+																	<div class='col-9 col-sm-5'>
+																		<h4 class="mb-0 fs-24 text-t-none">
+																		<button class="btn btn-link collapsed" type="button"
+																			data-toggle="collapse" data-target="#cancelled3"
+																			aria-expanded="false" aria-controls="cancelled3">
+																			<i class="icon-add-1"></i>
+																		</button>
+                                                                    رقم التعريف الخاص بالطلب: #12345689
+                                                                     </h4>
+																	 <div class="order-date mobile-only">
+																		<span class="d-block">تاريخ الطلب </span>
+																		<i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																	<div class='col-3 col-sm-4 sm-text-center'>
+																		<div class='order-icon cancelled-orders'>
+																			<i class="icon-delete"></i>
+																			<span>الطلب الملغي</span>
+																		</div>
+																	</div>
+																	<div class='col-4 col-sm-3 desktop-only'>
+																		<div class='order-date'><i class="icon-checkout1"></i> 2nd يونيو 2020</div>
+																	</div>
+																</div>	                                                                
+																
+																
+                                                            </div>
+                                                            <div id="cancelled3" class="collapse"
+                                                                aria-labelledby="headingThree"
+                                                                data-parent="#accordionExample4">
+                                                                <div class="card-body">
+
+																<div class='order-history-detail'>
+																
+																	<div class='row pb-4'>
+																		<div class='col-sm-9'>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Iphone.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">iPhone XS</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p>بحجم &ensp;<b>64 GB</b></p>
+																								<p>اللون &ensp;<b> ذهب </b></p>
+																								<p>كمية &ensp;<b>1</b></p>
+																								<p>خيار دفع الجهاز &ensp;<b>12 الشهور</b></p>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 29</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="product-item">
+																				<div class="row">
+
+																					<div class="col-2">
+																						<div class="product-img">
+																							<img src="./images/Untitled-1_03.png" alt="">
+																						</div>
+																					</div>
+																					<div class="col">
+																						<div class="product-description">
+																							<div class="product-name">
+																								<h1 class="main-heading left-lbl">حزمة إنترنت eeZee</h1>
+																							</div>
+																							<div class="product-meta">
+																								<p><b>5 GB 4G LTE</b></p>
+																								<p><b>رسائل محلية غير محدودة</b></p>
+																								<p><b></b></p>
+																								<div class="eezee-bundle-net">
+																								    <ul>
+																									    <li>
+																								           <p>الخط الحالي <b class="mr-2 ml-2">1234567890</b></p>
+																										</li>
+																										<li>
+																								           <p><span><img src="./images/gold-ul_03.png" alt=""></span> <b> ذهب </b></p>
+																										</li>
+																										<li>
+																										   <p><span><img src="./images/gold-ul_06.png" alt=""></span> <b>خالد محمود</b></p>
+																										</li>
+																								    </ul>
+																								</div>
+																							</div>
+																							<div class="payment-opts mt-4">
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق اليوم</p>
+																									<label class="right-lbl">KD 0</label>
+																								</div>
+																								<div class="d-flex">
+																									<p class="left-lbl">مستحق في الشهر</p>
+																									<label class="right-lbl">KD 10</label>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>																		
+																		</div>
+
+																	</div>
+																</div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>	
+												</div>
+											</div>
+
+                                            
+		
+													
+													
+                                                    
+                                                
+
+                                        </div>
+                                    </div>
+                                </div>		
+
+            </div>
+
+        </section>
+
+        <!-- Footer Start -->
+        <footer class="main-footer">
+
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-lg-3 colunm-wrapper">
+                        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">منتجات</a></h3>
+
+                        <ul class="footer-links">
+                            <li><a href="">هاتف ذكي</a></li>
+                            <li><a href="">الصفحة الرئيسية موجة عريضة</a></li>
+                            <li><a href="">سيم بطاقة</a></li>
+                            <li><a href="">لوح</a></li>
+                            <li><a href="">الألعاب</a></li>
+                            <li><a href="">مستلزمات</a></li>
+                            <li><a href="">البطاقات الإلكترونية</a></li>
+                            <li><a href="">الإضافات</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الخطط</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">دفع شهريا</a></li>
+                            <li><a href="">ادفع كما تذهب</a></li>
+                            <li><a href="">التجوال والدولي</a></li>
+                        </ul>
+                        <div class="d-none d-md-block">
+                            <h3 class="footer-title"><a href="">زين لايف</a></h3>
+                            <h3 class="footer-title"><a href="">عروض</a></h3>
+                            <h3 class="footer-title"><a href="">5G</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">الدعم</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">دردشة</a></li>
+                            <li><a href="">حدد موقع الفرع</a></li>
+                            <li><a href="">تتبع الطلب</a></li>
+                            <li><a href="">اتصل بنا</a></li>
+                            <li><a href="">الأسئلة الشائعة</a></li>
+                            <li><a href="">وظائف</a></li>
+                        </ul>
+
+                        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">اكتشف زين</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">اكتشف زين</a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title connect">اتصل بنا</h3>
+
+                        <ul class="socialmedia footer-links inline">
+                            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                        </ul>
+
+                        <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>زين بلادي</h3>
+
+                        <ul class="user footer-links">
+                            <li><a href="" class="cl-pc-3">تسجيل الدخول</a></li>
+                            <li><a href="" class="cl-pc-3">تسجيل</a></li>
+                        </ul>
+
+                        <div class="footer-seprator"></div>
+
+                        <div class="order-track">
+
+                            <h3 class="footer-title">تابع طلبي</h3>
+
+                            <div class="form-group">
+                                <form>
+                                    <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                        id="">
+                                    <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid-custom">
+                <div class="footer-seprator"></div>
+            </div>
+
+            <div class="container copyright_sect">
+                <div class="row align-items-end">
+                    <div class="col-md-2 col-12">
+                        <div class="site-logo">
+                            <img src="./images/zain_logo.svg" alt="site_logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12">
+                        <ul class="footer-links inline mb-0">
+                            <li class="d-none d-md-inline-block">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                            <li><a href="">سياسات</a></li>
+                            <li><a href="">البنود و الظروف</a></li>
+                            <li class="d-block d-md-none mt-4">© حقوق النشر © 2019 زين جميع الحقوق محفوظة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- Footer Ends -->
+
+        <!-- body overlay -->
+        <div class="bodyoverlay"></div>
+        <div class='order-tracking-popup'>
+				<div class='close-tracking'>X</div>
+				<div class='order-tracking-popup-header'>
+					<h3>
+						<span><img src='images/delivery-pic_09.png' /></span>
+						تتبع الطلب
+					</h3>
+					<p>أبجد هوز دولور الجلوس امات، إيليت، الحوار الاقتصادي الاستراتيجي والحيوية، بحيث تعبا وحزنا، وبعض الأشياء الهامة التي يجب القيام. </p>
+				</div>
+				<div class='order-tracking-popup-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899" id="map-canvas" style="border:0;" allowfullscreen="" width="600" height="450" frameborder="0"></iframe>
+					<div class='shipping-tracker'><img src='images/shipping-map-pointer_03.png' /></div>
+				</div>
+			</div>
+
+
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js"></script>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

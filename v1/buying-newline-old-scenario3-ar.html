@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+<head>
+<title>Cart Summary - Scenario 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+  <link rel="stylesheet" type="text/css" href="css/main_new_ar.css" />
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />  
+
+  <!-- dated 8-4-2020 code starts -->
+  <link href="css/datepicker.css" rel="stylesheet" />
+  <!-- dated 8-4-2020 code ends -->
+
+
+</head>
+
+<body class="">
+  <div id="wrapper" class="container-fluid delivery-page">
+   <!-- Header -->
+   <header class="header main-header-bg">
+    <div class="main-header">
+        <div class="container">
+            <div class="row main-header-row flex-align-center">
+                <div class="col-md-4 col-3">
+                    <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+                </div>
+                <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+                    <!-- Division which shown in Tablet and Mobile -->
+                    <div class="mobile-controls text-right">
+                        <ul class="mobile-nav">
+                            <li>
+                                <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="right-nav justify-content-end offset-md-3">
+                        <li class="profile-btn"> <a href="javascript:void(0)" data-target-menu="#form_pp"
+                                class="btn btn-pc-4 btn-small text-t-none">تسجيل الدخول</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+
+<div class="cart-product-added" style="display: none;">
+  <img src="./images/white-tick.svg" alt="" />
+  <span> تمت إضافة المنتج بنجاح في سلة التسوق</span>
+</div>
+
+<div class="cart-product-removed" style="display: none;">
+  <img src="./images/white-tick.svg" alt="" />
+  <span> تمت إزالة المنتج بنجاح في سلة التسوق</span>
+</div>
+    
+    <!--Cart Desktop-->
+    <section class="shopping_cart_section_xain desktop_section_cart">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <div class="section-checkout_progressbar progress_new_checkout_zain">
+                  <div class="overflow-auto-mobile">
+                    <ul class="progress-status extras delivery_st checkout-details">
+                      <li class="step  text-left text-sm-center completed">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>إضافي</h2>
+                      </li>
+                      <li class="step  text-left text-sm-center animate completed">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>ملخص العربة</h2>
+                      </li>
+                      <li class="step text-left text-sm-center">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>التسليم والدفع</h2>
+                      </li>
+                      <li class="step text-left text-sm-center">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>تأكيد</h2>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          
+
+
+      </div>
+  </section>
+  <!--Cart Desktop END-->
+
+   <!--Cart Mobile-->
+  <section class="shopping_cart_mobile_section_xain">
+      <div class="container">
+     
+          <div class="row">
+              <div class="col-12">
+                <div class="section-checkout_progressbar progress_new_checkout_zain">
+                  <div class="overflow-auto-mobile">
+                    <ul class="progress-status extras delivery_st checkout-details">
+                      <li class="step  text-left text-sm-center completed">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>إضافي</h2>
+                      </li>
+                      <li class="step  text-left text-sm-center animate completed">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>ملخص العربة</h2>
+                      </li>
+                      <li class="step text-left text-sm-center">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>توصيل</h2>
+                      </li>
+                      <li class="step text-left text-sm-center">
+                        <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                        <h2>تأكيد</h2>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                    <div class="mob_seperator_cart"></div>
+              </div>
+          </div>
+
+      </div>
+
+  </section>
+
+  <!--Shopping Cart Starts-->
+
+  <section class="shopping_cart_section_xain checkout-master-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="cart-heading-mobile">عربة التسوق</h2>
+            <div class="shopping_cart_outter_wrap mb-0 pb-2 pb-md-4">
+                <div class="heading_content_wrap">
+                        <h2>عربة التسوق  <span class="ml-2">(2)</span></h2>
+                </div>
+                <div class="shopping_items_wrap_zain">
+                  <h3 class="car_single_heading">الخط الموجود</h3>
+                    <div class="shopping_item_single_zain border-0">
+                        <div class="product_single_first">
+                            <div class="image_wrap_item">
+                                <img src="./images/sim_card.png" alt="product cart img" />
+                            </div>
+                            <div class="product_name_outter_zain">
+                                <h2>Wiyana 5G</h2>
+                                <div class="existing-line d-flex">
+                                  <h2>الخط الموجود - 95577833</h2>
+                                </div>
+                                <div class="chnage_number_wrap product_remove_wrap1 mt-3">
+                                  <a class="ml-4 remove_line" href="javascript:void(0)">إزالة</a>
+                                  <a href="javascript:void(0)">تغيير رقم</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="product_signle_second text-right" data-price="7.4">
+                            <h2>دك <span>7.4</span></h2>
+                        </div>
+                       
+                    </div>
+    
+    
+                  <div class="shopping_item_single_zain border-1 mb-4 mb-md-5 pb-4 pb-md-5">
+                    <div class="product_single_first transform_mob">
+                        <div class="image_wrap_item">
+                            <img src="./images/samsung_plus.png" alt="product cart img" />
+                        </div>
+                        <div class="product_name_outter_zain">
+                          <h2>Samsung Galaxy S22 Plus 5G</h2>
+                          <div class="product_input_select_wrap d-none my-2">
+                              <div class="select_wrap_single ml-2">
+                                  <select class="form-select memory" aria-label="Default select example">
+                                      <option selected>64GB</option>
+                                      <option value="1">128GB</option>
+                                      <option value="2">256GB</option>
+                                      <option value="3">512GB</option>
+                                    </select>
+                              </div>
+                              <div class="select_wrap_single ml-2">
+                                  <select class="form-select color" aria-label="Default select example">
+                                      <option selected>أرجواني</option>
+                                      <option value="1">لون أخضر</option>
+                                      <option value="2">أسود</option>
+                                      <option value="3">أسود</option>
+                                    </select>
+                              </div>
+                          </div>
+                          <div class="existing-line col-mem d-flex">
+                            <h2>أحمر - 256GB</h2>
+                          </div>
+                          <div class="product_update_wrap mt-3" style="display: none">
+                            <a class="update-button" href="javascript:void(0)">تحديث</a>
+                        </div>
+                          <div class="product_action_wrap product_remove_wrap1 mt-3">
+                              <a class="ml-4 edit-button" href="javascript:void(0)">يحرر</a>
+                          </div>
+  
+                      </div>
+                    </div>
+
+
+                    <div class="product_single_first transform_desktop" data-price="7.4">
+                      <div class="image_wrap_item">
+                        <img src="./images/samsung_plus.png" alt="product cart img" />
+                      </div>
+                      <div class="product_name_outter_zain name_adjustment">
+                        <div class="outter_switch_name">
+                          <div class="content-name-outter">
+                            <h2>Samsung Galaxy S22 Plus 5G</h2>
+                            <div class="existing-line col-mem d-flex">
+                              <h2>التزام 24 شهر</h2>
+                            </div>
+                            <div class="product_input_select_wrap d-flex mt-3">
+                              <div class="select_wrap_single">
+                             
+                                  <select class="form-select number-select" aria-label="Default select example">
+                                    <option selected>64GB</option>
+                                    <option value="1">128GB</option>
+                                    <option value="2">256GB</option>
+                                    <option value="3">512GB</option>
+                                    </select>
+                              </div>
+                              <div class="select_wrap_single mx-2">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected="">أحمر</option>
+                                      <option value="1">أزرق</option>
+                                      <option value="2">لون أخضر</option>
+                                      <option value="3">ذهب</option>
+                                    </select>
+                              </div>
+                           
+                              <div class="select_wrap_single itemqty">
+                                <select class="form-select item_qty number-select" aria-label="Default select example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                            </div>
+                          </div>
+                         
+                          </div>
+                        </div>
+                      
+                         
+
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+                <div class="shopping_item_single_zain pb-2 pb-md-0">
+                  <div class="product_single_first transform_mob pd-adjustments" data-price="124">
+                      <div class="image_wrap_item">
+                          <img src="./images/shopping_cart.png" alt="product cart img" />
+                      </div>
+                      <div class="product_name_outter_zain">
+                          <h2>بطاقة هدايا بلاي ستيشن</h2>
+                          <div class="product_input_select_wrap d-none my-2">
+                              <div class="select_wrap_single ml-2">
+                                  <select class="form-select memory" aria-label="Default select example">
+                                      <option selected>64GB</option>
+                                      <option value="1">128GB</option>
+                                      <option value="2">256GB</option>
+                                      <option value="3">512GB</option>
+                                    </select>
+                              </div>
+                              <div class="select_wrap_single ml-2">
+                                  <select class="form-select color" aria-label="Default select example">
+                                      <option selected>أرجواني</option>
+                                      <option value="1">لون أخضر</option>
+                                      <option value="2">أسود</option>
+                                      <option value="3">أسود</option>
+                                    </select>
+                              </div>
+                              <!-- <div class="select_wrap_single ml-2 itemqty">
+                                <select class="form-select item_qty" aria-label="Default select example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                            </div> -->
+                          </div>
+                          <div class="existing-line col-mem d-flex">
+                            <h2>أحمر - 256GB</h2>
+                          </div>
+                          <div class="product_input_select_wrap1">
+                            <div class="select_wrap_single mr-0 itemqty">
+                              <select class="form-select item_qty" aria-label="Default select example">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="product_update_wrap mt-3" style="display: none">
+                            <a class="update-button" href="javascript:void(0)">تحديث</a>
+                        </div>
+                          <div class="product_action_wrap product_remove_wrap1 mt-3">
+                              <a class="ml-4 edit-button" href="javascript:void(0)">يحرر</a>
+                              <a class="delete-button" href="javascript:void(0)">إزالة</a>
+                          </div>
+  
+                      </div>
+                      <div class="product_signle_second text-left" data-price="7.4">
+                        <h2>دك <span>124</span></h2>
+                        <div class="custom-number-input input_product_multiple">
+                            <button class="btn btn-minus">-</button>
+                            <input type="text" class="form-control" readonly="" value="1" maxlength="10" minlength="1">
+                            <button class="btn btn-plus">+</button>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="shopping_items_wrap_zain">
+                    <div class="product_single_first transform_desktop" data-price="7.4">
+                      <div class="image_wrap_item">
+                        <img src="./images/shopping_cart.png" alt="product cart img" />
+                      </div>
+                      <div class="product_name_outter_zain name_adjustment">
+                        <div class="outter_switch_name">
+                          <div class="content-name-outter">
+                            <h2>بطاقة هدايا بلاي ستيشن</h2>
+                            
+                            <div class="product_input_select_wrap d-flex mt-3">
+                              <div class="select_wrap_single">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected="">أحمر</option>
+                                      <option value="1">أزرق</option>
+                                      <option value="2">لون أخضر</option>
+                                      <option value="3">ذهب</option>
+                                    </select>
+                              </div>
+                              <div class="select_wrap_single mx-2">
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>64GB</option>
+                                    <option value="1">128GB</option>
+                                    <option value="2">256GB</option>
+                                    <option value="3">512GB</option>
+                                    </select>
+                              </div>
+                              <div class="select_wrap_single itemqty">
+                                <select class="form-select item_qty" aria-label="Default select example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                            </div>
+                          </div>
+  
+                          <div class="product_remove_wrap mt-3">
+                              <a class="remove_line" href="javascript:void(0)">إزالة</a>
+                          </div>
+                          </div>
+                          <div class="product_signle_second text-left" data-price="7.4">
+                            <h2>دك <span>124</span></h2>
+                            <div class="custom-number-input input_product_multiple desk-quantity">
+                                <button class="btn btn-minus">-</button>
+                                <input type="text" class="form-control" readonly="" value="1" maxlength="10" minlength="1">
+                                <button class="btn btn-plus">+</button>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+
+                <!-- promo start -->
+  <div class="promo_wrapper_checkout coupon_code_desktop mb-5">
+    <h2 class="promo_heading_top">
+        رمز ترويجي
+    </h2>
+
+    <div class="promo_outter_input_row d-flex align-items-center">
+
+        <h2 class="mb-0 ml-4">أضف رمز ترويجي أو قسيمة</h2>
+       <div class="btn_input_Wrapper d-flex">
+        <div class="input_wrapper_checkout">
+            <input class="promo_input" type="text" name="promo-checkout" placeholder="كود الخصم (اختياري)">
+            <p class="promo_success d-none">تم تطبيق الرمز الترويجي بنجاح.</p>
+            <p class="promo_error d-none">الرمز الترويجي الذي أدخلته غير صالح. حاول مرة اخرى.</p>
+        </div>
+        <button class="btn_promo mr-2 ml-md-4" type="submit" disabled="">يتقدم</button>
+       </div> 
+        
+    </div>
+
+    
+ </div>
+
+    <div class="coupon_code_mob mb-4">
+      <div class="coupon_content_wrap">    
+        <h2>القسيمة / الرمز الترويجي</h2>
+        <a href="#!" class="add_promo_mob">+ أضف</a>
+      </div>
+    
+    <div class="promo_outter_input_row d-flex align-items-center" style="display: none !important;">
+        <div class="input_wrapper_checkout">
+            <input class="promo_input" type="text" name="promo-checkout" placeholder="Discount code (Optional)">
+            <p class="promo_success d-none">تم تطبيق الرمز الترويجي بنجاح.</p>
+            <p class="promo_error d-none">الرمز الترويجي الذي أدخلته غير صالح. حاول مرة اخرى.</p>
+        </div>
+        <button class="btn_promo ml-0 ml-md-4" type="submit" disabled="">يتقدم</button>
+    </div>
+  </div>
+
+  <!-- Promo End -->
+           
+        </div>
+        <div class="col-md-4">
+            <div class="side_wrap_cart_zain">
+                <h2 class="order_cart_heading">اطلب Sumary</h2>
+                <ul class="list_items_cart">
+                    <li><h3 class="title_total sub_total">المجموع الفرعي</h3><h3 class="price_total sub_total">دك <span>45.2</span></h3></li>
+                   <li>
+                    <div class="d-flex align-items-center">
+                       <h3 class="m-0">الدفع الشهري</h3>
+                       <div class="tooltip_summary mr-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                          <span class="tooltiptext">سيتم إرسال مبلغ الفاتورة لخطتك الجديدة كل شهر ، مع تحديد تاريخ الاستحقاق. لم يتم تضمينه في الدفع الإجمالي.</span>
+                       </div>
+                    </div>
+                    <h3 class="price_total">دك <span>24</span></h3>
+                 </li>
+          
+                </ul>
+                <div class="total_item_price">
+                    <h3>موعد التسليم اليوم</h3><h3>دك <span>45.2</span></h3>
+                </div>
+    
+                <div class="btn_wrapper d-flex">
+
+                  <button class="btn btn-cart-1c">عربة واضحة</button>
+                  <button class="btn btn-pc-1a" onclick="window.location.href = './checkout-main-summary-scenario3-ar.html';">
+                      <div class="spinner-border d-none" role="status">
+                          <span class="sr-only">جار التحميل...</span>
+                      </div>
+                      <b class="text_checkout">الدفع</b>
+
+                  </button>
+
+              </div>
+    
+                <div class="continue_wrapper">
+                    <a href="#">مواصلة التسوق</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+
+    <!--Shopping Cart Ends-->
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        
+        </div>
+       
+      </div>
+       
+    </div>
+
+
+    <section class="shopping_cart_mobile_section_xain">
+
+    <div class="cart_main_mob_wrap">
+
+      <div class="cart_scroll_mob_main fixed-cta">
+
+        <div class="cart_scroll_inner" style="display: none">
+          <div class="summaary_heading_cart_mob">
+            <h2 class="mb-0">ملخص</h2>
+          </div>
+
+            <div class="scroll_products_cart">
+
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Zain Plus Phone Number</h3>
+                    <p class="mb-0">الرقم الحالي 95577833</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>دك 13</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>iPhone Pro Max</h3>
+                    <p class="mb-0">الأحمر - 256 جيجابايت</p>
+                    <p class="mb-0">الالتزام: 24 شهر</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>دك 13</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/ipods_scrolls.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Apple Airpods 3rd Gen</h3>
+                    <p class="mb-0">الالتزام: 24 شهر</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>دك 5</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Zain Plus Phone Number</h3>
+                    <p class="mb-0">الرقم الحالي 95577833</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>دك 13</h3>
+                  </div>
+              </div>
+
+            </div>
+
+        </div>
+     
+
+
+        <div class="car_total_mob_new" >
+          <div class="order_summary_mob">
+            <div class="d-flex justify-content-between content_tab_fixed_bar">
+              <h2>ملخص الطلب</h2>
+              <a href="javascript:void(0)" class="view_details_cart_zain">
+                عرض التفاصيل
+              </a>
+            </div>
+              
+              <ul class="pl-0 order_summary_mob_list">
+
+                <li>
+                  <div class="d-flex align-items-center">
+                     <p>المجموع الفرعي</p>
+                  </div>
+                  <p>دك <span>366</span></p>
+               </li>
+
+             <li>
+              <div class="d-flex align-items-center">
+                 <p>الدفع الشهري</p>
+                 <div class="tooltip_summary mr-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                    <span class="tooltiptext">سيتم إرسال مبلغ الفاتورة لخطتك الجديدة كل شهر ، مع تحديد تاريخ الاستحقاق. لم يتم تضمينه في الدفع الإجمالي.</span>
+                 </div>
+              </div>
+              <p>دك 24</p>
+           </li>
+                  
+              </ul>
+              <div class="dues_total_mob">
+                  <h2>موعد التسليم اليوم</h2>
+                  <h2>دك <span>16.5</span></h2>
+              </div>
+              <div class="btn_wrapper d-flex">
+                        
+                  <button class="btn btn-cart-1c">عربة واضحة</button>
+                  <button onclick="document.location='./checkout-main-summary-scenario3-ar.html'" class="btn btn-pc-1a">الدفع</button>
+
+              </div>
+          </div>
+      </div>
+      </div>
+
+      
+    </div>
+   
+
+  </section>
+
+    <!--Cart Mobile End-->
+
+  
+             <!-- Footer -->
+             <footer class="main-footer2 footer_extra_master">
+              <div class="container">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="footer_zain_new d-flex justify-content-between align-items-center w-100">
+                               <a href="#">
+                                   <img src="./images/footer_new_zain.svg" alt="footer logo" />
+                               </a>
+                               <div class="footer_new">
+                                   <div class="links_footer_master">
+                                       <ul class="d-flex">
+                                           <li>
+                                              <a href="#"><img src="./images/instagram_footer.svg" alt="instagram" /></a> 
+                                           </li>
+                                           <li>
+                                               <a href="#"><img src="./images/twitter_footer.svg" alt="instagram" /></a> 
+                                           </li>
+                                           <li>
+                                               <a href="#"><img src="./images/facebook_footer.svg" alt="instagram" /></a> 
+                                           </li>
+                                           <li>
+                                               <a href="#"><img src="./images/youtube_footer.svg" alt="instagram" /></a> 
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+   
+                       </div>
+   
+                       <div class="col-12">
+                        <div class="disclaimer_footer d-flex ali">
+                          <div>
+                           <p class="mb-0">2022 زين. جميع الحقوق محفوظة.</p>
+                          </div>
+                          <div>
+                           <a href="#">سياسة الخصوصية</a>
+                           <a href="#">شروط الخدمة</a>
+                           <a href="#">إعدادات ملفات تعريف الارتباط </a>
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+              </div>
+           </footer>
+           <!-- Footer Ends -->
+ 
+    <div class="bodyoverlay hide"></div>
+    <div class="order-tracking-popup extras-popup -small hide">
+      <div class="close-tracking"><img src="./images/close-popup-icon.svg" alt=""></div>
+      <div class="order-tracking-popup-header">
+        <h3>Upload/Scan ID</h3>
+        <div class="col-md-12 text-center">
+          <div class="tab-head">
+            <ul>
+              <li class="active" id="front-tab">
+                <span>1</span>
+                <p>Upload Front</p>
+              </li>
+              <li id="back-tab">
+                <span>2</span>
+                <p>Upload Back</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <ul>
+              <li class="active">
+                <div class="drag-file">
+                  <!-- onchange="readFrontURL(this);" -->
+                  <input type="file" id="upload-front">
+                  <label for="upload-front">
+                    <div>
+                      <img src="images/card-popup.svg" alt="">
+                    </div>
+                    <p>Please upload a copy of your valid identification in PNG, JPEG or PDF format, no larger than 3mb
+                      in size</p>
+                    <div>
+                      <span>UPLOAD</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-front">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> preview</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> delete</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="drag-file">
+                  <input type="file" id="upload-back">
+                  <label for="upload-back">
+                    <div>
+                      <img src="images/camera.svg8" alt="">
+                    </div>
+                    <p>Please upload a copy of your valid identification in PNG, JPEG or PDF format, no larger than 3mb
+                      in size</p>
+                    <div>
+                      <span>UPLOAD</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-back">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> preview</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> delete</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3 next-btn" href="" disabled="true">Next</a>
+        <a class="btn btn-pc-3 finish-btn hide" href="" disabled="true">Finish</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="bodyoverlay hide"></div> -->
+    <!-- Popup Confirmation -->
+    <div class='order-tracking-popup confirmation_popup -small hide' id="popup-small">
+      <div class='close-tracking'><img src="./images/close-popup-icon.svg" alt=""></div>
+      <div class='order-tracking-popup-header'>
+          <h3> أبعد </h3>
+          <p class='color-gray'>Are you sure would like to Remove the product</p>
+      </div>
+      <div class="popup-action pay-actions pb-3 text-center pt-2 d-flex justify-content-center">
+          
+          <a class="btn btn-pc-1 close-popup-small cancel_from_popover" href='javascript:void(0)'>إلغاء الأمر</a>
+          <a class="btn btn-pc-3 close-popup-small remove_item_yes" href='javascript:void(0)'>أكد</a>
+      </div>
+    </div>
+    <!-- Popup Confirmation End -->
+
+
+
+
+
+
+
+
+
+    <div class="scripts">
+      <!-- jQuery -->
+      <script src="./js/jQuery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="./js/scrolltrigger.js" ></script>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.min.js"></script>
+      <!-- Slick Slider -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Custom - Select Slider -->
+      <script src="./js/select2.min.js"></script>
+      <!-- Search type suggetion -->
+      <script src="./js/typeahead.bundle.min.js"></script>
+      <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <!-- Custom js -->
+      <script src="./js/custom.js"></script>
+      <!-- dated 8-4-2020 code starts -->
+      <script src="js/bootstrap-datepicker.js"></script>
+      <script>
+        // Wiyana Products - Slider
+    if ($(".additional-products-slider").length) {
+      var dir_val = false;
+      if (document.getElementById("langs") != null) {
+        dir_val = true;
+      }
+      $(".additional-products-slider").slick({
+        infinite: false,
+        autoplay: false,
+        draggable: true,
+        centerPadding: "0px",
+        slidesToShow: 3.2,
+        slidesToScroll: 1,
+        centerMode: false,
+        rtl: dir_val,
+        arrows: false,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1440,
+            settings: {
+              arrows: false,
+              slidesToShow: 2.3,
+              centerMode: false,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              arrows: false,
+              slidesToShow: 2,
+              draggable: true,
+              centerMode: false,
+              dots: false
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: "0px",
+              slidesToShow: 1.2,
+              draggable: true,
+              dots: false
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: "0px",
+              slidesToShow: 1.6,
+              draggable: true,
+              dots: false
+            },
+          },
+        ],
+      });
+    }
+      </script>
+   
+ 
+    </div>
+  </div>
+</body>
+
+</html>

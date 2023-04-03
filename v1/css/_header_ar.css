@@ -1,0 +1,42 @@
+
+.quick-pay-link i::before {
+    transform: rotate(180deg) !important;
+}
+.mobile-megamenu .icon-right-arrow::before {
+    transform: rotate(180deg) !important;
+}
+html[dir=rtl].kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li a {
+    text-align: right;
+}
+html[dir=rtl].kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu .hasSubNav {
+    display: flex;
+}
+html[dir=rtl].kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu .hasSubNav a {
+    display: flex;
+    align-items: center;
+}
+html[dir=rtl].kw #wrapper .float-right, html[dir=rtl].kw #wrapper .pull-right {
+    float: left !important;
+}
+html[dir=rtl].kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .quick-pay-link {
+    text-align: right !important;
+}
+
+html[dir=rtl].kw #wrapper .header .main-header .mobile-menu-toggle .main-mobile-menu .mobile-megamenu li .mobile-megamenu-level-2 .lvl-2-content .accordian-menu>li>a i {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    [dir='rtl'].kw #wrapper .section-checkout_progressbar .progress-status .step.active + .step{
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    [dir='rtl'].kw #wrapper .section-checkout_progressbar.reg_multistep_progressbar .progress-status.extras .step .step_label{
+        left: 0;
+        right: 40px !important;
+    } 
+    [dir='rtl'].kw #wrapper .section-checkout_progressbar.reg_multistep_progressbar .progress-status.extras .step.active .step_label{
+        justify-content: flex-end;
+    } 
+}
+

@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en" class="kw">
+
+<head>
+  <title>Tinext - Checkout Master Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Style links -->
+  <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+  <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+  <link rel="stylesheet" type="text/css" href="css/nice-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="css/main_new.css" />
+  <link rel="stylesheet" type="text/css" href="css/wiyana-mobile.css" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <!-- dated 8-4-2020 code starts -->
+  <link href="css/datepicker.css" rel="stylesheet" />
+  <!-- dated 8-4-2020 code ends -->
+
+
+</head>
+
+<body class="">
+  <div id="wrapper" class="container-fluid delivery-page">
+    <!-- Header -->
+    <header class="header main-header-bg">
+      <div class="main-header">
+        <div class="container-fluid-custom">
+          <div class="row main-header-row flex-align-center">
+            <div class="col-md-4 col-3">
+              <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+            </div>
+            <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+              <!-- Division which shown in Tablet and Mobile -->
+              <div class="mobile-controls text-right">
+                <ul class="mobile-nav">
+                  <li>
+                    <button class="btn btn-pc-4 profile-btn"><i class="icon-user-4"></i></button>
+                  </li>
+                  <li> <a href=""><i class="icon-heart-feel-grey"></i></a> </li>
+                  <li class="cart-dropdown"> <a href="#" data-target-menu="#cartdropdownmenu"><i
+                        class="icon-empty-shopping-card"></i></a> </li>
+                  <li class="mobile-menu-toggle position-static"> <a href=""><i class="icon-hamburger"
+                        data-target-menu="#mobile-menu"></i></a>
+                    <div class="main-mobile-menu" id="mobile-menu">
+                      <div class="sub-menu">
+                        <div class="form-group">
+                          <select class="form-control custom-select dropdown-transparent light" id="">
+                            <option value="Customer">Customer</option>
+                            <option value="Business">Business</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="container-fluid-custom">
+                        <ul class="mobile-megamenu">
+                          <li> <a href="#" class="active"> <i class="icon-cart-with-plus"></i>&ensp;Shop </a> <span
+                              class="float-right"><i class="icon-right-arrow"></i></span> </li>
+                          <li> <a href="#"> <i class="icon-headphones-with-mic"></i> &ensp;Support </a> <span
+                              class="float-right"><i class="icon-right-arrow"></i></span> </li>
+                          <li> <a href="#"> <i class="icon-Group-1561"></i> &ensp;5G </a> <span class="float-right"><i
+                                class="icon-right-arrow"></i></span> </li>
+                        </ul>
+                      </div>
+                      <div class="container">
+                        <p class="quick-pay-link text-left"> <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                        </p>
+                      </div>
+                      <div class="mobile-search">
+                        <!-- Search -->
+                        <div class="search-autocomplete d-block">
+                          <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false"
+                            placeholder="Search">
+                          <button class="btn main-search-btn btn-pc-3 "> <i class="icon-magnifying-glass "></i>
+                          </button>
+                        </div>
+                        <!-- Search End -->
+                      </div>
+                      <div class="language-selector text-center">
+                        <ul>
+                          <li><a href="#">EN</a></li>
+                          <li><a href="#">العربية</a></li>
+                        </ul>
+                      </div>
+                      <div class="form-group country-selector">
+                        <select class="form-control custom-select dropdown-transparent light" id="">
+                          <option value="Kuwait">Kuwait</option>
+                          <option value="USA">USA</option>
+                        </select>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <ul class="right-nav justify-content-between offset-md-3">
+                <li class="grand-total"> <a href="javascript:void(0)" class="active"><i
+                      class="icon-empty-shopping-card"></i></a>
+                  <div class="text-left mt-1">
+                    <h6 class="mb-0">Grand-Total</h6>
+                    <h3 class=" mb-0">KD 59</h3>
+                  </div>
+                </li>
+                <li class="profile-btn"> <a href="javascript:void(0)" data-target-menu="#form_pp"
+                    class="btn btn-pc-4 btn-small text-t-none"> <i class="icon-user-4"></i> &nbsp;My ZAIN </a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="cart-product-added" style="display: none;">
+      <img src="./images/white-tick.svg" alt="" />
+      <span> Product added successfully in cart</span>
+    </div>
+
+    <div class="cart-product-removed" style="display: none;">
+      <img src="./images/white-tick.svg" alt="" />
+      <span> Product removed successfully in cart</span>
+    </div>
+    
+    <!--Cart Desktop-->
+    <section class="shopping_cart_section_xain desktop_section_cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery & Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+    </section>
+    <!--Cart Desktop END-->
+
+     <!--Cart Mobile-->
+    <section class="shopping_cart_mobile_section_xain">
+        <div class="container">
+       
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-checkout_progressbar progress_new_checkout_zain">
+                        <div class="overflow-auto-mobile">
+                          <ul class="progress-status extras delivery_st checkout-details">
+                            <li class="step  text-left text-sm-center completed">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Summary</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Delivery &amp; Checkout</h2>
+                            </li>
+                            <li class="step text-left text-sm-center">
+                              <div class="step_circle m-0 m-sm-auto"> <i class="icon-check-mark-button"></i> </div>
+                              <h2>Confirmation</h2>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mob_seperator_cart"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Shopping Cart Starts-->
+
+    <section class="shopping_cart_section_xain checkout-master-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2 class="cart-heading-mobile">Shopping Cart</h2>
+              <div class="shopping_cart_outter_wrap mb-0">
+                  <div class="heading_content_wrap">
+                          <h2>Shopping Cart  <span class="ml-2">(2)</span></h2>
+                          <h3 class="car_single_heading">Existing Line</h3>
+                  </div>
+                  <div class="shopping_items_wrap_zain">
+                      <div class="shopping_item_single_zain border-0">
+                          <div class="product_single_first">
+                              <div class="image_wrap_item">
+                                  <img src="./images/sim_card.png" alt="product cart img" />
+                              </div>
+                              <div class="product_name_outter_zain">
+                                  <h2>Wiyana 5G</h2>
+                                  <div class="existing-line d-flex">
+                                    <h2>Existing line - 95577833</h2>
+                                  </div>
+                                  <div class="chnage_number_wrap mt-3">
+                                    <a class="mr-4 delete-button" href="javascript:void(0)">Remove</a>
+                                    <a href="javascript:void(0)">Change number</a>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="product_signle_second text-right" data-price="7.4">
+                              <h2>KD <span>7.4</span></h2>
+                          </div>
+                         
+                      </div>
+      
+                      <div class="shopping_item_single_zain border-0">
+                        <div class="product_single_first">
+                            <div class="image_wrap_item">
+                                <img src="./images/sim_card.png" alt="product cart img" />
+                            </div>
+                            <div class="product_name_outter_zain">
+                                <h2>Zain Plus Phone Number</h2>
+                                <div class="existing-line d-flex">
+                                  <h2>Existing line - 95577833</h2>
+                                </div>
+                                <div class="product_remove_wrap mt-3">
+                                    <a class="delete-button" href="javascript:void(0)">Remove</a>
+                                </div>
+      
+                            </div>
+                        </div>
+      
+                        <div class="product_signle_second text-right" data-price="7.4">
+                            <h2>KD <span>13</span></h2>
+                        </div>
+                       
+                    </div>
+      
+                    <div class="shopping_item_single_zain border-0">
+                      <div class="product_single_first transform_mob">
+                          <div class="image_wrap_item">
+                              <img src="./images/Iphone.png" alt="product cart img" />
+                          </div>
+                          <div class="product_name_outter_zain">
+                              <h2>iPhone Pro Max</h2>
+                              <div class="product_input_select_wrap d-none my-2">
+                                  <div class="select_wrap_single">
+                                      <select class="form-select memory" aria-label="Default select example">
+                                          <option selected>64GB</option>
+                                          <option value="1">128GB</option>
+                                          <option value="2">256GB</option>
+                                          <option value="3">512GB</option>
+                                        </select>
+                                  </div>
+                                  <div class="select_wrap_single ml-3">
+                                      <select class="form-select color" aria-label="Default select example">
+                                          <option selected>Purple</option>
+                                          <option value="1">Green</option>
+                                          <option value="2">Black</option>
+                                          <option value="3">Black</option>
+                                        </select>
+                                  </div>
+                              </div>
+                              <div class="existing-line col-mem d-flex">
+                                <h2>Red - 256GB</h2>
+                              </div>
+                              <div class="existing-line d-flex">
+                                <h2 class="m-0">Commitment: 24 months</h2>
+                              </div>
+                              <div class="product_update_wrap mt-3" style="display: none">
+                                <a class="update-button" href="javascript:void(0)">Update</a>
+                            </div>
+                              <div class="product_action_wrap mt-3">
+                                  <a class="mr-4 edit-button" href="javascript:void(0)">Edit</a>
+                                  <a class="delete-button" href="javascript:void(0)">Remove</a>
+                              </div>
+      
+                          </div>
+                      </div>
+
+
+                      <div class="product_single_first transform_desktop" data-price="7.4">
+                        <div class="image_wrap_item">
+                          <img src="./images/Iphone.png" alt="product cart img" />
+                        </div>
+                        <div class="product_name_outter_zain name_adjustment">
+                          <div class="outter_switch_name">
+                            <div class="content-name-outter">
+                              <h2>iPhone Pro Max</h2>
+                              
+                              <div class="product_input_select_wrap d-flex mt-3">
+                                <div class="select_wrap_single">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="">Red</option>
+                                        <option value="1">Blue</option>
+                                        <option value="2">Green</option>
+                                        <option value="3">Gold</option>
+                                      </select>
+                                </div>
+                                <div class="select_wrap_single mx-2">
+                                    <select class="form-select" aria-label="Default select example">
+                                      <option selected>64GB</option>
+                                      <option value="1">128GB</option>
+                                      <option value="2">256GB</option>
+                                      <option value="3">512GB</option>
+                                      </select>
+                                </div>
+                                <div class="select_wrap_single itemqty">
+                                  <select class="form-select item_qty" aria-label="Default select example">
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="4">4</option>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                      <option value="7">7</option>
+                                      <option value="8">8</option>
+                                      <option value="9">9</option>
+                                      <option value="10">10</option>
+                                    </select>
+                              </div>
+                            </div>
+                            <div class="existing-line d-flex">
+                              <h2>Commitment 24 Months</h2>
+                            </div>
+  
+                            <div class="product_remove_wrap mt-3">
+                                <a href="javascript:void(0)">Remove</a>
+                            </div>
+                            </div>
+                            <div class="product_signle_second text-right" data-price="7.4">
+                              <h2>KD <span>7.4</span></h2>
+                              <div class="custom-number-input input_product_multiple">
+                                  <button class="btn btn-minus">-</button>
+                                  <input type="text" class="form-control" readonly="" value="1" maxlength="10" minlength="1">
+                                  <button class="btn btn-plus">+</button>
+                              </div>
+                          </div>
+                          </div>
+                        
+                           
+  
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+      
+                  <div class="shopping_items_wrap_zain">
+                      <!-- <div class="shopping_item_single_zain border-0">
+                          <div class="product_single_first">
+                              <div class="image_wrap_item">
+                                  <img src="./images/shopping_cart.png" alt="product cart img" />
+                              </div>
+                              <div class="product_name_outter_zain">
+                                  <h2>Nintendo-Gift Card</h2>
+                                  <div class="existing-line d-flex">
+                                    <h2>Existing line - 95577833</h2>
+                                  </div>
+                                  <div class="chnage_number_wrap mt-3">
+                                      <a href="javascript:void(0)">Change number</a>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="product_signle_second text-right" data-price="7.4">
+                              <h2>KD <span>7.4</span></h2>
+                          </div>
+                         
+                      </div> -->
+      
+                      
+                      <!-- <div class="shopping_item_single_zain border-1 mb-4">
+                          <div class="product_single_first">
+                              <div class="image_wrap_item">
+                                  <img src="./images/playstation_product.png" alt="product cart img" />
+                              </div>
+                              <div class="product_name_outter_zain">
+                                  <h2>PlayStation-Gift Card</h2>
+                                  
+                                  <div class="existing-line d-flex">
+                                    <h2>Commitment 24 Months</h2>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="product_signle_second text-right" data-price="7.4">
+                              <h2>KD <span>7.4</span></h2>
+                          </div>
+                         
+                      </div> -->
+                      <div class="shopping_item_single_zain border-0 mb-0">
+                        <div class="product_single_first">
+                            <div class="image_wrap_item">
+                                <img src="./images/router_img_checkout.png" alt="product cart img" />
+                            </div>
+                            <div class="product_name_outter_zain">
+                                <h2>5G Orbi Router</h2>
+                                <div class="existing-line d-flex">
+                                  <h2>Commitment 24 Months</h2>
+                                </div>
+                                <div class="chnage_number_wrap mt-3">
+                                  <a class="delete-button-with-heading" href="javascript:void(0)">Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gift wrap -->
+
+
+                    <div class="shopping_item_single_zain border-1 mb-4 pt-0">
+                      <div class="product_single_first gift_wrap_nrm">
+                          <div class="image_wrap_item"> 
+                          </div>
+
+                        <div class="d-flex wrapper_content_gift_xrm">
+                          <div class="product_name_outter_zain">
+                            <div class="custom-checkbox form-group">
+                              <div class="form-group">
+                                  <input type="checkbox" class="form-control" name="save-card" id="save-card">
+                                  <label for="save-card">Add Gift Wrap</label>
+                              </div>   
+                            </div>
+                            <div class="d-none gift-text-areas">
+                              <div class="text_area_wrapper_nrm d-flex flex-column">
+                                <label for="gift-messaage">
+                                  Enjoy your gift!
+                                </label>
+                                <textarea id="gift-messaage" name="gift-message" class="input-control">Enjoy your gift!</textarea>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="product_signle_second text-right d-none" data-price="1">
+                            <h2>KD <span>1</span></h2>
+                            <div class="select_wrap_single wrap_input_gift">
+                              <select class="form-select" aria-label="Default select example">
+                                <option value="1" selected="">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                </select>
+                            </div>
+                          </div>
+                        </div>  
+                        
+
+
+
+                      </div>
+                  </div>
+                      <!-- gift wrap END -->
+
+                  </div>
+      
+                  
+      
+                  <div class="heading_content_wrap">
+                    <h3 class="car_single_heading">E-Cards</h3>
+            </div>
+            <div class="shopping_items_wrap_zain">
+                <div class="shopping_item_single_zain border-0">
+                    <div class="product_single_first">
+                        <div class="image_wrap_item">
+                            <img src="./images/shopping_cart.png" alt="product cart img" />
+                        </div>
+                        <div class="product_name_outter_zain">
+                            <h2>Nintendo-Gift Card</h2>
+                            
+                            <div class="chnage_number_wrap mt-3">
+                              <a class="delete-button-with-heading" href="javascript:void(0)">Remove</a>
+                          </div>
+      
+                        </div>
+                    </div>
+      
+                    <div class="product_signle_second text-right" data-price="7.4">
+                        <h2>KD <span>10</span></h2>
+                    </div>
+                   
+                </div>
+
+
+
+            <div class="shopping_item_single_zain border-0">
+              <div class="product_single_first" data-price="7.4">
+                <div class="image_wrap_item">
+                    <img src="./images/shopping_cart.png" alt="product cart img" />
+                </div>
+                <div class="product_name_outter_zain">
+                    <h2>PlayStation-Gift Card</h2>
+                    <div class="existing-line d-flex">
+                      <h2>$50</h2>
+                    </div>
+                    <div class="product_input_select_wrap d-flex mt-2 mt-md-0">
+                     
+                        <div class="select_wrap_single itemqty">
+                          <select class="form-select item_qty" aria-label="Default select example">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                            </select>
+                      </div>
+                    </div>
+
+                    <div class="product_remove_wrap mt-3">
+                        <a href="javascript:void(0)">Remove</a>
+                    </div>
+
+                </div>
+            </div>
+
+              <div class="product_signle_second text-right" data-price="7.4">
+                <h2>KD <span>7.4</span></h2>
+                <div class="custom-number-input input_product_multiple">
+                    <button class="btn btn-minus">-</button>
+                    <input type="text" class="form-control" readonly="" value="1" maxlength="10" minlength="1">
+                    <button class="btn btn-plus">+</button>
+                </div>
+            </div>
+              
+          </div>
+
+         
+
+
+            </div>
+              </div>
+              <div class="promo_wrapper_checkout coupon_code_desktop">
+                <h2 class="promo_heading_top">
+                    Promo Code
+                </h2>
+
+                <div class="promo_outter_input_row d-flex align-items-center">
+
+                    <h2 class="mb-0 mr-4">Add a promotion code or voucher</h2>
+                   <div class="btn_input_Wrapper d-flex">
+                    <div class="input_wrapper_checkout">
+                        <input class="promo_input" type="text" name="promo-checkout" placeholder="Discount code (Optional)">
+                        <p class="promo_success d-none">Promo code successufully applied.</p>
+                        <p class="promo_error d-none">The promo code you entered is invalid. Please try again.</p>
+                    </div>
+                    <button class="btn_promo ml-2 ml-md-4" type="submit" disabled="">APPLY</button>
+                   </div> 
+                    
+                </div>
+
+                
+            </div>
+
+            <div class="coupon_code_mob">
+              <div class="coupon_content_wrap">    
+                <h2>Coupon / Promo Code</h2>
+                <a href="#!" class="add_promo_mob">+Add</a>
+              </div>
+            
+            <div class="promo_outter_input_row d-flex align-items-center" style="display: none !important;">
+                <div class="input_wrapper_checkout">
+                    <input class="promo_input" type="text" name="promo-checkout" placeholder="Discount code (Optional)">
+                    <p class="promo_success d-none">Promo code successufully applied.</p>
+                    <p class="promo_error d-none">The promo code you entered is invalid. Please try again.</p>
+                </div>
+                <button class="btn_promo ml-0 ml-md-4" type="submit" disabled="">APPLY</button>
+            </div>
+          </div>
+             
+          </div>
+          <div class="col-md-4">
+              <div class="side_wrap_cart_zain">
+                  <h2 class="order_cart_heading">Order Sumary</h2>
+                  <ul class="list_items_cart">
+                      <li><h3 class="title_total sub_total">Sub total <span>(2)</span>:</h3><h3 class="price_total sub_total">KD <span>45.2</span></h3></li>
+                      <li>
+                        <div class="d-flex align-items-center">
+                           <h3 class="m-0">Deposit Payment</h3>
+                           <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                              <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                           </div>
+                        </div>
+                        <h3 class="price_total">KD <span>24</span></h3>
+                     </li>
+                     <li>
+                      <div class="d-flex align-items-center">
+                         <h3 class="m-0">Monthly payment</h3>
+                         <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                            <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                         </div>
+                      </div>
+                      <h3 class="price_total">KD <span>24</span></h3>
+                   </li>
+                      <li><h3 class="title_total">Shipping:</h3><h3 class="price_total">---</h3></li>
+                  </ul>
+                  <div class="total_item_price">
+                      <h3>Due Today</h3><h3>KD <span>45.2</span></h3>
+                  </div>
+      
+                  <div class="btn_wrapper d-flex">
+                     
+                      <button class="btn btn-cart-1c">CLEAR CART</button>
+                      <button class="btn btn-pc-1a">
+                        <div class="spinner-border d-none" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                        <b class="text_checkout">CHECKOUT</b>
+                         
+                      </button>
+      
+                  </div>
+      
+                  <div class="continue_wrapper">
+                      <a href="#">Continue Shopping</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!--Shopping Cart Ends-->
+
+    <!---- Additional Products Slider Starts ---->
+    <section class="simcard-product-slider smart_home additional_products_slider">
+      <div class="container">
+          <div class="row looking-device-row pb-0 eeZee-looking-device-row mt-0">
+              <div class="col-12 col-lg-8 text-center">
+                  <h2>Need a new phone?</h2>
+                  <p>Look at all the devices you can choose for Zain Plus </p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="heading__tablets_conected">
+                      <div class="row">
+                          <div class="additional-products-slider sim_ezee_wrap col-12">
+
+                              <div class="single_outer_product slick_smart_home tab_slick_poduct stay_home_slick">
+                                  <div class="products_single_slide pt-3 pb-3 pt-lg-4 pb-lg-4">
+                                      <div class="product_img text-center">
+                                          <img src="./images/airpod-pro.png" alt="deco">
+                                      </div>
+                                      <div class="content_single_box mb-0 mt-0">
+                                          <span class="apple-title-tab">Apple</span>
+                                          <h3 class="apple_ipad_title mb-2 mt-0">Apple Airpods 3rd Gen</h3>
+                                          
+                                          <h4>KD 5 <span>/month</span></h4>
+                                      </div>
+                                      <div class="simcard-product-button single-product">
+                                        <!-- Add this Class Below for spinner css (add-spinner)  -->
+                                          <button class="btn btn_buy_now_prr" >
+                                            <!-- <div class="spinner-border" role="status">
+                                              <span class="sr-only">Loading...</span>
+                                            </div> -->
+                                            Add to cart
+                                          </button>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="single_outer_product slick_smart_home tab_slick_poduct stay_home_slick">
+                                <div class="products_single_slide pt-3 pb-3 pt-lg-4 pb-lg-4">
+                                    <div class="product_img text-center">
+                                        <img src="./images/wiyana/ezee04.png" alt="deco">
+                                    </div>
+                                    <div class="content_single_box mb-0 mt-0">
+                                        <span class="apple-title-tab">Apple</span>
+                                        <h3 class="apple_ipad_title pd-clr mb-2 mt-0">Apple Airpods 1rd Gen</h3>
+                                        <div id="deviceSpecifications"
+                                          aria-labelledby="headingOne"
+                                          data-parent="#accordionExample" class="d-none device_specs_list">
+                                          <ul class="size_clr new_clr_in">
+                                              <li>
+                                                <div class="memory_in">
+                                                    <a href="#">128GB</a>
+                                                    <a href="#">256GB</a>
+                                                    <a href="#">512GB</a>
+                                                    <a href="#">1TB</a>
+                                                </div>
+                                              </li>
+                                              <li>
+                                                <div class="colur_in">
+                                                  <a href="#"><span class="yellow_cl"></span></a>
+                                                    <a href="#"><span class="green_cl"></span></a>
+                                                    <a href="#"><span class="black_cl"></span></a>
+                                                    <a href="#"><span class="pink_cl"></span></a>
+                                                </div>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                        <h4 class="clr-price">KD 5 <span>/month</span></h4>
+                                    </div>
+                                    <div class="simcard-product-button variable-product">
+                                      <!-- Add this Class Below for spinner css (add-spinner)  -->
+                                        <button class="btn btn_buy_now_prr">
+                                          <!-- <div class="spinner-border" role="status">
+                                              <span class="sr-only">Loading...</span>
+                                            </div> -->
+                                          Add to cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single_outer_product slick_smart_home tab_slick_poduct stay_home_slick">
+                              <div class="products_single_slide pt-3 pb-3 pt-lg-4 pb-lg-4">
+                                  <div class="product_img text-center">
+                                      <img src="./images/wiyana/ezee04.png" alt="deco">
+                                  </div>
+                                  <div class="content_single_box mb-0 mt-0">
+                                      <span class="apple-title-tab">Apple</span>
+                                      <h3 class="apple_ipad_title mb-2 mt-0">Apple Airpods 3rd Gen</h3>
+                                      <h4>KD 5 <span>/month</span></h4>
+                                  </div>
+                                  <div class="simcard-product-button single-product">
+                                    <!-- Add this Class Below for spinner css (add-spinner)  -->
+                                      <button class="btn btn_buy_now_prr">
+                                        <!-- <div class="spinner-border" role="status">
+                                              <span class="sr-only">Loading...</span>
+                                            </div> -->
+                                        Add to cart
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="single_outer_product slick_smart_home tab_slick_poduct stay_home_slick">
+                            <div class="products_single_slide pt-3 pb-3 pt-lg-4 pb-lg-4">
+                                <div class="product_img text-center">
+                                    <img src="./images/wiyana/ezee04.png" alt="deco">
+                                </div>
+                                <div class="content_single_box mb-0 mt-0">
+                                    <span class="apple-title-tab">Apple</span>
+                                    <h3 class="apple_ipad_title mb-2 mt-0">Apple Airpods 3rd Gen</h3>
+                                    <h4>KD 5 <span>/month</span></h4>
+                                </div>
+                                <div class="simcard-product-button single-product">
+                                  <!-- Add this Class Below for spinner css (add-spinner)  -->
+                                  <button class="btn btn_buy_now_prr">
+                                    <!-- <div class="spinner-border" role="status">
+                                          <span class="sr-only">Loading...</span>
+                                        </div> -->
+                                    Add to cart
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_outer_product slick_smart_home tab_slick_poduct stay_home_slick">
+                          <div class="products_single_slide pt-3 pb-3 pt-lg-4 pb-lg-4">
+                              <div class="product_img text-center">
+                                  <img src="./images/wiyana/ezee04.png" alt="deco">
+                              </div>
+                              <div class="content_single_box mb-0 mt-0">
+                                  <span class="apple-title-tab">Apple</span>
+                                  <h3 class="apple_ipad_title mb-2 mt-0">Apple Airpods 3rd Gen</h3>
+                                  <h4>KD 5 <span>/month</span></h4>
+                              </div>
+                              <div class="simcard-product-button single-product">
+                                  <!-- Add this Class Below for spinner css (add-spinner)  -->
+                                  <button class="btn btn_buy_now_prr">
+                                    <!-- <div class="spinner-border" role="status">
+                                          <span class="sr-only">Loading...</span>
+                                        </div> -->
+                                    Add to cart
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </section>
+    <!---- Additional Products Slider Ends ----->
+
+
+    <section class="shopping_cart_mobile_section_xain">
+
+    <div class="cart_main_mob_wrap">
+
+      <div class="cart_scroll_mob_main">
+
+        <div class="cart_scroll_inner" style="display: none">
+          <div class="summaary_heading_cart_mob">
+            <h2 class="mb-0">Summary</h2>
+          </div>
+
+            <div class="scroll_products_cart">
+
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Zain Plus Phone Number</h3>
+                    <p class="mb-0">Existing Number - 95577833</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>KD 13</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/mob_scroll_photo.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>iPhone Pro Max</h3>
+                    <p class="mb-0">Red - 256GB</p>
+                    <p class="mb-0">Commitment : 24 months</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>KD 13</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/ipods_scrolls.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Apple Airpods 3rd Gen</h3>
+                    <p class="mb-0">Commitment : 24 months</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>KD 5</h3>
+                  </div>
+              </div>
+
+              <div class="scroll_product_single d-flex justify-content-between">
+
+                <div class="scroll_img_wrap_cart d-flex">
+                  <img src="./images/sim_cart_scroll.png" alt="sim cart" />
+
+                  <div class="scroll_product_content">
+                    <h3>Zain Plus Phone Number</h3>
+                    <p class="mb-0">Existing Number - 95577833</p>
+                  </div>
+                </div>
+                
+
+                  <div class="price_wrap_scroll_inner">
+                    <h3>KD 13</h3>
+                  </div>
+              </div>
+
+            </div>
+
+        </div>
+     
+
+
+        <div class="car_total_mob_new" >
+          <div class="order_summary_mob">
+            <div class="d-flex justify-content-between content_tab_fixed_bar">
+              <h2>Order Summary</h2>
+              <a href="javascript:void(0)" class="view_details_cart_zain">
+                View Details
+              </a>
+            </div>
+              
+              <ul class="pl-0 order_summary_mob_list">
+
+                <li>
+                  <div class="d-flex align-items-center">
+                     <p>Sub Total</p>
+                  </div>
+                  <p>KD <span>366</span></p>
+               </li>
+
+               <li>
+                <div class="d-flex align-items-center">
+                   <p>Deposit Payment</p>
+                   <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                      <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                   </div>
+                </div>
+                <p>KD 24</p>
+             </li>
+
+             <li>
+              <div class="d-flex align-items-center">
+                 <p>Monthly payment</p>
+                 <div class="tooltip_summary ml-2"><img src="./images/tooltip_icon.svg" alt="tooltip">
+                    <span class="tooltiptext">The invoice amount for your new plan will be sent each month, with the due date indicated. It is not included in the total payment.</span>
+                 </div>
+              </div>
+              <p>KD 24</p>
+           </li>
+                  
+              </ul>
+              <div class="dues_total_mob">
+                  <h2>Due Today</h2>
+                  <h2>KD <span>16.5</span></h2>
+              </div>
+              <div class="btn_wrapper d-flex">
+                        
+                  <button class="btn btn-cart-1c">CLEAR CART</button>
+                  <button class="btn btn-pc-1a">CHECKOUT</button>
+
+              </div>
+          </div>
+      </div>
+      </div>
+
+      
+    </div>
+   
+
+  </section>
+
+    <!--Cart Mobile End-->
+
+  
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container footer-content">
+        <div class="row">
+          <div class="col-lg-3 colunm-wrapper">
+            <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">Products</a></h3>
+            <ul class="footer-links">
+              <li><a href="">Smartphone</a></li>
+              <li><a href="">Home Broadband</a></li>
+              <li><a href="">SIM Card</a></li>
+              <li><a href="">Tablet</a></li>
+              <li><a href="">Gaming</a></li>
+              <li><a href="">Accessories</a></li>
+              <li><a href="">E-cards</a></li>
+              <li><a href="">Add-ons</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+            <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Plans</a></h3>
+            <ul class="footer-links">
+              <li><a href="">Pay Monthly</a></li>
+              <li><a href="">Pay As You Go</a></li>
+              <li><a href="">Roaming and International</a></li>
+            </ul>
+            <div class="d-none d-md-block">
+              <h3 class="footer-title"><a href="">Zain Life</a></h3>
+              <h3 class="footer-title"><a href="">Offers</a></h3>
+              <h3 class="footer-title"><a href="">5G</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+            <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">Support</a></h3>
+            <ul class="footer-links">
+              <li><a href="">Chat</a></li>
+              <li><a href="">Locate A Branch</a></li>
+              <li><a href="">Order Tracking</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">FAQs</a></li>
+              <li><a href="">Careers</a></li>
+            </ul>
+            <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a href="">Discover
+                Zain</a></h3>
+          </div>
+          <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+            <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">Discover Zain</a></h3>
+          </div>
+          <div class="col-lg-3 colunm-wrapper">
+            <h3 class="footer-title connect">Connect With Us</h3>
+            <ul class="socialmedia footer-links inline">
+              <li><a href=""><i class="icon-Group-1564"></i></a></li>
+              <li><a href=""><i class="icon-twitter"></i></a></li>
+              <li><a href=""><i class="icon-facebook"></i></a></li>
+            </ul>
+            <h3 class="footer-title"><i class="icon-user-4 mr-2"></i>My Zain</h3>
+            <ul class="user footer-links">
+              <li><a href="" class="cl-pc-3">Login</a></li>
+              <li><a href="" class="cl-pc-3">Register</a></li>
+            </ul>
+            <div class="footer-seprator"></div>
+            <div class="order-track">
+              <h3 class="footer-title"></i>Track My Order</h3>
+              <div class="form-group">
+                <form>
+                  <input type="text" name="" class="form-control" placeholder="Email Order Number" id="">
+                  <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid-custom">
+        <div class="footer-seprator"></div>
+      </div>
+      <div class="container copyright_sect">
+        <div class="row align-items-end">
+          <div class="col-md-2 col-12">
+            <div class="site-logo"> <img src="./images/zain_logo.svg" alt="site_logo"> </div>
+          </div>
+          <div class="col-md-10 col-12">
+            <ul class="footer-links inline mb-0">
+              <li class="d-none d-md-inline-block copy">© Copyright © 2019 Zain All Rights Reserved</li>
+              <li><a href="">POLICY</a></li>
+              <li><a href="">TERMS & CONDITIONS</a></li>
+              <li class="d-block d-md-none mt-4 copy">© Copyright © 2019 Zain All Rights Reserved</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+ 
+    <div class="bodyoverlay hide"></div>
+    <div class="order-tracking-popup extras-popup -small hide">
+      <div class="close-tracking">X</div>
+      <div class="order-tracking-popup-header">
+        <h3>Upload/Scan ID</h3>
+        <div class="col-md-12 text-center">
+          <div class="tab-head">
+            <ul>
+              <li class="active" id="front-tab">
+                <span>1</span>
+                <p>Upload Front</p>
+              </li>
+              <li id="back-tab">
+                <span>2</span>
+                <p>Upload Back</p>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <ul>
+              <li class="active">
+                <div class="drag-file">
+                  <!-- onchange="readFrontURL(this);" -->
+                  <input type="file" id="upload-front">
+                  <label for="upload-front">
+                    <div>
+                      <img src="images/card-popup.svg" alt="">
+                    </div>
+                    <p>Please upload a copy of your valid identification in PNG, JPEG or PDF format, no larger than 3mb
+                      in size</p>
+                    <div>
+                      <span>UPLOAD</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-front">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> preview</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> delete</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="drag-file">
+                  <input type="file" id="upload-back">
+                  <label for="upload-back">
+                    <div>
+                      <img src="images/card-popup.svg" alt="">
+                    </div>
+                    <p>Please upload a copy of your valid identification in PNG, JPEG or PDF format, no larger than 3mb
+                      in size</p>
+                    <div>
+                      <span>UPLOAD</span>
+                    </div>
+                  </label>
+                </div>
+                <div class="upload-file hide" id="uploaded-back">
+                  <div class="uploaded-wrap">
+                    <img src="images/have-a-good-night.png" alt="">
+                    <div class="uploaded-btns">
+                      <a href="#" class="preview"><img src="images/visibility.svg" alt=""> preview</a>
+                      <a href="#" class="delete"><img src="images/trash.svg" alt=""> delete</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="popup-action pb-3 text-center pt-2">
+        <a class="btn btn-pc-3 next-btn" href="" disabled="true">Next</a>
+        <a class="btn btn-pc-3 finish-btn hide" href="" disabled="true">Finish</a>
+      </div>
+    </div>
+
+    <div class="scripts">
+      <!-- jQuery -->
+      <script src="./js/jQuery.js"></script>
+      <!-- Bootstrap -->
+      <script src="./js/bootstrap.min.js"></script>
+      <!-- Slick Slider -->
+      <script src="./js/slick.min.js"></script>
+      <!-- Custom - Select Slider -->
+      <script src="./js/select2.min.js"></script>
+      <!-- Search type suggetion -->
+      <script src="./js/typeahead.bundle.min.js"></script>
+      <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <!-- Custom js -->
+      <script src="./js/custom.js"></script>
+      <!-- dated 8-4-2020 code starts -->
+      <script src="js/bootstrap-datepicker.js"></script>
+      <script>
+        // Wiyana Products - Slider
+    if ($(".additional-products-slider").length) {
+      var dir_val = false;
+      if (document.getElementById("langs") != null) {
+        dir_val = true;
+      }
+      $(".additional-products-slider").slick({
+        infinite: false,
+        autoplay: false,
+        draggable: true,
+        centerPadding: "0px",
+        slidesToShow: 3.2,
+        slidesToScroll: 1,
+        centerMode: false,
+        rtl: dir_val,
+        arrows: false,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1440,
+            settings: {
+              arrows: false,
+              slidesToShow: 2.3,
+              centerMode: false,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              arrows: false,
+              slidesToShow: 2,
+              draggable: true,
+              centerMode: false,
+              dots: false
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: "0px",
+              slidesToShow: 1.2,
+              draggable: true,
+              dots: false
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: "0px",
+              slidesToShow: 1.3,
+              draggable: true,
+              dots: false
+            },
+          },
+        ],
+      });
+    }
+      </script>
+   
+ 
+    </div>
+  </div>
+</body>
+
+</html>

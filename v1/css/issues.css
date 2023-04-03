@@ -1,0 +1,231 @@
+.hotspot_routers .huawei_router > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+.huawei_router{
+    padding-right: 26px;
+}
+.huawei_router h3 del span{
+    font-size: 11px !important;
+}
+.stay_connected_slider .content_single_box{
+    margin-top: 18px !important;
+}
+.stay_connected_slider .products_single_slide h4{
+    margin-top: -7px;
+}
+.stay_connected_slider .primary-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wiyana_round_slider img {
+    max-width: 220px;
+}
+.content_slide_round  .wiyana_price_content{
+    margin-top: 15px;
+}
+/* .wearable_slider_for .slick-slide{
+    min-height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.single_outer_product del span{
+    font-size: 11px !important;
+}
+.single_outer_product h3 span{
+    font-size: 18px !important;
+}
+.single_outer_product h3 {
+    /* margin-top: -7px !important; */
+    margin-bottom: 0 !important;
+}
+.single_outer_product .product_button_box h3{
+    margin-top: -7px !important;
+}
+.single_outer_product .product_button_box p{
+    line-height: 16px !important;
+}
+.round_price_des{
+    display: block;
+}
+.content_slide_round .wiyana_price_content .price_indent span{
+    font-size: 11px !important;
+}
+.wzp_evenmore_slider_sec .product_button_box h3{
+    margin-top: -7px;
+    margin-bottom: 0;
+}
+.wzp_evenmore_slider_sec .product_button_box h3 span{
+    font-size: 18px !important;
+}
+.wzp_evenmore_slider_sec .sale-price-cut span{
+    font-size: 11px !important;
+}
+.wzp-steps-wrap img {
+    max-width: 280px !important;
+}
+
+.hotspot_routers .huawei_router > div{
+    max-width: 185px;
+}
+.wzp_single_box p{
+    margin-top: -6px;
+}
+.content_single_box .plus_selector{
+    margin-top: 0px !important;
+    margin-bottom: 11px !important;
+}
+.wzp_evenmore_pro_slider .products_single_slide img{
+    max-width: 130px;
+    margin-top: 18px !important;
+}
+.wearable_slider_for{
+    margin-top: 50px;
+}
+
+.products_single_slide img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 1400px) {
+    .wiyana_round_slider .slick-slide{
+        min-height: 280px !important;
+    }
+    .huawei_router h2{
+        font-size: 18px !important;
+    }
+    .huawei_router h3{
+        font-size: 18px;
+    }
+    .internet_devices h2{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .internet_devices h3{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .dark_template_round_slide .content_slide_round h3, .light_template_round_slide .content_slide_round h3{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .gaming_desk_section{
+        display: none;
+    }
+    .gaming_mobile_section {
+        display: block;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .col_ipad_adjust_wearable {
+        flex: 0 0 90% !important;
+        max-width: 90% !important;
+        padding: 0 140px !important;
+    }
+    .kw #wrapper .wearable_slider_nav .slick-dots {
+        bottom: -43px;
+    }
+   
+
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+
+    .gaming_product img {
+        max-height: 244px !important;
+        max-width: 220px;
+        object-fit: contain;
+        margin: 0 0 0;
+    }
+    .mob_rev_row .smart_slider_img {
+        margin-top: 20px;
+    }
+
+    .wzp-steps-wrap img {
+        max-width: 210px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hotspot_routers .huawei_router > div{
+        max-width: 134px;
+        max-height: 219px;
+        min-height: 219px;
+    }
+    .huawei_router h3 span{
+        font-size: 16px !important;
+    }
+    .internet_devices h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .products_zain_slider .products_single_slide{
+        padding-bottom: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content_single_box .plus_selector {
+        margin-top: 16px !important;
+        margin-bottom: 9px !important;
+        line-height: 28px !important;
+    }
+    .wzp_evenmore_pro_slider .products_single_slide img {
+        max-width: 120px !important;
+        margin-bottom: 0px !important;
+        margin-top: 10px !important;
+    }
+    .wzp_evenmore_pro_slider .content_single_box {
+        margin-top: 10px !important;
+    }
+    .wzp-steps-wrap img {
+        max-width: 140px !important;
+    }
+    .wiyana_round_slider img {
+        max-width: 180px;
+    }
+    .tbc_product_img img {
+        margin-top: 0 !important;
+    }
+    .hotspot_routers .row .row .col-lg-4 {
+        justify-content: center;
+        display: flex;
+    }
+    .wzp_evenmore_pro_slider .products_single_slide img{
+        max-width: 195px;
+    }
+    .wzp_evenmore_pro_slider .slick-slide img{
+        margin-bottom: 10px;
+    }
+    .huawei_router h2{
+        font-size: 14px !important;
+    }
+    .huawei_router h3{
+        margin-top: -8px;
+    }
+    .internet_devices h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .internet_devices h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .huawei_router{
+        padding-right: 0;
+    }
+    /* .hotspot_routers .mobile_rev_row{
+        max-width: 338px;
+        margin: 0 auto;
+    } */
+}

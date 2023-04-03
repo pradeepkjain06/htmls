@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="ar" class="kw" dir="rtl">
+
+<head>
+    <title>Tinext - Delivery and Checkout</title>
+    <meta charset="UTF-8">
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <!-- Style links -->
+    <link rel="stylesheet" type="text/css" href="css/lf-clay.css" />
+    <link rel="stylesheet" type="text/css" href="css/lf-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-custom-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/main-naveed.css" />
+    <link rel="stylesheet" type="text/css" href="css/rtl.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body class="">
+<input type="hidden" name="langs" id="langs" value="" />
+    <div id="wrapper" class="container-fluid">
+
+        <!-- Header -->
+        <header class="header main-header-bg">
+
+            <div class="main-header">
+                <div class="container-fluid-custom">
+
+                    <div class="row main-header-row flex-align-center">
+                        <div class="col-md-4 col-3">
+
+                            <div class="site-logo">
+                                <img src="./images/zain_logo.svg" alt="site_logo">
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-9 main-menu text-lg-center text-md-right">
+
+                            <!-- Division which shown in Tablet and Mobile -->
+                            <div class="mobile-controls text-right">
+
+                                <ul class="mobile-nav">
+                                    <li>
+                                        <a href="javascript:void(0)" data-target-menu="#form_pp" class="profile-btn btn btn-pc-4">
+                                        <i class="icon-user-4"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class="icon-heart-feel-grey"></i></a>
+                                    </li>
+
+                                    <li class="cart-dropdown">
+                                        <a href="#" data-target-menu="#cartdropdownmenu"><i
+                                                class="icon-empty-shopping-card"></i></a>
+
+                                    </li>
+
+                                    <li class="mobile-menu-toggle position-static">
+
+                                        <a href=""><i class="icon-hamburger" data-target-menu="#mobile-menu"></i></a>
+
+                                        <div class="main-mobile-menu" id="mobile-menu">
+
+                                            <div class="sub-menu">
+                                                <div class="form-group">
+                                                    <select
+                                                        class="form-control custom-select dropdown-transparent light"
+                                                        id="">
+                                                        <option value="Customer">Customer</option>
+                                                        <option value="Business">Business</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="container-fluid-custom">
+                                                <ul class="mobile-megamenu">
+                                                    <li>
+                                                        <a href="#" class="active">
+                                                            <i class="icon-cart-with-plus"></i>&ensp;Shop
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+
+                                                      
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-headphones-with-mic"></i>
+                                                            &ensp;Support
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="icon-Group-1561"></i>
+                                                            &ensp;5G
+                                                        </a>
+                                                        <span class="float-right"><i
+                                                                class="icon-right-arrow"></i></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                            <div class="container">
+                                                <p class="quick-pay-link text-left">
+                                                    <a href="">Quick Pay <i class="icon-right-arrow"></i></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="mobile-search">
+                                                <!-- Search -->
+                                                <div class="search-autocomplete d-block">
+                                                    <input type="text" class="typeahead tt-query" autocomplete="off"
+                                                        spellcheck="false" placeholder="Search">
+                                                    <button class="btn main-search-btn btn-pc-3 ">
+                                                        <i class="icon-magnifying-glass "></i>
+                                                    </button>
+                                                </div>
+                                                <!-- Search End -->
+                                            </div>
+
+                                            <div class="language-selector text-center">
+                                                <ul>
+                                                    <li><a href="#">EN</a></li>
+                                                    <li><a href="#">العربية</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="form-group country-selector">
+                                                <select class="form-control custom-select dropdown-transparent light" id="">
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    <option value="USA">USA</option>
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <ul class="right-nav justify-content-between offset-md-3">
+
+                                <li class="grand-total">
+                                    <a href="javascript:void(0)" class="active"><i
+                                            class="icon-empty-shopping-card"></i></a>
+                                    <div class="text-right mt-1">
+                                        <h6 class="mb-0">المبلغ الإجمالي</h6>
+                                        <h3 class=" mb-0">KD 59</h3>
+                                    </div>
+                                </li>
+
+                                <li class="profile-btn">
+                                    <a href="javascript:void(0)" data-target-menu="#form_pp" class="btn btn-pc-4 btn-small text-t-none">
+                                        <i class="icon-user-4"></i>
+                                        &nbsp;بلدي زين
+                                    </a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <!-- End Header -->
+
+        <section class="container-fluid-custom">
+
+
+            <div class="breadcrumb-wrapper inner-main-section-sm">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="icon-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item " aria-current="page">
+                            <a href="#">iPhone xs</a>
+                        </li>
+                        <li class="breadcrumb-item active">التسليم والخروج</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="layout-8-4">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="left-content-area col-sm-12 col-md-9">
+
+
+                            <div class="section-checkout_progressbar sect_sepretor mb-3 pb-3 mb-sm-5 pb-sm-5">
+                                <div class="overflow-auto-mobile">
+                                    <ul class="progress-status extras">
+                                        <li class="step active completed text-left text-sm-center">
+                                            <h3 class="step_label"><span>01</span><small>اضافات</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-button"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center">
+                                            <h3 class="step_label"><span>02</span><small>ملخص سلة التسوق</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-checklist"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center">
+                                            <h3 class="step_label"><span>03</span><small>التسليم والخروج</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-checkout1"></i>
+                                            </div>
+                                        </li>
+                                        <li class="step text-left text-sm-center">
+                                            <h3 class="step_label"><span>04</span><small>تاكيد</small></h3>
+                                            <div class="step_circle m-0 m-sm-auto">
+                                                <i class="icon-confirmation"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="delivery-tabs">
+
+                                <!-- Tab Content -->
+                                <div class="tab-content">
+                                    <!-- Tab 1 -->
+                                    <div id="home_delivery">
+
+                                        
+
+
+                                        <div class="payment-method-sect pb-2 pb-sm-5 pt-0 sect_sepretor">
+
+                                            <h1 class="main-heading">حدد رقمك</h1>
+                                            <p class="sub-text">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل ت.</p>
+
+                                            <div class="payment-radios extras_radio">
+
+                                                <ul>
+                                                    <li>
+                                                        <div class="custom-radio form-group">
+                                                            <input type="radio" class="form-control" name="payOption"
+                                                                id="knet">
+                                                            <label for="knet">
+                                                                <div class="labels w-100">
+                                                                <div class="row align-items-center">
+                                                                    <div class="col-md-3 col-4 text-center">
+                                                                        <select name="GB" id=""
+                                                                                class="form-control custom-select">
+                                                                                <option value="">955 983363</option>
+                                                                                <option value="">01</option>
+                                                                                <option value="">02</option>
+                                                                                <option value="">03</option>
+                                                                            </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <h4 class="text-center mb-0">الفضه</h4>
+                                                                    </div>
+                                                                    <div class="col-4 min_hgt">
+                                                                        <span class="btn btn-pc-5 d-none new_btn_clr"><i
+                                                                        class="icon-add-1"></i>&ensp;د.ك 02</span>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                    
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="custom-radio form-group">
+                                                            <input type="radio" class="form-control" name="payOption"
+                                                                id="gold" checked>
+                                                            <label for="gold">
+                                                                <div class="labels w-100">
+                                                                <div class="row align-items-center">
+                                                                    <div class="col-md-3 col-4 text-center">
+                                                                        <select name="GB" id=""
+                                                                                class="form-control custom-select">
+                                                                                <option value="">955 983367</option>
+                                                                                <option value="">01</option>
+                                                                                <option value="">02</option>
+                                                                                <option value="">03</option>
+                                                                            </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <h4 class="text-center mb-0">الذهب</h4>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <span class="btn btn-pc-5 new_btn_clr"><i
+                                                                        class="icon-add-1"></i>&ensp;د.ك 02</span>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                    
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="custom-radio form-group">
+                                                            <input type="radio" class="form-control" name="payOption"
+                                                                id="platinum">
+                                                            <label for="platinum">
+                                                                <div class="labels w-100">
+                                                                <div class="row align-items-center">
+                                                                    <div class="col-md-3 col-4 text-center">
+                                                                        <select name="GB" id=""
+                                                                                class="form-control custom-select">
+                                                                                <option value="">955 983369</option>
+                                                                                <option value="">01</option>
+                                                                                <option value="">02</option>
+                                                                                <option value="">03</option>
+                                                                            </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <h4 class="text-center mb-0">البلاتين</h4>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <span class="btn btn-pc-5 new_btn_clr"><i
+                                                                        class="icon-add-1"></i>&ensp;د.ك 02</span>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                    
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- Accessories -->
+                                <div class="delivery-tab-headings extras-heading sect_sepretor pt-3 pt-sm-5">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+
+                                            <h1 class="main-heading">اكسسوارات</h1>
+                                            <p class="sub-text">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
+											<input type="hidden" name="langs" id="langs" value="ar" />
+                                            <div class="product_wrapper">
+                                                            <div class="product_slider_new pb-3 mt-0 mb-3 mb-md-0">
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail recomanded slide_height mt-4 mb-4 mt-sm-5 mb-sm-5">
+                                                                        <div class="product-image setbg">
+                                                                            <img src="./images/iphone-rec.png" alt="" class="img-fluid mx-auto">
+                                                                        </div>
+                                                                        
+                                                                        <div class="product-detail black-overlay">
+                                                                            <label>موصى به لك</label>
+                                                                            
+                                                                            <h3 class="product-name">الهواء القرون</h3>
+                                                                            <p>مجاني مع اختيار خطتك</p>
+                                                                            <div class="price-tag">
+                                                                                <h4>+ د.ك 56.00</h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              <span class="tooltiptext">نص تلميح الأدوات</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail popular mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/apple.png" alt="" class="img-fluid mx-auto">
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                    <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <label>شعبيه</label>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">جوجل الرئيسية</h3>
+                                                                            <ul class="size_clr">
+                                                                                <li>
+                                                                                    <div class="sizes_in">
+                                                                                        <a href="#" class="active">64 GB</a>
+                                                                                        <a href="#">256 GB</a>
+                                                                                        <a href="#">512 GB</a>
+                                                                                    </div>
+                                                                                    <span class="lbl_sz">حجم</span>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="colur_in">
+                                                                                        <a href="#" class="active"><span class="black_cl"></span></a>
+                                                                                        <a href="#"><span class="blue_cl"></span></a>
+                                                                                        <a href="#"><span class="orange_cl"></span></a>
+                                                                                        <a href="#"><span class="yellow_cl"></span></a>
+                                                                                        <a href="#"><span class="white_cl"></span></a>
+                                                                                    </div>
+                                                                                    <span class="lbl_sz">اللون</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <div class="price-tag pt-1">
+                                                                                <h4>د.ك 29 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/mobile-red.png" alt="" class="img-fluid mx-auto">
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                    <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">إكس بوكس واحد X</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدءًا من</p>
+                                                                                <h4>د.ك 29 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail popular mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/apple.png" alt="" class="img-fluid mx-auto">
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                    <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <label>شعبيه</label>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">iPhone XS</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدءًا من</p>
+                                                                                <h4>د.ك 29 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Entertainment -->
+                                <div class="delivery-tab-headings sect_sepretor pt-3 pt-sm-5">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+
+                                            <h1 class="main-heading">الترفيه</h1>
+                                            <p class="sub-text">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
+
+                                            <div class="product_wrapper">
+                                                            <div class="product_slider_new pb-3 mt-0 mb-3 mb-md-0">
+
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail popular mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/apple.png" alt="" class="img-fluid mx-auto">
+
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                     <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <label> مقبول </label>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">كاتب المنزل الذكي</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدءًا من</p>
+                                                                                <h4>+د.ك 03 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail on_sale mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/mobile-yelow.png" alt="" class="img-fluid mx-auto">
+
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                     <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <label>للبيع</label>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">إكس بوكس واحد X</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدءًا من</p>
+                                                                                <div class="sale-price">
+                                                                                    <h5 class="strike">د.ك 18</h5>
+                                                                                    <h4>+د.ك 10 <small>الشهريه</small></h4>
+                                                                                    <div class="sale-label">
+                                                                                        <i class="icon-percentage-black"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                             
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/mobile-red.png" alt="" class="img-fluid mx-auto">
+
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                     <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">عش التعلم الجداول</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدءًا من</p>
+                                                                                <h4>د.ك 29 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="product-thumbnail popular mt-4 mb-4 mt-sm-5 mb-sm-5 slide_height extra-cart-box">
+                                                                        <div class="product-image">
+                                                                            <img src="./images/apple.png" alt="" class="img-fluid mx-auto">
+
+                                                                            <div class="hover-label-new">
+                                                                                <ul>
+                                                                                     <li><a href="#">تحديث وحدة تحكم لاسلكية</a></li>
+                                                                                    <li><a href="#">أقوى وحدة تحكم على الإطلاق</a></li>
+                                                                                    <li><a href="#">دعم حقيقي بدقة 4K وHDR</a></li>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <label> مقبول </label>
+                                                                        <div class="product-detail">
+                                                                            <h3 class="product-name">إكس بوكس واحد X</h3>
+                                                                            <div class="price-tag">
+                                                                                <p>بدء من</p>
+                                                                                <h4>د.ك 29 <small>الشهريه</small></h4>
+                                                                            </div>
+                                                                            <div class="abslut_btn"><button class="btn btn-pc-1">إضافة إلى سلة التسوق</button></div>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory"></i>
+                                                                              <span class="tooltiptext">تلميح الادوات النص</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- E-Card -->
+                                <div class="delivery-tab-headings sect_sepretor pt-3 pt-sm-5">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+
+                                            <h1 class="main-heading">البطاقة الإلكترونية</h1>
+                                            <p class="sub-text">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ</p>
+
+                                            <div class="product_wrapper">
+                                                            <div class="product_slider_new pb-3 mt-0 mb-3 mb-md-0">
+
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="rounded-new text-center mt-3 mb-3 mt-sm-5 mb-sm-5">
+                                                                        <img src="./images/e-card1.png" alt="" class="img-fluid w-100">
+                                                                        <div class="bg-pink p-4 position-relative">
+                                                                            <button class="btn btn-pc-6">إضافة إلى سلة التسوق</button>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory text-white"></i>
+                                                                              <span class="tooltiptext">نص تلميح الأدوات</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="rounded-new text-center mt-3 mb-3 mt-sm-5 mb-sm-5">
+                                                                        <img src="./images/e-card2.png" alt="" class="img-fluid w-100">
+                                                                        <div class="bg-pink p-4 position-relative">
+                                                                            <button class="btn btn-pc-6">إضافة إلى سلة التسوق</button>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory text-white"></i>
+                                                                              <span class="tooltiptext">نص تلميح الأدوات</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="rounded-new text-center mt-3 mb-3 mt-sm-5 mb-sm-5">
+                                                                        <img src="./images/e-card3.png" alt="" class="img-fluid w-100">
+                                                                        <div class="bg-pink p-4 position-relative">
+                                                                            <button class="btn btn-pc-6">إضافة إلى سلة التسوق</button>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory text-white"></i>
+                                                                              <span class="tooltiptext">نص تلميح الأدوات</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-lg-3 ">
+
+                                                                    <div class="rounded-new text-center mt-3 mb-3 mt-sm-5 mb-sm-5">
+                                                                        <img src="./images/e-card1.png" alt="" class="img-fluid w-100">
+                                                                        <div class="bg-pink p-4 position-relative">
+                                                                            <button class="btn btn-pc-6">إضافة إلى سلة التسوق</button>
+                                                                            <div class="tooltip_new"><i class="icon-exclamatory text-white"></i>
+                                                                              <span class="tooltiptext">نص تلميح الأدوات</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                            </div>
+
+
+                            <div class="page_navigation d-flex justify-content-between">
+
+                                <button class="btn btn-pc-5 btn-lrg">الخطوة السابقة</button>
+                                <button class="btn btn-pc-3 btn-lrg">الخطوة التالية</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="right-content-area col-md-3 d-none d-md-block">
+
+                        <!-- right content start -->
+
+                        <div class="card checkout-card cart-summary-dropdown">
+
+                            <div class="card-header text-center">
+                                <p class="mb-0"><i class="icon-empty-shopping-card fs-24"></i><span>ملخص سلة التسوق</span>
+                                </p>
+                            </div>
+
+                            <div class="card-body custom-scroll new_height">
+
+                                <div class="product-sect">
+                                    <h5 class="sect-title">المنتجات</h5>
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">فون XS</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>الذهب</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">التزام الفتره <br>24 اشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 29</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="plan-sect">
+                                    <h5 class="sect-title">خطه</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">eeZee الإنترنت <br>حزمه</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>5 غيغابايت 4G Lte</p>
+                                                    <p>غير محدود المحليه الرسائل</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب اليوم</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب في الشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 10</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    <h5 class="sect-title">الترفيه</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">د.ك 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                   
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">د.ك 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                    <label for="" class="right-lbl">د.ك 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                               
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pr-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">سبب اليوم</p>
+                                                    <label for="" class="right-lbl">د.ك 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">د.ك 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="card-footer">
+
+                                <h5 class="sect-title">مجموع</h5>
+
+                                <div class="product-item main-total">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">الاستحقاق اليوم</p>
+                                                <label for="" class="right-lbl">د.ك 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                <label for="" class="right-lbl">د.ك 29</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-action">
+
+                                    <button class="btn btn-link"><i class="icon-delete fs-16 mr-0"></i>&ensp; مجموعة واضحة</button>
+                                    <button class="btn btn-pc-3"> الاستعراض والدفع</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- right content end -->
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer class="main-footer">
+
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-lg-3 colunm-wrapper">
+                        <h3 class="footer-title "><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+
+                        <ul class="footer-links">
+                            <li><a href="">حقيقة /a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+                        <div class="d-none d-md-block">
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                            <h3 class="footer-title"><a href="">حقيقة </a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title"><i class="icon-add-1"></i><a href="#">هناك حقي</a></h3>
+                        <ul class="footer-links">
+                            <li><a href="">حقوق </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                            <li><a href="">حقيقة </a></li>
+                        </ul>
+
+                        <h3 class="footer-title discover d-none d-md-block"><i class="icon-add-1"></i><a
+                                href="">
+                                حقيقة </a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper d-block d-md-none">
+                        <h3 class="footer-title discover"><i class="icon-add-1"></i><a href="">حقيقة </a></h3>
+                    </div>
+                    <div class="col-lg-3 colunm-wrapper">
+
+                        <h3 class="footer-title connect">حقيقة </h3>
+
+                        <ul class="socialmedia footer-links inline">
+                            <li><a href=""><i class="icon-Group-1564"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                        </ul>
+
+                        <h3 class="footer-title"><i class="icon-user-4 ml-2"></i>حقيقة </h3>
+
+                        <ul class="user footer-links">
+                            <li><a href="" class="cl-pc-3">حقيقة </a></li>
+                            <li><a href="" class="cl-pc-3">حقيقة </a></li>
+                        </ul>
+
+                        <div class="footer-seprator"></div>
+
+                        <div class="order-track">
+
+                            <h3 class="footer-title"></i>حقيقة </h3>
+
+                            <div class="form-group">
+                                <form>
+                                    <input type="text" name="" class="form-control" placeholder="رقم طلب البريد الإلكتروني"
+                                        id="">
+                                    <button class="addon"><i class="icon-arrow-pointing-to-right"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid-custom">
+                <div class="footer-seprator"></div>
+            </div>
+
+            <div class="container copyright_sect">
+                <div class="row align-items-end">
+                    <div class="col-md-2 col-12">
+                        <div class="site-logo">
+                            <img src="./images/zain_logo.svg" alt="site_logo">
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-12">
+                        <ul class="footer-links inline mb-0">
+                            <li class="d-none d-md-inline-block copy">© حقوق الطبع والنشر © 2019 زين جميع الحقوق محفوظة</li>
+                            <li><a href="">سياسات</a></li>
+                            <li><a href="">البنود و الظروف</a></li>
+                            <li class="d-block d-md-none mt-4 copy">© حقوق الطبع والنشر © 2019 زين جميع الحقوق محفوظة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- Footer Ends -->
+
+         <!-- Form Pop Up -->
+        <div class="form_pop" id="form_pp">
+            <a class="customer-box" href="javascript:void(0);"><i class="icon-cancel-1"></i></a>
+            <h2 class="text-center pb-4 pt-5 pt-sm-0">هل أنت عميل زين؟</h2>
+            <div class="row justify-content-center d-flex">
+
+                                                                <!-- row 1 -->
+                                                                <div class="col-md-12">
+                                                                    <div class="form-group">
+                                                                        <label for="" class="font-weight-bold">المستعمل اسم</label>
+                                                                        <input type="text" name="" id="" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                     <div class="form-group">
+                                                                        <label for="" class="font-weight-bold">كلمه السر</label>
+                                                                        <input type="text" name="" id="" class="form-control">
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- Row 3 -->
+                                                                <div class="col-md-6 col-6">
+                                                                    <div class="custom-checkbox form-group save-card">
+                                                                        <input type="checkbox" class="form-control" name=""
+                                                                            id="save-card" checked>
+                                                                        <label for="save-card">تذكر أنا</label>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-md-6 col-6 text-left">
+                                                                    <a href="#" class="link"> نسيت كلمه السر?</a>
+                                                                </div>
+                                                                
+                                                                <div class="col-md-8 pt-4">
+                                                                    <div class="text-center">
+
+                                                                        <button class="btn btn-pc-3 btn-lrg w-85">تسجيل الدخول</button>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-8 pb-2 pt-4">
+                                                                    <div class="text-center">
+
+                                                                        <button class="btn btn-pc-5 btn-lrg w-85"><i class="icon-facebook mr-2"></i> تسجيل الدخول باستخدام الفيسبوك</button>
+
+                                                                    </div>
+                                                                </div>
+
+
+
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row justify-content-center d-flex align-items-center pt-2 pb-4">
+                                                                <div class="col-md-5 col-6">
+                                                                    
+                                                                    <p class="sub-text m-0 text-left">ليس لديك حساب؟</p>
+                                                                </div>
+                                                                <div class="col-md-5 col-6 text-right">
+                                                                    <button href="javascript:void(0)" data-target-menu="#register_pp" class="btn btn-pc-4 cl-sc-1">سجل هنا</button>
+                                                                </div>
+                                                            </div>
+        </div>
+        <!-- Form Pop Up Ends -->
+
+        <!-- Registrr  Pop Up -->
+        <div class="form_pop" id="register_pp">
+            <a class="customer-box" href="javascript:void(0);"><i class="icon-cancel-1"></i></a>
+            <div class="row justify-content-center d-flex pb-4 pt-5">
+
+                                                                <!-- row 1 -->
+                                                                <div class="col-md-12">
+                                                                    <div class="form-group">
+                                                                        <label for="">أدخل بريدك الإلكتروني </label>
+                                                                        <input type="text" name="" id="" class="form-control">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <hr class="style15">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                     <div class="form-group">
+                                                                        <label for="">أدخل رقم هاتفك المحمول</label>
+                                                                        <input type="text" name="" id="" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-md-8 pt-4">
+                                                                    <div class="text-center">
+
+                                                                        <button class="btn btn-pc-3 btn-lrg w-85">إرسال رمز التحقق</button>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-8 pb-2 pt-4">
+                                                                    <div class="text-center">
+
+                                                                        <button class="btn btn-pc-5 btn-lrg w-85"><i class="icon-facebook mr-2"></i> سجل مع الفيسبوك</button>
+
+                                                                    </div>
+                                                                </div>
+
+
+
+                                                            </div>
+                                                        
+        </div>
+        <!-- Form Pop Up Ends -->
+
+        <!-- body overlay -->
+        <div class="bodyoverlay show"></div>
+        <div class="order-tracking-popup extras-popup -small show">
+				<div class="close-tracking">X</div>
+				<div class="order-tracking-popup-header">
+					<h3>
+						<span><img src="images/supermarket.svg" alt=""></span>
+						حدد خيار الدفع
+					</h3>
+					 <div class="col-md-12 text-center industry-button">
+                        <ul class="list_buttonssss">
+                            <li><button class="btn btn-pc-5 btn-lrg new_btn_mn "><span>6 الشهور</span>دينار كويتي 15</button></li>
+                            <li><button class="btn btn-pc-5 btn-lrg new_btn_mn"><span>6 الشهور</span>دينار كويتي 15</button></li>
+                            <li><button class="btn btn-pc-5 btn-lrg new_btn_mn"><span>6 الشهور</span>دينار كويتي 15</button></li>
+                            <li><button class="btn btn-pc-5 btn-lrg new_btn_mn "><span>6 الشهور</span>دينار كويتي 15</button></li>
+                        </ul>
+                     </div>
+				</div>
+                 
+				<div class="popup-action pb-3 text-center pt-2">
+						<a class="btn btn-pc-3" href="">تحديث طلبي</a>
+				</div>
+			</div>
+        <div class="cart-stripe">
+            
+            <div class="fixed-sect" style="display: block;">
+                <a class="btn-stripe" href="javascript:void(0)"><img src="images/cart-up-arrow.svg" alt=""></a>
+                <div class="cart-mobile">
+                    <div class="text-center">
+                        <a class="remove-stripe" href="javascript:void(0)"><img src="images/cart-arrow-down.svg" alt=""></a>
+                    </div>    
+                    <div class="card checkout-card cart-summary-dropdown">
+                            <div class="card-header text-center">
+                                <p class="mb-0"><i class="icon-empty-shopping-card fs-24"></i><span>ملخص العربة</span>
+                                </p>
+                            </div>
+
+                            <div class="card-body">
+
+                                <div class="product-sect">
+                                    <h5 class="sect-title">منتجات</h5>
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">iPhone XS</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>64 غيغابايت</p>
+                                                    <p>ذهب</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">فترة الالتزام <br>24 الشهور</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="plan-sect">
+                                    <h5 class="sect-title">خطة</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/Iphone.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex">
+                                                    <p class="left-lbl item-title">إنترنت eeZee <br>حزمة</p>
+                                                    <label for="" class="right-lbl">KD 0</label>
+                                                </div>
+                                                <div class="product-details">
+                                                    <p>5 جيجابايت 4G LTE</p>
+                                                    <p>رسائل محلية غير محدودة</p>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 10</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    <h5 class="sect-title">وسائل الترفيه</h5>
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">KD 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                   
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">KD 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                                    
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">KD 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="entertainment-sect">
+                               
+
+                                    <div class="product-item">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product-img">
+                                                    <img src="./images/smarthomecamera.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col pl-3">
+                                                <div class="d-flex mb-2">
+                                                    <p class="left-lbl item-title">كاميرا المنزل الذكي</p>
+                                                    <label for="" class="right-lbl">KD 0</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 29</label>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                    <label for="" class="right-lbl">دينار كويتي 0</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="card-footer">
+
+                                <h5 class="sect-title">مجموع</h5>
+
+                                <div class="product-item main-total">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق اليوم</p>
+                                                <label for="" class="right-lbl">دينار كويتي 0</label>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="cl-sc-2 left-lbl">مستحق في الشهر</p>
+                                                <label for="" class="right-lbl">دينار كويتي 29</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-action">
+
+                                    <button class="btn btn-link"><i class="icon-delete fs-16 ml-0"></i>&ensp; واضح عربة التسوق</button>
+                                    <button class="btn btn-pc-3"> مراجعة ودفع</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="month-details">
+                                            <ul class="month-plans">
+                                            <li>
+                                                <label>مستحق اليوم</label>
+                                                <p>دينار كويتي 0</p>
+                                            </li>
+                                            <li>
+                                                <label>مستحق في الشهر</label>
+                                                <p>دينار كويتي <span id="output">0</span></p>
+                                            </li>
+                                        </ul> 
+                                            <button class="btn btn-pc-3 chooseplan" name="chooseplan">اختر الخطة</button>
+                                        </div> 
+                                        <div class="no-commitmentplans hide">
+                                            <ul class="prepaid-plans">
+                                                <li>
+                                                    <label>خطط الدفع المسبق</label>
+                                                    <p>دينار كويتي 0</p>
+                                                </li>
+                                            </ul>
+                                            <ul class="deviceprice hide">
+                                                <li>
+                                                    <label>الجهاز فقط</label>
+                                                    <p>دينار كويتي 0</p>
+                                                </li>
+                                            </ul>
+                                            <button class="btn btn-pc-3 chooseplan" name="chooseplan">اختر الخطة</button>
+                                            <button class="btn btn-pc-3 hide buyplan" name="buyplan">شراء جهاز</button>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+        </div>
+        <div class="scripts">
+
+            <!-- jQuery -->
+            <script src="./js/jQuery.js"></script>
+            <!-- Bootstrap -->
+            <script src="./js/bootstrap.min.js"></script>
+            <!-- Slick Slider -->
+            <script src="./js/slick.min.js"></script>
+            <!-- Custom - Select Slider -->
+            <script src="./js/select2.min.js"></script>
+            <!-- Search type suggetion -->
+            <script src="./js/typeahead.bundle.min.js"></script>
+            <!-- Scrollbar js -->
+            <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <!-- Custom js -->
+            <script src="./js/custom.js?111"></script>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

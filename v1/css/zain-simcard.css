@@ -1,0 +1,248 @@
+.simcard-banner {
+  background: url("../images/zain-simcard-banner.png");
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simcard-banner-text h2 {
+  color: #fff;
+  font-size: 45px;
+}
+.simcard-banner-text p {
+  color: #fff;
+  font-size: 24px !important;
+  margin: 0;
+}
+.simeeZee-left-text h2 {
+  font-size: 41px;
+  font-family: "NunitoSans-Regular" !important;
+  margin: 0;
+  line-height: 55px;
+}
+.simeeZee-left-text h2 span {
+  font-family: "NunitoSans-Black" !important;
+  background: linear-gradient(180deg, #A6BA77 0%, #70B755 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.simeeZee-left-text p {
+  font-size:41px !important;
+  color: #000 ;
+  margin: 0;
+}
+.simeeZee {
+  margin: 100px 0;
+}
+.eeZee-generic-style h2 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "NunitoSans-SemiBold", sans-serif !important;
+}
+.eeZee-generic-style p {
+  margin: 0;
+  font-size: 22px !important;
+  line-height: 32px;
+  color: #999999;
+}
+.numbers-box ul li {
+  list-style: decimal;
+  font-size: 42px;
+  color: #89B965;
+  font-family: "NunitoSans-SemiBold", sans-serif !important;
+}
+.numbers-box h2 {
+  color: #000;
+}
+.circle-box::before {
+  content: "";
+  position: absolute;
+  background: url("../images/empty-cicle.svg");
+  left: -35px;
+  top: 0;
+  background-position: left 4px;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  width: 28px;
+  height: 28px;
+}
+.eezee-simcard .slick-track .col-lg-4{
+  padding-top: 42px;
+  padding-bottom: 58px;
+}
+.eezee-slider-style .benefits_tab {
+  min-height: 155px;
+}
+.eeZee-slider-button .slider-btn-wrapper a {
+  min-width: 200px;
+}
+.eeZee-looking-device-row h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 41px;
+}
+.eeZee-looking-device-row p {
+  margin-bottom: 30px;
+  font-size: 18px !important;
+  color: #000;
+}
+.eeZee-tabs .osn__tabs {
+  max-width: 1000px;
+  justify-content: space-between;
+}
+.eeZee-tabs .txt_osn_tab {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.eeZee-tabs .osn__tabs li {
+  width: 20%;
+}
+
+.simcard-product-button .btn_buy_now_prr {
+  background: #D12B8A;
+  border: 2px solid #D12B8A;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #fff;
+  align-items: center;
+  padding: 12px 16px;
+  width: 150px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  transition: .3s all ease-in;
+  text-transform: capitalize !important;
+}
+
+.smart_home.simcard-product-slider .products_single_slide img {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+.simcard-product-slider .heading__tablets_conected .products_single_slide h4 {
+  font-family: 'NunitoSans-Black' !important;
+  font-size: 20px;
+}
+.simcard-product-slider .slick-dots {
+  bottom: -40px !important;
+}
+.simcard-product-button {
+  margin-bottom: 20px;
+}
+.eezee-slider-style .benefits_tab .benefits-icons-wrap {
+  width: 30px;
+  text-align: center !important;
+  justify-content: left;
+}
+.eezee-slider-style .pricing_card_buy h3 {
+  font-size: 26px;
+}
+
+@media (min-width: 1274px) and (max-width: 1295px){
+  .eezee-slider-style .benefits_tab {
+      min-height: 170px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1274px){
+  .eezee-slider-style .benefits_tab {
+      min-height: 194px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+  .osn_plus_tabs {
+    overflow: scroll;
+  }
+  .osn_plus_tabs .osn__tabs {
+    min-width: 550px;
+  }
+  .osn_plus_tabs .osn__tabs li {
+    width: unset;
+  }
+  .simcard-product-slider .slick-dots {
+      bottom: -10px !important;
+  }
+  .simcard-product-button {
+      margin-bottom: 10px;
+      margin-top: 30px;
+  }
+  .kw .simcard-product-button .btn_buy_now_prr {
+      height: 48px !important;
+      width: 109px !important;
+      font-size: 14px !important;
+  }
+  .simcard-product-button {
+      text-align: center;
+  }
+  .simcard-product-slider .products_single_slide .content_single_box h3 {
+      font-size: 18px !important;
+  }
+  .eeZee-looking-device-row a{
+    min-width: 134px;
+      height: 40px;
+      padding: 8px 0 !important;
+      border-radius: 4px;
+      border-width: 1px;
+  }
+  .eeZee-looking-device-row p {
+      font-size: 16px !important;
+      line-height: 32px;
+      margin-bottom: 10px;
+  }
+  .eeZee-slider-button .slider-btn-wrapper a {
+      min-width: 134px;
+      height: 40px;
+      padding: 8px 0 !important;
+      border-radius: 4px;
+      border-width: 1px;
+  }
+  .circle-box::before {
+      background-size: 20px;
+      width: 24px;
+      height: 24px;
+  }
+  .numbers-box ul li {
+      font-size: 30px;
+  }
+  .simeeZee-right-text {
+      padding: 30px 50px 0 50px;
+  }
+  .simeeZee {
+      margin: 55px 0;
+  }
+  .eeZee-generic-style p {
+      font-size: 14px !important;
+      line-height: 18px;
+  }
+  .eeZee-generic-style h2 {
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .simeeZee-left-text p {
+      font-size: 25px !important;
+      line-height: 32px;
+  }
+  .simeeZee-left-text h2 span {
+      font-size: 39px;
+      line-height: 48px;
+  }
+  .simeeZee-left-text h2 {
+      font-size: 25px;
+      line-height: 32px;
+  }
+  section.wiyana_slider.eeZees_slider {
+    display: block !important;
+  }
+  .simcard-banner{
+    display: none !important;
+  }
+}

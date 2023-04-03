@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="noun-router-4788952" transform="translate(-2 -2)">
+    <path id="Path_4" data-name="Path 4" d="M27,20H13v2H27a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V23a1,1,0,0,1,1-1h6a1,1,0,0,0,1-1V8.5a2.5,2.5,0,0,0-5,0V20H5a3,3,0,0,0-3,3v4a3,3,0,0,0,3,3H27a3,3,0,0,0,3-3V23A3,3,0,0,0,27,20ZM9,8.5a.5.5,0,0,1,1,0V20H9Z"/>
+    <path id="Path_5" data-name="Path 5" d="M19,8a6,6,0,0,0-6-6V4a4,4,0,0,1,4,4Z"/>
+    <path id="Path_6" data-name="Path 6" d="M13,5V7a1,1,0,0,1,1,1h2A3,3,0,0,0,13,5Z"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="2" height="2" transform="translate(24 23)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="2" height="2" transform="translate(21 23)"/>
+  </g>
+</svg>

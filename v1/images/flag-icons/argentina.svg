@@ -1,0 +1,8 @@
+<svg id="argentina" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <circle id="Ellipse_1073" data-name="Ellipse 1073" cx="16" cy="16" r="16" fill="#f0f0f0"/>
+  <g id="Group_3439" data-name="Group 3439" transform="translate(1.588)">
+    <path id="Path_1954" data-name="Path 1954" d="M39.814,0A16,16,0,0,0,25.4,9.043H54.227A16,16,0,0,0,39.814,0Z" transform="translate(-25.402)" fill="#338af3"/>
+    <path id="Path_1955" data-name="Path 1955" d="M39.814,376.348A16,16,0,0,0,54.227,367.3H25.4A16,16,0,0,0,39.814,376.348Z" transform="translate(-25.402 -344.348)" fill="#338af3"/>
+  </g>
+  <path id="Path_1956" data-name="Path 1956" d="M189.049,187.762l-1.954.919,1.041,1.892-2.122-.406-.269,2.143-1.478-1.576-1.478,1.576-.269-2.143-2.122.406,1.04-1.892-1.954-.919,1.954-.919-1.041-1.892,2.122.406.269-2.144,1.478,1.577,1.478-1.577.269,2.144,2.122-.406-1.041,1.892Z" transform="translate(-168.267 -171.762)" fill="#ffda44"/>
+</svg>
